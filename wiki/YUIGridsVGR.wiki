@@ -23,3 +23,99 @@ div#doc3.yui-t7
         div.yui-b
             CONTENT
 }}}
+
+==Layout 2: 2-spalt, högerspalt har fast bredd==
+
+===Mall===
+layout-2.html
+
+===Exempel i prototyp===
+/profil_annie/mitt_jobb/bevakningar.html, /profil_annie/hitta/index.html
+
+===HTML-struktur ===
+{{{
+#doc3.yui-t5 <!-- 100% bredd med 10px horisontell marginal. Högerspalt 240px fast bredd. -->
+    .hd
+    .bd
+        #yui-main
+            .yui-b
+                CONTENT
+        .yui-b
+            CONTENT
+}}}
+
+==Layout 3: 2 + 1 spalter, huvudspalterna har samma bredd, högerspalt har fast bredd==
+
+===Mall===
+layout-3.html
+
+===Exempel i prototyp===
+/profil_annie/index.html
+
+===HTML-struktur ===
+{{{
+#doc3.yui-t5 <!-- 100% bredd med 10px horisontell marginal. Högerspalt 240px fast bredd. -->
+    .hd
+    .bd
+        #yui-main
+            .yui-b
+                .yui-g
+                    .yui-u first
+                        CONTENT
+                    .yui-u
+                        CONTENT
+        .yui-b
+            CONTENT
+}}}
+
+==Layout 4: 2 + 1 spalter, huvudspalter har en rad + 2 lika breda underspalter, högerspalt har fast bredd==
+
+===Mall===
+layout-4.html
+
+===Exempel i prototyp===
+/profil_annie/mitt_jobb/index.html
+
+===HTML-struktur ===
+{{{
+#doc3.yui-t5 <!-- 100% bredd med 10px horisontell marginal. Högerspalt 240px fast bredd. -->
+    .hd
+    .bd
+        #yui-main
+            .yui-b
+                CONTENT
+                .yui-g
+                    .yui-u first
+                        CONTENT
+                    .yui-u
+                        CONTENT
+        .yui-b
+            CONTENT
+}}}
+
+==Layout 5: 2 + 1 spalter, huvudspalternas bredder är fördelade 1/4 + 3/4, högerspalt har fast bredd==
+
+===Mall===
+layout-5.html
+
+===Exempel i prototyp===
+/profil_annie/hitta/traffar.html
+
+===HTML-struktur ===
+{{{
+#doc3.yui-t5 <!-- 100% bredd med 10px horisontell marginal. Högerspalt 240px fast bredd. -->
+    .hd
+    .bd
+        #yui-main
+            .yui-b
+                CONTENT
+                .yui-gf
+                    .yui-u first
+                        CONTENT
+                    .yui-u
+                        CONTENT
+        .yui-b
+            CONTENT
+}}}
+
+Mer om YUI Grids: http://developer.yahoo.com/yui/grids/
