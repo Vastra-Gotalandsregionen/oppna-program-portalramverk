@@ -1,0 +1,391 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sv" lang="sv">
+<head profile="http://dublincore.org/documents/dcq-html/">
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<title>Kontakter</title>
+
+	<!-- Meta data -->
+	<meta name="keywords" content="relevant keywords for this page" />
+	<meta name="description" content="A brief description of this page's content." />
+
+	<!-- Dublin Core meta data -->
+	<link rel="schema.DC" href="http://purl.org/DC/elements/1.1/" />
+	<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+	<meta name="DC.title" content="Dokumentets titel" />
+	<meta name="DC.identifier" scheme="DCTERMS.URI" content="http://vgregion.se/url-till-dokumentet/" />
+	<meta name="DC.creator" content="Dokumentets skapare" />
+	<meta name="DC.publisher" content="Organisationens namn" />
+	<meta name="DC.description" content="En kort beskrivning av dokumentets syfte och innehåll." />
+	<meta name="DCTERMS.modified" scheme="DCTERMS.W3CDTF" content="YYYY-MM-DD" />
+	<meta name="DCTERMS.created" scheme="DCTERMS.W3CDTF" content="YYYY-MM-DD" />
+	<meta name="DC.type" scheme="DCTERMS.DCMIType" content="Text" />
+	<meta name="DC.format" scheme="DCTERMS.IMT" content="text/html" />
+
+	<!-- Shortcut icon -->
+	<link rel="shortcut icon" href="../../i/favicon.ico" type="image/ico" />
+
+	<!-- CSS, hidden from old browsers, including IE/Mac -->
+	<style type="text/css" media="screen,projection">
+		@import '../../css/grids-min.css'; /* YUI Grids CSS */
+		@import '../../css/main.css'; /* Global CSS */
+		/* CSS för YUI-widgets */
+		@import '../../js/yui/assets/container.css'; /* Dialoger */
+		@import '../../js/yui/assets/skins/vgr/container.css'; /* Dialoger */
+	</style>
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" href="../../css/ie.css" type="text/css" media="screen" />
+	<![endif]-->
+	<link rel="stylesheet" href="../../css/print.css" type="text/css" media="print" />
+
+	<!-- JavaScript -->
+	<script type="text/javascript" src="../../js/yui/utilities.js"></script>
+	<script type="text/javascript" src="../../js/yui/container-min.js"></script>
+	<script type="text/javascript" src="../../js/yui/tabview-min.js"></script>
+	<script type="text/javascript" src="../../js/vgr.global.js"></script>
+</head>
+<body class="yui-skin-vgr">
+<div id="doc3" class="yui-t5">
+	<a href="#yui-main" id="skip" accesskey="s">Hoppa till sidans huvudinnehåll</a>
+	<div id="hd">
+		<a href="../index.html" id="logo"><img src="../../i/logo.gif" alt="Västra Götalandsregionen" /></a>
+		<form method="get" action="../hitta/traffar.html" id="search" class="form-general search-module">
+			<div class="text">
+				<label for="searchtext" class="structural">Sök:</label>
+				<input type="text" id="searchtext" name="searchtext" accesskey="4" size="20" />
+			</div>
+			<div class="submit-area">
+				<input type="submit" value="Sök" />
+			</div>
+		</form>
+		<p id="login-status" class="logged-in">Inloggad som Leif Andreasson <a href="../../index.html">Logga ut</a></p>
+		<div id="nav" class="clearfix">
+			<p class="structural"><strong>Navigering</strong></p>
+			<ul id="nav-main">
+				<li id="tab-start"><a href="../index.html" accesskey="1">Start</a></li>
+				<li id="tab-mitt-jobb" class="sel"><a href="../mitt_jobb/index.html" class="sel">Mitt jobb</a></li>
+				<li id="tab-system-x"><a href="../vard/patientoversikt.html">Vård</a></li>
+				<li id="tab-system-y"><a href="inactive">System Y</a></li>
+				<li id="tab-hitta"><a href="../hitta/index.html">Hitta</a></li>
+				<li id="tab-installningar"><a href="../installningar/index.html">Egna inställningar</a></li>
+			</ul>
+			<ul id="nav-sub">
+				<li><a href="index.html">Nytt</a></li>
+				<li><a href="dokument.html">Dokument</a></li>
+				<li><a href="bevakningar.html">Bevakningar</a></li>
+				<li><a href="inactive">Diskussionsgrupper</a></li>
+				<li><a href="kalender.html">Kalender</a></li>
+				<li><a href="uppgifter.html">Uppgifter</a></li>
+				<li><a href="epost.html">E-post</a></li>
+				<li class="sel"><a href="kontakter.html" class="sel">Kontakter</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="bd">
+		<div id="yui-main">
+			<div class="yui-b">
+				<form action="kontakter2.html" method="get" class="form-general search-module">
+					<div class="text alt">
+						<label for="query">Sök efter</label>
+						<input type="text" name="query" value="" id="query" />
+					</div>
+					<div class="select alt">
+						<label for="query2">sök i</label>
+						<select id="query2">
+							<option>Alla mina kontakter</option>
+						</select>
+					</div>
+					<div class="submit-area alt"><input type="submit" value="Sök" /></div>
+				</form>
+				<div class="yui-u first">
+					<div id="module-address-book" class="module">
+						<script type="text/javascript" src="../../js/module-address-book.js"></script>
+						<h2>Kontakter</h2>
+						<div class="module-content">
+							<div class="tools">
+								<a href="dialog_nykontakt.html" class="add dialog">Skapa ny kontakt</a>
+								<p class="pager">Visa:
+									<a href="inactive">A</a>
+									<a href="inactive">B</a>
+									<a href="inactive">C</a>
+									<a href="inactive">D</a>
+									<a href="inactive">E</a>
+									<a href="inactive">F</a>
+									<a href="inactive">G</a>
+									<a href="inactive">H</a>
+									<a href="inactive">I</a>
+									<a href="inactive">J</a>
+									<a href="inactive">K</a>
+									<a href="inactive">L</a>
+									<a href="inactive">M</a>
+									<a href="inactive">N</a>
+									<a href="inactive">O</a>
+									<a href="inactive">P</a>
+									<a href="inactive">Q</a>
+									<a href="inactive">R</a>
+									<a href="inactive">S</a>
+									<a href="inactive">T</a>
+									<a href="inactive">U</a>
+									<a href="inactive">V</a>
+									<a href="inactive">W</a>
+									<a href="inactive">X</a>
+									<a href="inactive">Y</a>
+									<a href="inactive">Z</a>
+									<a href="inactive">Å</a>
+									<a href="inactive">Ä</a>
+									<a href="inactive">Ö</a>
+								</p>
+							</div>
+							<ul class="list-contacts">
+								<li class="contact-work col-first">
+									<h3><a href="dialog_kontakt.html" class="dialog edit" title="Visa kontakt">Anna Andersson</a></h3>
+									<p>Privat kontakt</p>
+									<p><strong>E-post:</strong> <a href="inactive">anna.andersson@...</a></p>
+									<p><strong>Telefon:</strong> 031-123 456</p>
+								</li>
+								<li class="contact-work">
+									<h3><a href="dialog_kontakt.html" class="dialog edit" title="Visa kontakt">Attila Alingsjö</a></h3>
+									<p>Privat kontakt</p>
+									<p><strong>E-post:</strong> <a href="inactive">attila.alingsjo@...</a></p>
+									<p><strong>Telefon:</strong> 031-123 456</p>
+								</li>
+								<li class="contact-work">
+									<h3><a href="dialog_kontakt.html" class="dialog edit" title="Visa kontakt">Barbro Larsson</a></h3>
+									<p>Chef, Borås sjukhus</p>
+									<p><strong>E-post:</strong> <a href="inactive">Barbro.larsson@...</a></p>
+									<p><strong>Telefon:</strong> 031-123 456</p>
+								</li>
+								<li class="contact-work">
+									<h3><a href="dialog_kontakt.html" class="dialog edit" title="Visa kontakt">Birgit Stenqvist</a></h3>
+									<p>Läkare, Sahlgrenska</p>
+									<p><strong>E-post:</strong> <a href="inactive">birgit.stenqvist@...</a></p>
+									<p><strong>Telefon:</strong> 031-123 456</p>
+								</li>
+								<li class="contact-work col-first">
+									<h3><a href="dialog_kontakt.html" class="dialog edit" title="Visa kontakt">Börje Larsson</a></h3>
+									<p>Läkare, Sahlgrenska</p>
+									<p><strong>E-post:</strong> <a href="inactive">borje.larsson@...</a></p>
+									<p><strong>Telefon:</strong> 031-123 456</p>
+								</li>
+								<li class="contact-work">
+									<h3><a href="dialog_kontakt.html" class="dialog edit" title="Visa kontakt">Carl Ehrenber</a></h3>
+									<p>Privat kontakt</p>
+									<p><strong>E-post:</strong> <a href="inactive">carl.ehrenberg@...</a></p>
+									<p><strong>Telefon:</strong> 031-123 456</p>
+								</li>
+								<li class="contact-work">
+									<h3><a href="dialog_kontakt.html" class="dialog edit" title="Visa kontakt">Christina Stenqvist</a></h3>
+									<p>Läkare, Sahlgrenska</p>
+									<p><strong>E-post:</strong> <a href="inactive">christina.stenqvist@...</a></p>
+									<p><strong>Telefon:</strong> 031-123 456</p>
+								</li>
+								<li class="contact-work">
+									<h3><a href="dialog_kontakt.html" class="dialog edit" title="Visa kontakt">Dennis Klasson</a></h3>
+									<p>Läkare, Sahlgrenska</p>
+									<p><strong>E-post:</strong> <a href="inactive">dennis.klasson@...</a></p>
+									<p><strong>Telefon:</strong> 031-123 456</p>
+								</li>
+								<li class="contact-work col-first">
+									<h3><a href="dialog_kontakt.html" class="dialog edit" title="Visa kontakt">Diana Krans</a></h3>
+									<p>Privat kontakt</p>
+									<p><strong>E-post:</strong> <a href="inactive">diana.krans@...</a></p>
+									<p><strong>Telefon:</strong> 031-123 456</p>
+								</li>
+								<li class="contact-work">
+									<h3><a href="dialog_kontakt.html" class="dialog edit" title="Visa kontakt">Elin Larsson</a></h3>
+									<p>Chef, Borås sjukhus</p>
+									<p><strong>E-post:</strong> <a href="inactive">elin.larsson@...</a></p>
+									<p><strong>Telefon:</strong> 031-123 456</p>
+								</li>
+								<li class="contact-work">
+									<h3><a href="dialog_kontakt.html" class="dialog edit" title="Visa kontakt">Emil Berntsson</a></h3>
+									<p>Sjuksyster, Sahlgrenska</p>
+									<p><strong>E-post:</strong> <a href="inactive">emil.berntsson@...</a></p>
+									<p><strong>Telefon:</strong> 031-123 456</p>
+								</li>
+								<li class="contact-work">
+									<h3><a href="dialog_kontakt.html" class="dialog edit" title="Visa kontakt">Hans Larsson</a></h3>
+									<p>Sjuksköterska, Sahlgrenska</p>
+									<p><strong>E-post:</strong> <a href="inactive">hans.larsson@...</a></p>
+									<p><strong>Telefon:</strong> 031-123 456</p>
+								</li>
+								<li class="contact-work col-first">
+									<h3><a href="dialog_kontakt.html" class="dialog edit" title="Visa kontakt">Kristian Norling</a></h3>
+									<p>Projektledare, IT-strategisk avdelning</p>
+									<p><strong>E-post:</strong> <a href="inactive">kristian.norling@...</a></p>
+									<p><strong>Telefon:</strong> 073-6889353</p>
+								</li>
+								<li class="contact-work">
+									<h3><a href="dialog_kontakt.html" class="dialog edit" title="Visa kontakt">Mats Dahl</a></h3>
+									<p>Personalchef, VGR</p>
+									<p><strong>E-post:</strong> <a href="inactive">mats.dahl@...</a></p>
+									<p><strong>Telefon:</strong> 031-123 456</p>
+								</li>
+								<li class="contact-work">
+									<h3><a href="dialog_kontakt.html" class="dialog edit" title="Visa kontakt">Ove Stenqvist</a></h3>
+									<p>Läkare, Sahlgrenska</p>
+									<p><strong>E-post:</strong> <a href="inactive">ove.stenqvist@...</a></p>
+									<p><strong>Telefon:</strong> 031-123 456</p>
+								</li>
+								<li class="contact-work">
+									<h3><a href="dialog_kontakt.html" class="dialog edit" title="Visa kontakt">Petra Hansson</a></h3>
+									<p>Läkare, Sahlgrenska</p>
+									<p><strong>E-post:</strong> <a href="inactive">petra.hansson@...</a></p>
+									<p><strong>Telefon:</strong> 031-123 456</p>
+								</li>
+								<li class="contact-work col-first">
+									<h3><a href="dialog_kontakt.html" class="dialog edit" title="Visa kontakt">Ritva Talonen</a></h3>
+									<p>Privat kontakt</p>
+									<p><strong>E-post:</strong> <a href="inactive">ritva.talonen@...</a></p>
+									<p><strong>Telefon:</strong> 031-123 456</p>
+								</li>
+								<li class="contact-work">
+									<h3><a href="dialog_kontakt.html" class="dialog edit" title="Visa kontakt">Sigrid Johansson</a></h3>
+									<p>Chef, Sahlgrenska</p>
+									<p><strong>E-post:</strong> <a href="inactive">sigrid.johansson@...</a></p>
+									<p><strong>Telefon:</strong> 031-123 456</p>
+								</li>
+								<li class="contact-work">
+									<h3><a href="dialog_kontakt.html" class="dialog edit" title="Visa kontakt">Sigrid Svensson</a></h3>
+									<p>Sjuksköterska, Sahlgrenska</p>
+									<p><strong>E-post:</strong> <a href="inactive">sigrid.svensson@...</a></p>
+									<p><strong>Telefon:</strong> 031-123 456</p>
+								</li>
+								<li class="contact-work">
+									<h3><a href="dialog_kontakt.html" class="dialog edit" title="Visa kontakt">Tarja Stenqvist</a></h3>
+									<p>Läkare, Sahlgrenska</p>
+									<p><strong>E-post:</strong> <a href="inactive">tarja.stenqvist@...</a></p>
+									<p><strong>Telefon:</strong> 031-123 456</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="yui-b">
+			<div id="module-shortcuts" class="module">
+				<h2><a href="inactive">Mina genvägar</a></h2>
+				<div class="module-content">
+					<form action="#" method="get" class="form-general">
+						<div class="select alt">
+							<label for="shortcuts" class="structural">Välj</label>
+							<select id="shortcuts">
+								<option value="#" selected="selected">Välj genväg:</option>
+								<option value="#">Ge Blod</option>
+								<option value="#">Medicinska biblioteken</option>
+								<option value="#">NCBI - PubMed</option>
+								<option value="#">Bartleby.com</option>
+								<option value="#">Internetmedicin</option>
+								<option value="#">Wheeless' textbook of orthopaedics</option>
+								<option value="#">Arthrex</option>
+								<option value="#">Vårdkvalitetsregister Ortopedi SU</option>
+								<option value="#">Fass</option>
+								<option value="#">Svensk ortopedisk förening</option>
+								<option value="#">Svenska läkarsällskapet</option>
+							</select>
+						</div>
+						<div class="submit-area alt">
+							<input type="submit" value="Gå" />
+						</div>
+					</form>
+				</div>
+			</div>
+			<div id="module-contacts" class="module">
+				<h2><a href="../mitt_jobb/kontakter.html">Mina kontakter</a></h2>
+			</div>
+			<div id="module-todos-latest" class="module">
+				<script type="text/javascript" src="../../js/module-todos-latest.js"></script>
+				<h2><span>Mina uppgifter</span></h2>
+				<div class="module-content">
+					<h3 class="todos"><a href="../mitt_jobb/uppgifter.html">Uppgifter (3)</a></h3>
+					<div>
+						<form action="#">
+							<ul class="list">
+								<li class="prio-3">
+									<input type="checkbox" name="todo0" value="" class="todo" id="todo0" />
+									<label for="todo0">Bekräfta remiss för...</label>
+									<p><a href="inactive" class="edit">Senast 7 juli</a></p>
+								</li>
+								<li class="prio-2">
+									<input type="checkbox" name="todo0" value="" class="todo" id="todo1" />
+									<label for="todo1">Boka rum till avdelningsmötet</label>
+									<p><a href="inactive" class="edit">28 juni 2007, kl 13.00-14.00</a></p>
+								</li>
+								<li class="prio-1">
+									<input type="checkbox" name="todo0" value="" class="todo" id="todo2" />
+									<label for="todo2">Skriv epikris</label>
+									<p><a href="inactive" class="edit">28 juni 2007, kl 11.00</a></p>
+								</li>
+								<li class="prio-3 done">
+									<input type="checkbox" name="todo0" value="" class="todo" id="todo3" checked="checked" />
+									<label for="todo3">Godkänn diktat från Sophie...</label>
+									<p><a href="inactive" class="edit">Senast 15 juni</a></p>
+								</li>
+								<li class="prio-2 done">
+									<input type="checkbox" name="todo0" value="" class="todo" id="todo4" checked="checked" />
+									<label for="todo4">Skicka iväg remiss gällande...</label>
+									<p><a href="inactive" class="edit">Senast 14 juni</a></p>
+								</li>
+							</ul>
+							<div class="submit-area">
+								<input type="submit" name="some_name" value="Markera som gjorda" id="submit_todos" />
+							</div>
+						</form>
+					</div>
+					<div class="tools">
+						<a href="inactive" class="add">Lägg till ny uppgift</a>
+					</div>
+					<h3 class="dictations"><a href="inactive">Diktat (3)</a></h3>
+					<h3 class="watches"><a href="../mitt_jobb/bevakningar.html">Bevakningar (4)</a></h3>
+					<h3 class="labtests"><a href="inactive">Labbsvar (2)</a></h3>
+				</div>
+			</div>
+			<div id="module-messages" class="module">
+				<script type="text/javascript" src="../../js/module-messages.js"></script>
+				<h2><span>Samarbeten</span></h2>
+				<div class="module-content accordion">
+					<h3 class="sel">E-post (2)</h3>
+					<div>
+						<ul class="list emails">
+							<li class="unread"><a href="../mitt_jobb/epost-meddelande-1.html">Infomaster <span>Diskussion om 'Nya rön inom ...</span></a></li>
+							<li class="unread"><a href="../mitt_jobb/epost-meddelande-2.html">patrik.e.ek@vgregion.se <span>Material inför föreläsningen på ...</span></a></li>
+							<li class="unread"><a href="../mitt_jobb/epost-meddelande-3.html">anna.m.karlsson@vgregion.se <span>Ang. provsvaren</span></a></li>
+						</ul>
+					</div>
+					<h3>Snabbmeddelanden (4)</h3>
+					<div>
+						<ul class="list ims">
+							<li>
+								<p><cite><a href="inactive">Nanso</a></cite> säger:</p>
+								<blockquote><p>Jag kan inte hitta den..</p></blockquote>
+							</li>
+							<li>
+								<p><cite><a href="inactive">Nanso</a></cite> säger:</p>
+								<blockquote><p>Har du sett PM-pärmen som...</p></blockquote>
+							</li>
+							<li>
+								<p><cite><a href="inactive">Nanso</a></cite> säger:</p>
+								<blockquote><p>Är du där..?</p></blockquote>
+							</li>
+							<li>
+								<p><cite><a href="inactive">Nanso</a></cite> säger:</p>
+								<blockquote><p>Hallå?</p></blockquote>
+							</li>
+						</ul>
+					</div>
+					<h3>Diskussionsgrupper</h3>
+					<div>
+						<ul class="list discussions">
+							<li class="unread"><a href="/#d1">Lorem</a></li>
+							<li class="unread"><a href="/#d2">Ipsum</a></li>
+							<li class="unread"><a href="/#d3">Dolor</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
