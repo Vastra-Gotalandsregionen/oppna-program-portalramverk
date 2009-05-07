@@ -30,7 +30,9 @@ div#doc3.yui-t7
 layout-2.html
 
 ===Exempel i prototyp===
-/profil_annie/mitt_jobb/bevakningar.html, /profil_annie/hitta/index.html
+
+  * profil_annie/mitt_jobb/bevakningar.html
+  * profil_annie/hitta/index.html
 
 ===HTML-struktur ===
 {{{
@@ -50,7 +52,8 @@ layout-2.html
 layout-3.html
 
 ===Exempel i prototyp===
-/profil_annie/index.html
+
+  * profil_annie/index.html
 
 ===HTML-struktur ===
 {{{
@@ -74,7 +77,8 @@ layout-3.html
 layout-4.html
 
 ===Exempel i prototyp===
-/profil_annie/mitt_jobb/index.html
+
+  * profil_annie/mitt_jobb/index.html
 
 ===HTML-struktur ===
 {{{
@@ -99,7 +103,8 @@ layout-4.html
 layout-5.html
 
 ===Exempel i prototyp===
-/profil_annie/hitta/traffar.html
+
+  * profil_annie/hitta/traffar.html
 
 ===HTML-struktur ===
 {{{
@@ -117,5 +122,3 @@ layout-5.html
         .yui-b
             CONTENT
 }}}
-
-Mer om YUI Grids: http://developer.yahoo.com/yui/grids/
