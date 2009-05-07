@@ -36,13 +36,13 @@ layout-2.html
 
 ===HTML-struktur ===
 {{{
-#doc3.yui-t5 <!-- 100% bredd med 10px horisontell marginal. Högerspalt 240px fast bredd. -->
-    .hd
-    .bd
-        #yui-main
-            .yui-b
+div#doc3.yui-t5 <!-- 100% bredd med 10px horisontell marginal. Högerspalt 240px fast bredd. -->
+    div.hd
+    div.bd
+        div#yui-main
+            div.yui-b
                 CONTENT
-        .yui-b
+        div.yui-b
             CONTENT
 }}}
 
@@ -57,17 +57,17 @@ layout-3.html
 
 ===HTML-struktur ===
 {{{
-#doc3.yui-t5 <!-- 100% bredd med 10px horisontell marginal. Högerspalt 240px fast bredd. -->
-    .hd
-    .bd
-        #yui-main
-            .yui-b
-                .yui-g
-                    .yui-u first
+div#doc3.yui-t5 <!-- 100% bredd med 10px horisontell marginal. Högerspalt 240px fast bredd. -->
+    div.hd
+    div.bd
+        div#yui-main
+            div.yui-b
+                div.yui-g
+                    div.yui-u first
                         CONTENT
-                    .yui-u
+                    div.yui-u
                         CONTENT
-        .yui-b
+        div.yui-b
             CONTENT
 }}}
 
@@ -82,18 +82,18 @@ layout-4.html
 
 ===HTML-struktur ===
 {{{
-#doc3.yui-t5 <!-- 100% bredd med 10px horisontell marginal. Högerspalt 240px fast bredd. -->
-    .hd
-    .bd
-        #yui-main
-            .yui-b
+div#doc3.yui-t5 <!-- 100% bredd med 10px horisontell marginal. Högerspalt 240px fast bredd. -->
+    div.hd
+    div.bd
+        div#yui-main
+            div.yui-b
                 CONTENT
-                .yui-g
-                    .yui-u first
+                div.yui-g
+                    div.yui-u first
                         CONTENT
-                    .yui-u
+                    div.yui-u
                         CONTENT
-        .yui-b
+        div.yui-b
             CONTENT
 }}}
 
@@ -108,17 +108,17 @@ layout-5.html
 
 ===HTML-struktur ===
 {{{
-#doc3.yui-t5 <!-- 100% bredd med 10px horisontell marginal. Högerspalt 240px fast bredd. -->
-    .hd
-    .bd
-        #yui-main
-            .yui-b
+div#doc3.yui-t5 <!-- 100% bredd med 10px horisontell marginal. Högerspalt 240px fast bredd. -->
+    div.hd
+    div.bd
+        div#yui-main
+            div.yui-b
                 CONTENT
-                .yui-gf
-                    .yui-u first
+                div.yui-gf
+                    div.yui-u first
                         CONTENT
-                    .yui-u
+                    div.yui-u
                         CONTENT
-        .yui-b
+        div.yui-b
             CONTENT
 }}}
