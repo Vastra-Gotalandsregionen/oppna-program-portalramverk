@@ -1,0 +1,389 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sv" lang="sv">
+<head profile="http://dublincore.org/documents/dcq-html/">
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<title>Kalender</title>
+
+	<!-- Meta data -->
+	<meta name="keywords" content="relevant keywords for this page" />
+	<meta name="description" content="A brief description of this page's content." />
+
+	<!-- Dublin Core meta data -->
+	<link rel="schema.DC" href="http://purl.org/DC/elements/1.1/" />
+	<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+	<meta name="DC.title" content="Dokumentets titel" />
+	<meta name="DC.identifier" scheme="DCTERMS.URI" content="http://vgregion.se/url-till-dokumentet/" />
+	<meta name="DC.creator" content="Dokumentets skapare" />
+	<meta name="DC.publisher" content="Organisationens namn" />
+	<meta name="DC.description" content="En kort beskrivning av dokumentets syfte och innehåll." />
+	<meta name="DCTERMS.modified" scheme="DCTERMS.W3CDTF" content="YYYY-MM-DD" />
+	<meta name="DCTERMS.created" scheme="DCTERMS.W3CDTF" content="YYYY-MM-DD" />
+	<meta name="DC.type" scheme="DCTERMS.DCMIType" content="Text" />
+	<meta name="DC.format" scheme="DCTERMS.IMT" content="text/html" />
+
+	<!-- Shortcut icon -->
+	<link rel="shortcut icon" href="../../i/favicon.ico" type="image/ico" />
+
+	<!-- IBM specifics -->
+	<link href="../../kalender-filer/WpWclBaseSkinCSS.css" type="text/css" rel="stylesheet" />
+	<link href="../../kalender-filer/styles.css" type="text/css" rel="stylesheet" />
+
+	<!-- CSS, hidden from old browsers, including IE/Mac -->
+	<style type="text/css" media="screen,projection">
+		@import '../../css/grids-min.css'; /* YUI Grids CSS */
+		@import '../../css/main.css'; /* Global CSS */
+		/* CSS för YUI-widgets */
+		@import '../../js/yui/assets/container.css'; /* Dialoger */
+		@import '../../js/yui/assets/skins/vgr/container.css'; /* Dialoger */
+		@import '../../js/yui/assets/calendar.css'; /* Kalender */
+	</style>
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" href="../../css/ie.css" type="text/css" media="screen" />
+	<![endif]-->
+	<link rel="stylesheet" href="../../css/print.css" type="text/css" media="print" />
+
+	<!-- JavaScript -->
+	<script type="text/javascript" src="../../js/yui/utilities.js"></script>
+	<script type="text/javascript" src="../../js/yui/container-min.js"></script>
+	<script type="text/javascript" src="../../js/yui/tabview-min.js"></script>
+	<script type="text/javascript" src="../../js/yui/calendar-min.js"></script>
+	<script type="text/javascript" src="../../js/vgr.global.js"></script>
+</head>
+<body class="yui-skin-vgr">
+<div id="doc3" class="yui-t5">
+	<a href="#yui-main" id="skip" accesskey="s">Hoppa till sidans huvudinnehåll</a>
+	<div id="hd">
+		<a href="../index.html" id="logo"><img src="../../i/logo.gif" alt="Västra Götalandsregionen" /></a>
+		<form method="get" action="../hitta/traffar.html" id="search" class="form-general search-module">
+			<div class="text">
+				<label for="searchtext" class="structural">Sök:</label>
+				<input type="text" id="searchtext" name="searchtext" accesskey="4" size="20" />
+			</div>
+			<div class="submit-area">
+				<input type="submit" value="Sök" />
+			</div>
+		</form>
+		<p id="login-status" class="logged-in">Inloggad som Per Oscarsson <a href="../../index.html">Logga ut</a></p>
+		<div id="nav" class="clearfix">
+			<p class="structural"><strong>Navigering</strong></p>
+			<ul id="nav-main">
+				<li id="tab-start"><a href="../index.html" accesskey="1">Start</a></li>
+				<li id="tab-mitt-jobb" class="sel"><a href="../mitt_jobb/index.html" class="sel">Mitt jobb</a></li>
+				<li id="tab-system-x"><a href="../vard/patientoversikt.html">Vård</a></li>
+				<li id="tab-system-y"><a href="inactive">System Y</a></li>
+				<li id="tab-hitta"><a href="../hitta/index.html">Hitta</a></li>
+				<li id="tab-installningar"><a href="../installningar/index.html">Egna inställningar</a></li>
+			</ul>
+			<ul id="nav-sub">
+				<li><a href="index.html">Nytt</a></li>
+				<li><a href="dokument.html">Dokument</a></li>
+				<li><a href="bevakningar.html">Bevakningar</a></li>
+				<li><a href="inactive">Diskussionsgrupper</a></li>
+				<li class="sel"><a href="kalender.html" class="sel">Kalender</a></li>
+				<li><a href="uppgifter.html">Uppgifter</a></li>
+				<li><a href="epost.html">E-post</a></li>
+				<li><a href="kontakter.html">Kontakter</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="bd">
+		<div id="yui-main">
+			<div class="yui-b">
+				<div class="yui-gf">
+					<form action="#" method="get" class="form-general search-module">
+						<div class="text alt">
+							<label for="query">Sök efter</label>
+							<input type="text" name="query" value="" id="query" />
+						</div>
+						<div class="submit-area alt"><input type="submit" value="Sök" /></div>
+					</form>
+					<div class="yui-u first">
+						<div id="module-calendars" class="module">
+							<script type="text/javascript" src="../../js/module-calendars.js"></script>
+							<h2>Kalendrar</h2>
+							<div class="module-content">
+								<h3>Månadsöversikt</h3>
+								<div id="event-cal"></div>
+								<form id="dates" action="#">
+									<div class="select">
+										<span class="select select-year">
+											<label for="selYear" class="structural">År</label>
+											<select name="selYear" id="selYear">
+												<option value="2006">2006</option>
+												<option value="2007">2007</option>
+												<option value="2008">2008</option>
+												<option value="2009">2009</option>
+											</select>
+										</span>
+										<span class="select select-month">
+											<label for="selMonth" class="structural">Månad</label>
+											<select id="selMonth" name="selMonth">
+												<option value="Jan">01</option>
+												<option value="Feb">02</option>
+												<option value="Mar">03</option>
+												<option value="Apr">04</option>
+												<option value="May">05</option>
+												<option value="Jun">06</option>
+												<option value="Jul">07</option>
+												<option value="Aug">08</option>
+												<option value="Sep">09</option>
+												<option value="Oct">10</option>
+												<option value="Nov">11</option>
+												<option value="Dec">12</option>
+											</select>
+										</span>
+										<span class="select select-day">
+											<label for="selDay" class="structural">Dag</label>
+											<select name="selDay" id="selDay">
+												<option value="1">01</option>
+												<option value="2">02</option>
+												<option value="3">03</option>
+												<option value="4">04</option>
+												<option value="5">05</option>
+												<option value="6">06</option>
+												<option value="7">07</option>
+												<option value="8">08</option>
+												<option value="9">09</option>
+												<option value="10">10</option>
+												<option value="11">11</option>
+												<option value="12">12</option>
+												<option value="13">13</option>
+												<option value="14">14</option>
+												<option value="15">15</option>
+												<option value="16">16</option>
+												<option value="17">17</option>
+												<option value="18">18</option>
+												<option value="19">19</option>
+												<option value="20">20</option>
+												<option value="21">21</option>
+												<option value="22">22</option>
+												<option value="23">23</option>
+												<option value="24">24</option>
+												<option value="25">25</option>
+												<option value="26">26</option>
+												<option value="27">27</option>
+												<option value="28">28</option>
+												<option value="29">29</option>
+												<option value="30">30</option>
+												<option value="31">31</option>
+											</select>
+										</span>
+									</div>
+									<h3>Mina kalendrar</h3>
+									<div class="checkbox">
+										<input type="checkbox" name="cal01" id="cal01-1" checked="checked" />
+										<label for="cal01-1">Privata aktiviteter</label>
+									</div>
+									<div class="checkbox">
+										<input type="checkbox" name="cal01" id="cal01-2" />
+										<label for="cal01-2">Schema</label>
+									</div>
+									<div class="checkbox">
+										<input type="checkbox" name="cal01" id="cal01-4" />
+										<label for="cal01-4">Telefontider</label>
+									</div>
+									<div class="checkbox">
+										<input type="checkbox" name="cal01" id="cal01-3" />
+										<label for="cal01-3">Patientbokningar</label>
+									</div>
+									<h3>Andra kalendrar</h3>
+									<div class="checkbox">
+										<input type="checkbox" name="cal02" id="cal02-1" />
+										<label for="cal02-1">SU</label>
+									</div>
+									<div class="checkbox">
+										<input type="checkbox" name="cal02" id="cal02-2" />
+										<label for="cal02-2">Mötesrum avdelning 27</label>
+									</div>
+									<div class="checkbox">
+										<input type="checkbox" name="cal02" id="cal02-3" />
+										<label for="cal02-3">Mats Dahl</label>
+									</div>
+									<div class="checkbox">
+										<input type="checkbox" name="cal02" id="cal02-4" />
+										<label for="cal02-4">Anna Larsson</label>
+									</div>
+									<div class="submit-area">
+										<input type="submit" value="Uppdatera kalender" />
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="yui-u">
+						<div id="module-calendar-full" class="module">
+							<script type="text/javascript" src="../../js/module-calendar-full.js"></script>
+							<h2>Veckoöversikt</h2>
+							<div class="module-content">
+								<div class="tools">
+									<a href="dialog_nyaktivitet.html" class="add dialog" title="Ny händelse">Lägg till ny händelse</a>
+								</div>
+								<table height="100%" cellspacing="0" cellpadding="0" valign="top" summary="Tabellen visar händelserna i din kalender"><tbody><tr><td valign="top"> 
+								<div id="PC_7_NO2UF4I118ADC026HKQ8KC28R4_calendar"><transformiix:result _moz-userdefined="" xmlns:transformiix="http://www.mozilla.org/TransforMiix"/><table cellspacing="0" cellpadding="0" border="0"><tbody><tr class="lwpCalCellRow"><td width="1%" class="wpsPagingTableHeaderStart"> </td><td class="wpsPagingTableHeaderMiddle"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td nowrap="true" align="center"><span class="lwpCalHeader lwpCalFsizeX">augusti 2007</span>
+																 </td></tr></tbody></table></td><td width="1%" class="wpsPagingTableHeaderEnd"> </td></tr></tbody></table><table cellspacing="0" cellpadding="0" border="0" class="wpsTable lwpCalNoBottom" id="PC_7_NO2UF4I118ADC026HKQ8KC28R4_calendarcvBody"><tbody><tr><td width="50%" valign="center" nowrap="true" colspan="4" class="lwpCalCellRow lwpCalWeekNumber">
+											 Vecka 33</td></tr><tr class="lwpCalCellRow"><td valign="top" nowrap="true" colspan="4" class="lwpCalTDivider lwpCalBDivider">
+
+													<a href="#dag" class="lwpCalDateLinkText"><span class="lwpCalFsizeX"><b>6</b></span>
+													 måndag</a></td><td valign="top" nowrap="true" colspan="4" class="lwpCalLDivider lwpCalTDivider lwpCalBDivider">
+
+													<a href="#dag" class="lwpCalDateLinkText"><span class="lwpCalFsizeX"><b>9</b></span>
+													 torsdag</a></td></tr><tr class="lwpCal1WeekCellRow"><td colspan="4"> </td><td class="lwpCalLDivider" colspan="4"> </td></tr><tr class="lwpCalCellRow"><td valign="top" nowrap="true" colspan="4" class="lwpCalTDivider lwpCalBDivider">
+
+													<a href="#dag" class="lwpCalDateLinkText"><span class="lwpCalFsizeX"><b>7</b></span>
+													 tisdag</a></td><td valign="top" nowrap="true" colspan="4" class="lwpCalLDivider lwpCalTDivider lwpCalBDivider">
+
+													<a href="#dag" class="lwpCalDateLinkText"><span class="lwpCalFsizeX"><b>10</b></span>
+													 fredag</a></td></tr><tr class="lwpCal1WeekCellRow"><td width="1%" valign="top" nowrap="true" class="lwpCalBgMeeting lwpCalSeperator"><label style="display: none;" for="PC_7_NO2UF4I118ADC026HKQ8KC28R4_calendarR1D41chk">Träffa Sophie på lunchen</label><input type="checkbox" value="9CA441A71147F379C125730800280573.20070628T080000+0000.0#TRUE######" id="PC_7_NO2UF4I118ADC026HKQ8KC28R4_calendarR1D41chk" valign="top"/></td><td width="1%" valign="top" nowrap="true" class="lwpCalBgMeeting lwpCalSeperator lwpCalEntryPosition"><img alt="Möte " title="Möte " src="../../kalender-filer/CalendarMeeting.gif"/></td><td width="10%" valign="top" nowrap="true" onmouseout="PC_7_NO2UF4I118ADC026HKQ8KC28R4_calendar.showPopup('9CA441A71147F379C125730800280573.20070628T080000+0000.0hover', false)" onmouseover="PC_7_NO2UF4I118ADC026HKQ8KC28R4_calendar.showPopup('9CA441A71147F379C125730800280573.20070628T080000+0000.0hover', true)" class="lwpCalBgMeeting lwpCalSeperator lwpCalTimeText lwpCalEntryPosition">12.00-13.00</td><td width="30%" valign="top" onmouseout="PC_7_NO2UF4I118ADC026HKQ8KC28R4_calendar.showPopup('9CA441A71147F379C125730800280573.20070628T080000+0000.0hover', false)" onmouseover="PC_7_NO2UF4I118ADC026HKQ8KC28R4_calendar.showPopup('9CA441A71147F379C125730800280573.20070628T080000+0000.0hover', true)" class="lwpCalBgMeeting lwpCalSeperator lwpCalEntryPosition" id="9CA441A71147F379C125730800280573.20070628T080000+0000.0"><a onmouseover="window.status=''; return true;" href="inactive">Träffa Sophie på lunchen</a></td><td width="1%" valign="top" nowrap="true" class="lwpCalBgMeeting lwpCalSeperator"><label style="display: none;" for="PC_7_NO2UF4I118ADC026HKQ8KC28R4_calendarR1D41chk">Utvecklingssamtal med chefen</label><input type="checkbox" value="9CA441A71147F379C125730800280573.20070628T080000+0000.0#TRUE######" id="PC_7_NO2UF4I118ADC026HKQ8KC28R4_calendarR1D41chk" valign="top"/></td><td width="1%" valign="top" nowrap="true" class="lwpCalBgMeeting lwpCalSeperator lwpCalEntryPosition"><img alt="Möte " title="Möte " src="../../kalender-filer/CalendarMeeting.gif"/></td><td width="10%" valign="top" nowrap="true" onmouseout="PC_7_NO2UF4I118ADC026HKQ8KC28R4_calendar.showPopup('9CA441A71147F379C125730800280573.20070628T080000+0000.0hover', false)" onmouseover="PC_7_NO2UF4I118ADC026HKQ8KC28R4_calendar.showPopup('9CA441A71147F379C125730800280573.20070628T080000+0000.0hover', true)" class="lwpCalBgMeeting lwpCalSeperator lwpCalTimeText lwpCalEntryPosition">14.30-15.00</td><td width="30%" valign="top" onmouseout="PC_7_NO2UF4I118ADC026HKQ8KC28R4_calendar.showPopup('9CA441A71147F379C125730800280573.20070628T080000+0000.0hover', false)" onmouseover="PC_7_NO2UF4I118ADC026HKQ8KC28R4_calendar.showPopup('9CA441A71147F379C125730800280573.20070628T080000+0000.0hover', true)" class="lwpCalBgMeeting lwpCalSeperator lwpCalEntryPosition" id="9CA441A71147F379C125730800280573.20070628T080000+0000.0"><a onmouseover="window.status=''; return true;" href="inactive">Utvecklingssamtal med chefen</a></td></tr>
+													<tr><td valign="top" nowrap="true" colspan="4" class="lwpCalLDivider lwpCalTDivider lwpCalBDivider"></td><td width="1%" valign="top" nowrap="true" class="lwpCalBgMeeting lwpCalSeperator"><label style="display: none;" for="PC_7_NO2UF4I118ADC026HKQ8KC28R4_calendarR1D41chk">Spännande möte</label><input type="checkbox" value="9CA441A71147F379C125730800280573.20070628T080000+0000.0#TRUE######" id="PC_7_NO2UF4I118ADC026HKQ8KC28R4_calendarR1D41chk" valign="top"/></td><td width="1%" valign="top" nowrap="true" class="lwpCalBgMeeting lwpCalSeperator lwpCalEntryPosition"><img alt="Möte " title="Möte " src="../../kalender-filer/CalendarMeeting.gif"/></td><td width="10%" valign="top" nowrap="true" onmouseout="PC_7_NO2UF4I118ADC026HKQ8KC28R4_calendar.showPopup('9CA441A71147F379C125730800280573.20070628T080000+0000.0hover', false)" onmouseover="PC_7_NO2UF4I118ADC026HKQ8KC28R4_calendar.showPopup('9CA441A71147F379C125730800280573.20070628T080000+0000.0hover', true)" class="lwpCalBgMeeting lwpCalSeperator lwpCalTimeText lwpCalEntryPosition">09.00-10.00</td><td width="30%" valign="top" onmouseout="PC_7_NO2UF4I118ADC026HKQ8KC28R4_calendar.showPopup('9CA441A71147F379C125730800280573.20070628T080000+0000.0hover', false)" onmouseover="PC_7_NO2UF4I118ADC026HKQ8KC28R4_calendar.showPopup('9CA441A71147F379C125730800280573.20070628T080000+0000.0hover', true)" class="lwpCalBgMeeting lwpCalSeperator lwpCalEntryPosition" id="9CA441A71147F379C125730800280573.20070628T080000+0000.0"><a onmouseover="window.status=''; return true;" href="dialog_mote2.html" class="dialog" title="Visa händelse">Spännande möte</a></td></tr>
+													<tr class="lwpCalCellRow"><td valign="top" nowrap="true" colspan="4" class="lwpCalTDivider lwpCalBDivider">
+
+													<a href="#dag" class="lwpCalDateLinkText"><span class="lwpCalFsizeX"><b>8</b></span>
+													 onsdag</a></td><td valign="top" nowrap="true" colspan="4" class="lwpCalLDivider lwpCalTDivider lwpCalBDivider">
+
+													<a href="#dag" class="lwpCalDateLinkText"><span class="lwpCalFsizeX"><b>11</b></span>
+													 lördag</a></td></tr><tr class="lwpCalCellRow"><td colspan="4"> </td><td class="lwpCalLDivider" colspan="4"> </td></tr><tr class="lwpCalCellRow"><td valign="top" nowrap="true" colspan="4">
+
+														</td><td valign="top" nowrap="true" colspan="4" class="lwpCalLDivider lwpCalTDivider">
+
+															<a href="#dag" class="lwpCalDateLinkText"><span class="lwpCalFsizeX"><b>12</b></span>
+															 söndag</a></td></tr><tr class="lwpCalCellRow lwpCalTDivider"><td colspan="4"> </td><td class="lwpCalTDivider lwpCalLDivider" colspan="4"> </td></tr></tbody></table><table cellspacing="0" cellpadding="3" border="0"><tbody><tr><td width="10%" class="wpsPagingTableFooterStart lwpCalTDivider"> </td><td width="89%" class="wpsPagingTableFooterMiddle lwpCalTDivider"> </td><td width="1%" class="wpsPagingTableFooterEnd lwpCalTDivider"> </td></tr></tbody></table></div><script type="text/javascript">var PC_7_NO2UF4I118ADC026HKQ8KC28R4_calendar = new NG.Calendar('PC_7_NO2UF4I118ADC026HKQ8KC28R4_calendar','/wps/myportal/!ut/p/c1/04_SB8K8xLLM9MSSzPy8xBz9CP0os3g_f6NQNxNPQ0MLRxdnAyMzD-9AC29nIwsnM6B8JG75EFNidBvgAI4GBHSHg1yL33aQPB7z_Tzyc1P1I_WjzHGaEmSiH5mTmp6YXKlfkBsaYZBlEgoANAm-Cg!!/dl2/d1/L0lDU0lKSmdra0EhIS9JTlNBQ0lpTXlJSWcvWUExTkk1MC01Rjg5d0EhIS83X05PMlVGNEkxMThBREMwMjZIS1E4S0MyOFI0L0xPeUIyMTAwL3NhLnNwZl9BY3Rpb25MaXN0ZW5lcg!!?PC_7_NO2UF4I118ADC026HKQ8KC28R4_spf_strutsAction=!2fcalendar!2fview!2fcalendarView.do!3f#7_NO2UF4I118ADC026HKQ8KC28R4','/wps/myportal/!ut/p/c1/04_SB8K8xLLM9MSSzPy8xBz9CP0os3g_f6NQNxNPQ0MLRxdnAyMzD-9AC29nIwsnM6B8JG75EFNidBvgAI4GBHSHg1yL33aQPB7z_Tzyc1P1I_WjzHGaEmSiH5mTmp6YXKlfkBsaYZBlEgoANAm-Cg!!/dl2/d1/L0lDU0lKSmdrbUNTUS9JUFNBQ0lpTXlLaEFJaWhtL1lBMU5JNTAtNUYyWi1kOHp3QSEhLzdfTk8yVUY0STExOEFEQzAyNkhLUThLQzI4UjQvUmtnQjI5OS82X05PMlVGNEkxMThBREMwMjZIS1E4S0MyOEI2L3NhLnNwZl9BY3Rpb25MaXN0ZW5lcg!!?PC_7_NO2UF4I118ADC026HKQ8KC28R4_spf_strutsAction=!2fcalendar!2fview!2feventEdit.do!3f#7_NO2UF4I118ADC026HKQ8KC28R4','/wps/myportal/!ut/p/c1/04_SB8K8xLLM9MSSzPy8xBz9CP0os3g_f6NQNxNPQ0MLRxdnAyMzD-9AC29nIwsnM6B8JG75EFNidBvgAI4GBHSHg1yL33aQPB7z_Tzyc1P1I_WjzHGaEmSiH5mTmp6YXKlfkBsaYZBlEgoANAm-Cg!!/dl2/d1/L0lDU0lKSmdra0EhIS9JTlNBQ0lpTXlJSWcvWUExTkk1MC01Rjg5d0EhIS83X05PMlVGNEkxMThBREMwMjZIS1E4S0MyOFI0LzJPeUIyMTAxL3NhLnNwZl9BY3Rpb25MaXN0ZW5lcg!!?PC_7_NO2UF4I118ADC026HKQ8KC28R4_spf_strutsAction=!2fcalendar!2fview!2feventOpen.do!3f#7_NO2UF4I118ADC026HKQ8KC28R4','/wps/myportal/!ut/p/c1/04_SB8K8xLLM9MSSzPy8xBz9CP0os3g_f6NQNxNPQ0MLRxdnAyMzD-9AC29nIwsnM6B8JG75EFNidBvgAI4GBHSHg1yL33aQPB7z_Tzyc1P1I_WjzHGaEmSiH5mTmp6YXKlfkBsaYZBlEgoANAm-Cg!!/dl2/d1/L0lDU0lKSmdra0EhIS9JTlNBQ0lpTXlJSWcvWUExTkk1MC01Rjg5d0EhIS83X05PMlVGNEkxMThBREMwMjZIS1E4S0MyOFI0LzFPeUIyMTAyL3NhLnNwZl9BY3Rpb25MaXN0ZW5lcg!!?PC_7_NO2UF4I118ADC026HKQ8KC28R4_spf_strutsAction=!2fcalendar!2fview!2frepeatConfirm.do!3f#7_NO2UF4I118ADC026HKQ8KC28R4','/wps/myportal/!ut/p/c1/04_SB8K8xLLM9MSSzPy8xBz9CP0os3g_f6NQNxNPQ0MLRxdnAyMzD-9AC29nIwsnM6B8JG75EFNidBvgAI4GBHSHg1yL33aQPB7z_Tzyc1P1I_WjzHGaEmSiH5mTmp6YXKlfkBsaYZBlEgoANAm-Cg!!/dl2/d1/L0lDU0lKSmdra0EhIS9JTlNBQ0lpTXlJSWcvWUExTkk1MC01Rjg5d0EhIS83X05PMlVGNEkxMThBREMwMjZIS1E4S0MyOFI0L0lPeUIyMTAzL3NhLnNwZl9BY3Rpb25MaXN0ZW5lcg!!?PC_7_NO2UF4I118ADC026HKQ8KC28R4_spf_strutsAction=!2fcalendar!2fview!2feventDelete.do!3f#7_NO2UF4I118ADC026HKQ8KC28R4','/wps/PA_dlwl3uo/xsl/calendar1Week.xsl');PC_7_NO2UF4I118ADC026HKQ8KC28R4_calendar.showView('PC_7_NO2UF4I118ADC026HKQ8KC28R4_calendar',2,'', '<RootName><view property="PC_7_NO2UF4I118ADC026HKQ8KC28R4_calendar" viewId="2"><nls><nlsItem nlsKey="calendar.view.hover.location">Plats:</nlsItem><nlsItem nlsKey="calendar.view.nosubject">[inget ämne]</nlsItem><nlsItem nlsKey="calendar.view.draft.subject">Utkast:</nlsItem><nlsItem nlsKey="calendar.view.week">Vecka {0}</nlsItem><nlsItem nlsKey="calendar.datepicker.altmsg">Visa kalender för att välja ett datum.</nlsItem><nlsItem nlsKey="calendar.view.altAppointment">Avtalad tid</nlsItem><nlsItem nlsKey="calendar.view.altAnniversary">Årsdag</nlsItem><nlsItem nlsKey="calendar.view.altReminder">Påminnelse</nlsItem><nlsItem nlsKey="calendar.view.altAllDay">Hela dagen</nlsItem><nlsItem nlsKey="calendar.view.altMeeting">Möte</nlsItem><nlsItem nlsKey="calendar.view.altWebConference">Webbkonferens</nlsItem><nlsItem nlsKey="calendar.view.altConflict">(Den här tidpunkten krockar med andra händelser)</nlsItem><nlsItem nlsKey="calendar.view.altDraft">Utkast - möte</nlsItem><nlsItem nlsKey="calendar.view.altInvalid">Ogiltigt möte</nlsItem><nlsItem  nlsKey="x.calendar.view.imgMeeting">/wps/images/icons/CalendarMeeting.gif</nlsItem><nlsItem  nlsKey="x.calendar.view.imgnext">/wps/images/icons/CalendarNext.gif</nlsItem><nlsItem  nlsKey="x.calendar.view.imgAnniversary">/wps/images/icons/CalendarAnniversary.gif</nlsItem><nlsItem  nlsKey="x.calendar.view.imgInvalid">/wps/images/icons/CalendarInvalid.gif</nlsItem><nlsItem  nlsKey="x.calendar.view.imgDatepicker">/wps/images/icons/CalendarDropDown.gif</nlsItem><nlsItem  nlsKey="x.calendar.view.imgprev">/wps/images/icons/CalendarPrevious.gif</nlsItem><nlsItem  nlsKey="x.calendar.view.imgAppointment">/wps/images/icons/CalendarAppointment.gif</nlsItem><nlsItem  nlsKey="x.calendar.view.imgDraft">/wps/images/icons/CalendarDraft.gif</nlsItem><nlsItem  nlsKey="x.calendar.view.imgWebConf">/wps/images/icons/CalendarWebConference.gif</nlsItem><nlsItem  nlsKey="x.calendar.view.imgAllDay">/wps/images/icons/CalendarAllDayEvent.gif</nlsItem><nlsItem  nlsKey="x.calendar.view.imgReminder">/wps/images/icons/CalendarReminder.gif</nlsItem><nlsItem nlsKey="altPrevMsg">Föregående vecka</nlsItem><nlsItem nlsKey="altNextMsg">Nästa vecka</nlsItem></nls><calendar date="20070525" calendarTitle="maj 2007" prevDate="20070518" nextDate="20070601"><row weekNumber="21"><day date="20070521" prevDate="20070520" nextDate="20070522" viewCellTitle="21,måndag"><day date="20070522" prevDate="20070521" nextDate="20070523" viewCellTitle="22,tisdag"><day date="20070523" prevDate="20070522" nextDate="20070524" viewCellTitle="23,onsdag"><day date="20070524" prevDate="20070523" nextDate="20070525" viewCellTitle="24,torsdag"><day date="20070525" prevDate="20070524" nextDate="20070526" viewCellTitle="25,fredag" today="TRUE"><day date="20070526" prevDate="20070525" nextDate="20070527" viewCellTitle="26,lördag"><day date="20070527" prevDate="20070526" nextDate="20070528" viewCellTitle="27,söndag"></row></calendar></view></RootName>');</script>
+								<script language="JavaScript">PC_7_NO2UF4I118ADC026HKQ8KC28R4_calendar.setFormName('PC_7_NO2UF4I118ADC026HKQ8KC28R4_calViewTaskForm');
+								PC_7_NO2UF4I118ADC026HKQ8KC28R4_calendar.setRefreshUrl('/wps/myportal/!ut/p/c1/04_SB8K8xLLM9MSSzPy8xBz9CP0os3g_f6NQNxNPQ0MLRxdnAyMzD-9AC29nIwsnM6B8JG75EFNidBvgAI4GBHSHg1yL33aQPB7z_Tzyc1P1I_WjzHGaEmSiH5mTmp6YXKlfkBsaYZBlEgoANAm-Cg!!/dl2/d1/L0lDU0lKSmdra0EhIS9JTlNBQ0lpTXlJSWcvWUExTkk1MC01Rjg5d0EhIS83X05PMlVGNEkxMThBREMwMjZIS1E4S0MyOFI0L2xrZ0IyOTgvc2Euc3BmX0FjdGlvbkxpc3RlbmVy?PC_7_NO2UF4I118ADC026HKQ8KC28R4_spf_strutsAction=!2fcalendar!2fview!2fcalendarView.do!3frefresh%3dtrue&PC_7_NO2UF4I118ADC026HKQ8KC28R4_refresh=true#7_NO2UF4I118ADC026HKQ8KC28R4');
+
+								PC_7_NO2UF4I118ADC026HKQ8KC28R4_calendar["event.error.cannot.edit.web.conference"]="Du kan inte ändra en webbkonferens genom att använda redigeringsknappen. Om du vill ändra en webbkonferens öppnar du kalenderuppgiften och klickar sedan på länken i beskrivningen av kalenderuppgiften.";
+								if (document.getElementById("PC_7_NO2UF4I118ADC026HKQ8KC28R4_calViewMenuComboBox"))
+								document.getElementById("PC_7_NO2UF4I118ADC026HKQ8KC28R4_calViewMenuComboBox").value="2";
+								</script></td></tr></tbody></table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="yui-b">
+			<div id="module-shortcuts" class="module">
+				<h2><a href="inactive">Mina genvägar</a></h2>
+				<div class="module-content">
+					<form action="#" method="get" class="form-general">
+						<div class="select alt">
+							<label for="shortcuts" class="structural">Välj</label>
+							<select id="shortcuts">
+								<option value="#" selected="selected">Välj genväg:</option>
+								<option value="#">Ge Blod</option>
+								<option value="#">Medicinska biblioteken</option>
+								<option value="#">NCBI - PubMed</option>
+								<option value="#">Bartleby.com</option>
+								<option value="#">Internetmedicin</option>
+								<option value="#">Wheeless' textbook of orthopaedics</option>
+								<option value="#">Arthrex</option>
+								<option value="#">Vårdkvalitetsregister Ortopedi SU</option>
+								<option value="#">Fass</option>
+								<option value="#">Svensk ortopedisk förening</option>
+								<option value="#">Svenska läkarsällskapet</option>
+							</select>
+						</div>
+						<div class="submit-area alt">
+							<input type="submit" value="Gå" />
+						</div>
+					</form>
+				</div>
+			</div>
+			<div id="module-contacts" class="module">
+				<h2><a href="../mitt_jobb/kontakter.html">Mina kontakter</a></h2>
+			</div>
+			<div id="module-todos-latest" class="module">
+				<script type="text/javascript" src="../../js/module-todos-latest.js"></script>
+				<h2><span>Mina uppgifter</span></h2>
+				<div class="module-content">
+					<h3 class="todos"><a href="../mitt_jobb/uppgifter.html">Uppgifter (3)</a></h3>
+					<div>
+						<form action="#">
+							<ul class="list">
+								<li class="prio-3">
+									<input type="checkbox" name="todo0" value="" class="todo" id="todo0" />
+									<label for="todo0">Bekräfta remiss för...</label>
+									<p><a href="inactive" class="edit">Senast 7 juli</a></p>
+								</li>
+								<li class="prio-2">
+									<input type="checkbox" name="todo0" value="" class="todo" id="todo1" />
+									<label for="todo1">Boka rum till avdelningsmötet</label>
+									<p><a href="inactive" class="edit">28 juni 2007, kl 13.00-14.00</a></p>
+								</li>
+								<li class="prio-1">
+									<input type="checkbox" name="todo0" value="" class="todo" id="todo2" />
+									<label for="todo2">Skriv epikris</label>
+									<p><a href="inactive" class="edit">28 juni 2007, kl 11.00</a></p>
+								</li>
+								<li class="prio-3 done">
+									<input type="checkbox" name="todo0" value="" class="todo" id="todo3" checked="checked" />
+									<label for="todo3">Godkänn diktat från Sophie...</label>
+									<p><a href="inactive" class="edit">Senast 15 juni</a></p>
+								</li>
+								<li class="prio-2 done">
+									<input type="checkbox" name="todo0" value="" class="todo" id="todo4" checked="checked" />
+									<label for="todo4">Skicka iväg remiss gällande...</label>
+									<p><a href="inactive" class="edit">Senast 14 juni</a></p>
+								</li>
+							</ul>
+							<div class="submit-area">
+								<input type="submit" name="some_name" value="Markera som gjorda" id="submit_todos" />
+							</div>
+						</form>
+					</div>
+					<div class="tools">
+						<a href="inactive" class="add">Lägg till ny uppgift</a>
+					</div>
+					<h3 class="dictations"><a href="inactive">Diktat (3)</a></h3>
+					<h3 class="watches"><a href="../mitt_jobb/bevakningar.html">Bevakningar (4)</a></h3>
+					<h3 class="labtests"><a href="inactive">Labbsvar (2)</a></h3>
+				</div>
+			</div>
+			<div id="module-messages" class="module">
+				<script type="text/javascript" src="../../js/module-messages.js"></script>
+				<h2><span>Samarbeten</span></h2>
+				<div class="module-content accordion">
+					<h3 class="sel">E-post (2)</h3>
+					<div>
+						<ul class="list emails">
+							<li class="unread"><a href="../mitt_jobb/epost-meddelande-1.html">Infomaster <span>Diskussion om 'Nya rön inom ...</span></a></li>
+							<li class="unread"><a href="../mitt_jobb/epost-meddelande-2.html">patrik.e.ek@vgregion.se <span>Material inför föreläsningen på ...</span></a></li>
+							<li class="unread"><a href="../mitt_jobb/epost-meddelande-3.html">anna.m.karlsson@vgregion.se <span>Ang. provsvaren</span></a></li>
+						</ul>
+					</div>
+					<h3>Snabbmeddelanden (4)</h3>
+					<div>
+						<ul class="list ims">
+							<li>
+								<p><cite><a href="inactive">Nanso</a></cite> säger:</p>
+								<blockquote><p>Jag kan inte hitta den..</p></blockquote>
+							</li>
+							<li>
+								<p><cite><a href="inactive">Nanso</a></cite> säger:</p>
+								<blockquote><p>Har du sett PM-pärmen som...</p></blockquote>
+							</li>
+							<li>
+								<p><cite><a href="inactive">Nanso</a></cite> säger:</p>
+								<blockquote><p>Är du där..?</p></blockquote>
+							</li>
+							<li>
+								<p><cite><a href="inactive">Nanso</a></cite> säger:</p>
+								<blockquote><p>Hallå?</p></blockquote>
+							</li>
+						</ul>
+					</div>
+					<h3>Diskussionsgrupper</h3>
+					<div>
+						<ul class="list discussions">
+							<li class="unread"><a href="/#d1">Lorem</a></li>
+							<li class="unread"><a href="/#d2">Ipsum</a></li>
+							<li class="unread"><a href="/#d3">Dolor</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<h1>Lägg till en ny uppgift</h1>
+<form action="kalender-meeting.html" method="get" class="form-general">
+	<div class="text">
+		<label for="rubrik">Ämne</label>
+		<input type="text" name="rubrik" id="rubrik" />
+	</div>
+	<div class="select">
+		<label for="prio">Prioritet</label>
+		<select id="prio">
+			<option value="prio1">Högsta</option>
+			<option value="prio2">Hög</option>
+			<option value="prio3">Normal</option>
+		</select>
+	</div>
+	<div class="select">
+		<label for="status">Status</label>
+		<select id="status">
+			<option value="not-started">Inte påbörjad</option>
+		</select>
+	</div>
+	<fieldset class="select">
+		<legend>Starttid</legend>
+		<label for="startday" class="structural">Dag</label>
+		<select id="startday">
+			<option value="daily">Må 2007-08-17</option>
+		</select>
+		<label for="starttime" class="structural">Klockslag</label>
+		<select id="starttime">
+			<option value="daily">09:00</option>
+		</select>
+	</fieldset>
+	<fieldset class="select">
+		<legend>Sluttid</legend>
+		<label for="endday" class="structural">Dag</label>
+		<select id="endday">
+			<option value="daily">Må 2007-08-17</option>
+		</select>
+		<label for="endtime" class="structural">Klockslag</label>
+		<select id="endtime">
+			<option value="daily">10:00</option>
+		</select>
+	</fieldset>
+	<div class="checkbox">
+		<input type="checkbox" name="remindme" id="remindme" />
+		<label for="remindme">Påminnelse?</label>
+		<div class="select">
+			<label for="when">Hur ofta:</label>
+			<select id="when">
+				<option value="daily">Varje kvart</option>
+			</select>
+		</div>
+	</div>
+	<div class="submit-area">
+		<input type="submit" value="Lägg till" />
+	</div>
+</form>

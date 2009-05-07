@@ -1,0 +1,82 @@
+<h1>Ändra övriga personuppgifter</h1>
+<form action="#" method="get" class="form-general">
+	<div class="text">
+		<label for="namn">Förnamn</label>
+		<input type="text" name="namn" id="namn" value="Leo" />
+	</div>
+	<div class="text">
+		<label for="namn2">Mellannamn</label>
+		<input type="text" name="namn2" id="namn2" value="Orvar" />
+	</div>
+	<div class="text">
+		<label for="namn3">Efternamn</label>
+		<input type="text" name="namn3" id="namn3" value="Andersson" />
+	</div>
+	<div class="text">
+		<label for="namn4">Smeknamn</label>
+		<input type="text" name="namn4" id="namn4" value="Leoor" />
+	</div>
+	<div class="text">
+		<label for="url">Personlig webbplats</label>
+		<input type="text" name="url" id="url" value="http://www.leolakare.nu/" />
+	</div>
+	<div class="text">
+		<label for="other">Övrig information</label>
+		<input type="text" name="other" id="other" />
+	</div>
+<!-- Return this if called via Ajax -->
+	<div class="select alt1 clearfix">
+		<label for="lang1">Språkkunskaper</label>
+		<select id="lang1" multiple="multiple">
+			<option>Estniska (förstår)</option>
+			<option>Estniska (pratar)</option>
+			<option>Estniska (skriver)</option>
+			<option>Franska (förstår)</option>
+			<option>Franska (pratar)</option>
+			<option>Franska (skriver)</option>
+			<option>Grekiska (förstår)</option>
+			<option>Grekiska (pratar)</option>
+			<option>Grekiska (skriver)</option>
+		</select>
+		<button type="button" name="add-lang" id="add-lang">Lägg till</button>
+	</div>
+	<div class="select alt2 clearfix">
+		<label for="lang2">Mina språkkunskaper</label>
+		<select id="lang2" multiple="multiple">
+			<option>Svenska (förstår)</option>
+			<option>Svenska (pratar)</option>
+			<option>Svenska (skriver)</option>
+			<option>Engelska (förstår)</option>
+			<option>Engelska (pratar)</option>
+			<option>Engelska (skriver)</option>
+		</select>
+		<button type="button" name="remove-lang" id="remove-lang">Ta bort</button>
+	</div>
+<!-- Return this if JS is disabled (i.e. not called via Ajax)
+	<div id="language-selector">
+		<div class="select alt1 clearfix" id="select1">
+			<label for="lang1">Språkkunskaper</label>
+			<select id="lang1" multiple="multiple">
+				<option selected="selected">Engelska (förstår)</option>
+				<option selected="selected">Engelska (pratar)</option>
+				<option selected="selected">Engelska (skriver)</option>
+				<option>Estniska (förstår)</option>
+				<option>Estniska (pratar)</option>
+				<option>Estniska (skriver)</option>
+				<option>Franska (förstår)</option>
+				<option>Franska (pratar)</option>
+				<option>Franska (skriver)</option>
+				<option>Grekiska (förstår)</option>
+				<option>Grekiska (pratar)</option>
+				<option>Grekiska (skriver)</option>
+				<option selected="selected">Svenska (förstår)</option>
+				<option selected="selected">Svenska (pratar)</option>
+				<option selected="selected">Svenska (skriver)</option>
+			</select>
+		</div>
+	</div>
+-->
+	<div class="submit-area">
+		<input type="submit" value="Spara" />
+	</div>
+</form>
