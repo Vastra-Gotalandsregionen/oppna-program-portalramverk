@@ -1,0 +1,25 @@
+Yahoo!s CSS-ramverk YUI Grids CSS (/css/grids-min.css) används för att skapa de olika layouterna. Det är ett flexibelt ramverk som ger möjlighet att skapa mängder med olika layouter. Här begränsar vi oss dock till fem varianter, beskrivna nedan.
+
+Mallfilerna består av HTML-strukturen som krävs samt dummyinnehåll för att man ska se hur de olika blocken renderas på sidan. Allt som börjar med `<!-- Inserted by portlet -->` och avslutas med `<!-- /Inserted by portlet -->` kommer att ersättas med portlets.
+
+Den HTML som ändras finns i `div#bd`. Både struktur och klasser kan skilja sig åt.
+
+Exempel på respektive layout med realistiskt innehåll finns i den uppladdade källkoden i katalogen "prototyp". Ladda den genom att öppna filen `index.html` i en webbläsare. Ange sedan ett användarnamn, till exempel "annie", för att "logga in".
+
+==Layout 1: Enspalt, fullbredd==
+
+===Mall===
+layout-1.html
+
+===Exempel i prototyp===
+Inga för närvarande
+
+===HTML-struktur===
+{{{
+<!-- 100% bredd med 10px horisontell marginal, en fullbred spalt. -->
+div#doc3.yui-t7
+    div.hd
+    div.bd
+        div.yui-b
+            CONTENT
+}}}
