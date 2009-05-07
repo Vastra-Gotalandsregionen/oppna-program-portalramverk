@@ -36,7 +36,8 @@ layout-2.html
 
 ===HTML-struktur ===
 {{{
-div#doc3.yui-t5 <!-- 100% bredd med 10px horisontell marginal. Högerspalt 240px fast bredd. -->
+<!-- 100% bredd med 10px horisontell marginal. Högerspalt 240px fast bredd. -->
+div#doc3.yui-t5
     div.hd
     div.bd
         div#yui-main
@@ -57,7 +58,8 @@ layout-3.html
 
 ===HTML-struktur ===
 {{{
-div#doc3.yui-t5 <!-- 100% bredd med 10px horisontell marginal. Högerspalt 240px fast bredd. -->
+<!-- 100% bredd med 10px horisontell marginal. Högerspalt 240px fast bredd. -->
+div#doc3.yui-t5
     div.hd
     div.bd
         div#yui-main
@@ -82,7 +84,8 @@ layout-4.html
 
 ===HTML-struktur ===
 {{{
-div#doc3.yui-t5 <!-- 100% bredd med 10px horisontell marginal. Högerspalt 240px fast bredd. -->
+<!-- 100% bredd med 10px horisontell marginal. Högerspalt 240px fast bredd. -->
+div#doc3.yui-t5
     div.hd
     div.bd
         div#yui-main
@@ -108,7 +111,8 @@ layout-5.html
 
 ===HTML-struktur ===
 {{{
-div#doc3.yui-t5 <!-- 100% bredd med 10px horisontell marginal. Högerspalt 240px fast bredd. -->
+<!-- 100% bredd med 10px horisontell marginal. Högerspalt 240px fast bredd. -->
+div#doc3.yui-t5
     div.hd
     div.bd
         div#yui-main
