@@ -1,7 +1,21 @@
 #summary Beskrivning av HTML-strukturen för moduler vars innehåll ofta kommer att ersättas av portlets.
 
 =Modul/portletstruktur=
-När man skapar en modul i ramverket behöver man se till att den portlet som renderar HTML-koden gör det enligt en bestämd struktur.
+När man skapar en modul i ramverket behöver man se till att den portlet som renderar HTML-koden gör det enligt en bestämd struktur. Det finns några olika varianter på vad en modul kan innehålla.
+
+==Minimal modul==
+En minimal modul består av en rubrik (som kan vara nivå `h2` eller `h3`) och ett innehåll enligt följande struktur:
+
+{{{
+<div class="module">
+    <h2>Modulnamn</h2>
+    <div class="module-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+</div>
+}}}
+
+==Modul med länkad rubrik==
 
 ==Kodexempel==
 
