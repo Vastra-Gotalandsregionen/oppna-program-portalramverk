@@ -9,6 +9,9 @@ Det enda man behöver göra för att lägga till fler nivåer är att skapa ett 
 I samband med denna justering av menyn ändrades också den visuellt dolda stödtexten "Navigering" till "Huvudnavigering" på samtliga sidor. Dessutom finns nu en sådan stödtext för varje undermeny. Syftet med texten är att göra det tydligt för den som använder skärmläsare eller navigerar utan CSS hur de olika alternativen i navigeringen hänger ihop.
 
 ==Kodexempel==
+
+Filen `profil_annie/mitt_jobb/index-undermenyer.html` innehåller följande exempel på undermeny i flera nivåer:
+
 {{{
 <div id="nav" class="clearfix">
     <p class="structural"><strong>Huvudnavigering</strong></p>
