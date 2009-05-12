@@ -6,7 +6,7 @@ När man skapar en modul i ramverket behöver man se till att den portlet som re
 När det gäller rubriken kan den antingen vara länkad eller olänkad.
 
 ==Modul utan länkad rubrik==
-En modul utan länkad rubrik består av en rubrik (som kan vara nivå `h2` eller `h3`) och ett innehåll enligt följande struktur:
+En modul utan länkad rubrik består av en rubrik (som ska vara nivå `h2`) och ett innehåll enligt följande struktur:
 
 {{{
 <div class="module">
