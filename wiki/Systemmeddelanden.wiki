@@ -1,0 +1,37 @@
+#summary Beskrivning av hur olika typer av systemmedelanden visas.
+
+=Systemmeddelanden=
+
+CSS för flera typer av systemmeddelanden finns förberett:
+
+  * Felmeddelande (`.error`)
+  * Varning (`.warning`)
+  * Bekräftelse (`.confirmation`)
+
+Samtliga systemmedelanden ska också ha klassen `system-info`.
+
+Ett systemmeddelande omges av ett `div`-element med klassen `system-info` samt den klass som motsvarar meddelandets typ. I detta element ska en rubrik (nivå `h2` eller `h3`) samt en eller flera stycken (`p`) eller listor (`ul`, `ol`) finnas.
+
+==Felmeddelande==
+{{{
+<div class="system-info error">
+    <h3>Ett felmeddelande</h3>
+    <p>Här har det uppstått ett kritiskt fel som du behöver känna till. Det påverkar systemet si och så.</p>
+</div>
+}}}
+
+==Varning==
+{{{
+<div class="system-info warning">
+    <h2>En varning</h2>
+    <p>Här är en varning. Felet är inte kritiskt.</p>
+</div>
+}}}
+
+==Bekräftelse==
+{{{
+<div class="system-info confirmation">
+    <h2>En bekräftelse</h2>
+    <p>Här är en bekräftelse på att något utfördes som det ska.</p>
+</div>
+}}}
