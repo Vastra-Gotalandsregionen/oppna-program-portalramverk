@@ -1,6 +1,9 @@
 #summary Beskrivning av HTML-strukturen för moduler vars innehåll ofta kommer att ersättas av portlets.
 
 =Modul/portletstruktur=
+När man skapar en modul i ramverket behöver man se till att den portlet som renderar HTML-koden gör det enligt en bestämd struktur.
+
+==Kodexempel==
 
 {{{
 <div id="module-news" class="module">
