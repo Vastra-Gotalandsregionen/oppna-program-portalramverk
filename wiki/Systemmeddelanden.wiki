@@ -12,7 +12,7 @@ Samtliga systemmedelanden ska också ha klassen `system-info`.
 
 Ett systemmeddelande omges av ett `div`-element med klassen `system-info` samt den klass som motsvarar meddelandets typ. I detta element ska en rubrik (nivå `h2` eller `h3`) samt en eller flera stycken (`p`) eller listor (`ul`, `ol`) finnas.
 
-Exampel på systemmeddelanden finns på `profil_annie/index-felmeddelanden.html`.
+Exampel på systemmeddelanden finns i `profil_annie/index-felmeddelanden.html`.
 
 ==Felmeddelande==
 {{{
