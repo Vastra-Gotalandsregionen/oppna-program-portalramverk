@@ -17,7 +17,7 @@ En minimal modul består av en rubrik (som kan vara nivå `h2` eller `h3`) och e
 
 ==Modul med länkad rubrik==
 
-==Kodexempel==
+En modul kan också ha en länkad rubrik. Tanken är att alla länkade rubriker ska ha en ikon, så därför har länken utrymme för det. För att ange vilken ikon en modul använder behöver modulen ha ett `id`:
 
 {{{
 <div id="module-news" class="module">
@@ -34,3 +34,13 @@ En minimal modul består av en rubrik (som kan vara nivå `h2` eller `h3`) och e
     </div>
 </div>
 }}}
+
+Här är den CSS som styr ikonen:
+
+{{{
+#module-news h2 a {
+    background:url(../i/icons/chart_organisation.png) no-repeat 0 50%;
+}
+}}}
+
+Ikonen ska vara 16 x 16 pixlar stor.
