@@ -10,7 +10,7 @@ En minimal modul består av en rubrik (som kan vara nivå `h2` eller `h3`) och e
 <div class="module">
     <h2>Modulnamn</h2>
     <div class="module-content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Lorem ipsum dolor sit amet…</p>
     </div>
 </div>
 }}}
@@ -24,13 +24,13 @@ En minimal modul består av en rubrik (som kan vara nivå `h2` eller `h3`) och e
     <h2><a href="verksamhetsnytt.html">Verksamhetsnytt</a></h2>
     <div class="module-content">
         <h3>Underrubrik</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Lorem ipsum dolor sit amet…</p>
         <ul>
             <li>En punktlista med några punkter i</li>
             <li>En punktlista med några punkter i</li>
             <li>En punktlista med några punkter i</li>
         </ul>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Duis aute irure dolor in reprehenderit…</p>
     </div>
 </div>
 }}}
