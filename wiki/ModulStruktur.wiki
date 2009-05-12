@@ -1,10 +1,12 @@
 #summary Beskrivning av HTML-strukturen för moduler vars innehåll ofta kommer att ersättas av portlets.
 
 =Modul/portletstruktur=
-När man skapar en modul i ramverket behöver man se till att den portlet som renderar HTML-koden gör det enligt en bestämd struktur. Det finns några olika varianter på vad en modul kan innehålla.
+När man skapar en modul i ramverket behöver man se till att den portlet som renderar HTML-koden gör det enligt en bestämd struktur. Elementet `.module-content` kan i princip innehålla vad som helst som är tillåtert enligt HTML-specifikationen.
 
-==Minimal modul==
-En minimal modul består av en rubrik (som kan vara nivå `h2` eller `h3`) och ett innehåll enligt följande struktur:
+När det gäller rubriken kan den antingen vara länkad eller olänkad.
+
+==Modul utan länkad rubrik==
+En modul utan länkad rubrik består av en rubrik (som kan vara nivå `h2` eller `h3`) och ett innehåll enligt följande struktur:
 
 {{{
 <div class="module">
@@ -17,7 +19,7 @@ En minimal modul består av en rubrik (som kan vara nivå `h2` eller `h3`) och e
 
 ==Modul med länkad rubrik==
 
-En modul kan också ha en länkad rubrik. Tanken är att alla länkade rubriker ska ha en ikon, så därför har länken utrymme för det. För att ange vilken ikon en modul använder behöver modulen ha ett `id`:
+En modul kan också ha en länkad rubrik. Tanken är att alla länkade rubriker ska ha en ikon, så därför gör CSS-koden att länken har utrymme för det. För att ange vilken ikon en modul använder behöver modulen ha ett `id`:
 
 {{{
 <div id="module-news" class="module">
