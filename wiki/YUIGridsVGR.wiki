@@ -1,3 +1,5 @@
+#summary Hur Portalramverket använder YUI Grids CSS för att skapa olika layouter.
+
 Yahoo!s CSS-ramverk YUI Grids CSS (/css/grids-min.css) används för att skapa de olika layouterna. Det är ett flexibelt ramverk som ger möjlighet att skapa mängder med olika layouter. Här begränsar vi oss dock till fem varianter, beskrivna nedan.
 
 Mallfilerna består av HTML-strukturen som krävs samt dummyinnehåll för att man ska se hur de olika blocken renderas på sidan. Allt som börjar med `<!-- Inserted by portlet -->` och avslutas med `<!-- /Inserted by portlet -->` kommer att ersättas med portlets.
