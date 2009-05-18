@@ -59,7 +59,7 @@
 				<input type="submit" value="Sök" />
 			</div>
 		</form>
-		<p id="login-status" class="logged-in">Inloggad som Per Oscarsson <a href="../index.html">Logga ut</a></p>
+		<p id="login-status" class="logged-in">Inloggad som Annie Alveflo <a href="../index.html">Logga ut</a></p>
 		<div id="nav" class="clearfix">
 			<p class="structural"><strong>Huvudnavigering</strong></p>
 			<ul id="nav-main">
@@ -73,13 +73,22 @@
 		</div>
 	</div>
 	<div id="bd">
+		<h1 class="structural">Min startsida</h1>
 		<div id="yui-main">
 			<div class="yui-b">
+				<div class="system-info confirmation">
+					<h2>En bekräftelse</h2>
+					<p>Här är en bekräftelse på att något utfördes som det ska.</p>
+				</div>
 				<div class="yui-g">
 					<div class="yui-u first">
 						<div id="module-work" class="module">
 							<h2>Mitt jobb</h2>
 							<div class="module-content">
+								<div class="system-info error">
+									<h3>Ett felmeddelande</h3>
+									<p>Här har det uppstått ett kritiskt fel som du behöver känna till. Det påverkar systemet si och så.</p>
+								</div>
 								<h3>Nytt</h3>
 								<ul>
 									<li>Alla måste nu använda den nya <a href="inactive">inskrivningssedeln</a>. Den finns även att hämta från <a href="inactive">Personalhandboken</a> <span class="date">2007-08-05</span></li>
@@ -92,7 +101,7 @@
 									<li><a href="inactive">Byte av kontaktperson på personalkontoret</a> <span class="date">2007-06-13</span></li>
 									<li><a href="inactive">Budget för 2008 fastställd</a> <span class="date">2007-06-13</span></li>
 								</ul>
-								<h3>Uppdaterad bevakningar</h3>
+								<h3>Uppdaterade bevakningar</h3>
 								<ul>
 									<li><a href="inactive">Behandling vid luxuationsfrakturer av höftleden...</a></li>
 									<li><a href="inactive">Skador på axelleden som behandlas med...</a></li>
@@ -115,6 +124,10 @@
 						</div>
 					</div>
 					<div class="yui-u">
+						<div class="system-info warning">
+							<h2>En varning</h2>
+							<p>Här är en varning. Felet är inte kritiskt.</p>
+						</div>
 						<div id="module-news" class="module">
 							<h2><a href="verksamhetsnytt.html">Verksamhetsnytt</a></h2>
 							<div class="module-content">
@@ -145,7 +158,7 @@
 									<div class="tab-bd clearfix">
 										<h4>Måndag <span class="date">– 6 augusti</span></h4>
 										<ul>
-											<li class="cal-private">12.00–13.00 <a href="mitt_jobb/dialog_mote.html" class="dialog">Träffa Sofie på lunchen</a></li>
+											<li class="cal-private">12.00–13.00 <a href="mitt_jobb/dialog_mote.html" class="dialog" title="Visa möte">Träffa Sofie på lunchen</a></li>
 											<li class="cal-private">12.00–13.00 <a href="mitt_jobb/dialog_mote2.html" class="dialog">Träffa Gunnel efter lunchen</a></li>
 										</ul>
 										<h4>Fredag <span class="date">– 10 augusti</span></h4>
@@ -270,16 +283,16 @@
 				<script type="text/javascript" src="../js/module-messages.js"></script>
 				<h2><span>Samarbeten</span></h2>
 				<div class="module-content accordion">
-					<h3 class="sel">E-post (2)</h3>
-					<div>
+					<h3 class="sel" id="acc-1">E-post (2)</h3>
+					<div id="acc-1-div">
 						<ul class="list emails">
 							<li class="unread"><a href="mitt_jobb/epost-meddelande-1.html">Infomaster <span>Diskussion om 'Nya rön inom ...</span></a></li>
 							<li class="unread"><a href="mitt_jobb/epost-meddelande-2.html">patrik.e.ek@vgregion.se <span>Material inför föreläsningen på ...</span></a></li>
 							<li class="unread"><a href="mitt_jobb/epost-meddelande-3.html">anna.m.karlsson@vgregion.se <span>Ang. provsvaren</span></a></li>
 						</ul>
 					</div>
-					<h3>Snabbmeddelanden (4)</h3>
-					<div>
+					<h3 id="acc-2">Snabbmeddelanden (4)</h3>
+					<div id="acc-2-div">
 						<ul class="list ims">
 							<li>
 								<p><cite><a href="inactive">Nanso</a></cite> säger:</p>
@@ -299,8 +312,8 @@
 							</li>
 						</ul>
 					</div>
-					<h3>Diskussionsgrupper</h3>
-					<div>
+					<h3 id="acc-3">Diskussionsgrupper</h3>
+					<div id="acc-3-div">
 						<ul class="list discussions">
 							<li class="unread"><a href="/#d1">Lorem</a></li>
 							<li class="unread"><a href="/#d2">Ipsum</a></li>
