@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sv" lang="sv">
 <head profile="http://dublincore.org/documents/dcq-html/">
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-	<title>Uppgifter</title>
+	<title>Mitt jobb</title>
 
 	<!-- Meta data -->
 	<meta name="keywords" content="relevant keywords for this page" />
@@ -37,7 +37,6 @@
 	<link rel="stylesheet" href="../../css/ie.css" type="text/css" media="screen" />
 	<![endif]-->
 	<link rel="stylesheet" href="../../css/print.css" type="text/css" media="print" />
-	<link rel="stylesheet" href="../../js/yui/assets/container.css" type="text/css" />
 
 	<!-- JavaScript -->
 	<script type="text/javascript" src="../../js/yui/utilities.js"></script>
@@ -59,7 +58,7 @@
 				<input type="submit" value="Sök" />
 			</div>
 		</form>
-		<p id="login-status" class="logged-in">Inloggad som Lena Karlsson <a href="../../index.html">Logga ut</a></p>
+		<p id="login-status" class="logged-in">Inloggad som Annie Alveflo <a href="../../index.html">Logga ut</a></p>
 		<div id="nav" class="clearfix">
 			<p class="structural"><strong>Huvudnavigering</strong></p>
 			<ul id="nav-main">
@@ -72,21 +71,38 @@
 			</ul>
 			<p class="structural"><strong>Navigering för Mitt jobb</strong></p>
 			<ul class="nav-sub">
-				<li><a href="index.html">Nytt</a></li>
+				<li class="sel"><a href="index.html" class="sel">Nytt</a></li>
 				<li><a href="dokument.html">Dokument</a></li>
 				<li><a href="bevakningar.html">Bevakningar</a></li>
 				<li><a href="inactive">Diskussionsgrupper</a></li>
 				<li><a href="kalender.html">Kalender</a></li>
-				<li class="sel"><a href="uppgifter.html" class="sel">Uppgifter</a></li>
+				<li><a href="uppgifter.html">Uppgifter</a></li>
 				<li><a href="epost.html">E-post</a></li>
 				<li><a href="kontakter.html">Kontakter</a></li>
+			</ul>
+			<p class="structural"><strong>Navigering för Mitt jobb - Nytt</strong></p>
+			<ul class="nav-sub">
+				<li><a href="kalender.html">Kalender</a></li>
+				<li><a href="index.html">Nytt</a></li>
+				<li><a href="dokument.html">Dokument</a></li>
+				<li class="sel"><a href="bevakningar.html" class="sel">Bevakningar</a></li>
+				<li><a href="inactive">Diskussionsgrupper</a></li>
+			</ul>
+			<p class="structural"><strong>Navigering för Mitt jobb - Nytt - Bevakningar</strong></p>
+			<ul class="nav-sub">
+				<li><a href="kalender.html">Kalender</a></li>
+				<li class="sel"><a href="bevakningar.html" class="sel">Bevakningar</a></li>
+				<li><a href="inactive">Diskussionsgrupper</a></li>
+				<li><a href="index.html">Nytt</a></li>
+				<li><a href="dokument.html">Dokument</a></li>
+				<li><a href="inactive">Diskussionsgrupper</a></li>
 			</ul>
 		</div>
 	</div>
 	<div id="bd">
 		<div id="yui-main">
 			<div class="yui-b">
-				<form action="uppgifter2.html" method="get" class="form-general search-module">
+				<form action="index2.html" method="get" class="form-general search-module">
 					<div class="text alt">
 						<label for="query">Sök efter</label>
 						<input type="text" name="query" value="" id="query" />
@@ -94,62 +110,56 @@
 					<div class="select alt">
 						<label for="query2">sök i</label>
 						<select id="query2">
-							<option>Alla uppgifter</option>
+							<option>Alla mina dokument</option>
 						</select>
 					</div>
 					<div class="submit-area alt"><input type="submit" value="Sök" /></div>
 				</form>
-				<div class="yui-u first">
-					<div id="module-todos" class="module">
-						<script type="text/javascript" src="../../js/module-todos.js"></script>
-						<h2>Uppgifter</h2>
-						<div class="module-content">
-							<div class="tools">
-								<a href="dialog_nyuppgift.html" class="add dialog" title="Ny uppgift">Lägg till ny uppgift</a>
+				<div class="yui-g">
+					<div class="yui-u first">
+						<div id="module-news" class="module">
+							<h2>Nyheter från avdelningen</h2>
+							<div class="module-content">
+								<ul class="list-news">
+									<li><a href="inactive">Anteckningar från personalmötet 3 augusti</a> <span class="date">2007-08-06</span></li>
+									<li><a href="inactive">Ny anställd: Stina Persson</a> <span class="date">2007-08-03</span></li>
+									<li><a href="inactive">P-tillstånd – nya anvisningar</a> <span class="date">2007-08-01</span></li>
+									<li><a href="inactive">Kvalitetsveckan 2007</a> <span class="date">2007-07-25</span></li>
+									<li><a href="inactive">Vårdbyggnaden på SU/Sahlgrenska</a> <span class="date">2007-07-19</span></li>
+									<li><a href="inactive">Uppdaterad säkerhetshandbok</a> <span class="date">2007-07-02</span></li>
+									<li><a href="inactive">OKIT-rapport</a> <span class="date">2007-07-01</span></li>
+								</ul>
 							</div>
-							<table>
-								<caption class="structural">Uppgifter</caption>
-								<thead>
-									<tr>
-										<th scope="col">Ämne</th>
-										<th scope="col">Senast klar</th>
-										<th scope="col">Prioritet</th>
-										<th scope="col">Redigera</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Bekräfta remiss för operation vid Mölndals sjukhus</td>
-										<td>9 augusti 2007</td>
-										<td class="prio-3">Hög</td>
-										<td><a href="inactive" class="edit">Redigera</a> <a href="inactive" class="remove">Ta bort</a></td>
-									</tr>
-									<tr>
-										<td>Boka rum till avdelningsmötet</td>
-										<td>10 augusti 2007</td>
-										<td class="prio-3">Hög</td>
-										<td><a href="inactive" class="edit">Redigera</a> <a href="inactive" class="remove">Ta bort</a></td>
-									</tr>
-									<tr>
-										<td>Skriv epikris</td>
-										<td>10 augusti 2007, kl 10.30</td>
-										<td class="prio-2">Mellan</td>
-										<td><a href="inactive" class="edit">Redigera</a> <a href="inactive" class="remove">Ta bort</a></td>
-									</tr>
-									<tr>
-										<td>Godkänn diktat från Sophie angående Lars Larsson</td>
-										<td>11 augusti 2007</td>
-										<td class="prio-1">Normal</td>
-										<td><a href="inactive" class="edit">Redigera</a> <a href="inactive" class="remove">Ta bort</a></td>
-									</tr>
-									<tr>
-										<td>Skicka iväg remiss gällande Lars Larsson</td>
-										<td>11 augusti 2007</td>
-										<td class="prio-3">Hög</td>
-										<td><a href="inactive" class="edit">Redigera</a> <a href="inactive" class="remove">Ta bort</a></td>
-									</tr>
-								</tbody>
-							</table>
+						</div>
+					</div>
+					<div class="yui-u">
+						<div id="module-dashboard" class="module">
+							<h2>Anslagstavlan</h2>
+							<div class="module-content">
+								<ul class="list-news">
+									<li><a href="inactive">Uppdaterad personalpolicy</a> <span class="date">2007-06-13</span></li>
+									<li><a href="inactive">Ändrade öppettider i lunchrestaurangen</a> <span class="date">2007-06-13</span></li>
+									<li><a href="inactive">Gymping startar igen den 4 september</a> <span class="date">2007-06-13</span></li>
+								</ul>
+							</div>
+						</div>
+						<div id="module-work" class="module">
+							<h2>Anteckningar</h2>
+							<div class="module-content">
+								<h3>Protokoll</h3>
+								<ul>
+									<li><a href="inactive">Anteckningar från APT-möte</a> <span class="date">2007-07-23</span> <span class="author">Moa Sundin</span></li>
+									<li><a href="inactive">Sekr-APT</a> <span class="date">2007-07-19</span> <span class="author">Katarina Ottoson</span></li>
+									<li><a href="inactive">Undersköterskemöte</a> <span class="date">2007-06-28</span> <span class="author">Moa Sundin</span></li>
+									<li><a href="inactive">Avdelningsmöte avd 27</a> <span class="date">2007-06-13</span> <span class="author">Moa Sundin</span></li>
+								</ul>
+								<h3>Föredrag</h3>
+								<ul>
+									<li><a href="inactive">Lathund för kontroller</a> <span class="date">2007-06-28</span> <span class="author">Katarina Ottoson</span></li>
+									<li><a href="inactive">Nyheter inom diagnostik</a> <span class="date">2007-06-24</span> <span class="author">Moa Sundin</span></li>
+									<li><a href="inactive">Hypertoni</a> <span class="date">2007-05-12</span> <span class="author">Moa Sundin</span></li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
