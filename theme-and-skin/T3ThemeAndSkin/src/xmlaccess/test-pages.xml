@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IBM WebSphere Portal/6.1.0.1 build wp6101_115_01 exported on Wed May 27 10:38:21 CEST 2009 from IBM-F340048DF92/9.145.232.217 -->
+<request xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" build="wp6101_115_01" type="update" version="6.1.0.1" xsi:noNamespaceSchemaLocation="PortalConfig_6.1.0.xsd">
+    <portal action="locate">
+        <skin action="locate" domain="rel" objectid="K_4J2C7V5300MAF0IG14TVVD00G3" uniquename="t3.skin"/>
+        <theme action="locate" domain="rel" objectid="J_4J2C7V5300MAF0IG14TVVD00G7" uniquename="t3.theme"/>
+        <web-app action="locate" domain="rel" objectid="1_CGAH47L00O2V002N5SQ0US30C3" uid="login.war.webmod">
+            <servlet action="locate" domain="rel" name="Login Portlet" objectid="V_CGAH47L00O2V002N5SQ0US30S0"/>
+            <portlet-app action="locate" domain="rel" name="wp.ap.login" objectid="2_CGAH47L00O2V002N5SQ0US30C7" uid="login.war">
+                <portlet action="locate" domain="rel" name="Login Portlet" objectid="3_CGAH47L00O2V002N5SQ0US30S4" uniquename="wps.p.Login"/>
+            </portlet-app>
+        </web-app>
+        <content-node action="locate" domain="rel" objectid="6_000000000000000000000000A0" uniquename="wps.content.root"/>
+        <content-node action="update" active="true" allportletsallowed="true" content-parentref="6_000000000000000000000000A0" create-type="explicit" domain="rel" objectid="6_4J2C7V5300MAF0IG14TVVD0080" ordinal="3800" themeref="J_4J2C7V5300MAF0IG14TVVD00G7" type="page" uniquename="vgr.tematest">
+            <supported-markup markup="html" update="set"/>
+            <localedata locale="sv">
+                <title>VGR Tematest</title>
+            </localedata>
+            <parameter name="com.ibm.portal.IgnoreAccessControlInCaches" type="string" update="set"><![CDATA[false]]></parameter>
+            <parameter name="com.ibm.portal.ThemePolicy" type="string" update="set"><![CDATA[theme/SingleTopNav]]></parameter>
+            <parameter name="com.ibm.portal.bookmarkable" type="string" update="set"><![CDATA[Yes]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-expiry" type="string" update="set"><![CDATA[0]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-scope" type="string" update="set"><![CDATA[NON-SHARED]]></parameter>
+            <access-control externalized="false" owner="uid=wpadmin,o=defaultWIMFileBasedRealm" private="false"/>
+            <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD0084" ordinal="100" orientation="H" skinref="undefined" type="container" width="undefined">
+                <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD0082" ordinal="100" orientation="V" skinref="undefined" type="container" width="undefined">
+                    <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD0083" ordinal="100" skinref="undefined" type="control" width="undefined">
+                        <portletinstance action="update" domain="rel" objectid="5_4J2C7V5300MAF0IG14TVVD0085" portletref="3_CGAH47L00O2V002N5SQ0US30S4"/>
+                    </component>
+                    <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00O0" ordinal="200" skinref="undefined" type="control" width="undefined">
+                        <portletinstance action="update" domain="rel" objectid="5_4J2C7V5300MAF0IG14TVVD0087" portletref="3_CGAH47L00O2V002N5SQ0US30S4"/>
+                    </component>
+                </component>
+                <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD0086" ordinal="200" orientation="V" skinref="undefined" type="container" width="undefined">
+                    <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00O2" ordinal="100" skinref="undefined" type="control" width="undefined">
+                        <portletinstance action="update" domain="rel" objectid="5_4J2C7V5300MAF0IG14TVVD00O4" portletref="3_CGAH47L00O2V002N5SQ0US30S4"/>
+                    </component>
+                    <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00O1" ordinal="200" skinref="undefined" type="control" width="undefined">
+                        <portletinstance action="update" domain="rel" objectid="5_4J2C7V5300MAF0IG14TVVD00O6" portletref="3_CGAH47L00O2V002N5SQ0US30S4"/>
+                    </component>
+                </component>
+            </component>
+        </content-node>
+    </portal>
+    
+</request>
