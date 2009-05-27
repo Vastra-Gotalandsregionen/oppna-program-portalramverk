@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+
+<project  name="VGR_IFrames" basedir=".">
+	
+		
+	<property name="lsa.base.src.dirs" value="main" />	
+	<import id="portlet-proj" file="ant-scripts\portlet-proj.xml" />
+	
+	<property file="build.properties" />
+	
+	<property name="build.dir" value="build" />
+	<property name="dist.dir" value="dist" />
+	<property name="src.dir" value="src" />
+	<property name="webcontent.dir" value="WebContent"/>
+	
+	<target name="export-all" depends="init">
+	        <xa input="Export"/>
+	</target>
+
+	
+
+	
+</project>
