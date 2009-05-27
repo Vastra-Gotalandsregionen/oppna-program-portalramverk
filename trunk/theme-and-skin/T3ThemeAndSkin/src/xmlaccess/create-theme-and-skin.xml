@@ -15,6 +15,12 @@
 	</localedata>
 	<allowed-skin skin="t3.skin"  update="set"/>
 </theme>
+<theme action="update" active="true" defaultskinref="t3.skin" uniquename="t4.theme" resourceroot="T4Theme" context-root="/t3">
+	<localedata locale="en">
+		<title>T4Theme</title>
+	</localedata>
+	<allowed-skin skin="t3.skin"  update="set"/>
+</theme>
      
    </portal>
 </request>
