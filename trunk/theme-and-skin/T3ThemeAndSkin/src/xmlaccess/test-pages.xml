@@ -1,9 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- IBM WebSphere Portal/6.1.0.1 build wp6101_115_01 exported on Wed May 27 10:38:21 CEST 2009 from IBM-F340048DF92/9.145.232.217 -->
+<!-- IBM WebSphere Portal/6.1.0.1 build wp6101_115_01 exported on Wed May 27 14:50:12 CEST 2009 from IBM-F340048DF92/9.145.232.217 -->
+<!-- 1 [skin K_4J2C7V5300MAF0IG14TVVD00G3] -->
+<!-- 2 [theme J_4J2C7V5300MAF0IG14TVVD00O5] -->
+<!-- 3 [content-node 6_000000000000000000000000A0] -->
+<!-- 4 [content-node 6_4J2C7V5300MAF0IG14TVVD00O3] -->
+<!-- 5 [content-node 6_4J2C7V5300MAF0IG14TVVD00C7] -->
+<!-- 6 [content-node 6_4J2C7V5300MAF0IG14TVVD0023] -->
+<!-- 7 [content-node 6_4J2C7V5300MAF0IG14TVVD00A0] -->
+<!-- 8 [component 7_4J2C7V5300MAF0IG14TVVD00A4] -->
+<!-- 9 [component 7_4J2C7V5300MAF0IG14TVVD00A2] -->
+<!-- 10 [component 7_4J2C7V5300MAF0IG14TVVD00A6] -->
+<!-- 11 [content-node 6_4J2C7V5300MAF0IG14TVVD00K0] -->
+<!-- 12 [component 7_4J2C7V5300MAF0IG14TVVD00K4] -->
+<!-- 13 [component 7_4J2C7V5300MAF0IG14TVVD00K2] -->
+<!-- 14 [component 7_4J2C7V5300MAF0IG14TVVD00K6] -->
+<!-- 15 [content-node 6_4J2C7V5300MAF0IG14TVVD00S1] -->
+<!-- 16 [component 7_4J2C7V5300MAF0IG14TVVD00S5] -->
+<!-- 17 [component 7_4J2C7V5300MAF0IG14TVVD00S3] -->
+<!-- 18 [component 7_4J2C7V5300MAF0IG14TVVD00S7] -->
+<!-- 19 [content-node 6_4J2C7V5300MAF0IG14TVVD00C2] -->
+<!-- 20 [component 7_4J2C7V5300MAF0IG14TVVD00C6] -->
+<!-- 21 [component 7_4J2C7V5300MAF0IG14TVVD00C1] -->
+<!-- 22 [component 7_4J2C7V5300MAF0IG14TVVD00C5] -->
+<!-- 23 [content-node 6_4J2C7V5300MAF0IG14TVVD00Q2] -->
+<!-- 24 [component 7_4J2C7V5300MAF0IG14TVVD00Q6] -->
+<!-- 25 [component 7_4J2C7V5300MAF0IG14TVVD00Q1] -->
+<!-- 26 [component 7_4J2C7V5300MAF0IG14TVVD00Q5] -->
+<!-- 27 [content-node 6_4J2C7V5300MAF0IG14TVVD0023] -->
+<!-- 28 [component 7_4J2C7V5300MAF0IG14TVVD0027] -->
+<!-- 29 [component 7_4J2C7V5300MAF0IG14TVVD00I0] -->
+<!-- 30 [component 7_4J2C7V5300MAF0IG14TVVD00I4] -->
+<!-- 31 [content-node 6_4J2C7V5300MAF0IG14TVVD00O3] -->
+<!-- 32 [component 7_4J2C7V5300MAF0IG14TVVD00O7] -->
+<!-- 33 [component 7_4J2C7V5300MAF0IG14TVVD0040] -->
+<!-- 34 [component 7_4J2C7V5300MAF0IG14TVVD0044] -->
+<!-- 35 [content-node 6_4J2C7V5300MAF0IG14TVVD0024] -->
+<!-- 36 [component 7_4J2C7V5300MAF0IG14TVVD0022] -->
+<!-- 37 [component 7_4J2C7V5300MAF0IG14TVVD0026] -->
+<!-- 38 [component 7_4J2C7V5300MAF0IG14TVVD0021] -->
+<!-- 39 [content-node 6_4J2C7V5300MAF0IG14TVVD00A5] -->
+<!-- 40 [component 7_4J2C7V5300MAF0IG14TVVD00A3] -->
+<!-- 41 [component 7_4J2C7V5300MAF0IG14TVVD00A7] -->
+<!-- 42 [component 7_4J2C7V5300MAF0IG14TVVD00Q0] -->
+<!-- 43 [content-node 6_4J2C7V5300MAF0IG14TVVD00K5] -->
+<!-- 44 [component 7_4J2C7V5300MAF0IG14TVVD00K3] -->
+<!-- 45 [component 7_4J2C7V5300MAF0IG14TVVD00K7] -->
+<!-- 46 [component 7_4J2C7V5300MAF0IG14TVVD00C0] -->
+<!-- 47 [content-node 6_4J2C7V5300MAF0IG14TVVD0046] -->
+<!-- 48 [component 7_4J2C7V5300MAF0IG14TVVD0041] -->
+<!-- 49 [component 7_4J2C7V5300MAF0IG14TVVD0045] -->
+<!-- 50 [component 7_4J2C7V5300MAF0IG14TVVD0043] -->
+<!-- 51 [content-node 6_4J2C7V5300MAF0IG14TVVD00I6] -->
+<!-- 52 [component 7_4J2C7V5300MAF0IG14TVVD00I1] -->
+<!-- 53 [component 7_4J2C7V5300MAF0IG14TVVD00I5] -->
+<!-- 54 [component 7_4J2C7V5300MAF0IG14TVVD00I3] -->
+<!-- 55 [content-node 6_4J2C7V5300MAF0IG14TVVD00C7] -->
+<!-- 56 [component 7_4J2C7V5300MAF0IG14TVVD00S0] -->
+<!-- 57 [component 7_4J2C7V5300MAF0IG14TVVD00S4] -->
+<!-- 58 [component 7_4J2C7V5300MAF0IG14TVVD00S2] -->
+<!-- 59 [content-node 6_4J2C7V5300MAF0IG14TVVD0080 uniquename=vgr.tematest] -->
+<!-- 60 [component 7_4J2C7V5300MAF0IG14TVVD0084] -->
+<!-- 61 [component 7_4J2C7V5300MAF0IG14TVVD0082] -->
+<!-- 62 [component 7_4J2C7V5300MAF0IG14TVVD0083] -->
+<!-- 63 [web-app 1_CGAH47L00O2V002N5SQ0US30C3] -->
+<!-- 64 [portlet-app 2_CGAH47L00O2V002N5SQ0US30C7] -->
+<!-- 65 [servlet V_CGAH47L00O2V002N5SQ0US30S0] -->
+<!-- 66 [portlet 3_CGAH47L00O2V002N5SQ0US30S4] -->
+<!-- 67 [portletinstance 5_4J2C7V5300MAF0IG14TVVD0085] -->
+<!-- 68 [component 7_4J2C7V5300MAF0IG14TVVD00O0] -->
+<!-- 69 [portletinstance 5_4J2C7V5300MAF0IG14TVVD0087] -->
+<!-- 70 [component 7_4J2C7V5300MAF0IG14TVVD0086] -->
+<!-- 71 [component 7_4J2C7V5300MAF0IG14TVVD00O2] -->
+<!-- 72 [portletinstance 5_4J2C7V5300MAF0IG14TVVD00O4] -->
+<!-- 73 [component 7_4J2C7V5300MAF0IG14TVVD00O1] -->
+<!-- 74 [portletinstance 5_4J2C7V5300MAF0IG14TVVD00O6] -->
 <request xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" build="wp6101_115_01" type="update" version="6.1.0.1" xsi:noNamespaceSchemaLocation="PortalConfig_6.1.0.xsd">
     <portal action="locate">
         <skin action="locate" domain="rel" objectid="K_4J2C7V5300MAF0IG14TVVD00G3" uniquename="t3.skin"/>
-        <theme action="locate" domain="rel" objectid="J_4J2C7V5300MAF0IG14TVVD00G7" uniquename="t3.theme"/>
+        <theme action="locate" domain="rel" objectid="J_4J2C7V5300MAF0IG14TVVD00O5" uniquename="t4.theme"/>
         <web-app action="locate" domain="rel" objectid="1_CGAH47L00O2V002N5SQ0US30C3" uid="login.war.webmod">
             <servlet action="locate" domain="rel" name="Login Portlet" objectid="V_CGAH47L00O2V002N5SQ0US30S0"/>
             <portlet-app action="locate" domain="rel" name="wp.ap.login" objectid="2_CGAH47L00O2V002N5SQ0US30C7" uid="login.war">
@@ -11,7 +85,7 @@
             </portlet-app>
         </web-app>
         <content-node action="locate" domain="rel" objectid="6_000000000000000000000000A0" uniquename="wps.content.root"/>
-        <content-node action="update" active="true" allportletsallowed="true" content-parentref="6_000000000000000000000000A0" create-type="explicit" domain="rel" objectid="6_4J2C7V5300MAF0IG14TVVD0080" ordinal="3800" themeref="J_4J2C7V5300MAF0IG14TVVD00G7" type="page" uniquename="vgr.tematest">
+        <content-node action="update" active="true" allportletsallowed="true" content-parentref="6_000000000000000000000000A0" create-type="explicit" domain="rel" objectid="6_4J2C7V5300MAF0IG14TVVD0080" ordinal="3800" themeref="J_4J2C7V5300MAF0IG14TVVD00O5" type="page" uniquename="vgr.tematest">
             <supported-markup markup="html" update="set"/>
             <localedata locale="sv">
                 <title>VGR Tematest</title>
@@ -41,6 +115,240 @@
                 </component>
             </component>
         </content-node>
+        <content-node action="update" active="true" allportletsallowed="true" content-parentref="6_4J2C7V5300MAF0IG14TVVD0080" create-type="explicit" domain="rel" objectid="6_4J2C7V5300MAF0IG14TVVD00O3" ordinal="100" type="page">
+            <supported-markup markup="html" update="set"/>
+            <localedata locale="en">
+                <title>Sida1</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>Sida1</title>
+            </localedata>
+            <parameter name="com.ibm.portal.IgnoreAccessControlInCaches" type="string" update="set"><![CDATA[false]]></parameter>
+            <parameter name="com.ibm.portal.bookmarkable" type="string" update="set"><![CDATA[Yes]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-expiry" type="string" update="set"><![CDATA[0]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-scope" type="string" update="set"><![CDATA[NON-SHARED]]></parameter>
+            <access-control externalized="false" owner="uid=wpadmin,o=defaultWIMFileBasedRealm" private="false"/>
+            <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00O7" ordinal="100" orientation="H" skinref="undefined" type="container" width="undefined">
+                <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD0040" ordinal="100" orientation="V" skinref="undefined" type="container" width="undefined"/>
+                <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD0044" ordinal="200" orientation="V" skinref="undefined" type="container" width="undefined"/>
+            </component>
+        </content-node>
+        <content-node action="update" active="true" allportletsallowed="true" content-parentref="6_4J2C7V5300MAF0IG14TVVD0080" create-type="explicit" domain="rel" objectid="6_4J2C7V5300MAF0IG14TVVD00K0" ordinal="300" type="page">
+            <supported-markup markup="html" update="set"/>
+            <localedata locale="en">
+                <title>Sida3</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>Sida3</title>
+            </localedata>
+            <parameter name="com.ibm.portal.IgnoreAccessControlInCaches" type="string" update="set"><![CDATA[false]]></parameter>
+            <parameter name="com.ibm.portal.bookmarkable" type="string" update="set"><![CDATA[Yes]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-expiry" type="string" update="set"><![CDATA[0]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-scope" type="string" update="set"><![CDATA[NON-SHARED]]></parameter>
+            <access-control externalized="false" owner="uid=wpadmin,o=defaultWIMFileBasedRealm" private="false"/>
+            <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00K4" ordinal="100" orientation="H" skinref="undefined" type="container" width="undefined">
+                <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00K2" ordinal="100" orientation="V" skinref="undefined" type="container" width="undefined"/>
+                <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00K6" ordinal="200" orientation="V" skinref="undefined" type="container" width="undefined"/>
+            </component>
+        </content-node>
+        <content-node action="update" active="true" allportletsallowed="true" content-parentref="6_4J2C7V5300MAF0IG14TVVD00O3" create-type="explicit" domain="rel" objectid="6_4J2C7V5300MAF0IG14TVVD00C2" ordinal="100" type="page">
+            <supported-markup markup="html" update="set"/>
+            <localedata locale="en">
+                <title>Sida1-1</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>Sida1-1</title>
+            </localedata>
+            <parameter name="com.ibm.portal.IgnoreAccessControlInCaches" type="string" update="set"><![CDATA[false]]></parameter>
+            <parameter name="com.ibm.portal.bookmarkable" type="string" update="set"><![CDATA[Yes]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-expiry" type="string" update="set"><![CDATA[0]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-scope" type="string" update="set"><![CDATA[NON-SHARED]]></parameter>
+            <access-control externalized="false" owner="uid=wpadmin,o=defaultWIMFileBasedRealm" private="false"/>
+            <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00C6" ordinal="100" orientation="H" skinref="undefined" type="container" width="undefined">
+                <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00C1" ordinal="100" orientation="V" skinref="undefined" type="container" width="undefined"/>
+                <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00C5" ordinal="200" orientation="V" skinref="undefined" type="container" width="undefined"/>
+            </component>
+        </content-node>
+        <content-node action="update" active="true" allportletsallowed="true" content-parentref="6_4J2C7V5300MAF0IG14TVVD0080" create-type="explicit" domain="rel" objectid="6_4J2C7V5300MAF0IG14TVVD00K5" ordinal="400" type="page">
+            <supported-markup markup="html" update="set"/>
+            <localedata locale="en">
+                <title>Sida4</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>Sida4</title>
+            </localedata>
+            <parameter name="com.ibm.portal.IgnoreAccessControlInCaches" type="string" update="set"><![CDATA[false]]></parameter>
+            <parameter name="com.ibm.portal.bookmarkable" type="string" update="set"><![CDATA[Yes]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-expiry" type="string" update="set"><![CDATA[0]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-scope" type="string" update="set"><![CDATA[NON-SHARED]]></parameter>
+            <access-control externalized="false" owner="uid=wpadmin,o=defaultWIMFileBasedRealm" private="false"/>
+            <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00K3" ordinal="100" orientation="H" skinref="undefined" type="container" width="undefined">
+                <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00K7" ordinal="100" orientation="V" skinref="undefined" type="container" width="undefined"/>
+                <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00C0" ordinal="200" orientation="V" skinref="undefined" type="container" width="undefined"/>
+            </component>
+        </content-node>
+        <content-node action="update" active="true" allportletsallowed="true" content-parentref="6_4J2C7V5300MAF0IG14TVVD0080" create-type="explicit" domain="rel" objectid="6_4J2C7V5300MAF0IG14TVVD0046" ordinal="200" type="page">
+            <supported-markup markup="html" update="set"/>
+            <localedata locale="en">
+                <title>Sida2</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>Sida2</title>
+            </localedata>
+            <parameter name="com.ibm.portal.IgnoreAccessControlInCaches" type="string" update="set"><![CDATA[false]]></parameter>
+            <parameter name="com.ibm.portal.bookmarkable" type="string" update="set"><![CDATA[Yes]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-expiry" type="string" update="set"><![CDATA[0]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-scope" type="string" update="set"><![CDATA[NON-SHARED]]></parameter>
+            <access-control externalized="false" owner="uid=wpadmin,o=defaultWIMFileBasedRealm" private="false"/>
+            <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD0041" ordinal="100" orientation="H" skinref="undefined" type="container" width="undefined">
+                <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD0045" ordinal="100" orientation="V" skinref="undefined" type="container" width="undefined"/>
+                <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD0043" ordinal="200" orientation="V" skinref="undefined" type="container" width="undefined"/>
+            </component>
+        </content-node>
+        <content-node action="update" active="true" allportletsallowed="true" content-parentref="6_4J2C7V5300MAF0IG14TVVD00O3" create-type="explicit" domain="rel" objectid="6_4J2C7V5300MAF0IG14TVVD00C7" ordinal="200" type="page">
+            <supported-markup markup="html" update="set"/>
+            <localedata locale="en">
+                <title>Sida1-2</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>Sida1-2</title>
+            </localedata>
+            <parameter name="com.ibm.portal.IgnoreAccessControlInCaches" type="string" update="set"><![CDATA[false]]></parameter>
+            <parameter name="com.ibm.portal.bookmarkable" type="string" update="set"><![CDATA[Yes]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-expiry" type="string" update="set"><![CDATA[0]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-scope" type="string" update="set"><![CDATA[NON-SHARED]]></parameter>
+            <access-control externalized="false" owner="uid=wpadmin,o=defaultWIMFileBasedRealm" private="false"/>
+            <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00S0" ordinal="100" orientation="H" skinref="undefined" type="container" width="undefined">
+                <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00S4" ordinal="100" orientation="V" skinref="undefined" type="container" width="undefined"/>
+                <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00S2" ordinal="200" orientation="V" skinref="undefined" type="container" width="undefined"/>
+            </component>
+        </content-node>
+        <content-node action="update" active="true" allportletsallowed="true" content-parentref="6_4J2C7V5300MAF0IG14TVVD00C7" create-type="explicit" domain="rel" objectid="6_4J2C7V5300MAF0IG14TVVD00S1" ordinal="100" type="page">
+            <supported-markup markup="html" update="set"/>
+            <localedata locale="en">
+                <title>Sida1-2-1</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>Sida1-2-1</title>
+            </localedata>
+            <parameter name="com.ibm.portal.IgnoreAccessControlInCaches" type="string" update="set"><![CDATA[false]]></parameter>
+            <parameter name="com.ibm.portal.bookmarkable" type="string" update="set"><![CDATA[Yes]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-expiry" type="string" update="set"><![CDATA[0]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-scope" type="string" update="set"><![CDATA[NON-SHARED]]></parameter>
+            <access-control externalized="false" owner="uid=wpadmin,o=defaultWIMFileBasedRealm" private="false"/>
+            <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00S5" ordinal="100" orientation="H" skinref="undefined" type="container" width="undefined">
+                <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00S3" ordinal="100" orientation="V" skinref="undefined" type="container" width="undefined"/>
+                <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00S7" ordinal="200" orientation="V" skinref="undefined" type="container" width="undefined"/>
+            </component>
+        </content-node>
+        <content-node action="update" active="true" allportletsallowed="true" content-parentref="6_4J2C7V5300MAF0IG14TVVD00C7" create-type="explicit" domain="rel" objectid="6_4J2C7V5300MAF0IG14TVVD0024" ordinal="200" type="page">
+            <supported-markup markup="html" update="set"/>
+            <localedata locale="en">
+                <title>Sida1-2-2</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>Sida1-2-2</title>
+            </localedata>
+            <parameter name="com.ibm.portal.IgnoreAccessControlInCaches" type="string" update="set"><![CDATA[false]]></parameter>
+            <parameter name="com.ibm.portal.bookmarkable" type="string" update="set"><![CDATA[Yes]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-expiry" type="string" update="set"><![CDATA[0]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-scope" type="string" update="set"><![CDATA[NON-SHARED]]></parameter>
+            <access-control externalized="false" owner="uid=wpadmin,o=defaultWIMFileBasedRealm" private="false"/>
+            <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD0022" ordinal="100" orientation="H" skinref="undefined" type="container" width="undefined">
+                <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD0026" ordinal="100" orientation="V" skinref="undefined" type="container" width="undefined"/>
+                <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD0021" ordinal="200" orientation="V" skinref="undefined" type="container" width="undefined"/>
+            </component>
+        </content-node>
+        <content-node action="update" active="true" allportletsallowed="true" content-parentref="6_4J2C7V5300MAF0IG14TVVD00C7" create-type="explicit" domain="rel" objectid="6_4J2C7V5300MAF0IG14TVVD00I6" ordinal="400" type="page">
+            <supported-markup markup="html" update="set"/>
+            <localedata locale="en">
+                <title>Sida1-2-4</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>Sida1-2-4</title>
+            </localedata>
+            <parameter name="com.ibm.portal.IgnoreAccessControlInCaches" type="string" update="set"><![CDATA[false]]></parameter>
+            <parameter name="com.ibm.portal.bookmarkable" type="string" update="set"><![CDATA[Yes]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-expiry" type="string" update="set"><![CDATA[0]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-scope" type="string" update="set"><![CDATA[NON-SHARED]]></parameter>
+            <access-control externalized="false" owner="uid=wpadmin,o=defaultWIMFileBasedRealm" private="false"/>
+            <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00I1" ordinal="100" orientation="H" skinref="undefined" type="container" width="undefined">
+                <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00I5" ordinal="100" orientation="V" skinref="undefined" type="container" width="undefined"/>
+                <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00I3" ordinal="200" orientation="V" skinref="undefined" type="container" width="undefined"/>
+            </component>
+        </content-node>
+        <content-node action="update" active="true" allportletsallowed="true" content-parentref="6_4J2C7V5300MAF0IG14TVVD00C7" create-type="explicit" domain="rel" objectid="6_4J2C7V5300MAF0IG14TVVD0023" ordinal="300" type="page">
+            <supported-markup markup="html" update="set"/>
+            <localedata locale="en">
+                <title>Sida1-2-3</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>Sida1-2-3</title>
+            </localedata>
+            <parameter name="com.ibm.portal.IgnoreAccessControlInCaches" type="string" update="set"><![CDATA[false]]></parameter>
+            <parameter name="com.ibm.portal.bookmarkable" type="string" update="set"><![CDATA[Yes]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-expiry" type="string" update="set"><![CDATA[0]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-scope" type="string" update="set"><![CDATA[NON-SHARED]]></parameter>
+            <access-control externalized="false" owner="uid=wpadmin,o=defaultWIMFileBasedRealm" private="false"/>
+            <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD0027" ordinal="100" orientation="H" skinref="undefined" type="container" width="undefined">
+                <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00I0" ordinal="100" orientation="V" skinref="undefined" type="container" width="undefined"/>
+                <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00I4" ordinal="200" orientation="V" skinref="undefined" type="container" width="undefined"/>
+            </component>
+        </content-node>
+        <content-node action="update" active="true" allportletsallowed="true" content-parentref="6_4J2C7V5300MAF0IG14TVVD0023" create-type="explicit" domain="rel" objectid="6_4J2C7V5300MAF0IG14TVVD00Q2" ordinal="300" type="page">
+            <supported-markup markup="html" update="set"/>
+            <localedata locale="en">
+                <title>Sida1-2-3-4</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>Sida1-2-3-4</title>
+            </localedata>
+            <parameter name="com.ibm.portal.IgnoreAccessControlInCaches" type="string" update="set"><![CDATA[false]]></parameter>
+            <parameter name="com.ibm.portal.bookmarkable" type="string" update="set"><![CDATA[Yes]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-expiry" type="string" update="set"><![CDATA[0]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-scope" type="string" update="set"><![CDATA[NON-SHARED]]></parameter>
+            <access-control externalized="false" owner="uid=wpadmin,o=defaultWIMFileBasedRealm" private="false"/>
+            <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00Q6" ordinal="100" orientation="H" skinref="undefined" type="container" width="undefined">
+                <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00Q1" ordinal="100" orientation="V" skinref="undefined" type="container" width="undefined"/>
+                <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00Q5" ordinal="200" orientation="V" skinref="undefined" type="container" width="undefined"/>
+            </component>
+        </content-node>
+        <content-node action="update" active="true" allportletsallowed="true" content-parentref="6_4J2C7V5300MAF0IG14TVVD0023" create-type="explicit" domain="rel" objectid="6_4J2C7V5300MAF0IG14TVVD00A5" ordinal="200" type="page">
+            <supported-markup markup="html" update="set"/>
+            <localedata locale="en">
+                <title>Sida1-2-3-2</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>Sida1-2-3-2</title>
+            </localedata>
+            <parameter name="com.ibm.portal.IgnoreAccessControlInCaches" type="string" update="set"><![CDATA[false]]></parameter>
+            <parameter name="com.ibm.portal.bookmarkable" type="string" update="set"><![CDATA[Yes]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-expiry" type="string" update="set"><![CDATA[0]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-scope" type="string" update="set"><![CDATA[NON-SHARED]]></parameter>
+            <access-control externalized="false" owner="uid=wpadmin,o=defaultWIMFileBasedRealm" private="false"/>
+            <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00A3" ordinal="100" orientation="H" skinref="undefined" type="container" width="undefined">
+                <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00A7" ordinal="100" orientation="V" skinref="undefined" type="container" width="undefined"/>
+                <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00Q0" ordinal="200" orientation="V" skinref="undefined" type="container" width="undefined"/>
+            </component>
+        </content-node>
+        <content-node action="update" active="true" allportletsallowed="true" content-parentref="6_4J2C7V5300MAF0IG14TVVD0023" create-type="explicit" domain="rel" objectid="6_4J2C7V5300MAF0IG14TVVD00A0" ordinal="100" type="page">
+            <supported-markup markup="html" update="set"/>
+            <localedata locale="en">
+                <title>Sida1-2-3-1</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>Sida1-2-3-1</title>
+            </localedata>
+            <parameter name="com.ibm.portal.IgnoreAccessControlInCaches" type="string" update="set"><![CDATA[false]]></parameter>
+            <parameter name="com.ibm.portal.bookmarkable" type="string" update="set"><![CDATA[Yes]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-expiry" type="string" update="set"><![CDATA[0]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-scope" type="string" update="set"><![CDATA[NON-SHARED]]></parameter>
+            <access-control externalized="false" owner="uid=wpadmin,o=defaultWIMFileBasedRealm" private="false"/>
+            <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00A4" ordinal="100" orientation="H" skinref="undefined" type="container" width="undefined">
+                <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00A2" ordinal="100" orientation="V" skinref="undefined" type="container" width="undefined"/>
+                <component action="update" active="true" deletable="undefined" domain="rel" modifiable="undefined" objectid="7_4J2C7V5300MAF0IG14TVVD00A6" ordinal="200" orientation="V" skinref="undefined" type="container" width="undefined"/>
+            </component>
+        </content-node>
     </portal>
-    
+    <status element="all" result="ok"/>
 </request>
