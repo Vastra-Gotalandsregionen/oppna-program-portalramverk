@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<request xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="update" xsi:noNamespaceSchemaLocation="PortalConfig_6.1.0.xsd" create-oids="true">
+   <portal action="locate">
+   
+   <skin action="update" active="true" objectid="t3.skin" uniquename="t3.skin" resourceroot="T3Skin" context-root="/t3">
+<localedata locale="en">
+<title>T3Skin</title>
+<description>T3Skin</description>
+</localedata>
+</skin>
+
+<theme action="update" active="true" defaultskinref="t3.skin" uniquename="t3.theme" resourceroot="T3Theme" context-root="/t3">
+	<localedata locale="en">
+		<title>T3Theme</title>
+	</localedata>
+	<allowed-skin skin="t3.skin"  update="set"/>
+</theme>
+     
+   </portal>
+</request>

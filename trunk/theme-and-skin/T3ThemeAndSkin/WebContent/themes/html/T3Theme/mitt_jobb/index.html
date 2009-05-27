@@ -1,0 +1,320 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sv" lang="sv">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<title>PROTOTYP</title>
+
+	<!-- Meta data -->
+	<meta name="keywords" content="relevant keywords for this page">
+	<meta name="description" content="A brief description of this page's content.">
+
+	<!-- Dublin Core meta data -->
+	<link rel="schema.DC" href="http://purl.org/DC/elements/1.0/">
+	<meta name="DC.Title" content="Document title">
+	<meta name="DC.Identifier" scheme="URL" content="url">
+	<meta name="DC.Creator" content="name.of.creator">
+	<meta name="DC.Publisher" content="Name of organisation">
+	<meta name="DC.Description" content="A brief description of this page's content.">
+	<meta name="DC.Date.Modified" scheme="W3CDTF" content="date">
+	<meta name="DC.Date.Created" scheme="W3CDTF" content="date">
+	<meta name="DC.Type" content="text">
+	<meta name="DC.Format" scheme="IMT" content="text/html">
+
+	<!-- Shortcut icon -->
+	<link rel="shortcut icon" href="i/favicon.ico" type="image/ico">
+
+	<!-- CSS, hidden from old browsers, including IE/Mac -->
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.2.2/build/grids/grids-min.css">
+	<style type="text/css" media="screen,projection">
+		@import '../css/main.css';
+	</style>
+	<!--[if IE]>
+	<link rel="stylesheet" href="../css/ie.css" type="text/css" media="screen">
+	<![endif]-->
+	<link rel="stylesheet" href="../css/handheld.css" type="text/css" media="handheld">
+	<link rel="stylesheet" href="../css/print.css" type="text/css" media="print">
+
+	<!-- JavaScript -->
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/jquery.accordion.js"></script>
+	<script type="text/javascript" src="../js/jquery.jqModal_full.js"></script>
+</head>
+<body>
+<div id="doc3" class="yui-t5">
+	<div id="hd">
+		<ul id="skip">
+			<li><a href="#content-primary" accesskey="s">Hoppa till sidans huvudinnehåll</a></li>
+			<li><a href="#content-secondary">Hoppa till sidans sekundära innehåll</a></li>
+			<li><a href="#nav-sub">Hoppa till sidans undernavigering</a></li>
+		</ul>
+		<a href="/" id="logo" title="Till startsidan"><img src="../i/logo.gif" alt="Till startsidan"></a>
+		<a href="#" id="login-status">Stämpla in</a>
+		<form method="get" action="/" id="search" class="form-general search-module">
+			<div class="text alt">
+				<label for="searchtext">Sök:</label>
+				<input type="text" id="searchtext" name="searchtext" accesskey="4" title="Ange sökord" size="20">
+			</div>
+			<div class="radio alt">
+				<input type="radio" name="some_name" value="all" id="some_name1" checked="checked">
+				<label for="some_name1">Allt</label>
+			</div>
+			<div class="radio alt">
+				<input type="radio" name="some_name" value="people" id="some_name2">
+				<label for="some_name2">Personer</label>
+			</div>
+			<div class="submit-area alt">
+				<input type="submit" value="Sök">
+			</div>
+		</form>
+		<div id="nav" class="clearfix">
+			<p class="structural"><strong>Navigering</strong></p>
+			<ul id="nav-main">
+				<li><a href="../index.html" accesskey="1">Start</a></li>
+				<li class="sel"><a href="../mitt_jobb/index.html" class="sel">Mitt jobb</a></li>
+				<li><a href="../system_x/index.html">System X</a></li>
+				<li><a href="../system_y/index.html">System Y</a></li>
+				<li><a href="../hitta/index.html">Hitta</a></li>
+				<li><a href="../stod_styrdokument/index.html">Stöd och styrdokument</a></li>
+				<li><a href="../medarbetarfragor/index.html">Medarbetarfrågor</a></li>
+				<li><a href="../installningar/index.html">Egna inställningar</a></li>
+			</ul>
+			<ul id="nav-sub">
+				<li class="sel"><a href="index.html" class="sel">Nytt</a></li>
+				<li><a href="dokument.html">Dokument</a>
+				<li><a href="bevakningar.html">Bevakningar</a></li>
+				<li><a href="kontakter.html">Kontakter</a></li>
+				<li><a href="kalender.html">Kalender</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="bd">
+		<div id="yui-main">
+			<div class="yui-b">
+				<form action="#" method="get" class="form-general search-module">
+					<div class="text alt">
+						<label for="query">Sök efter</label>
+						<input type="text" name="query" value="" id="query">
+					</div>
+					<div class="select alt">
+						<label for="query2">sök i</label>
+						<select id="query2">
+							<option>Alla mina dokument</option>
+						</select>
+					</div>
+					<div class="submit-area alt"><input type="submit" value="Sök"></div>
+				</form>
+				<div class="yui-g">
+					<div class="yui-u first">
+						<div id="module-news" class="module">
+							<h2>Nyheter från avdelningen</h2>
+							<div class="module-content">
+								<ul class="list-news">
+									<li class="featured">
+										<a href="#">Ipsum enim ad minim veniam</a> <span class="date">2007-06-13</span>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+									</li>
+									<li><a href="#">Dolor sit amet</a> <span class="date">2007-06-13</span></li>
+									<li><a href="#">Lorem</a> <span class="date">2007-06-13</span></li>
+									<li><a href="#">Ipsum</a> <span class="date">2007-06-13</span></li>
+									<li><a href="#">Dolor sit amet</a> <span class="date">2007-06-13</span></li>
+									<li><a href="#">Lorem</a> <span class="date">2007-06-12</span></li>
+									<li><a href="#">Ipsum dolor</a> <span class="date">2007-06-12</span></li>
+									<li><a href="#">Sit amet in</a> <span class="date">2007-06-12</span></li>
+									<li><a href="#">Lorem</a> <span class="date">2007-06-12</span></li>
+									<li><a href="#">Ipsum</a> <span class="date">2007-06-13</span></li>
+									<li><a href="#">Dolor sit amet</a> <span class="date">2007-06-13</span></li>
+									<li><a href="#">Lorem</a> <span class="date">2007-06-12</span></li>
+									<li><a href="#">Ipsum dolor</a> <span class="date">2007-06-12</span></li>
+									<li><a href="#">Sit amet in</a> <span class="date">2007-06-12</span></li>
+									<li><a href="#">Lorem</a> <span class="date">2007-06-12</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="yui-u">
+						<div id="module-dashboard" class="module">
+							<h2>Anslagstavlan</h2>
+							<div class="module-content">
+								<ul class="list-news">
+									<li><a href="#">Dolor sit amet</a> <span class="date">2007-06-13</span></li>
+									<li><a href="#">Lorem</a> <span class="date">2007-06-13</span></li>
+									<li><a href="#">Ipsum</a> <span class="date">2007-06-13</span></li>
+									<li><a href="#">Dolor sit amet</a> <span class="date">2007-06-13</span></li>
+									<li><a href="#">Lorem</a> <span class="date">2007-06-13</span></li>
+									<li><a href="#">Ipsum</a> <span class="date">2007-06-13</span></li>
+									<li><a href="#">Dolor sit amet</a> <span class="date">2007-06-13</span></li>
+									<li><a href="#">Sit amet in</a> <span class="date">2007-06-12</span></li>
+									<li><a href="#">Lorem</a> <span class="date">2007-06-12</span></li>
+								</ul>
+							</div>
+						</div>
+						<div id="module-work" class="module">
+							<h2>Anteckningar</h2>
+							<div class="module-content">
+								<h3>Protokoll</h3>
+								<ul>
+									<li><a href="#">Anteckningar från personalmötet 14 juni</a></li>
+									<li><a href="#">Ny anställd: Stina Persson</a></li>
+									<li><a href="#">P-tillstånd – nya anvisningar</a></li>
+									<li><a href="#">Blankett för att ansöka om friskvårdsbidrag</a></li>
+								</ul>
+								<h3>Föredrag</h3>
+								<ul>
+									<li><a href="#">Behandling vid luxuationsfrakturer av höftleden...</a></li>
+									<li><a href="#">Skador på axelleden som behandlas med...</a></li>
+									<li><a href="#">Den nya metoden på KI för att utföra en operation...</a></li>
+									<li><a href="#">Ny luxuationsmetod på SÄS</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="yui-b">
+			<div id="module-shortcuts" class="module">
+				<h2>Mina genvägar</h2>
+				<div class="module-content">
+					<form action="#" method="get" class="form-general">
+						<div class="select alt">
+							<label for="shortcuts">Välj</label>
+							<select id="shortcuts">
+								<option value="#" selected="selected">Mina bevakningar</option>
+								<option value="#">Mina inställningar</option>
+							</select>
+						</div>
+						<div class="submit-area alt">
+							<input type="submit" value="Gå">
+						</div>
+					</form>
+				</div>
+			</div>
+			<div id="module-todos" class="module">
+				<script type="text/javascript">
+				jQuery().ready(function(){
+					jQuery('#module-todos').addClass("accordion").Accordion({
+						event: 'click',
+						showSpeed: "normal",
+						hideSpeed: "normal",
+						header: 'h3',
+						active: 'h3.sel',
+						selectedClass: 'sel',
+						alwaysOpen: false,
+						animated: true
+					});
+					jQuery('#module-todos input').click(function() {
+						$(this).parent().toggleClass("done");  // Complete a TODO
+					})
+					jQuery('#module-todos .submit-area').remove();  // Hide submit button
+				});
+				</script>
+				<h2>Mina uppgifter</h2>
+				<div class="module-content">
+					<h3 class="sel">Ogjorda uppgifter (2)</h3>
+					<div>
+						<form action="#">
+							<ul class="list">
+								<li class="prio-3">
+									<input type="checkbox" name="todo1" value="" id="todo1">
+									<label for="todo1">Redovisa övertiden för att få...</label>
+									<span class="date">Senast 7 juli</span>
+								</li>
+								<li class="prio-2">
+									<input type="checkbox" name="todo2" value="" id="todo2">
+									<label for="todo2">Boka rum till avdelningsmötet</label>
+									<span class="date">28 juni 2007, kl 13.00-14.00</span>
+								</li>
+								<li class="prio-3 done">
+									<input type="checkbox" name="todo3" value="" id="todo3" checked="checked">
+									<label for="todo3">Samla in blanketter och skicka...</label>
+									<span class="date">Senast 15 juni</span>
+								</li>
+								<li class="prio-2 done">
+									<input type="checkbox" name="todo4" value="" id="todo4" checked="checked">
+									<label for="todo4">Fyll i blanketter och meddela...</label>
+									<span class="date">Senast 14 juni</span>
+								</li>
+							</ul>
+							<div class="submit-area">
+								<input type="submit" name="some_name" value="Markera som gjorda" id="submit_todos">
+							</div>
+						</form>
+					</div>
+					<h3><a href="#">Bevakningar (4)</a></h3>
+					<h3><a href="#">Labbsvar (2)</a></h3>
+				</div>
+			</div>
+			<div id="module-messages" class="module">
+				<script type="text/javascript">
+				jQuery().ready(function(){
+					jQuery('#module-messages').addClass("accordion").Accordion({
+						event: 'click',
+						showSpeed: "normal",
+						hideSpeed: "normal",
+						header: 'h3',
+						active: 'h3.sel',
+						selectedClass: 'sel',
+						alwaysOpen: false,
+						animated: true
+					});
+					jQuery('#module-messages .submit-area').remove();
+					jQuery('#module-messages .unread').click(function(){
+						$(this).removeClass('unread').addClass('read');
+					})
+				});
+				</script>
+				<h2>Mina samarbeten</h2>
+				<div class="module-content">
+					<h3 class="sel">E-post (2)</h3>
+					<div>
+						<form action="#">
+							<ul class="list emails">
+								<li class="unread"><a href="#e1">Infomaster <span>Diskussion om 'Nya rön inom ...</span></a></li>
+								<li class="unread"><a href="#e2">patrik.e.ek@vgregion.se <span>Material inför föreläsningen på ...</span></a></li>
+								<li class="unread"><a href="#e3">anna.m.karlsson@vgregion.se <span>Ang. provsvaren</span></a></li>
+							</ul>
+							<div class="submit-area">
+								<input type="submit" name="some_name" value="Markera som gjorda" id="submit_messages">
+							</div>
+						</form>
+					</div>
+					<h3>Snabbmeddelanden (4)</h3>
+					<div>
+						<ul class="list ims">
+							<li>
+								<p><cite><a href="#">Nanso</a></cite> säger:</p>
+								<blockquote><p>Jag kan inte hitta den..</p></blockquote>
+							</li>
+							<li>
+								<p><cite><a href="#">Nanso</a></cite> säger:</p>
+								<blockquote><p>Har du sett PM-pärmen som...</p></blockquote>
+							</li>
+							<li>
+								<p><cite><a href="#">Nanso</a></cite> säger:</p>
+								<blockquote><p>Är du där..?</p></blockquote>
+							</li>
+							<li>
+								<p><cite><a href="#">Nanso</a></cite> säger:</p>
+								<blockquote><p>Hallå?</p></blockquote>
+							</li>
+						</ul>
+					</div>
+					<h3>Diskussionsgrupper</h3>
+					<div>
+						<ul class="list discussions">
+							<li class="unread"><a href="#d1">Lorem</a></li>
+							<li class="unread"><a href="#d2">Ipsum</a></li>
+							<li class="unread"><a href="#d3">Dolor</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="ft">
+		<h2 class="structural">Verktyg och information</h2>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<h1>Skapa ny bevakning</h1>
+<form action="#" method="get" class="form-general">
+	<div class="text">
+		<label for="namn">Namn på bevakning</label>
+		<input type="text" name="namn" id="namn">
+	</div>
+	<div class="text">
+		<label for="ord">Ord du vill bevaka</label>
+		<input type="text" name="ord" id="ord">
+	</div>
+	<div class="select">
+		<label for="hurofta">Hur ofta</label>
+		<select id="hurofta">
+			<option value="daily">En gång per dag</option>
+		</select>
+	</div>
+	<fieldset>
+		<legend>Källor</legend>
+		<div class="radio">
+			<input type="radio" name="source" id="source1">
+			<label for="source1">Fördefinierat sökområde</label>
+			<div class="select">
+				<select id="source-pre">
+					<option value="daily">Behandlingar</option>
+				</select>
+			</div>
+		</div>
+		<div class="radio">
+			<input type="radio" name="source" id="source2">
+			<label for="source2">Annan källa</label>
+			<div class="text">
+				<input type="text" name="source-other" value="" id="source-other">
+			</div>
+		</div>
+	</fieldset>
+	<div class="submit-area">
+		<input type="submit" value="Lägg till">
+	</div>
+</form>

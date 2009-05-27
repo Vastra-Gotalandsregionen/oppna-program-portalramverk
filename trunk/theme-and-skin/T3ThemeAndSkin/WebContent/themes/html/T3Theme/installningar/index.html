@@ -1,0 +1,477 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sv" lang="sv">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<title>PROTOTYP</title>
+
+	<!-- Meta data -->
+	<meta name="keywords" content="relevant keywords for this page">
+	<meta name="description" content="A brief description of this page's content.">
+
+	<!-- Dublin Core meta data -->
+	<link rel="schema.DC" href="http://purl.org/DC/elements/1.0/">
+	<meta name="DC.Title" content="Document title">
+	<meta name="DC.Identifier" scheme="URL" content="url">
+	<meta name="DC.Creator" content="name.of.creator">
+	<meta name="DC.Publisher" content="Name of organisation">
+	<meta name="DC.Description" content="A brief description of this page's content.">
+	<meta name="DC.Date.Modified" scheme="W3CDTF" content="date">
+	<meta name="DC.Date.Created" scheme="W3CDTF" content="date">
+	<meta name="DC.Type" content="text">
+	<meta name="DC.Format" scheme="IMT" content="text/html">
+
+	<!-- Shortcut icon -->
+	<link rel="shortcut icon" href="i/favicon.ico" type="image/ico">
+
+	<!-- CSS, hidden from old browsers, including IE/Mac -->
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.2.2/build/grids/grids-min.css">
+	<style type="text/css" media="screen,projection">
+		@import '../css/main.css';
+	</style>
+	<!--[if IE]>
+	<link rel="stylesheet" href="../css/ie.css" type="text/css" media="screen">
+	<![endif]-->
+	<link rel="stylesheet" href="../css/handheld.css" type="text/css" media="handheld">
+	<link rel="stylesheet" href="../css/print.css" type="text/css" media="print">
+
+	<!-- JavaScript -->
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/jquery.accordion.js"></script>
+	<script type="text/javascript" src="../js/jquery.jqModal_full.js"></script>
+</head>
+<body>
+<div id="doc3" class="yui-t5">
+	<div id="hd">
+		<ul id="skip">
+			<li><a href="#content-primary" accesskey="s">Hoppa till sidans huvudinnehåll</a></li>
+			<li><a href="#content-secondary">Hoppa till sidans sekundära innehåll</a></li>
+			<li><a href="#nav-sub">Hoppa till sidans undernavigering</a></li>
+		</ul>
+		<a href="/" id="logo" title="Till startsidan"><img src="../i/logo.gif" alt="Till startsidan"></a>
+		<a href="#" id="login-status">Stämpla in</a>
+		<form method="get" action="/" id="search" class="form-general search-module">
+			<div class="text alt">
+				<label for="searchtext">Sök:</label>
+				<input type="text" id="searchtext" name="searchtext" accesskey="4" title="Ange sökord" size="20">
+			</div>
+			<div class="radio alt">
+				<input type="radio" name="some_name" value="all" id="some_name1" checked="checked">
+				<label for="some_name1">Allt</label>
+			</div>
+			<div class="radio alt">
+				<input type="radio" name="some_name" value="people" id="some_name2">
+				<label for="some_name2">Personer</label>
+			</div>
+			<div class="submit-area alt">
+				<input type="submit" value="Sök">
+			</div>
+		</form>
+		<div id="nav" class="clearfix">
+			<p class="structural"><strong>Navigering</strong></p>
+			<ul id="nav-main">
+				<li><a href="../index.html" accesskey="1">Start</a></li>
+				<li><a href="../mitt_jobb/index.html">Mitt jobb</a></li>
+				<li><a href="../system_x/index.html">System X</a></li>
+				<li><a href="../system_y/index.html">System Y</a></li>
+				<li><a href="../hitta/index.html">Hitta</a></li>
+				<li><a href="../stod_styrdokument/index.html">Stöd och styrdokument</a></li>
+				<li><a href="../medarbetarfragor/index.html">Medarbetarfrågor</a></li>
+				<li class="sel"><a href="../installningar/index.html" class="sel">Egna inställningar</a></li>
+			</ul>
+			<ul id="nav-sub">
+				<li class="sel"><a href="index.html" class="sel">Fakta om mig</a></li>
+				<li><a href="anpassning.html">Anpassning av startsidan</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="bd">
+		<div id="yui-main">
+			<div class="yui-b">
+				<div class="yui-u first">
+					<h1 class="structural">Fakta om Leo Andersson</h1>
+					<div id="module-profile-1" class="module">
+						<script type="text/javascript">
+						jQuery().ready(function(){
+							jQuery('#module-profile-1 h2').each(function() {
+								$(this).html('<a href="#">' + $(this).html() + '<\/a>');
+							});
+							jQuery('#module-profile-1 h2 a').click(function() {
+								$(this).toggleClass("open").parent().next().slideToggle();
+								return false;
+							});
+
+							// Modal dialog -- notice that you can pass an element as the target 
+							// in addition to a string selector.
+							var t = $('#edit-profile div.jqmdMSG');
+							$('#edit-profile').jqDrag('.jqDrag').jqResize('.jqResize').jqm({
+								trigger: 'a.dialog',
+								ajax: '@href', /* Extract ajax URL from the 'href' attribute of triggering element */
+								target: t,
+								modal: true, /* FORCE FOCUS */
+								overlay: 30});
+						});
+						</script>
+						<h2>Personuppgifter</h2>
+						<div class="module-content">
+							<table>
+								<caption class="structural">Personuppgifter</caption>
+								<tbody>
+									<tr>
+										<th class="structural">Foto</th>
+										<th>Förnamn</th>
+										<td>Leo</td>
+										<th>Övrig information</th>
+									</tr>
+									<tr>
+										<td rowspan="5"><img src="../i/leo.jpg" alt="" class="pofile-photo"></td>
+										<th>Mellannamn</th>
+										<td>Orvar</td>
+										<td>Jobbade tidigare på KSS med specialisering inom höftfraktur</td>
+									</tr>
+									<tr>
+										<th>Efternamn</th>
+										<td>Andersson</td>
+										<th>Språkkunskaper</th>
+									</tr>
+									<tr>
+										<th>Smeknamn</th>
+										<td>Leoor</td>
+										<td rowspan="2">
+											<ul>
+												<li>Svenska (förstår, pratar, skriver)</li>
+												<li>Grekiska (förstår, pratar, skriver)</li>
+												<li>Engelska (förstår, pratar, skriver)</li>
+												<li>Tyska (förstår)</li>
+											</ul>
+										</td>
+									</tr>
+									<tr>
+										<th>Personlig webbplats</th>
+										<td><a href="#">http://www.leolakare.nu/</a></td>
+									</tr>
+								</tbody>
+							</table>
+							<div id="edit-profile" class="jqmDialog jqmdWide">
+								<div class="jqDrag">Ändra personuppgifter</div>
+								<div class="jqmdMSG"></div>
+								<input type="image" src="../i/close.gif" class="jqmClose">
+								<div class="jqResize"></div>
+							</div>
+							<a href="dialog_andraprofil1.html" class="edit-table dialog">Ändra kontaktuppgifter</a>
+							<a href="dialog_andraprofil2.html" class="edit-table dialog">Ändra övriga uppgifter</a>
+						</div>
+					</div>
+					<div id="module-profile-2" class="module">
+						<script type="text/javascript">
+						jQuery().ready(function(){
+							jQuery('#module-profile-2 h2').each(function() {
+								$(this).html('<a href="#">' + $(this).html() + '<\/a>');
+							});
+							jQuery('#module-profile-2 h2 a').click(function() {
+								$(this).toggleClass("open").parent().next().slideToggle();
+								return false;
+							});
+						});
+						</script>
+						<h2>Anställning</h2>
+						<div class="module-content">
+							<table class="cols-4">
+								<caption>Anställning 1</caption>
+								<tbody>
+									<tr>
+										<th>Titel</th>
+										<td>Läkare</td>
+										<th>Förvaltning</th>
+										<td>VGR-anställning</td>
+									</tr>
+									<tr>
+										<th>Specialisering</th>
+										<td>Ortopedi, dialektik</td>
+										<th>Enhet</th>
+										<td>Sahlgrenska</td>
+									</tr>
+									<tr>
+										<th>Ansvarskod</th>
+										<td>23, 39</td>
+										<th>Underenhet</th>
+										<td>Ortopeden</td>
+									</tr>
+									<tr>
+										<th>Besöksadress</th>
+										<td colspan="3">Gröna stråket 1, 411 24 Göteborg</td>
+									</tr>
+								</tbody>
+							</table>
+							<table class="cols-4">
+								<caption>Anställning 2</caption>
+								<tbody>
+									<tr>
+										<th>Titel</th>
+										<td>Läkare</td>
+										<th>Förvaltning</th>
+										<td>VGR-anställning</td>
+									</tr>
+									<tr>
+										<th>Specialisering</th>
+										<td>Ortopedi</td>
+										<th>Enhet</th>
+										<td>Sahlgrenska</td>
+									</tr>
+									<tr>
+										<th>Ansvarskod</th>
+										<td>23, 39</td>
+										<th>Underenhet</th>
+										<td>Akuten</td>
+									</tr>
+									<tr>
+										<th>Besöksadress</th>
+										<td colspan="3">Gröna stråket 1, 411 24 Göteborg</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div id="module-profile-3" class="module">
+						<script type="text/javascript">
+						jQuery().ready(function(){
+							jQuery('#module-profile-3 h2').each(function() {
+								$(this).html('<a href="#">' + $(this).html() + '<\/a>');
+							});
+							jQuery('#module-profile-3 h2 a').click(function() {
+								$(this).toggleClass("open").parent().next().slideToggle();
+								return false;
+							});
+						});
+						</script>
+						<h2>Kontaktuppgifter</h2>
+						<div class="module-content">
+							<table class="cols-2">
+								<caption>Telefon och E-post</caption>
+								<tbody>
+									<tr>
+										<th>E-post</th>
+										<td><a href="#">leo.o.andersson@vgregion.se</a></td>
+									</tr>
+									<tr>
+										<th>Direkttelefon</th>
+										<td>+46 31 7896543</td>
+									</tr>
+									<tr>
+										<th>Mobiltelefon</th>
+										<td>+46 701 896543</td>
+									</tr>
+									<tr>
+										<th>Minicall</th>
+										<td>+46 701 965432</td>
+									</tr>
+									<tr>
+										<th>Faxnummer</th>
+										<td>+46 31 7896542</td>
+									</tr>
+								</tbody>
+							</table>
+							<table class="cols-2b">
+								<caption>Adresser</caption>
+								<tbody>
+									<tr>
+										<th>Intern adress</th>
+										<td>Akuten/kirurgen, Sahlgrenska</td>
+									</tr>
+									<tr>
+										<th>Fakturaadress</th>
+										<td>Bruna stråket 16 B, 411 24 Göteborg</td>
+									</tr>
+									<tr>
+										<th>Postadress</th>
+										<td>Blå stråket 4 D, 411 24 Göteborg</td>
+									</tr>
+									<tr>
+										<th>Leveransadress</th>
+										<td>Blå stråket 4 D, 411 24 Göteborg</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div id="module-profile-4" class="module">
+						<script type="text/javascript">
+						jQuery().ready(function(){
+							jQuery('#module-profile-4 h2').each(function() {
+								$(this).html('<a href="#">' + $(this).html() + '<\/a>');
+							});
+							jQuery('#module-profile-4 h2 a').click(function() {
+								$(this).toggleClass("open").parent().next().slideToggle();
+								return false;
+							});
+						});
+						</script>
+						<h2>Publiceringar</h2>
+						<div class="module-content">
+							<dl>
+								<dt><a href="#">Traumaortopedi för yngre läkare</a></dt>
+								<dd class="date">Senast uppdaterad: 2007-01-03</dd>
+								<dd>Favorit: <strong>119</strong> personer har sparat denna källa bland sina favoriter</dd>
+								<dd>Diskussionsgrupp: (ingen)</dd>
+
+								<dt><a href="#">Nya rön inom ortopedi</a></dt>
+								<dd class="date">Senast uppdaterad: 2007-01-03</dd>
+								<dd>Favorit: <strong>119</strong> personer har sparat denna källa bland sina favoriter</dd>
+								<dd>Diskussionsgrupp: <a href="#">Angående överenskommelserna på ortopeden på SU</a></dd>
+
+								<dt><a href="#">Traumaortopedi för yngre ST-läkare</a></dt>
+								<dd class="date">Senast uppdaterad: 2007-01-03</dd>
+								<dd>Favorit: <strong>119</strong> personer har sparat denna källa bland sina favoriter</dd>
+								<dd>Diskussionsgrupp: (ingen)</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="yui-b">
+			<div id="module-shortcuts" class="module">
+				<h2>Mina genvägar</h2>
+				<div class="module-content">
+					<form action="#" method="get" class="form-general">
+						<div class="select alt">
+							<label for="shortcuts">Välj</label>
+							<select id="shortcuts">
+								<option value="#" selected="selected">Mina bevakningar</option>
+								<option value="#">Mina inställningar</option>
+							</select>
+						</div>
+						<div class="submit-area alt">
+							<input type="submit" value="Gå">
+						</div>
+					</form>
+				</div>
+			</div>
+			<div id="module-todos" class="module">
+				<script type="text/javascript">
+				jQuery().ready(function(){
+					jQuery('#module-todos').addClass("accordion").Accordion({
+						event: 'click',
+						showSpeed: "normal",
+						hideSpeed: "normal",
+						header: 'h3',
+						active: 'h3.sel',
+						selectedClass: 'sel',
+						alwaysOpen: false,
+						animated: true
+					});
+					jQuery('#module-todos input').click(function() {
+						$(this).parent().toggleClass("done");  // Complete a TODO
+					})
+					jQuery('#module-todos .submit-area').remove();  // Hide submit button
+				});
+				</script>
+				<h2>Mina uppgifter</h2>
+				<div class="module-content">
+					<h3 class="sel">Ogjorda uppgifter (2)</h3>
+					<div>
+						<form action="#">
+							<ul class="list">
+								<li class="prio-3">
+									<input type="checkbox" name="todo1" value="" id="todo1">
+									<label for="todo1">Redovisa övertiden för att få...</label>
+									<span class="date">Senast 7 juli</span>
+								</li>
+								<li class="prio-2">
+									<input type="checkbox" name="todo2" value="" id="todo2">
+									<label for="todo2">Boka rum till avdelningsmötet</label>
+									<span class="date">28 juni 2007, kl 13.00-14.00</span>
+								</li>
+								<li class="prio-3 done">
+									<input type="checkbox" name="todo3" value="" id="todo3" checked="checked">
+									<label for="todo3">Samla in blanketter och skicka...</label>
+									<span class="date">Senast 15 juni</span>
+								</li>
+								<li class="prio-2 done">
+									<input type="checkbox" name="todo4" value="" id="todo4" checked="checked">
+									<label for="todo4">Fyll i blanketter och meddela...</label>
+									<span class="date">Senast 14 juni</span>
+								</li>
+							</ul>
+							<div class="submit-area">
+								<input type="submit" name="some_name" value="Markera som gjorda" id="submit_todos">
+							</div>
+						</form>
+					</div>
+					<h3><a href="#">Bevakningar (4)</a></h3>
+					<h3><a href="#">Labbsvar (2)</a></h3>
+				</div>
+			</div>
+			<div id="module-messages" class="module">
+				<script type="text/javascript">
+				jQuery().ready(function(){
+					jQuery('#module-messages').addClass("accordion").Accordion({
+						event: 'click',
+						showSpeed: "normal",
+						hideSpeed: "normal",
+						header: 'h3',
+						active: 'h3.sel',
+						selectedClass: 'sel',
+						alwaysOpen: false,
+						animated: true
+					});
+					jQuery('#module-messages .submit-area').remove();
+					jQuery('#module-messages .unread').click(function(){
+						$(this).removeClass('unread').addClass('read');
+					})
+				});
+				</script>
+				<h2>Mina samarbeten</h2>
+				<div class="module-content">
+					<h3 class="sel">E-post (2)</h3>
+					<div>
+						<form action="#">
+							<ul class="list emails">
+								<li class="unread"><a href="#e1">Infomaster <span>Diskussion om 'Nya rön inom ...</span></a></li>
+								<li class="unread"><a href="#e2">patrik.e.ek@vgregion.se <span>Material inför föreläsningen på ...</span></a></li>
+								<li class="unread"><a href="#e3">anna.m.karlsson@vgregion.se <span>Ang. provsvaren</span></a></li>
+							</ul>
+							<div class="submit-area">
+								<input type="submit" name="some_name" value="Markera som gjorda" id="submit_messages">
+							</div>
+						</form>
+					</div>
+					<h3>Snabbmeddelanden (4)</h3>
+					<div>
+						<ul class="list ims">
+							<li>
+								<p><cite><a href="#">Nanso</a></cite> säger:</p>
+								<blockquote><p>Jag kan inte hitta den..</p></blockquote>
+							</li>
+							<li>
+								<p><cite><a href="#">Nanso</a></cite> säger:</p>
+								<blockquote><p>Har du sett PM-pärmen som...</p></blockquote>
+							</li>
+							<li>
+								<p><cite><a href="#">Nanso</a></cite> säger:</p>
+								<blockquote><p>Är du där..?</p></blockquote>
+							</li>
+							<li>
+								<p><cite><a href="#">Nanso</a></cite> säger:</p>
+								<blockquote><p>Hallå?</p></blockquote>
+							</li>
+						</ul>
+					</div>
+					<h3>Diskussionsgrupper</h3>
+					<div>
+						<ul class="list discussions">
+							<li class="unread"><a href="#d1">Lorem</a></li>
+							<li class="unread"><a href="#d2">Ipsum</a></li>
+							<li class="unread"><a href="#d3">Dolor</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="ft">
+		<h2 class="structural">Verktyg och information</h2>
+	</div>
+</div>
+</body>
+</html>

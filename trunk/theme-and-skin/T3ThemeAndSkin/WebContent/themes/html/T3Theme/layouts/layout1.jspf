@@ -1,0 +1,13 @@
+<%
+			/* LAYOUT 1 */
+%>
+			<div id="bd">
+				<div class="yui-b">  
+<%
+					{
+						List portlets = BMUtil.getPortlets(p); 
+						%><%@ include file="render.jspf" --%><%
+					}
+%>					
+				</div>
+			</div>
