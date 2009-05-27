@@ -26,6 +26,7 @@
 
 	<target name="config-theme" depends="init">
 	        <xa input="create-theme-and-skin"/>
+		 <xa input="test-pages"/>
 	</target>
 
 	
