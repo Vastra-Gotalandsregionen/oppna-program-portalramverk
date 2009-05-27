@@ -129,14 +129,14 @@ try {
 <div id="doc3" class="yui-t5">
 	<div id="hd">
 		<div id="skip"><a href="#yui-main" accesskey="s">Hoppa till sidans huvudinnehåll</a></div>
-		<a href="index.html" id="logo"><img src="../i/logo.gif" alt="Västra Götalandsregionen" /></a>
+		<a href="index.html" id="logo"><img src="<portal-logic:urlFindInTheme file='i/logo.gif'/>" alt="Västra Götalandsregionen" /></a>
 		<form method="get" action="hitta/traffar.html" id="search" class="form-general search-module">
 			<div class="text">
 				<label for="searchtext" class="structural">Sök:</label>
 				<input type="text" id="searchtext" name="searchtext" accesskey="4" size="20" />
 			</div>
 			<div class="submit-area">
-				<input type="submit" value="SÃ¶k" />
+				<input type="submit" value="Sök" />
 			</div>
 		</form>
 		<p id="login-status" class="logged-in">Inloggad som Annie Alveflo <a href="../index.html">Logga ut</a></p>
