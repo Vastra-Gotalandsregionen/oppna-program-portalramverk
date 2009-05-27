@@ -14,7 +14,7 @@
 			<mime-type>text/html</mime-type>
 			<portlet-mode>view</portlet-mode>
 		</supports>
-		<resource-bundle>jw.iframe.nl.IFramePortletResource</resource-bundle>
+	 
 		<portlet-info>
 			<title>IFrame</title>
 			<short-title>IFrame</short-title>
@@ -41,7 +41,7 @@
 			<mime-type>text/html</mime-type>
 			<portlet-mode>view</portlet-mode>
 		</supports>
-		<resource-bundle>jw.iframe.nl.IFramePortletResource</resource-bundle>
+		 
 		<portlet-info>
 			<title>Kom och Gå</title>
 			<short-title>Kom och Gå</short-title>
