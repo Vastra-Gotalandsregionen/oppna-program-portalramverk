@@ -1,0 +1,50 @@
+<%
+	/* LAYOUT 5 */
+{	
+	BLayoutNode mainContainer = (BLayoutNode)p.getChildren().get(0);
+	BLayoutNode mainBottomContainer = (BLayoutNode)mainContainer.getChildren().get(1);
+
+%>
+	<div id="bd">
+		<div id="yui-main">
+			<div class="yui-b">
+<%
+				{
+					List portlets = BMUtil.getPortletsInContainer(0,mainContainer); 
+					%><%@ include file="render.jspf" --%><%
+				}
+%>
+				<div class="yui-gf">
+					<div class="yui-u first">
+<%
+						{
+							List portlets = BMUtil.getPortletsInContainer(0,mainBottomContainer); 
+							%><%@ include file="render.jspf" --%><%
+						}
+%>
+					</div>
+					<div class="yui-u">
+<%
+						{
+							List portlets = BMUtil.getPortletsInContainer(1,mainBottomContainer); 
+							%><%@ include file="render.jspf" --%><%
+						}
+%>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="yui-b">
+<%
+			{
+				List portlets = BMUtil.getPortletsInContainer(1,p); 
+				%><%@ include file="render.jspf" --%><%
+			}
+%>
+		</div>
+	</div>
+<%
+}
+%>
+			
+			

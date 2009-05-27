@@ -1,0 +1,1 @@
+/*ie.css: Internet Explorer bugfest workarounds* html targets IE 6 and below.Last edit: 2007-02-16*//* Emulate max-width for IE 6 and below */* html #body {width:expression((document.documentElement.clientWidth > 1050) ? "1050px" : "auto");}/* Make block level links in nav-sub clickable */#nav-sub li a {zoom:1;}

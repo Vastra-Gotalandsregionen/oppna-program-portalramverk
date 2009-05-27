@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+
+<project default="dist" name="lsa.type.base" basedir=".">
+
+	<import id="macros" file="common.xml" />
+
+	<property name="build.dir" value="build" />
+	<property name="dist.dir" value="dist" />
+	<property name="src.dir" value="src" />
+
+	<property name="lsa.base.repository.dir" value="repository"/>
+	<property name="lsa.base.compile.lib" value="compile-lib" />
+	<property name="lsa.base.lib" value="../libraries/lib/deploy" />
+	<property name="lsa.base.doc.dir" value="${build.dir}/doc" />
+	<property name="lsa.base.reports.dir" value="${lsa.base.doc.dir}/reports" />
+	<property name="lsa.base.testresult.dir" value="${lsa.base.reports.dir}/testresult" />
+	<property name="lsa.base.testresult.dir.junit" value="${lsa.base.testresult.dir}/junit" />
+	<property name="lsa.base.static-test.report.dir" value="${lsa.base.reports.dir}/pmd" />
+	<property name="lsa.base.jmeter.report.dir" value="${lsa.base.reports.dir}/jmeter" />
+
+	<property name="lsa.base.src.dirs" value="" />
+	<property name="lsa.base.jar.dirs" value="" />
+	<property name="lsa.base.jar.dir.names" value="${lsa.base.jar.dirs}" />
+ 
+
+	<!--  Will be over-ridden in build-files importing this  -->
+	<target name="init" depends="init-tasks">
+		<tstamp>
+			<format property="build.date" pattern="yyyy-MM-dd_HH.mm.ss" />
+		</tstamp>
+		<property name="build.id" value="${ant.project.name}-SNAPSHOT-${build.date}" />
+		<property environment="env" />
+		<property  file="dependencies.properties" prefix="lsa.base"/>
+
+		<!--  CREATE INITIAL COMPILE classpath, will be appended during the build -->
+		<path id="compile.classpath">
+     		<fileset dir="${lsa.base.lib}">
+				<include name="**/*.jar" />
+				<include name="**/*.zip" />
+			</fileset>
+			<fileset dir="${lsa.base.compile.lib}">
+				<include name="**/*.jar" />
+				<include name="**/*.zip" />
+			</fileset>
+		</path>
+
+		<mkdir dir="${build.dir}"/>
+		<mkdir dir="${dist.dir}"/>
+		<mkdir dir="${lsa.base.doc.dir}"/>
+		<mkdir dir="${lsa.base.reports.dir}"/>
+		<mkdir dir="${lsa.base.testresult.dir}"/>
+		<mkdir dir="${lsa.base.testresult.dir.junit}"/>
+		
+		<mkdir dir="${lsa.base.static-test.report.dir}"/>
+		
+
+	</target>
+
+	<target name="clean" depends="init" description="Deletes all artifacts generated during build">
+		<for list="${lsa.base.deps.runtime}" param="oneFile">
+			<sequential>
+				<ant dir="..\@{oneFile}" target="clean" inheritall="false" inheritrefs="false">
+
+				</ant>
+			</sequential>
+		</for>
+		<for list="${lsa.base.deps.compile}" param="oneFile">
+			<sequential>
+				<ant dir="..\@{oneFile}" target="clean" inheritall="false" inheritrefs="false">
+				</ant>
+			</sequential>
+		</for>
+		
+		<delete dir="${build.dir}" />
+		<delete dir="${dist.dir}" />
+	</target>
+	
+	<target name="compile" depends="init, compile-dependencies">
+		<compile-many cp="compile.classpath" list="${lsa.base.src.dirs}"/>
+	</target>
+	
+	<target name="uptodatecheck" depends="init" >
+		<uptodate property="lsa.base.build.notneeded" targetfile="${dist.dir}\ts.${ant.project.name}">
+			<srcfiles dir= "${src.dir}"/>
+		</uptodate>	
+		<echo message="uptodatecheck: ${ant.project.name}: ${lsa.base.build.notneeded}"/>
+	</target>
+
+	<target name="dist" depends="init,uptodatecheck, compile" unless="lsa.base.build.notneeded">
+		<jar-many list="${lsa.base.jar.dirs}"/>
+		<!--  flatten-copy all libs to dist -->
+		<copy flatten="true" todir="${dist.dir}">
+			<fileset dir="${lsa.base.lib}" includes="**/*.jar, **/*.zip" />
+		</copy>
+		<copy  todir="${dist.dir}">
+			<fileset dir="." includes="install.xml">
+			</fileset>
+		</copy>
+
+			
+		
+		<touch file="${dist.dir}\ts.${ant.project.name}"/>
+	</target>
+
+	
+				
+	<target name="test" depends="compile, unit-test">
+		<antcall target="check-report" inheritall="true" inheritrefs="true"/>
+	</target>
+
+	
+	<target name="unit-test" depends="compile">
+
+		<junit printsummary="yes" haltonfailure="no" dir="${lsa.base.testresult.dir.junit}" fork="true">
+		<classpath>
+			<path refid="compile.classpath" />
+		</classpath>
+		<formatter type="xml" />
+		<batchtest fork="true" todir="${lsa.base.testresult.dir.junit}">
+			<fileset dir="${src.dir}\test\java">
+				<include name="**/*Test.java" />
+			</fileset>
+		</batchtest>
+		</junit>
+	
+
+	</target>
+
+	<target name="integration-test" depends="compile">
+	</target>
+
+	
+	
+	<target name="init-tasks">
+		<dirname property="imported.basedir" file="${ant.file.lsa.type.base}" />
+		<echo message="INIT-TASKS distdir: ${dist.dir}"/>
+		<property name="jmeter.home" value="${imported.basedir}\..\..\jakarta-jmeter-2.1.1"/>
+		
+	<!-- 
+		<ant inheritall="false" inheritrefs="false" dir="${imported.basedir}\..\.." />
+	 -->
+
+		<path id="buildtools.tasks.classpath">
+			
+			<fileset dir="${imported.basedir}\..\pcmtools\lib">
+				<include name="*.jar" />
+				<include name="*.zip" />
+			</fileset>
+		</path>
+	
+		<path id="portal.tasks.classpath">
+					<fileset dir="${imported.basedir}\..\lib">
+						<include name="*.jar" />
+						<include name="*.zip" />
+					</fileset>
+		</path>
+	
+		
+		<taskdef  classpathref="portal.tasks.classpath" resource="pcmtools.properties"/>
+ 		<taskdef resource="net/sf/antcontrib/antlib.xml" classpathref="portal.tasks.classpath" />
+
+					
+		
+	</target>
+
+	<target name="compile-dependencies" depends="init">
+		<echo message="${ant.project.name}: Building dependencies runtime: ${lsa.base.deps.runtime}" />
+		<for list="${lsa.base.deps.runtime}" param="oneFile">
+			<sequential>
+				<echo message="Building dependency: @{oneFile}" />
+				<ant dir="..\@{oneFile}" antfile="build.xml" target="dist" inheritAll="false" inheritRefs="false">
+					<property name="dist.dir" value="dist"/>						
+				</ant>
+				<append-dir-to-classpath dir="..\@{oneFile}\dist" cp="compile.classpath" />
+			</sequential>
+		</for>
+		<echo message="${ant.project.name}: Building dependencies compiletime: ${lsa.base.deps.compile}" />
+		<for list="${lsa.base.deps.compile}" param="oneFile">
+			<sequential>
+				<echo message="Building dependency: @{oneFile}" />
+				<ant dir="..\@{oneFile}" antfile="build.xml"  target="dist" inheritall="false" inheritrefs="false">
+					<property name="dist.dir" value="dist"/>
+				</ant>
+				<append-dir-to-classpath dir="..\@{oneFile}\dist" cp="compile.classpath" />
+			</sequential>
+		</for>
+		<for list="${lsa.base.deps.runtime}" param="oneFile">
+					<sequential>
+						<echo message="Copying runtime dependency: @{oneFile} to ${ant.project.name}" />
+						<copy todir="${dist.dir}">
+							<fileset dir="../@{oneFile}/dist"/>
+						</copy>
+					</sequential>
+		</for>	
+	</target>
+
+				
+	<target name="check" depends="init, compile">
+			<property name="build.dir.reports.pmd" value="${lsa.base.doc.dir}\reports\pmd" />
+			<mkdir dir="${build.dir.reports.pmd}" />
+			<for list="${lsa.base.src.dirs}" param="oneFile">
+				<sequential>
+				<propertyregex property="oneFileWithoutSlashes" override="true"
+						              input="@{oneFile}"
+								 	defaultValue="@{oneFile}"
+						              regexp="([^/]*)/([^/]*)"
+						              select="\1-\2"
+						 				global="true"
+						              casesensitive="false" />
+	
+	
+					<check src="${src.dir}\@{oneFile}" build="${build.dir.reports.pmd}" name="${oneFileWithoutSlashes}"/>
+		 		</sequential>
+			</for>
+			<!--  compile all sourcefolders in property ctsbuild_sourcefolders -->
+	</target>
+
+	<target name="check-report" depends="init, check">
+		<xslt basedir="${build.dir.reports.pmd}" includes="*.xml" destdir="${build.dir.reports.pmd}"
+			style="${pmd.home}/etc/xslt/pmd-report-per-class.xslt"/>
+
+		<junitreport todir="${lsa.base.testresult.dir}">
+		<fileset dir="${lsa.base.testresult.dir.junit}">
+			<include name="TEST-*.xml" />
+		</fileset>
+		<report format="frames" todir="${lsa.base.testresult.dir}" />
+	</junitreport>
+
+</target>	
+
+
+	<macrodef name="run-jmeter">
+		<attribute name="test" />
+		<sequential>
+				<echo message="Running testplan: @{test}"/>
+				<jmeter
+				    jmeterhome="${jmeter.home}"
+				    resultlog="${lsa.base.jmeter.report.dir}/@{test}.jtl">
+						<testplans dir="${src.dir}/jmeter" includes="*.jmx"/>				    
+				
+				<!--
+					<jvmarg value="-Xincgc"/>
+					<jvmarg value="-Xmx128m"/>
+					<jvmarg value="-Dproperty=value"/>
+				-->
+					<!-- Force suitable defaults -->
+					<property name="jmeter.save.saveservice.output_format" value="xml"/>
+					<property name="jmeter.save.saveservice.assertion_results" value="all"/>
+					<property name="file_format.testlog" value="2.0"/>
+					<property name="jmeter.save.saveservice.response_data.on_error" value="true"/>
+				</jmeter>
+			<xslt
+				force="true"
+			    in="${lsa.base.jmeter.report.dir}/@{test}.jtl"
+			    out="${lsa.base.jmeter.report.dir}/@{test}.html"
+			    style="${jmeter.home}/extras/jmeter-results-detail-report.xsl">
+				<param name="showData" expression="true"/>
+			</xslt>
+
+		</sequential>
+	</macrodef>
+
+<target name="run-jmeter" depends="init">
+	<run-jmeter test="test"/>
+	</target>
+	
+	
+	
+	
+	
+
+</project>

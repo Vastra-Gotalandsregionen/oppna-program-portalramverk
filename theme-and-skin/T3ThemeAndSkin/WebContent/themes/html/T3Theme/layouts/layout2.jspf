@@ -1,0 +1,23 @@
+<%
+			/* LAYOUT 2 */
+%>
+			<div id="bd">
+				<div id="yui-main">
+					<div class="yui-b">
+<%
+						{
+							List portlets = BMUtil.getPortletsInContainer(0,p); 
+							%><%@ include file="render.jspf" --%><%
+						}
+%>
+					</div>
+				</div>
+				<div class="yui-b">
+<%
+						{
+							List portlets = BMUtil.getPortletsInContainer(1,p); 
+							%><%@ include file="render.jspf" --%><%
+						}
+%>
+				</div>
+			</div>

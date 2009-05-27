@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+
+<project  name="T3ThemeAndSkin" basedir=".">
+	<import id="portlet-proj" file="pcmtools\ant-scripts\portlet-proj.xml" />
+	
+	<property file="build.properties" />
+	
+	<property name="build.dir" value="build" />
+	<property name="dist.dir" value="dist" />
+	<property name="src.dir" value="src" />
+	<property name="webcontent.dir" value="WebContent"/>
+	
+
+	<path id="pcmtools.classpath">
+				<fileset dir="pcmtools\lib">
+					<include name="*.jar" />
+					<include name="*.zip" />
+				</fileset>
+	</path>
+
+ 
+	
+	<target name="export-all" depends="init">
+	        <xa input="Export"/>
+	</target>
+
+	<target name="config-theme" depends="init">
+	        <xa input="create-theme-and-skin"/>
+	</target>
+
+	
+</project>

@@ -1,0 +1,15 @@
+<%
+	for(int i = 0; i < portlets.size(); i++) {
+		BLayoutNode portlet = (BLayoutNode)portlets.get(i);
+		String containerId = portlet.getPortletID();
+		java.util.List prefs = portlet.getPreferenceValues("div-container-id");
+		if (prefs != null && !prefs.isEmpty()) {
+			containerId = (String)prefs.get(0);
+		}
+%>
+						<div id="<%= containerId %>" class="module">
+							<% portlet.render(); %>
+						</div>
+<%
+	}
+%>
