@@ -43,7 +43,10 @@ try {
 	}
 } catch(Exception e) {}
 List pp = BMUtil.getPortlets(p);
-BNavigationNode startNode = bmm.getNavModel().findNodeById("ibm.portal.Home");
+// 	
+
+//BNavigationNode startNode = bmm.getNavModel().findNodeById("ibm.portal.Home");
+BNavigationNode startNode = bmm.getNavModel().findNodeById("vgr.tematest");
 %>
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sv" lang="sv">
@@ -93,6 +96,35 @@ BNavigationNode startNode = bmm.getNavModel().findNodeById("ibm.portal.Home");
 	<script type="text/javascript" src='<portal-logic:urlFindInTheme file="js/vgr.global.js"/>'></script>
 </head>
 
+
+<%! public void renderSubNav(JspWriter w, BNavigationNode startNode) {
+try {
+	if(startNode==null || !startNode.hasChildren()) {
+		return;
+	}
+	BNavigationNode selectedChild = null;
+	w.write("<p class='structural'><strong>Navigering för "+startNode.getTitle()+"</strong></p>");
+	w.write("<ul class='nav-sub'>");
+	Iterator it = startNode.getChildren().iterator();
+						while(it.hasNext()) {
+							BNavigationNode n1 = (BNavigationNode)it.next();
+							String selClass = "";
+							if(n1.isSelected()) {
+							 selectedChild = n1;
+							 selClass = " class=\"sel\"";
+							}
+							w.write("<li "+selClass+"><a href='"+n1.getSelectUrl()+"' "+selClass+">"+n1.getTitle()+ "</a></li>");
+							}
+	w.write("</ul>");
+	if(selectedChild!=null) {
+		renderSubNav(w,selectedChild);
+	}
+	} catch(Exception e){	
+		throw new RuntimeException(e);
+	}
+	}
+%>
+		
 <body class="yui-skin-vgr">
 <div id="doc3" class="yui-t5">
 	<div id="hd">
@@ -110,42 +142,26 @@ BNavigationNode startNode = bmm.getNavModel().findNodeById("ibm.portal.Home");
 		<p id="login-status" class="logged-in">Inloggad som Annie Alveflo <a href="../index.html">Logga ut</a></p>
 		<div id="nav" class="clearfix">
 			<p class="structural"><strong>Huvudnavigering</strong></p>
+			
 			<ul id="nav-main">
-				<li id="tab-start"><a href="../index.html" accesskey="1">Start</a></li>
-				<li id="tab-mitt-jobb" class="sel"><a href="../mitt_jobb/index.html" class="sel">Mitt jobb</a></li>
-				<li id="tab-system-x"><a href="../vard/patientoversikt.html">Vård</a></li>
-				<li id="tab-system-y"><a href="inactive">System Y</a></li>
-				<li id="tab-hitta"><a href="../hitta/index.html">Hitta</a></li>
-				<li id="tab-installningar"><a href="../installningar/index.html">Egna inställningar</a></li>
+<%						BNavigationNode sel1 = null;
+						Iterator it = startNode.getChildren().iterator();
+						while(it.hasNext()) {
+							BNavigationNode n1 = (BNavigationNode)it.next();
+							String selClass = "";
+							if(n1.isSelected()) {
+							 sel1 = n1;
+							 selClass = " class=\"sel\"";
+							}
+%>
+						<li <%= selClass %>><a href="<%= n1.getSelectUrl()%>" accesskey="1" <%= selClass %>><%= n1.getTitle() %></a></li>
+					<% } %>
+				</ul>
+			
+			 
 			</ul>
-			<p class="structural"><strong>Navigering för Mitt jobb</strong></p>
-			<ul class="nav-sub">
-				<li class="sel"><a href="index.html" class="sel">Nytt</a></li>
-				<li><a href="dokument.html">Dokument</a></li>
-				<li><a href="bevakningar.html">Bevakningar</a></li>
-				<li><a href="inactive">Diskussionsgrupper</a></li>
-				<li><a href="kalender.html">Kalender</a></li>
-				<li><a href="uppgifter.html">Uppgifter</a></li>
-				<li><a href="epost.html">E-post</a></li>
-				<li><a href="kontakter.html">Kontakter</a></li>
-			</ul>
-			<p class="structural"><strong>Navigering för Mitt jobb - Nytt</strong></p>
-			<ul class="nav-sub">
-				<li><a href="kalender.html">Kalender</a></li>
-				<li><a href="index.html">Nytt</a></li>
-				<li><a href="dokument.html">Dokument</a></li>
-				<li class="sel"><a href="bevakningar.html" class="sel">Bevakningar</a></li>
-				<li><a href="inactive">Diskussionsgrupper</a></li>
-			</ul>
-			<p class="structural"><strong>Navigering för Mitt jobb - Nytt - Bevakningar</strong></p>
-			<ul class="nav-sub">
-				<li><a href="kalender.html">Kalender</a></li>
-				<li class="sel"><a href="bevakningar.html" class="sel">Bevakningar</a></li>
-				<li><a href="inactive">Diskussionsgrupper</a></li>
-				<li><a href="index.html">Nytt</a></li>
-				<li><a href="dokument.html">Dokument</a></li>
-				<li><a href="inactive">Diskussionsgrupper</a></li>
-			</ul>
+			<% renderSubNav(out,sel1); %>
+	
 		</div>
 	</div>
 	<div id="bd">
@@ -177,7 +193,7 @@ BNavigationNode startNode = bmm.getNavModel().findNodeById("ibm.portal.Home");
 		</div>
 		<div class="yui-b">
 			<div id="module-shortcuts" class="module">
-				<h2><a href="inactive">Mina genvÃ¤gar</a></h2>
+				<h2><a href="inactive">Mina genvägar</a></h2>
 				<div class="module-content">
 				sadsadsa 
 				</div>
@@ -203,5 +219,16 @@ BNavigationNode startNode = bmm.getNavModel().findNodeById("ibm.portal.Home");
 		</div>
 	</div>
 </div> 
+
+<% 
+			if(bmm.getNavModel().findNodeById("ibm.portal.Administration")!=null) {
+				BNavigationNode adminLink = bmm.getNavModel().findNodeById("ibm.portal.Administration");
+				if(adminLink!=null) { 
+%>
+					<a href="<%= adminLink.getSelectUrl()%>">Admin</a>
+<% 
+				}
+			}
+%>
 </body>
 </html>
