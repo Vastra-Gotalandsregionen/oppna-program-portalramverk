@@ -15,7 +15,7 @@ Import the portal theme as an existing project (not a portal project).
 
 http://oppna-program-portalramverk.googlecode.com/svn/wiki/bilder/1.JPG
  
-The projects that are required are "T3Ear" and "T3ThemeAndSkin"
+The projects that are required are T3Ear and T3ThemeAndSkin
 
 http://oppna-program-portalramverk.googlecode.com/svn/wiki/bilder/2.JPG
 
