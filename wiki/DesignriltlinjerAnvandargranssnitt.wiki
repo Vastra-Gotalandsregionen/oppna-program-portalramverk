@@ -3,18 +3,21 @@
 = Introduktion =
 
 Dessa sidor beskriver designriktlinjer för användargränssnitt. Sidorna beskriver ett användargränssnitt för Portalen som utgår från de kända behoven hos verksamheten och användarna. I en förlängning skall interaktionsdesignen kompletteras med riktlinjer för nya applikationer och tjänster, men detta har inte varit syftet i denna etapp. 
-Dokumentet beskriver interaktionen mellan användaren och systemet. Det beskriver alltså: 
-•Presentation – med avseende på gruppering, storlek och placering, men inte med avseende på grafisk formgivning. 
-•Beteende – hur responderar användargränssnittet på användarens aktioner och i viss mån vilka regler styr gränssnittets beteende. 
-•Information – vilka informationsmängder visas till användaren. Dock framgår inte från vilket system denna information hämtas.  
+Dokumentet beskriver interaktionen mellan användaren och systemet. Det beskriver alltså:
+ 
+  * Presentation – med avseende på gruppering, storlek och placering, men inte med avseende på grafisk formgivning. 
+  * Beteende – hur responderar användargränssnittet på användarens aktioner och i viss mån vilka regler styr gränssnittets beteende. 
+  * Information – vilka informationsmängder visas till användaren. Dock framgår inte från vilket system denna information hämtas.  
+
 
 Det material som legat till grund för principdesign utgörs främst av:
-•Genomgång av interaktionsdesignen samt intervjuer med referensgruppsmedlemmarna Mats Dahl (Överläkare) och Charlotte Sandström (SSK).
-•Interaktionsdesign för tidigare designlösning, se dokumentet Interaktionsdesign (version 0.6, 2007-01-16) som ligger på Projektplatsen.
-•Användningstest utfört på SÄS Borås och KS, där ett tidigare lösningsförslag utvärderades för att se om det motsvarar förväntningar och nytta för verksamheten och användaren. Se dokument Användningstest (version 1.0, 2007-05-02) som ligger på Projektplatsen.
-•20 stycken intervjuer på arbetsplatsen, hos bland annat sjuksköterskor, läkare och läkarsekreterare anställda på SU, där befintligt arbetssätt och befintliga systemstöd har studeras.
-•Intervjuer med dåvarande verksamhetsutvecklingsdirektör Marianne Olsson, SU och områdeschef Hans Holmberg, SU samt projektledare Stefan Holmberg, IT-SA. 
-•Workshop med verksamhetsansvariga för att ta ett formellt beslut om syfte och mätpunkter.
+
+  * Genomgång av interaktionsdesignen samt intervjuer med referensgruppsmedlemmarna Mats Dahl (Överläkare) och Charlotte Sandström (SSK).
+  * Interaktionsdesign för tidigare designlösning, se dokumentet Interaktionsdesign (version 0.6, 2007-01-16) som ligger på Projektplatsen.
+  * Användningstest utfört på SÄS Borås och KS, där ett tidigare lösningsförslag utvärderades för att se om det motsvarar förväntningar och nytta för verksamheten och användaren. Se dokument Användningstest (version 1.0, 2007-05-02) som ligger på Projektplatsen.
+  * 20 stycken intervjuer på arbetsplatsen, hos bland annat sjuksköterskor, läkare och läkarsekreterare anställda på SU, där befintligt arbetssätt och befintliga systemstöd har studeras.
+  * Intervjuer med dåvarande verksamhetsutvecklingsdirektör Marianne Olsson, SU och områdeschef Hans Holmberg, SU samt projektledare Stefan Holmberg, IT-SA. 
+  * Workshop med verksamhetsansvariga för att ta ett formellt beslut om syfte och mätpunkter.
 
 
 
