@@ -20,12 +20,13 @@ Det material som legat till grund för principdesign utgörs främst av:
   * Workshop med verksamhetsansvariga för att ta ett formellt beslut om syfte och mätpunkter.
 
 Innehållsförteckning
-[http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriltlinjerAnvandargranssnitt 1 Start]
-[2 Förväntade effekter http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignForvantadeEffekter]
-[http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignPrincipdesign 3 Principdesign]
-[http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignInnehall4 Innehåll]
-[http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignBeteendeFunktioner 5 Beteenden och funktioner]
-[http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesign 6 Detaljdesign]
+
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriltlinjerAnvandargranssnitt Start] 
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignForvantadeEffekter Förväntade effekter]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignPrincipdesign Principdesign]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignInnehall Innehåll]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignBeteendeFunktioner Beteenden och funktioner]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesign Detaljdesign]
 
 
 
