@@ -1,13 +1,21 @@
 #summary One-sentence summary of this page.
 
-= Introduction =
+= Förväntade effekter =
 
-Förväntade effekter
+Denna sida beskriver
 
 
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+== Innehållsförteckning ==
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriltlinjerAnvandargranssnitt Start] 
+ # Förväntade effekter
+  # Mål och målgrupper
+  # Sjuksköterska
+  # Läkare
+  # Läkarsekreterare
+  # Paramedicinsk personal
+  # Administrativ personal
+  # Linjens chefer
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignPrincipdesign Principdesign]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignInnehall Innehåll]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignBeteendeFunktioner Beteenden och funktioner]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesign Detaljdesign]
