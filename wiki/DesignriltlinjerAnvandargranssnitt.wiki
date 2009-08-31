@@ -1,13 +1,13 @@
 #summary Beskriver riktlinjer för design av användargränssnitt
 
-= Introduction =
+= Introduktion =
 
-Describes user interface design guidelines
+Dessa sidor beskriver designriktlinjer för användargränssnitt
 
 
-= Details =
+= Detaljer =
 
-Details TBD.  Format your content with:
+TBD
   * Text in *bold* or _italic_
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
