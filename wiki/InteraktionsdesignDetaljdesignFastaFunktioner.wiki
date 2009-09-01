@@ -1,7 +1,7 @@
 #summary Detaljdesign av fasta funktioner
 
 = Detaljdesign: Fasta funktioner =
-De fasta funktionerna består av de tjänster som syns och går att interagera med oberoende var användaren befinner sig i Portalen. 
+De fasta funktionerna består av de tjänster som syns och går att interagera med oberoende var användaren befinner sig i Portalen.
 ￼
 <br>http://lh4.ggpht.com/_mHREyZKezxI/Sp0FSiYYHUI/AAAAAAAAAC0/e_cyhUhnmbI/s800/Picture%2017.png
 <br>_Figur 16: De fasta funktionerna i Portalen_
@@ -20,7 +20,7 @@ Användaren kan använda sig av den fasta generella sökfunktionen då hon skall
 ￼ <br>_Figur 18: Fasta funktion för att göra en generell sökning_
 
 == Mina genvägar ==
-Under ”Mina genvägar” finns länkar till andra delar av Portalen, webbsidor och system som användaren valt att ha som genväg. Användaren kan öppna en genväg genom att välja en genväg i dropdown listan och sedan klicka på ”Gå”. 
+Under ”Mina genvägar” finns länkar till andra delar av Portalen, webbsidor och system som användaren valt att ha som genväg. Användaren kan öppna en genväg genom att välja en genväg i dropdown listan och sedan klicka på ”Gå”.
 Klickar användaren på länken ”Mina genvägar” kommer hon till Egna inställningar/Anpassa startsidan och där alternativen för genvägar syns. 
 
 <br>http://lh4.ggpht.com/_mHREyZKezxI/Sp0FS9SrmVI/AAAAAAAAADA/d_Hh-uOXwT0/s912/Picture%2020.png
@@ -43,7 +43,7 @@ Den andra typen av uppgifter är påminnelser/upplysningar från bassystem som a
  * *Öppna uppgift*  När användaren klickar på rubriken för en uppgift öppnas uppgiften i en dialog.  
  * *Öppna applikation*  När användaren klickar på rubriken för en applikation, exempelvis ”Labbsvar (4)”, öppnas applikationen i ett nytt fönster.  
  * *Markera uppgift som avslutad/oavslutad*  Användaren kan kryssa i/kryssa ur rutan vid en uppgift för att markera uppgiften som avslutad/oavslutad. 
- * *Lägg till uppgift*  Användaren kan skapa en ny uppgift på två sätt. Antingen under Mitt jobb/Uppgifter eller genom att klicka på länken ”Lägg till uppgift”. Uppgifterna går att tidsbestämma och när en uppgift, som skall utföras innan en specifik tidpunkt, inte är utförd får användaren en påminnelse av detta. 
+ * *Lägg till uppgift*  Användaren kan skapa en ny uppgift på två sätt. Antingen under Mitt jobb/Uppgifter eller genom att klicka på länken ”Lägg till uppgift”. Uppgifterna går att tidsbestämma och när en uppgift, som skall utföras innan en specifik tidpunkt, inte är utförd får användaren en påminnelse av detta.
 
 <br>http://lh6.ggpht.com/_mHREyZKezxI/Sp0FY5Bph_I/AAAAAAAAADM/3SPGxMGn6CQ/s800/Picture%2023.png
 ￼ <br>_Figur 22: Dialog för då användaren skapar en egen uppgift_
@@ -58,4 +58,4 @@ Vilka av de ovanstående funktionerna som finns under samarbete, beror på anvä
 *Funktion:*
  * *Öppna meddelande*  När användaren klickar på rubriken för ett meddelande öppnas meddelandet upp under Mitt jobb/E-post. 
  * *Öppna applikation*  När användaren klickar på rubriken ”E-post" eller ”Diskussionsgrupper” öppnas den del av Portalen (Mitt jobb/E-post samt Mitt jobb/Diskussionsgrupper) upp. 
-* *Markera meddelande som läst/oläst*  När användaren har klickat på ett oläst meddelande en gång markeras det som läst. Om användaren klickar på meddelandet en gång till markeras det som oläst. 
+* *Markera meddelande som läst/oläst*  När användaren har klickat på ett oläst meddelande en gång markeras det som läst. Om användaren klickar på meddelandet en gång till markeras det som oläst.
