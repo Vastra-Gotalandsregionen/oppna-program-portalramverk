@@ -12,22 +12,18 @@ Hur användaren kan navigera sig bland de två typerna av system finns presenter
 == Navigering ==
 Följande figur beskriver hur Portalen är uppbyggd. 
 
-[Image:http://oppna-program-portalramverk.googlecode.com/svn/wiki/bilder/IDPD1.png]
-[IMG http://oppna-program-portalramverk.googlecode.com/svn/wiki/bilder/IDPD1.png bild]
-[[image:IDPD1.png]]
-[image:IDPD1.png]
-{{IDPD1.png}}
-[[image:tst.png|left]]
 
+http://lh6.ggpht.com/_mHREyZKezxI/SpzqTq-Ll2I/AAAAAAAAABk/SO0pCzoxaNw/s640/Picture%201.png
 
- Figur 1: Navigering i Portalen
+_Figur 1: Navigering i Portalen_
 
 == Areaindelning ==
-Den generella areaindelningen för Portalen är uppdelad i sju huvudsakliga områden. Dessa kan antingen vara fasta eller dynamiska. De fasta funktionerna består av de funktioner som syns och går att interagera med oberoende var användaren befinner sig i Portalen. Dock skall de fasta delarna inte finnas med då användaren öppnar upp ett system i ett nytt fönster från någon av Portalens genvägar. De dynamiska funktionerna ändras beroende på var användaren är i Portalen (se figur nedan). 
+Den generella areaindelningen för Portalen är uppdelad i sju huvudsakliga områden. Dessa kan antingen vara fasta eller dynamiska. De fasta funktionerna består av de funktioner som syns och går att interagera med oberoende var användaren befinner sig i Portalen. Dock skall de fasta delarna inte finnas med då användaren öppnar upp ett system i ett nytt fönster från någon av Portalens genvägar. De dynamiska funktionerna ändras beroende på var användaren är i Portalen (se figur nedan).
 
-X
+http://lh6.ggpht.com/_mHREyZKezxI/Spzy-IvB3eI/AAAAAAAAABs/s8MuKDed36k/s720/Picture%202.png
 
-Figur 2: Generell areaindelning av Portalen
+_Figur 2: Generell areaindelning av Portalen_
+
 Den generella areaindelningen innehåller sex areor:
  # Systemnamn (Fasta)– Här visas bland annat Portalens logotyp/varumärke och vem som är inloggad.
  # Primär navigering (Fasta)– Den primära navigeringen utgörs av en uppsättning flikar, som kan variera beroende på vem som är inloggad. Denna navigering utgör huvudsakliga navigeringen i Portalen. 
