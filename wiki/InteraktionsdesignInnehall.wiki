@@ -37,3 +37,12 @@ _Figur 5: Användaren kan bestämma vilka källor som skall visas under ”Mina 
 == Inställningar som görs vid första inloggningen ==
 Användaren kommer att behöva göra vissa inställningar första gången hon loggar in i Portalen, detta för att komplettera sin personliga profil. Är inte profilen komplett är risken stor att innehållet i Portalen inte överensstämmer med användarens behov. 
 Vilka inställningar som behövs göras är ännu inte fastställt och behövs utredas ytterligare (TBD). 
+
+
+*Innehållsförteckning*
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriltlinjerAnvandargranssnitt Introduktion] 
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignForvantadeEffekter Förväntade effekter och målgrupper]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignPrincipdesign Principdesign]
+ # Innehåll
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignBeteendeFunktioner Beteenden och funktioner]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesign Detaljdesign]
