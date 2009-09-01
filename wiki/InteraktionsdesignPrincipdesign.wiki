@@ -32,3 +32,11 @@ Den generella areaindelningen innehåller sex areor:
  # Mina uppgifter (Fasta) – Här finns information/påminnelser som användaren antingen har skapat åt sig själv eller sådana som användaren i och med sin yrkesroll och personliga inställningar får automatiskt skickat till sig. Användaren kan se om det finns några nya uppgifter och även ha möjligheten att skapa nya uppgifter. Vidare får användaren information om att det exempelvis finns två nya labbsvar. Men hon kan däremot inte se exakt vilka labbsvar det handlar om utan att klicka på länken som öppnar det aktuella systemet.
  # Samarbetsfunktioner (Fasta) – Till samarbetsfunktionen hör E-post, snabbmeddelanden och diskussionsgrupper, vilka användaren kan använda för att kommunicera med sina medarbetare. Användaren kan se om det finns några nya inlägg/meddelanden. För e-post och diskussionsgrupper kan användaren klicka sig till den del av Portalen där finns presenterade mer detaljerat. 
  # Innehåll och sekundärnavigering (Dynamisk) – Här presenteras innehållet som finns under de olika flikarna. Hur och vilken typ av information som presenteras påverkas av vem som är inloggad.
+
+*Innehållsförteckning*
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriltlinjerAnvandargranssnitt Introduktion] 
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignForvantadeEffekter Förväntade effekter och målgrupper]
+ # Principdesign
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignInnehall Innehåll]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignBeteendeFunktioner Beteenden och funktioner]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesign Detaljdesign]
