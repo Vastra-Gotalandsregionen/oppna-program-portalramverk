@@ -13,6 +13,7 @@ Hur användaren kan navigera sig bland de två typerna av system finns presenter
 Följande figur beskriver hur Portalen är uppbyggd. 
 
 [img http://oppna-program-portalramverk.googlecode.com/svn/wiki/bilder/IDPD1.png]
+[img IDPD1.png]
 
  Figur 1: Navigering i Portalen
 
