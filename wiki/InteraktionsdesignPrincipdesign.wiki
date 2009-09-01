@@ -14,10 +14,9 @@ Följande figur beskriver hur Portalen är uppbyggd.
 
 [Image:http://oppna-program-portalramverk.googlecode.com/svn/wiki/bilder/IDPD1.png]
 [IMG http://oppna-program-portalramverk.googlecode.com/svn/wiki/bilder/IDPD1.png bild]
-[Imgage:IDPD1.png]
+[[Imgage:IDPD1.png]]
 {{IDPD1.png}}
 
-[[Image(source:Interaktionsdesign/Exported/FW_Startsidan.png)]]
 
  Figur 1: Navigering i Portalen
 
