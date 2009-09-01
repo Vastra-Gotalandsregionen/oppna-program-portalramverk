@@ -17,6 +17,7 @@ Följande figur beskriver hur Portalen är uppbyggd.
 [[image:IDPD1.png]]
 [image:IDPD1.png]
 {{IDPD1.png}}
+[[image:tst.png|left]]
 
 
  Figur 1: Navigering i Portalen
