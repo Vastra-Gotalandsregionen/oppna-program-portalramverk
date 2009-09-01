@@ -1,3 +1,19 @@
 #summary One-sentence summary of this page.
 
 = Detaljdesign: System X, system Y =
+
+
+
+*Innehållsförteckning*
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriltlinjerAnvandargranssnitt Introduktion] 
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignForvantadeEffekter Förväntade effekter och målgrupper]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignPrincipdesign Principdesign]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignInnehall Innehåll]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignBeteendeFunktioner Beteenden och funktioner]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesign Detaljdesign]
+  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesignFastaFunktioner Fasta funktioner]
+  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesignStart Start]
+  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesignMittJobb Mitt jobb]
+  # System X, system Y
+  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesignHitta Hitta]
+  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesignEgnaInstallningar Egna inställningar]
