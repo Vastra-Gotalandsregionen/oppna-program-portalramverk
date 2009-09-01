@@ -1,13 +1,39 @@
 #summary One-sentence summary of this page.
 
-= Introduction =
+= Innehåll =
+Det exakta innehållet i Portalen bestäms i varje ögonblick av användarens profil. Exakt vad som skall gå att förändra, på vilket sätt informationen förändras och vad som påverkar detta är ännu oklart och behöver utredas ytterligare. Nedan följer en tanke om hur det kan se ut.
 
-Innehåll
+http://lh5.ggpht.com/_mHREyZKezxI/Spz2FNfwx3I/AAAAAAAAABw/y-MESYFYgdY/s720/Picture%203.png
 
+_Figur 3: Information i Portalen_
 
-= Details =
+Med push information menas information som automatiskt presenteras för användaren utan att hon egentligen behöver söka eller ställa in något för att få det. Medan pull information menas att användaren aktivt gör en inställning få informationen.
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+== Systemrättigheter (Push) ==
+När det kommer till de tekniska aspekterna på hur innehållet i Portalen ser ut handlar det bland annat om vilka system som användaren kan få information från under ”Mina uppgifter”. Några exempel:
+ * En läkarsekreterare som har rättigheter i programmet MedSpeach får alltså automatiskt påminnelse när det finns diktat att skriva in. 
+ * De system som användaren har tillgång till visas per automatik under mina genvägar och ger alltså direktåtkomst till respektive system. 
+ * Användare med e-post får dessa under ”samarbeten”
+
+== Anställning (Push) ==
+Användarens anställning består av ett antal komponenter. Ett antagande har gjorts att den besår av yrkesroll, specialitet och arbetsplats, några exempel:
+ * Läkare, ortopedi, SÄS Ulricehamn, avd 32
+ * IT-strategi, IT, Regionkansliet
+ * Områdeschef, Obstretik, Sahlgrenska
+Huruvida dessa tre är korrekta för att styra allt informationsinnehåll och hur de då skall anges är ännu inte utrett. Det har dock antagits att den information som behövs delvis hämtas från KIV, men också att denna behöver kompletteras.  Nedan följer en bild över hur användare av Portalen delar information beroende på de tre komponenterna. Notera att figuren endast behandlar de användare som ”bara” har en typ av tjänst, vilket ett flertal medarbetare inom VGR inte har.
+
+http://lh4.ggpht.com/_mHREyZKezxI/Spz2FBK3LbI/AAAAAAAAAB0/Q4IsVO94TpA/s912/Picture%204.png
+
+_Figur 4: Informationsdelning av användare i Portalen_
+== Egna ansvarsområden (pull) ==
+Eftersom ett flertal av personerna som jobbar inom VGR har flera ansvarsområden utöver sin anställning, har användaren möjlighet att på egen hand skapa ansvarsområden. Ett ansvarsområde är uppbyggt av samma komponenter som en anställning är, det vill säga yrkesroll, specialitet och arbetsplats.
+== Egen anpassning (Pull) ==
+Användaren kan även påverka innehållet i Portalen genom att göra vissa personliga val, såsom exempelvis vad som skall visas i en specifik portlet. Användaren kan lägga till och ta bort vilka källor, såsom egna uppgifter, IT-nyheter om Melior, notifieringar från MedSpeach, som visas under ”Mina uppgifter”, se figur nedan. Dessa inställningar går att göra under Mina inställningar/Anpassa startsida.
+
+http://lh5.ggpht.com/_mHREyZKezxI/Spz2FMzY4hI/AAAAAAAAAB4/DZn2W3H0res/s576/Picture%205.png
+<br>
+_Figur 5: Användaren kan bestämma vilka källor som skall visas under ”Mina uppgifter”_
+
+== Inställningar som görs vid första inloggningen ==
+Användaren kommer att behöva göra vissa inställningar första gången hon loggar in i Portalen, detta för att komplettera sin personliga profil. Är inte profilen komplett är risken stor att innehållet i Portalen inte överensstämmer med användarens behov. 
+Vilka inställningar som behövs göras är ännu inte fastställt och behövs utredas ytterligare (TBD). 
