@@ -10,34 +10,34 @@ Detta gäller för samtliga delar av Portalen. Notera att under Hitta/Sök kan P
 Ett undantag är då användaren varit utloggad ut systemet mer än cirka fyra timmar, då användaren istället skall komma till startsidan.
 
 === Dialoger ===
-Det finns delar av Portalen som öppnas i en dialog, exempelvis att lägga till en kalenderhändelse eller redigera sina kontaktuppgifter. Då dialogen öppnas tonas Portalen ner i bakgrunden och blir låst för användaren. Användaren kan flytta på dialogen för att på så sätt komma åt information som är dold. När användaren sedan är klar och stänger ner fönstret sparas informationen, specifik portlet uppdateras och Portalen är inte längre låst för användaren. 
+Det finns delar av Portalen som öppnas i en dialog, exempelvis att lägga till en kalenderhändelse eller redigera sina kontaktuppgifter. Då dialogen öppnas tonas Portalen ner i bakgrunden och blir låst för användaren. Användaren kan flytta på dialogen för att på så sätt komma åt information som är dold. När användaren sedan är klar och stänger ner fönstret sparas informationen, specifik portlet uppdateras och Portalen är inte längre låst för användaren.
  
-http://lh4.ggpht.com/_mHREyZKezxI/Spz7oVA69HI/AAAAAAAAAB8/pC3mfAThZSA/s720/Picture%206.png
-_Figur 6: Exempel på dialog_
+<br>http://lh4.ggpht.com/_mHREyZKezxI/Spz7oVA69HI/AAAAAAAAAB8/pC3mfAThZSA/s720/Picture%206.png
+<br>_Figur 6: Exempel på dialog_
 
 === Länkar ===
 I Portalen fungerar länkar, exempelvis då en applikation skall öppnas upp, på två olika sätt:
  * De länkar som leder till en applikation eller informationsdel som finns i Portalen, exempelvis E-post eller ”Mina kontakter”, presenteras den del av Portalen där det specifika objektet finns. Exempelvis om användaren klickar på länken för E-post presenteras Mitt jobb/E-post i Portalen. Detta sker i det befintliga fönstret. 
 
-http://lh3.ggpht.com/_mHREyZKezxI/Spz7o1R_YeI/AAAAAAAAACE/wOWEHdHzuHA/s800/Picture%207.png
-_Figur 7: Exempel då användaren tar sig till en annan del av Portalen_
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Spz7o1R_YeI/AAAAAAAAACE/wOWEHdHzuHA/s800/Picture%207.png
+<br>_Figur 7: Exempel då användaren tar sig till en annan del av Portalen_
 
  * För de applikationer eller webbsidor som inte finns Portalen, exempelvis journalhanteringssystem, medicinsk webbsida eller rubriken för en sökträff som länkar till en extern artikel, öppnas länkarna i ett nytt fönster. I det nya fönstret öppnas bara den aktuella webbsidan/applikationen och det finns inte några fasta funktioner.
  
-http://lh5.ggpht.com/_mHREyZKezxI/Spz9a8ctXoI/AAAAAAAAACw/5eQFrVS06RY/s800/Picture%2016.png
-_Figur 8: Exempel då användaren tar sig till en annan webbsida_
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Spz9a8ctXoI/AAAAAAAAACw/5eQFrVS06RY/s800/Picture%2016.png
+<br>_Figur 8: Exempel då användaren tar sig till en annan webbsida_
 
 === Minimera/maximera portlet ===
 Användaren kan maximera utrymmet för ”Verksamhetsnytt” så att objektet upptar hela innehållsdelen och på så sätt kunna få mer detaljerad information. När användaren sedan känner sig nöjd kan hon minimera informationsfältet, vilken då återgår till sin ursprungliga storlek.
  
-http://lh6.ggpht.com/_mHREyZKezxI/Spz7o0AuQxI/AAAAAAAAACI/0vzOEBn5fZM/s800/Picture%209.png
-_Figur 9: Utseende på ikonerna för att maximera och minimera en portlet_
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Spz7o0AuQxI/AAAAAAAAACI/0vzOEBn5fZM/s800/Picture%209.png
+<br>_Figur 9: Utseende på ikonerna för att maximera och minimera en portlet_
 
  * Utöka information
 När användaren exempelvis har gjort en sökning eller är inne under Mitt jobb/Bevakningar kan hon utöka informationen om ett objekt eller sökträff. Detta genom att föra musen över ett specifikt objekt och sedan välja att vida mer (se figur nedan). Användaren kan sedan dölja informationen och så vidare.
  
-http://lh5.ggpht.com/_mHREyZKezxI/Spz7o2idFTI/AAAAAAAAACM/uJ1F2BV6yjA/s800/Picture%2010.png
-_Figur 10: Flöde för då användaren utökar information_
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Spz7o2idFTI/AAAAAAAAACM/uJ1F2BV6yjA/s800/Picture%2010.png
+<br>_Figur 10: Flöde för då användaren utökar information_
 
 == Skroll ==
 Den enda skroll som finns i Portalen är den som är placerad till höger, vilken skall skrolla hela webbsidan. 
@@ -46,11 +46,11 @@ I de fall då de färdigdefinierade utrymmena inte är tillräckliga för att pr
 == Sök ==
 Följande avsnitt presenterar de beteenden och funktioner som skall gälla för sök. Det finns två olika typer av sök, en generell och en funktionsspecifik sök. Den funktionsspecifika söken söker endast bland information som finns presenterad i den del av Portalen som den specifika sökfunktionen finns i. Den generella sökfunktionen söker på information som finns i Portalen samt interna och externa webbsidor.
 
-http://lh5.ggpht.com/_mHREyZKezxI/Spz7v7dd1yI/AAAAAAAAACQ/slTCxyAXONs/s800/Picture%2011.png
-_Figur 11: Generell sök_
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Spz7v7dd1yI/AAAAAAAAACQ/slTCxyAXONs/s800/Picture%2011.png
+<br>_Figur 11: Generell sök_
 
-http://lh6.ggpht.com/_mHREyZKezxI/Spz7vxHePiI/AAAAAAAAACU/rXoHvTxvR-Y/s800/Picture%2012.png
-_Figur 12: Funktionsspecifik sök_
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Spz7vxHePiI/AAAAAAAAACU/rXoHvTxvR-Y/s800/Picture%2012.png
+<br>_Figur 12: Funktionsspecifik sök_
 
 === Sökområden (generell sök) ===
 Det finns ett antal sökområden som användaren kan använda sig av för att smalna ner de sökträffar hon får efter en sökning. Hittills har antagits att ett och samma dokument kan finnas i mer än ett sökområde och att en källa kan finnas i flera sökområden.
@@ -67,8 +67,8 @@ Då användaren har gjort en sökning sorteras träffarna in i de olika områden
  * Organisation
  * Diskussionsgrupp
 
-http://lh6.ggpht.com/_mHREyZKezxI/Spz7wIRVTnI/AAAAAAAAACY/1Y0QS_iSXr4/Picture%2013.png
-_Figur 13: Presentation av sökområde_
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Spz7wIRVTnI/AAAAAAAAACY/1Y0QS_iSXr4/Picture%2013.png
+<br>_Figur 13: Presentation av sökområde_
 
 === Tolkning av sökord ===
 Exakt hur sökorden tolkas är ännu inte helt klart, utan en mer korrekt beskrivning skall göras. 
@@ -77,16 +77,17 @@ Exakt hur sökorden tolkas är ännu inte helt klart, utan en mer korrekt beskri
 Den detaljerade sökfunktionen innehåller ett antal statiska kategorier som användaren kan använda sig av för att snäva av sin sökning.  Vilka kategorierna är beror på vilket sökområde användaren har valt. 
 Det har inte tagits något beslut om vilka kategorier som skall finnas under de specifika sökområdena (TBD).
 
-http://lh3.ggpht.com/_mHREyZKezxI/Spz7wF8qDNI/AAAAAAAAACc/uVUvXDKH2Jk/s800/Picture%2014.png
-_Figur 14: Detaljerad sök_
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Spz7wF8qDNI/AAAAAAAAACc/uVUvXDKH2Jk/s800/Picture%2014.png
+<br>_Figur 14: Detaljerad sök_
 
 == Tool-tip ==
 I Portalen finns det en tool-tip funktion där användaren, genom att föra musen över objektet, exempelvis kan bli informerad om vad objektet betyder och vad hon kan göra med det. Om, när och hur tool-tip funktionen implementeras är ännu inte beslutat.
+
 == Spara genvägar ==
 Användaren kan spara ner genvägar, såsom webbsidor och system, på två olika sätt. Det ena är att göra det via Egna inställningar/Anpassa startsidan (se stycke 6.6.2.1). Det andra alternativet, vilket kräver en separat installation i webbläsaren, är att klicka på funktionen för att lägga till som genväg (se figur nedan). Då användaren klickat där skall länken till den aktuella webbsidan läggas till sist i listan för de genvägar som användaren har under Egna inställningar/Anpassa startsidan.
 
-http://lh5.ggpht.com/_mHREyZKezxI/Spz7wbb3UeI/AAAAAAAAACg/tN31vW9H_FE/Picture%2015.png
-_Figur 15: Funktion för att lägga till webbsida som genväg_
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Spz7wbb3UeI/AAAAAAAAACg/tN31vW9H_FE/Picture%2015.png
+<br>_Figur 15: Funktion för att lägga till webbsida som genväg_
 
 
 
