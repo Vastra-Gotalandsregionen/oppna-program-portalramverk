@@ -1,13 +1,32 @@
-#summary One-sentence summary of this page.
+#summary Beskriver grundläggande designprinciper
 
-= Introduction =
+= Principdesign =
+Principdesignen beskriver systemets struktur. Den definierar också vilka delar i systemet som tar stort utrymme i gränssnittet och vilka delar som är mindre framträdande. 
 
-Principdesign
+== Utgångspunkt ==
+Portalen består av en samling av information som en användare kan tänkas behöva i sitt arbete. Informationen finns inte direkt lagrad i Portalen, utan den genereras från andra webbsidor och system. 
+Det finns två olika karaktärer för de system som Portalen sträcker över. För det första finns de system som ligger direkt i Portalen, exempelvis e-postprogram, vilket ger användaren en möjlighet att både läsa information hämtat från systemet och möjlighet att agera i systemet. 
+För det andra finns det system som Portalen endast kan visa information ifrån, såsom system för labbsvar, faktura hantering och diktat. Om användaren sedan vill agera på informationen eller läsa ytterligare information, måste hon klicka på en länk som öppnar systemet i ett nytt fönster.
+Hur användaren kan navigera sig bland de två typerna av system finns presenterade mer detaljerat under stycke 5.1.3.
 
+== Navigering ==
+Följande figur beskriver hur Portalen är uppbyggd. 
 
-= Details =
+X
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+ Figur 1: Navigering i Portalen
+
+== Areaindelning ==
+Den generella areaindelningen för Portalen är uppdelad i sju huvudsakliga områden. Dessa kan antingen vara fasta eller dynamiska. De fasta funktionerna består av de funktioner som syns och går att interagera med oberoende var användaren befinner sig i Portalen. Dock skall de fasta delarna inte finnas med då användaren öppnar upp ett system i ett nytt fönster från någon av Portalens genvägar. De dynamiska funktionerna ändras beroende på var användaren är i Portalen (se figur nedan). 
+
+X
+
+Figur 2: Generell areaindelning av Portalen
+Den generella areaindelningen innehåller sex areor:
+ # Systemnamn (Fasta)– Här visas bland annat Portalens logotyp/varumärke och vem som är inloggad.
+ # Primär navigering (Fasta)– Den primära navigeringen utgörs av en uppsättning flikar, som kan variera beroende på vem som är inloggad. Denna navigering utgör huvudsakliga navigeringen i Portalen. 
+ # Sök (Fasta)– Här finns en sökfunktion som användaren kan använda för att söka efter information. 
+ # Länkar till genvägar och kontakter (Fasta) – Här finns de snabbgenvägar som användaren kan använda sig av för att snabbt öppna upp ett program eller en webbsida. Vilka genvägar som visas är beroende av vem som är inloggad samt vilka personliga inställningar användaren gjort. Vidare finns det även en snabblänk till användarens kontakter.
+ # Mina uppgifter (Fasta) – Här finns information/påminnelser som användaren antingen har skapat åt sig själv eller sådana som användaren i och med sin yrkesroll och personliga inställningar får automatiskt skickat till sig. Användaren kan se om det finns några nya uppgifter och även ha möjligheten att skapa nya uppgifter. Vidare får användaren information om att det exempelvis finns två nya labbsvar. Men hon kan däremot inte se exakt vilka labbsvar det handlar om utan att klicka på länken som öppnar det aktuella systemet.
+ # Samarbetsfunktioner (Fasta) – Till samarbetsfunktionen hör E-post, snabbmeddelanden och diskussionsgrupper, vilka användaren kan använda för att kommunicera med sina medarbetare. Användaren kan se om det finns några nya inlägg/meddelanden. För e-post och diskussionsgrupper kan användaren klicka sig till den del av Portalen där finns presenterade mer detaljerat. 
+ # Innehåll och sekundärnavigering (Dynamisk) – Här presenteras innehållet som finns under de olika flikarna. Hur och vilken typ av information som presenteras påverkas av vem som är inloggad.
