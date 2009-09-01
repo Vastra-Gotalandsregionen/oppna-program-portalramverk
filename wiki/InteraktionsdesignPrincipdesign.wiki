@@ -17,6 +17,8 @@ Följande figur beskriver hur Portalen är uppbyggd.
 [Imgage:IDPD1.png]
 {{IDPD1.png}}
 
+[[Image(source:Interaktionsdesign/Exported/FW_Startsidan.png)]]
+
  Figur 1: Navigering i Portalen
 
 == Areaindelning ==
