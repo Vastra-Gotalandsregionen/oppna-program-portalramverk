@@ -19,7 +19,7 @@ Det material som legat till grund för principdesign utgörs främst av:
   * Intervjuer med dåvarande verksamhetsutvecklingsdirektör Marianne Olsson, SU och områdeschef Hans Holmberg, SU samt projektledare Stefan Holmberg, IT-SA. 
   * Workshop med verksamhetsansvariga för att ta ett formellt beslut om syfte och mätpunkter.
 
-Innehållsförteckning
+*Innehållsförteckning*
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriltlinjerAnvandargranssnitt Introduktion] 
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignForvantadeEffekter Förväntade effekter och målgrupper]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignPrincipdesign Principdesign]
