@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Beskriver innehållshantering i portalen
 
 = Innehåll =
 Det exakta innehållet i Portalen bestäms i varje ögonblick av användarens profil. Exakt vad som skall gå att förändra, på vilket sätt informationen förändras och vad som påverkar detta är ännu oklart och behöver utredas ytterligare. Nedan följer en tanke om hur det kan se ut.
