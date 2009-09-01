@@ -21,7 +21,7 @@ Det material som legat till grund för principdesign utgörs främst av:
 
 Innehållsförteckning
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriltlinjerAnvandargranssnitt Introduktion] 
- # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignForvantadeEffekter Förväntade effekter]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignForvantadeEffekter Förväntade effekter och målgrupper]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignPrincipdesign Principdesign]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignInnehall Innehåll]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignBeteendeFunktioner Beteenden och funktioner]
