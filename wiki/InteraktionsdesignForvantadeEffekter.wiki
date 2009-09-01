@@ -30,8 +30,8 @@ Arbetsuppgifterna skiljer sig mycket mellan personer som jobbet med administrati
 En person som jobbar som linjens chef ansvarar för styrning och ledning av arbetet. De finns på olika nivåer och kan till exempel vara områdeschef eller avdelningschef. Vidare kan en linjens chef ansvara för en avdelning med X-Y anställda och har eget kontor med en egen dator. 
 
 
-== Innehållsförteckning ==
- # [http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriltlinjerAnvandargranssnitt Start] 
+*Innehållsförteckning*
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriltlinjerAnvandargranssnitt Introduktion] 
  # Förväntade effekter och målgrupper
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignPrincipdesign Principdesign]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignInnehall Innehåll]
