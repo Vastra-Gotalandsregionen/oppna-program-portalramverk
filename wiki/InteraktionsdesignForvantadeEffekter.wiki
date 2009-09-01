@@ -1,20 +1,38 @@
-#summary One-sentence summary of this page.
+#summary Beskriver förväntade effekter och de målgrupper som förväntas uppfylla dem
+
 
 = Förväntade effekter =
+Syftet med Portalen är att den skall mynna ut i att användarna får bättre koll på jobbet än i dagsläget. Med koll menas att systemet presenterar den information som berör användaren utan att hon behöver söka aktivt efter den och att man vid de tillfällen som man söker efter specifik information också hittar den. Till jobbet hör både de specifika arbetsuppgifterna i den egna ansvarsrollen och i vidare mening jobbrelaterad information. En positiv bieffekt av att säkerställa bättre koll på jobbet antas vara en ökad patientsäkerhet och en effektivare arbetsprocess. 
 
-Denna sida beskriver
+
+
+= Målgrupper =
+Målgrupperna för Portalen är sjuksköterskor, läkare, läkarsekreterare, paramedicinskpersonal, administrativ personal och linjens chefer. Nedan följer de olika målgrupperna, i prioritetsordning, samt en kort beskrivning av dem.
+
+== Sjuksköterska ==
+En sjuksköterska tillhör en avdelning, till vilken hon skall tidsrapportera all arbetad tid. Sjuksköterskan har nästan uteslutande patientrelaterat arbete och en stor del av detta (ca 35 %) är administrativt arbete. Hon har inte tillgång till en egen dator, utan använder den/de datorer som finns på sjuksköterskeexpeditionen eller i anslutning till denna. 
+En av grundstenarna hos en sjuksköterska är att hon vill vara säker på att patienten får adekvat vård, och har således liten tolerans mot saker som tar tid från det patientrelaterade arbetet 
+== Läkare ==
+En läkare är anställd inom ett område eller inom en verksamhet, där han har en chef kallad ”Områdeschef” eller ”Verksamhetschef”. Läkaren har en specialitet som inbegriper många avdelningar. Läkare utför patientrelaterat arbete, varav en betydande del är administrativt.
+En läkare har ibland egen dator, ibland delar de datorerna som finns i läkarexpeditionen. I snitt är de ofta två läkare på en dator.
+Professionens kanaler är viktiga för läkaren. Att vara en del av den professionella gemenskapen, samt att synas där, är mycket viktigt och lojaliteten ligger hos ”branschkollegorna”. 
+== Läkarsekreterare ==
+Som läkarsekreterare kan man antingen jobba på heltid för en läkare, eller jobba för flera läkare samtidigt. 
+En läkarsekreterare stöttar läkare med patientrelaterat och annat administrativt arbete. Det finns läkarsekreterare som endast har patientrelaterade uppgifter samt de som inte har några patientrelaterade uppgifter över huvudtaget. De läkarsekreterare som tillhör denna målgrupp är de som har helt eller delvis patientrelaterat arbete. De som inte har något patientrelaterat arbete skall här snarare betraktas som administrativ personal.
+Läkarsekreteraren har en egen dator och arbetsplats. Hennes arbetsuppgifter initieras ofta av att någon, exempelvis en läkare, kommer in till dem och ber henne renskriva ett diktat eller fylla i hans ansökan om semesterledighet.
+== Paramedicinsk personal ==
+Paramedicinsk personal jobbar vanligtvis inte i fasta team, utan kommer in som ett komplement i redan befintliga vårdlag, där han utför specifika vårdinsatser och/eller utför vårdanalyser. 
+Paramedicinsk personal har till stor del patientrelaterat arbete, varav cirka två timmar läggs på administrativt arbete varje dag, såsom exempelvis att föra journalanteckningar och planera vården/rehabiliteringen för en patient. 
+== Administrativ personal ==
+En administrativ person hanterar administrativa uppgifter, såsom löner, transporter, inköp, ordna inför möten och så vidare. Som en administrativ person kan hon både jobba för en enda person, såsom en läkare eller en linjens chef, eller flera personer, såsom samtliga chefer eller läkare som jobbar på en avdelning. Hon har en egen arbetsplats med egen dator.
+Arbetsuppgifterna skiljer sig mycket mellan personer som jobbet med administrativa uppgifter, vilket gör det svårt att generalisera deras informationsbehov. Ett exempel är publicister vars informationsbehov till stor del finns utanför organisationen, då det är publicisterna som ser till att uppdatera intranätet och föra vidare relevant information in i organisationen. Ett annat exempel är personer som har en anställning som läkarsekreterare. Deras informationsbehov påverkas till stor del av vilken typ av läkare hon hjälper till att utföra administrativa uppgifter för.
+== Linjens chefer ==
+En person som jobbar som linjens chef ansvarar för styrning och ledning av arbetet. De finns på olika nivåer och kan till exempel vara områdeschef eller avdelningschef. Vidare kan en linjens chef ansvara för en avdelning med X-Y anställda och har eget kontor med en egen dator. 
 
 
 == Innehållsförteckning ==
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriltlinjerAnvandargranssnitt Start] 
- # Förväntade effekter
-  # Mål och målgrupper
-  # Sjuksköterska
-  # Läkare
-  # Läkarsekreterare
-  # Paramedicinsk personal
-  # Administrativ personal
-  # Linjens chefer
+ # Förväntade effekter och målgrupper
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignPrincipdesign Principdesign]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignInnehall Innehåll]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignBeteendeFunktioner Beteenden och funktioner]
