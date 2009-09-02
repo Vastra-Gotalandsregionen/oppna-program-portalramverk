@@ -2,6 +2,52 @@
 
 = Detaljdesign: Hitta =
 
+Under fliken ”Hitta” finns den generella sökfunktionen samt en möjlighet att navigera i en organisation. Sökfunktionen innehåller ett antal sakområden som användaren kan använda sig av för att sortera ut den typ av information som hon vill söka efter. 
+== Sök ==
+Användaren skall kunna göra fritextsökningar efter information både på interna webbsidor och externa webbsidor. Sökningen kan både utgå från samtliga typer av dokument/källor, men användaren kan även välja att söka på ett av de fördefinierade sökområdena, såsom exempelvis personer, nyheter eller diskussionsgrupper.
+
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp47r3wJJLI/AAAAAAAAAG4/aaAuDdqaZXs/s800/Picture%2050.png
+<br>_Figur 47: Startsidan för sök_
+
+När användaren fyllt i sökorden och klickat på ”SÖK” får hon upp en sida med de fyra första träffarna från varje sökområde. Användaren skall sedan kunna klicka på ett sökträff direkt och få upp den, eller så skall hon välja att se träffarna från ett av sökområdena genom att klicka på sökområdet antingen i träfflistan eller i spalten till vänster.
+
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp47r3hJ6HI/AAAAAAAAAG8/VdGONxT2dV4/s800/Picture%2051.png
+<br>_Figur 48: Utseende då användaren har gjort en sökning, men inte valt sökområde_
+
+=== Detaljerat sök ===
+Användaren skall även kunna göra en detaljerad sökning, om hon exempelvis vill hitta ett dokument från en viss avdelning eller skriven av en viss författare. Detta gör hon genom att filtrera med hjälp av fördefinierade kategorier och alternativ. Det finns olika kategorier för olika sökområden (se 5.3.3). Användaren kan klicka fram och klicka bort alternativen som hon vill och sökresultatet skall ändras dynamiskt utefter användarens val.
+
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Sp47r620eVI/AAAAAAAAAHA/ixirIpzfHMM/s800/Picture%2052.png
+<br>_Figur 49: Detaljerad sök_
+
+=== Dokument sök ===
+Då användaren gjort en sökning efter ett dokument kan det se ut enligt följande:
+
+<br>http://lh4.ggpht.com/_mHREyZKezxI/Sp47sPQ1ZsI/AAAAAAAAAHE/kpjg_AAQgJs/s800/Picture%2053.png
+<br>_Figur 50: Exempel utseende då användaren valt att visa dokumentträffarna_
+
+I ovanstående figur kan användaren välja att ”Visa detaljer” om träffen, då ser det ut enligt följande:
+
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp47sAzMiaI/AAAAAAAAAHI/4sy5TRG6gMY/s800/Picture%2054.png
+<br>_Figur 51: Utseende då användaren valt att visa detaljer om en källa_
+Användaren kan även välja att visa mer detaljer om författaren, då ser det ut enligt följande:
+
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp47y8dBaNI/AAAAAAAAAHM/UW2igXbpK1M/s800/Picture%2055.png
+<br>_Figur 52: Utseende då användaren valt att visa mer information om författaren_
+
+=== Personsök ===
+Då användaren gjort en sökning efter en person kan det se ut enligt följande:
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp47yzgfZ-I/AAAAAAAAAHQ/v6fGrSS9DPg/s800/Picture%2056.png
+<br>_Figur 53: Utseende på träfflista då träffarna är personer_
+
+Då användaren väljer att ”Visa detaljer” om en specifik person ser det ut enligt följande:
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp47zHJip0I/AAAAAAAAAHU/r3C5tvntEu4/s800/Picture%2057.png
+<br>_Figur 54: Utseende då användaren valt att visa detaljer om en person_
+
+== Navigera organisation ==
+Under ”Navigera organisation” skall användaren kunna klicka runt inom VGR organisationen och få upp styrande dokument, nyheter och annan organisationsspecifik information som används på den valda delen av VGR. Det är dock inte utrett huruvida det finns något behov av denna typ av funktion, då användaren kan tänkas aktivt söka efter något och då skulle den detaljerade sökningen fungera bättre för användaren.
 
 
 *Innehållsförteckning*
