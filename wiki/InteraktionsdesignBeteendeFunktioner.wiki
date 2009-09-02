@@ -98,3 +98,4 @@ Användaren kan spara ner genvägar, såsom webbsidor och system, på två olika
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignInnehall Innehåll]
  # Beteenden och funktioner
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesign Detaljdesign]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/AnnuInteUtrett?ts=1251892328&updated=AnnuInteUtrett Ännu inte utrett]
