@@ -50,7 +50,8 @@ Då användaren väljer att ”Visa detaljer” om en specifik person ser det ut
 Under ”Navigera organisation” skall användaren kunna klicka runt inom VGR organisationen och få upp styrande dokument, nyheter och annan organisationsspecifik information som används på den valda delen av VGR. Det är dock inte utrett huruvida det finns något behov av denna typ av funktion, då användaren kan tänkas aktivt söka efter något och då skulle den detaljerade sökningen fungera bättre för användaren.
 
 
-*Innehållsförteckning*
+<br><br>
+*Innehållsförteckning* (återfinns längst ner på varje sida)
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriltlinjerAnvandargranssnitt Introduktion] 
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignForvantadeEffekter Förväntade effekter och målgrupper]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignPrincipdesign Principdesign]
