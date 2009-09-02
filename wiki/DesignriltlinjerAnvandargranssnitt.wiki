@@ -1,6 +1,6 @@
 #summary Interaktionsdesign, beskriver riktlinjer för design av användargränssnitt
 
-= Introduktion till interaktionsdesign, designriktlinjer för användargränssnitt =
+= Introduktion till interaktionsdesign för portalramverket =
 
 Dessa sidor beskriver designriktlinjer för användargränssnitt. Sidorna beskriver ett användargränssnitt för Portalen som utgår från de kända behoven hos verksamheten och användarna. I en förlängning skall interaktionsdesignen kompletteras med riktlinjer för nya applikationer och tjänster, men detta har inte varit syftet i denna etapp. 
 Dokumentet beskriver interaktionen mellan användaren och systemet. Det beskriver alltså:
