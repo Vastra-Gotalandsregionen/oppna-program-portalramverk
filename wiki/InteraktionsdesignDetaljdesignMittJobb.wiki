@@ -28,7 +28,6 @@ Då användaren väljer att visa mer information om en bevakning, presenteras in
 <br> _Figur 30: Utseende då användaren har valt att visa mer detaljer om en bevakning_
 
 Funktion:
-
  * *Visa mer/Dölj* När användaren klickar på ”Visa mera” fälls bevakningen ut, användaren kan läsa tidigare och nyinkomna bevakningar samt att användaren sedan kan klicka på ”Dölj” för att dölja den detaljerade informationen. 
  * *Redigera bevakning* Klickar användaren på ”Redigera” får hon upp bevakningen i en dialog. 
  * *Ta bort bevakning* Klickar användaren på ”Ta bort” får hon en dialog med en fråga om hon verkligen vill ta bort bevakningar. Vill användaren fortfarande ta bort bevakningen tas bevakningen bort.
@@ -86,12 +85,12 @@ Under uppgifter kan användaren skapa och se sina uppgifter. Användaren kan äv
 <br>_Figur 38:Användarens uppgifter_
 
 Funktion:
-* *Lägg till uppgift/Redigera* Användaren kan skapa en ny uppgift genom att klicka på länken ”Skapa ny uppgift” eller redigera en befintlig uppgift genom att klicka på ”Redigera”. Följande dialog presenteras:
+ * *Lägg till uppgift/Redigera* Användaren kan skapa en ny uppgift genom att klicka på länken ”Skapa ny uppgift” eller redigera en befintlig uppgift genom att klicka på ”Redigera”. Följande dialog presenteras:
 
 <br>http://lh5.ggpht.com/_mHREyZKezxI/Sp47ZtXoKNI/AAAAAAAAAGU/lCjLGZasnqc/s640/Picture%2042.png
 <br>_Figur 39: Dialog för att lägga till en uppgift_
 
-* *Ta bort uppgift* När användaren vill ta bort en uppgift får hon följande dialog:
+ * *Ta bort uppgift* När användaren vill ta bort en uppgift får hon följande dialog:
 
 <br>http://lh3.ggpht.com/_mHREyZKezxI/Sp47ZtP6ufI/AAAAAAAAAGY/SwCJmM_UCdo/Picture%2043.png
 <br>_Figur 40: Fråga om användaren verkligen vill ta bort en kalenderhändelse_
@@ -123,8 +122,8 @@ Funktion:
 <br>http://lh5.ggpht.com/_mHREyZKezxI/Sp47iydr8LI/AAAAAAAAAGs/Il4uIAwY6Nw/s576/Picture%2048.png
 <br>_Figur 45: Dialog för visa en kontakt_
 
-* *Hämta kontakt* När användaren har klickat på ”Hämta kontakt” kan hon hämta in kontakter från olika telefonlistor. Dialogen skall följa utseendet och funktionaliteten som samma funktionalitet har under kontakter i Lotus Notes.  
-* *Ta bort kontakt* När användaren har öppnat en kontakt kan hon välja att ta bort kontakten genom att klicka på knappen ”Ta bort”. Då hon gjort det öppnas följande: 
+ * *Hämta kontakt* När användaren har klickat på ”Hämta kontakt” kan hon hämta in kontakter från olika telefonlistor. Dialogen skall följa utseendet och funktionaliteten som samma funktionalitet har under kontakter i Lotus Notes.  
+ * *Ta bort kontakt* När användaren har öppnat en kontakt kan hon välja att ta bort kontakten genom att klicka på knappen ”Ta bort”. Då hon gjort det öppnas följande: 
 
 <br>http://lh6.ggpht.com/_mHREyZKezxI/Sp47jHtTziI/AAAAAAAAAGw/w4Cng6Dp1Rk/Picture%2049.png
 <br>_Figur 46: Fråga om användaren verkligen vill ta bort en kontakt_
