@@ -5,7 +5,8 @@
 Det finns ett antal oklarheter, gällande verksamheten, teknik/arkitektur samt projektmodell (TBD), i den aktuella interaktionsdesignen för Portalen. För det första kan det handla om funktioner som inte finns implementerade i prototypen ännu, och detta på grund av tidsmässiga skäl. Vidare finns de oklarheter som behövs utredas ytterligare och/eller behövs tas ett beslut om. Slutligen finns de funktioner som har lagts på is tills vidare, exempelvis på grund av att det verkar finnas bristande behöv för dem eller att det i dagsläget inte är tekniskt möjligt att genomföra dem. Mer om oklarheterna finns att läsa i Bilaga1 ID V2 Portalramverket oklarheter, v 0.6 som finns på Projektplatsen.
 
 
-*Innehållsförteckning*
+<br><br>
+*Innehållsförteckning* (återfinns längst ner på varje sida)
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriltlinjerAnvandargranssnitt Introduktion] 
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignForvantadeEffekter Förväntade effekter och målgrupper]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignPrincipdesign Principdesign]
