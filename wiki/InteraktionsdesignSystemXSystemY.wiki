@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Beskriver innehåll under System X, system Y
 
 = Detaljdesign: System X, system Y =
 
