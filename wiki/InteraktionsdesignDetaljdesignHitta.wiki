@@ -63,3 +63,4 @@ Under ”Navigera organisation” skall användaren kunna klicka runt inom VGR o
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignSystemXSystemY?ts=1251805029&updated=InteraktionsdesignSystemXSystemY System X, system Y]
   # Hitta
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesignEgnaInstallningar Egna inställningar]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/AnnuInteUtrett?ts=1251892328&updated=AnnuInteUtrett Ännu inte utrett]
