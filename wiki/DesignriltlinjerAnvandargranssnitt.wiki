@@ -26,3 +26,4 @@ Det material som legat till grund för principdesign utgörs främst av:
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignInnehall Innehåll]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignBeteendeFunktioner Beteenden och funktioner]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesign Detaljdesign]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/AnnuInteUtrett?ts=1251892328&updated=AnnuInteUtrett Ännu inte utrett]
