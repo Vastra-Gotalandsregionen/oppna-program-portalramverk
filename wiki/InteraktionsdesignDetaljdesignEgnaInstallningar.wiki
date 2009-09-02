@@ -2,6 +2,88 @@
 
 = Detaljdesign: Egna inställningar =
 
+Under egna inställningar skall användaren kunna se information om sig själv, redigera informationen, ange vilka arbetsplatser hon har samt att kunna göra viss anpassning av startsidan.
+
+== Fakta om mig ==
+Under fakta om mig kan användare se information om sig själv såsom andra kommer att se den samt ha möjlighet att redigera informationen vid behov. 
+
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp47zEdA2WI/AAAAAAAAAHY/LKLd35o4wTA/s800/Picture%2058.png
+<br>_Figur 55: Utseende på ”Fakta om mig”_
+
+Observera att ingen av ovanstående informationsobjekt är redigerbara i detta skede. För att redigera informationen måste användaren klicka på menyn och välja redigera.
+
+=== Personuppgifter ===
+Under personuppgifter finns information om användaren som är av personlig karaktär. Vilka fakta som skall vara redigerbar är ännu inte fastställt.
+
+Funktion:
+ * *Information inte redigerbar* Informationen är inte redigerbar i detta läge. För att redigera informationen måste användare:
+ * *Redigera personuppgifter* Användaren kan själv redigera delar av information som finns under personuppgifter genom att klicka på länken ”Redigera”. Vilka delar som skall vara redigerbar är ännu inte fastställt.
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp47zLjq_aI/AAAAAAAAAHc/zvk_Sp_UFiw/s576/Picture%2059.png
+<br>_Figur 56: Dialog för då användaren redigerar sina personuppgifter_
+
+=== Anställning ===
+Under anställning finns både användarens anställningar och ansvarsområden. Användaren kan inte ändra sina anställningar. Däremot kan användaren ändra och lägga till andra ansvarsområden.
+
+=== Kontaktuppgifter ===
+Under kontaktuppgifter finns information om hur användaren kan bli kontaktad. Vilka fakta som är redigerbar är ännu inte fastställt.
+
+Funktion:
+ * *Information inte redigerbar* Informationen är inte redigerbar i detta läge. För att redigera informationen måste användare:
+ * *Redigera personuppgifter* Användaren kan själv redigera delar av information som finns under personuppgifter genom att klicka på länken ”Redigera”. Vilka delar som skall vara redigerbar är ännu inte fastställt.
+
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp476qkeNQI/AAAAAAAAAHg/lnKxTQ8nids/Picture%2060.png
+<br>_Figur 57: Dialog för då användaren redigerar sina personuppgifter_
+
+=== Publiceringar ===
+Under publiceringar finns användarens publiceringar presenterade.
+
+<br>http://lh4.ggpht.com/_mHREyZKezxI/Sp476ow7gNI/AAAAAAAAAHk/aa9caWCD-_8/Picture%2061.png
+<br>_Figur 58: Användarens publiceringar_
+
+Funktion:
+ * *Öppna publicering/diskussionsgrupp* Då användaren klickar på länken för publiceringen öppnas publiceringen upp i en ny dialog. 
+
+== Anpassning av startsidan ==
+Under anpassning av startsidan kan användaren göra anpassningar av vissa fasta delar av Portalen. Användaren kommer direkt till denna flik då hon exempelvis har klickar på Navigera till-knappen bredvid ”Mina genvägar”. Exakt vilka anpassningar som behöver kunna göra är ännu inte beslutat.
+
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Sp476juRHQI/AAAAAAAAAHo/F6cNM7X6l_g/s800/Picture%2062.png
+<br>_Figur 59: Utseende på fliken för att anpassa startsidan_
+
+=== Mina genvägar ===
+
+<br>http://lh4.ggpht.com/_mHREyZKezxI/Sp476xuS6tI/AAAAAAAAAHs/rg01sgR2Sr0/Picture%2063.png
+<br>_Figur 60: Information under ”Mina genvägar”_
+
+Funktion:
+
+ * *Lägga till en genväg* Då användaren klickar på länken ”Lägg till genväg” öppnas följande dialog:
+
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Sp476wZEXAI/AAAAAAAAAHw/wWAmXbp71jM/Picture%2064.png
+<br>_Figur 61: Fönster för att lägga till en ny genväg_
+
+ * *Redigera genväg* Användaren kan redigera en befintlig genväg. Detta gör hon genom att klicka på länken ”Redigera”. Följande dialog öppnas:
+
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp47_bq_r0I/AAAAAAAAAH0/Xm5kKgGEKLo/s800/Picture%2065.png
+<br>_Figur 62: Fönster för att redigera en genväg_
+
+ * *Ta bort en genväg* När användaren klickar på ”Ta bort” öppnas följande dialog:
+
+<br>http://lh4.ggpht.com/_mHREyZKezxI/Sp47_r0XrqI/AAAAAAAAAH4/V32P8_3Jfqk/Picture%2066.png
+<br>_Figur 63: Fönster för att ta bort en genväg_
+
+=== Mina uppgifter ===
+Här kan användaren ställa in vilka källor hon vill skall visas under ”Mina uppgifter”. Vilka källor användaren har att välja bland är beroende på vilka system som användaren har läs- och skrivrättigheter inom samt beroende på vilken roll användaren har. Detta behöver utredas vidare.
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp47_ggQhHI/AAAAAAAAAH8/IyfvslQlCME/Picture%2067.png
+<br>_Figur 64: Val av källor under ”Mina uppgifter”_
+
+=== Kalenderinställningar ===
+Här kan användaren fylla i de inställningar hon vill göra både för kalendern på startsidan och kalendern under ”Mitt jobb” 
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp47_l2Ae7I/AAAAAAAAAIA/jThGroQPADw/Picture%2068.png
+<br>_Figur 65: Inställningar för kalender_
+
 
 
 *Innehållsförteckning*
