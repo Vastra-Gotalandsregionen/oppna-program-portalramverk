@@ -12,7 +12,7 @@ Dokumentet beskriver interaktionen mellan användaren och systemet. Det beskrive
 
 Det material som legat till grund för principdesign utgörs främst av:
 
-  * Användningstest utfört på SÄS Borås och KS, där ett tidigare lösningsförslag utvärderades för att se om det motsvarar förväntningar och nytta för verksamheten och användaren. Se dokument Användningstest (version 1.0, 2007-05-02) som ligger på Projektplatsen.
+  * Användningstest utfört på SÄS Borås och KS, där ett tidigare lösningsförslag utvärderades för att se om det motsvarar förväntningar och nytta för verksamheten och användaren. 
   * 20 stycken intervjuer på arbetsplatsen, hos bland annat sjuksköterskor, läkare och läkarsekreterare anställda på SU, där befintligt arbetssätt och befintliga systemstöd har studeras.
   * Workshop med verksamhetsansvariga för att ta ett formellt beslut om syfte och mätpunkter.
 
