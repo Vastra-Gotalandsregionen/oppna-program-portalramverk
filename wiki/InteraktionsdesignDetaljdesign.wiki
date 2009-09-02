@@ -6,7 +6,8 @@ Dealjdesignen har på grund av sin omfattning delats upp i underkategorier. I sl
 Detaljdesignen beskriver de enskilda delarna i användargränssnittet i detalj med avseende på beteende, information och presentation. Presentationen och innehållet i de olika delarna kan till viss del se skiljaktiga ut, beroende på vilken användare som inloggad.
 
 
-*Innehållsförteckning*
+<br><br>
+*Innehållsförteckning* (återfinns längst ner på varje sida)
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriltlinjerAnvandargranssnitt Introduktion] 
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignForvantadeEffekter Förväntade effekter och målgrupper]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignPrincipdesign Principdesign]
