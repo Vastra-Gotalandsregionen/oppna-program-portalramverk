@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Beskriver designriktlinjer för Mitt jobb-sidorna
 
 = Detaljdesign: Mitt jobb =
 
@@ -7,24 +7,24 @@ Under ”Mitt jobb” finns både specifik information rörande arbetsplatsen (e
 == Nytt ==
 Under ”Nytt” finns avdelningsspecifik information, såsom nyheter, information på anslagstavlan samt anteckningar från olika möten och föredrag.
 
-<br>
+<br>http://lh4.ggpht.com/_mHREyZKezxI/Sp45WOiVG_I/AAAAAAAAAEA/PrsaAkXsC1g/s800/Picture%2030.png
 <br>_Figur 28: Första sidan under fliken ”Mitt jobb”_
 
 == Dokument ==
 Under ”Dokument” finns både dokument som används på den egna arbetsplatsen, såsom exempelvis PM, mallar, rutiner för att utföra egna administrativa uppgifter, samt de dokument hon sparat själv. 
 
-<br>
+<br>http://lh4.ggpht.com/_mHREyZKezxI/Sp45fsejTZI/AAAAAAAAAEI/XIEB5kPludg/s800/Picture%2031.png
 <br>_Figur 28: Dokument under ”Mitt jobb”_
 
 == Bevakningar ==
 Användaren kan göra bevakningar på både interna/externa webbsidor samt på ett specifikt dokument.
 
-<br>
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp45fiEKqbI/AAAAAAAAAEM/4mdGeqNV0-s/s800/Picture%2032.png
 <br> _Figur 29: Lista med användarens bevakningar_
 
 Då användaren väljer att visa mer information om en bevakning, presenteras informationen enligt följande:
 
-<br>
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Sp45f0cA6HI/AAAAAAAAAEQ/dly-UdCcXbQ/s800/Picture%2033.png
 <br> _Figur 30: Utseende då användaren har valt att visa mer detaljer om en bevakning_
 
 Funktion:
@@ -34,7 +34,7 @@ Funktion:
  * *Ta bort bevakning* Klickar användaren på ”Ta bort” får hon en dialog med en fråga om hon verkligen vill ta bort bevakningar. Vill användaren fortfarande ta bort bevakningen tas bevakningen bort.
  * *Lägg till bevakningen* Användaren kan själv skapa en ny bevakning. För att skapa en ny bevakning klickar användaren på länken ”Lägg till bevakning” och då öppnas en dialog:
 
-<br>
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp45f1QlBII/AAAAAAAAAEU/rgySAUdCyr8/s640/Picture%2034.png
 <br>_Figur 31: Dialog för då användaren skapar en ny bevakning_
 
  * Öppna länk i nytt fönster
@@ -47,33 +47,34 @@ Utseendet på fliken för diskussionsgrupper är ännu inte utformat.
 Kalendern innefattar samtliga kalendrar som användaren använder sig av, detta för att ge användaren en total bild över hur sin arbetsdag ser ut. Kalendern består bland annat av användarens schema, privata kalenderhändelser, automatiskt genererade händelser (beroende på användarens arbetsplats och roll) samt kalenderhändelser som användaren vill prenumerera på. 
 Vilken kalendervy som är automatiskt fördefinierad kan tänkas vara beroende på vilken målgrupp användaren tillhör, men detta är något som skall utredas vidare. Användaren kan bestämma huruvida dagsvyn eller veckovyn visas här och på startsidan som fördefinierad.
 
-<br>
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp45gKcozFI/AAAAAAAAAEY/L_WdgeVwM3I/s800/Picture%2035.png
 <br>_Figur 32: Kalendern under ”Mitt jobb”_
 Genom att använda kalenderöversikten kan användaren ändra hur kalendern presenteras genom att endera klicka på en dag eller på en vecka. Följande figur visar hur en dagsvy ser ut:
 
-<br>
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp45oyot2uI/AAAAAAAAAEc/JibgmDUJ8gM/s800/Picture%2036.png
 <br>_Figur 33: Utseende på kalender då den visas en dag i taget_
 
 Funktion:
  * *Lägg till kalenderhändelse* Användaren kan skapa en ny kalenderhändelse genom att klicka på länken ”Lägg till ny kalenderhändelse”:
 
-<br>
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp45pA6SUqI/AAAAAAAAAEg/bUvyXkCnSdg/s640/Picture%2037.png
 <br>_Figur 34: Dialog för att lägga till en kalenderhändelse_
 
  * *Öppna/visa kalenderhändelse* Användaren kan öppna en kalenderhändelse genom att klicka på länken för händelsen (rubriken). Händelsen öppnas då upp i en dialog.
 
-<br>
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Sp45pG4fJXI/AAAAAAAAAEk/vwKI0IrnNSk/s640/Picture%2038.png
 <br>_Figur 35: Dialog för att visa en kalenderhändelse_
 
  * *Ta bort kalenderhändelse* När användaren har öppnat en kalenderhändelse kan hon välja att ta bort händelser genom att klicka på knappen ”Ta bort”. Då hon gjort det öppnas följande: 
 
-<br>
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp45pSlNgPI/AAAAAAAAAEo/gbaWWiChKsk/s720/Picture%2039.png
 <br>_Figur 36: Fråga om användaren verkligen vill ta bort en kalenderhändelse_
 
  * *Ändra inställningar för kalender* Användaren kan ändra inställningar för kalendern genom att klicka på länken ”Ändra inställningar”. Ändringar som bland annat går att göra är vilka kalendrar som skall visas, vilka kalendrar som användaren vill prenumerera på och så vidare. 
 
-<br>
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Sp45pcK6l7I/AAAAAAAAAEs/aqgVsDwyIh8/s576/Picture%2040.png
 <br>_Figur 37: Inställningar för kalendern_
+
  * *Lägga till typ av kalender* Användaren kan skapa olika typer av kalender. Dialogen skall följa utseendet och funktionaliteten som samma funktionalitet har i kalenders i Lotus Notes.  
  * *Öppna delad kalender* Användaren kan öppna delade kalendrar. Dialogen skall följa utseendet och funktionaliteten som samma funktionalitet har i kalenders i Lotus Notes.  
  * *Dela ut egna kalender* Användaren kan dela ut sin egen kalender. Dialogen skall följa utseendet och funktionaliteten som samma funktionalitet har i kalenders i Lotus Notes.  
@@ -81,51 +82,51 @@ Funktion:
 == Uppgifter ==
 Under uppgifter kan användaren skapa och se sina uppgifter. Användaren kan även redigera och ta bort befintliga uppgifter.
 
-<br> 
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp47ZZljOlI/AAAAAAAAAGQ/U3ViwVTQ3jU/s800/Picture%2041.png
 <br>_Figur 38:Användarens uppgifter_
 
 Funktion:
 * *Lägg till uppgift/Redigera* Användaren kan skapa en ny uppgift genom att klicka på länken ”Skapa ny uppgift” eller redigera en befintlig uppgift genom att klicka på ”Redigera”. Följande dialog presenteras:
 
-<br>
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp47ZtXoKNI/AAAAAAAAAGU/lCjLGZasnqc/s640/Picture%2042.png
 <br>_Figur 39: Dialog för att lägga till en uppgift_
 
 * *Ta bort uppgift* När användaren vill ta bort en uppgift får hon följande dialog:
 
-<br>
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp47ZtP6ufI/AAAAAAAAAGY/SwCJmM_UCdo/Picture%2043.png
 <br>_Figur 40: Fråga om användaren verkligen vill ta bort en kalenderhändelse_
 
  * *E-post* En standardportlet för e-postapplikationen finns i Portalen. Hur den fungerar kommer inte att specificeras i det aktuella dokumentet. Följande figur är en presentation på hur det skulle kunna se ut:
 
-<br>
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp47ZzEj6xI/AAAAAAAAAGc/pe76cw92cn8/s800/Picture%2044.png
 <br>_Figur 41: Standardportlet för E-postapplikationen_
 
 När användaren valt att öppna ett e-postmeddelande öppnas meddelandet direkt i Portalen och inte i en dialog: 
 
-<br> 
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp47iUgjEWI/AAAAAAAAAGg/48n0Rx0_ycM/s800/Picture%2045.png
 <br>_Figur 42: Ett e-postmeddelande är öppnat_
 
 == Kontakter ==
 Under ”Kontakter” finns användarens kontakter, både privata och kontakter i jobbet, visas. Användaren kan bland annat söka på dem, lägga till nya samt ta bort en kontakt.
 
-<br>
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp47ivrChvI/AAAAAAAAAGk/RYa6ge5nfLg/s800/Picture%2046.png
 <br>_Figur 43: Utseende på ”Mina kontakter”_
 
 Funktion:
  * *Lägg till kontakt* Användaren kan själv skapa en ny kontakt. För att skapa en ny kontakt klickar användaren på länken ”Lägg till kontakt” och då öppnas en dialog:
 
-<br>
+<br>http://lh4.ggpht.com/_mHREyZKezxI/Sp47i-MC3YI/AAAAAAAAAGo/AKD9FhPyYiw/s576/Picture%2047.png
 <br>_Figur 44: Dialog för att lägga till en kontakt_
 
  * *Visa kontakt* Användaren kan öppna en ny dialog med kontaktens uppgifter genom att klicka på namnet på kontakten, se figur nedan:
 
-<br>
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp47iydr8LI/AAAAAAAAAGs/Il4uIAwY6Nw/s576/Picture%2048.png
 <br>_Figur 45: Dialog för visa en kontakt_
 
 * *Hämta kontakt* När användaren har klickat på ”Hämta kontakt” kan hon hämta in kontakter från olika telefonlistor. Dialogen skall följa utseendet och funktionaliteten som samma funktionalitet har under kontakter i Lotus Notes.  
 * *Ta bort kontakt* När användaren har öppnat en kontakt kan hon välja att ta bort kontakten genom att klicka på knappen ”Ta bort”. Då hon gjort det öppnas följande: 
 
-<br>
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Sp47jHtTziI/AAAAAAAAAGw/w4Cng6Dp1Rk/Picture%2049.png
 <br>_Figur 46: Fråga om användaren verkligen vill ta bort en kontakt_
 
  * *Skicka e-post* Genom att klicka på e-postadressen öppnas ett tomt e-postmeddelande upp ett nytt fönster med kontaktens e-postadress förvalt.
