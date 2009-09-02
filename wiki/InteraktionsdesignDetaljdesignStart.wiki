@@ -17,13 +17,13 @@ Det finns även länkar till användarens åtta mest använda dokument (dokument
 == Startsida -Verksamhetsnytt ==
 På startsidan finns nyheter från VGR och det egna sjukhuset. Nyheterna sållas ut så att användaren får information som är relevant för henne, med andra ord push information.
 
-<br>
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp45V3ytbcI/AAAAAAAAAD8/-K7oJJqvf3w/s720/Picture%2029.png
 <br>_Figur 26: Informationsruta från VGR_
 
 == Startsida – Min kalender ==
 På startsidan kan användaren se sin kalender, vad som händer inom den närmsta veckan eller under den aktuella dagen. Default visas vecka, men detta kan ändras under Mitt jobb/Kalender.
 
-<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp45V3ytbcI/AAAAAAAAAD8/-K7oJJqvf3w/s720/Picture%2029.png
+<br>http://lh4.ggpht.com/_mHREyZKezxI/Sp45WOiVG_I/AAAAAAAAAEA/PrsaAkXsC1g/s800/Picture%2030.png
 <br>_Figur 27: Kalender på startsida_
 
 == Startsida – Evenemangskalendern ==
