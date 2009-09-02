@@ -74,3 +74,4 @@ Vilka av de ovanstående funktionerna som finns under samarbete, beror på anvä
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignSystemXSystemY?ts=1251805029&updated=InteraktionsdesignSystemXSystemY System X, system Y]
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesignHitta Hitta]
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesignEgnaInstallningar Egna inställningar]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/AnnuInteUtrett?ts=1251892328&updated=AnnuInteUtrett Ännu inte utrett]
