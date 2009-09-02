@@ -60,8 +60,8 @@ Vilka av de ovanstående funktionerna som finns under samarbete, beror på anvä
  * *Öppna applikation*  När användaren klickar på rubriken ”E-post" eller ”Diskussionsgrupper” öppnas den del av Portalen (Mitt jobb/E-post samt Mitt jobb/Diskussionsgrupper) upp. 
  * *Markera meddelande som läst/oläst*  När användaren har klickat på ett oläst meddelande en gång markeras det som läst. Om användaren klickar på meddelandet en gång till markeras det som oläst.
 
-
-*Innehållsförteckning*
+<br><br>
+*Innehållsförteckning* (återfinns längst ner på varje sida)
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriltlinjerAnvandargranssnitt Introduktion] 
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignForvantadeEffekter Förväntade effekter och målgrupper]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignPrincipdesign Principdesign]
