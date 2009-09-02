@@ -2,6 +2,135 @@
 
 = Detaljdesign: Mitt jobb =
 
+Under ”Mitt jobb” finns både specifik information rörande arbetsplatsen (exempelvis avdelning 27) och information som rör användaren som individ, såsom exempelvis kalender mer arbetstider och de personliga kontakterna. Här finns även de redskap som användaren behöver ha i sitt arbete, exempelvis bestämmelser som skall följas, samt även dokument och rutiner för att sköta de administrativa uppgifterna.
+
+== Nytt ==
+Under ”Nytt” finns avdelningsspecifik information, såsom nyheter, information på anslagstavlan samt anteckningar från olika möten och föredrag.
+
+<br>
+<br>_Figur 28: Första sidan under fliken ”Mitt jobb”_
+
+== Dokument ==
+Under ”Dokument” finns både dokument som används på den egna arbetsplatsen, såsom exempelvis PM, mallar, rutiner för att utföra egna administrativa uppgifter, samt de dokument hon sparat själv. 
+
+<br>
+<br>_Figur 28: Dokument under ”Mitt jobb”_
+
+== Bevakningar ==
+Användaren kan göra bevakningar på både interna/externa webbsidor samt på ett specifikt dokument.
+
+<br>
+<br> _Figur 29: Lista med användarens bevakningar_
+
+Då användaren väljer att visa mer information om en bevakning, presenteras informationen enligt följande:
+
+<br>
+<br> _Figur 30: Utseende då användaren har valt att visa mer detaljer om en bevakning_
+
+Funktion:
+
+ * *Visa mer/Dölj* När användaren klickar på ”Visa mera” fälls bevakningen ut, användaren kan läsa tidigare och nyinkomna bevakningar samt att användaren sedan kan klicka på ”Dölj” för att dölja den detaljerade informationen. 
+ * *Redigera bevakning* Klickar användaren på ”Redigera” får hon upp bevakningen i en dialog. 
+ * *Ta bort bevakning* Klickar användaren på ”Ta bort” får hon en dialog med en fråga om hon verkligen vill ta bort bevakningar. Vill användaren fortfarande ta bort bevakningen tas bevakningen bort.
+ * *Lägg till bevakningen* Användaren kan själv skapa en ny bevakning. För att skapa en ny bevakning klickar användaren på länken ”Lägg till bevakning” och då öppnas en dialog:
+
+<br>
+<br>_Figur 31: Dialog för då användaren skapar en ny bevakning_
+
+ * Öppna länk i nytt fönster
+När användaren klickar på en länk för en träff som bevakningen resulterat i öppnas träffen i ett nytt fönster.
+
+== Diskussionsgrupper ==
+Utseendet på fliken för diskussionsgrupper är ännu inte utformat.
+
+== Kalender ==
+Kalendern innefattar samtliga kalendrar som användaren använder sig av, detta för att ge användaren en total bild över hur sin arbetsdag ser ut. Kalendern består bland annat av användarens schema, privata kalenderhändelser, automatiskt genererade händelser (beroende på användarens arbetsplats och roll) samt kalenderhändelser som användaren vill prenumerera på. 
+Vilken kalendervy som är automatiskt fördefinierad kan tänkas vara beroende på vilken målgrupp användaren tillhör, men detta är något som skall utredas vidare. Användaren kan bestämma huruvida dagsvyn eller veckovyn visas här och på startsidan som fördefinierad.
+
+<br>
+<br>_Figur 32: Kalendern under ”Mitt jobb”_
+Genom att använda kalenderöversikten kan användaren ändra hur kalendern presenteras genom att endera klicka på en dag eller på en vecka. Följande figur visar hur en dagsvy ser ut:
+
+<br>
+<br>_Figur 33: Utseende på kalender då den visas en dag i taget_
+
+Funktion:
+ * *Lägg till kalenderhändelse* Användaren kan skapa en ny kalenderhändelse genom att klicka på länken ”Lägg till ny kalenderhändelse”:
+
+<br>
+<br>_Figur 34: Dialog för att lägga till en kalenderhändelse_
+
+ * *Öppna/visa kalenderhändelse* Användaren kan öppna en kalenderhändelse genom att klicka på länken för händelsen (rubriken). Händelsen öppnas då upp i en dialog.
+
+<br>
+<br>_Figur 35: Dialog för att visa en kalenderhändelse_
+
+ * *Ta bort kalenderhändelse* När användaren har öppnat en kalenderhändelse kan hon välja att ta bort händelser genom att klicka på knappen ”Ta bort”. Då hon gjort det öppnas följande: 
+
+<br>
+<br>_Figur 36: Fråga om användaren verkligen vill ta bort en kalenderhändelse_
+
+ * *Ändra inställningar för kalender* Användaren kan ändra inställningar för kalendern genom att klicka på länken ”Ändra inställningar”. Ändringar som bland annat går att göra är vilka kalendrar som skall visas, vilka kalendrar som användaren vill prenumerera på och så vidare. 
+
+<br>
+<br>_Figur 37: Inställningar för kalendern_
+ * *Lägga till typ av kalender* Användaren kan skapa olika typer av kalender. Dialogen skall följa utseendet och funktionaliteten som samma funktionalitet har i kalenders i Lotus Notes.  
+ * *Öppna delad kalender* Användaren kan öppna delade kalendrar. Dialogen skall följa utseendet och funktionaliteten som samma funktionalitet har i kalenders i Lotus Notes.  
+ * *Dela ut egna kalender* Användaren kan dela ut sin egen kalender. Dialogen skall följa utseendet och funktionaliteten som samma funktionalitet har i kalenders i Lotus Notes.  
+
+== Uppgifter ==
+Under uppgifter kan användaren skapa och se sina uppgifter. Användaren kan även redigera och ta bort befintliga uppgifter.
+
+<br> 
+<br>_Figur 38:Användarens uppgifter_
+
+Funktion:
+* *Lägg till uppgift/Redigera* Användaren kan skapa en ny uppgift genom att klicka på länken ”Skapa ny uppgift” eller redigera en befintlig uppgift genom att klicka på ”Redigera”. Följande dialog presenteras:
+
+<br>
+<br>_Figur 39: Dialog för att lägga till en uppgift_
+
+* *Ta bort uppgift* När användaren vill ta bort en uppgift får hon följande dialog:
+
+<br>
+<br>_Figur 40: Fråga om användaren verkligen vill ta bort en kalenderhändelse_
+
+ * *E-post* En standardportlet för e-postapplikationen finns i Portalen. Hur den fungerar kommer inte att specificeras i det aktuella dokumentet. Följande figur är en presentation på hur det skulle kunna se ut:
+
+<br>
+<br>_Figur 41: Standardportlet för E-postapplikationen_
+
+När användaren valt att öppna ett e-postmeddelande öppnas meddelandet direkt i Portalen och inte i en dialog: 
+
+<br> 
+<br>_Figur 42: Ett e-postmeddelande är öppnat_
+
+== Kontakter ==
+Under ”Kontakter” finns användarens kontakter, både privata och kontakter i jobbet, visas. Användaren kan bland annat söka på dem, lägga till nya samt ta bort en kontakt.
+
+<br>
+<br>_Figur 43: Utseende på ”Mina kontakter”_
+
+Funktion:
+ * *Lägg till kontakt* Användaren kan själv skapa en ny kontakt. För att skapa en ny kontakt klickar användaren på länken ”Lägg till kontakt” och då öppnas en dialog:
+
+<br>
+<br>_Figur 44: Dialog för att lägga till en kontakt_
+
+ * *Visa kontakt* Användaren kan öppna en ny dialog med kontaktens uppgifter genom att klicka på namnet på kontakten, se figur nedan:
+
+<br>
+<br>_Figur 45: Dialog för visa en kontakt_
+
+* *Hämta kontakt* När användaren har klickat på ”Hämta kontakt” kan hon hämta in kontakter från olika telefonlistor. Dialogen skall följa utseendet och funktionaliteten som samma funktionalitet har under kontakter i Lotus Notes.  
+* *Ta bort kontakt* När användaren har öppnat en kontakt kan hon välja att ta bort kontakten genom att klicka på knappen ”Ta bort”. Då hon gjort det öppnas följande: 
+
+<br>
+<br>_Figur 46: Fråga om användaren verkligen vill ta bort en kontakt_
+
+ * *Skicka e-post* Genom att klicka på e-postadressen öppnas ett tomt e-postmeddelande upp ett nytt fönster med kontaktens e-postadress förvalt.
+
+
 
 
 *Innehållsförteckning*
