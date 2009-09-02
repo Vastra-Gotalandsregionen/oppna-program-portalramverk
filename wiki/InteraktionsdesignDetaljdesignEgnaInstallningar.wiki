@@ -86,6 +86,7 @@ Här kan användaren fylla i de inställningar hon vill göra både för kalende
 
 
 
+
 *Innehållsförteckning*
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriltlinjerAnvandargranssnitt Introduktion] 
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignForvantadeEffekter Förväntade effekter och målgrupper]
