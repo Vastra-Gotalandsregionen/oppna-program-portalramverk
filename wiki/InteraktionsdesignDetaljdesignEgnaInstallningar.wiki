@@ -100,3 +100,4 @@ Här kan användaren fylla i de inställningar hon vill göra både för kalende
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignSystemXSystemY?ts=1251805029&updated=InteraktionsdesignSystemXSystemY System X, system Y]
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesignHitta Hitta]
   # Egna inställningar
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/AnnuInteUtrett?ts=1251892328&updated=AnnuInteUtrett Ännu inte utrett]
