@@ -133,7 +133,8 @@ Funktion:
 
 
 
-*Innehållsförteckning*
+<br><br>
+*Innehållsförteckning* (återfinns längst ner på varje sida)
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriltlinjerAnvandargranssnitt Introduktion] 
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignForvantadeEffekter Förväntade effekter och målgrupper]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignPrincipdesign Principdesign]
