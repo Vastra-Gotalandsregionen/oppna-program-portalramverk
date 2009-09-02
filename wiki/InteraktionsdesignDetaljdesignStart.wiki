@@ -1,6 +1,34 @@
-#summary One-sentence summary of this page.
+#summary Beskriver designriktlinjer för startsidan
 
 = Detaljdesign: Start =
+
+Startsidan skall ge användaren både snabb tillgång till ofta använda dokument samt en inblick över sitt arbete, vad som händer på arbetsplatsen och om det finns viktig information att ta del av. Här finns information från VGR, om det egna sjukhuset eller om den egna avdelningen. Vidare finns även de dokument och kalenderhändelser hon behöver ta del av.
+
+<br>http://lh4.ggpht.com/_mHREyZKezxI/Sp45VuybF5I/AAAAAAAAAD0/bo4j-XWJgbw/s576/Picture%2027.png
+<br>_Figur 24: Exempel på startsida_
+
+== Startsida – Mitt jobb ==
+Under mitt jobb får användaren information som rör hennes avdelning/arbetsplats. Informationen är både vara nyheter, nya regler eller något nytt/förändrat dokument som används/skall börja användas. 
+Det finns även länkar till användarens åtta mest använda dokument (dokument som användaren mest frekvent öppnat). Fyra av dokumenten är de som användaren använder mest för sina arbetsuppgifter, medan resterande fyra är de dokument användaren använder mest för att utföra sina egna administrativa uppgifter. Användaren får även information om uppdaterade bevakningar. 
+
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Sp45V5joGQI/AAAAAAAAAD4/9qJxC_uDp5g/s720/Picture%2028.png
+<br>_Figur 25: Information under mitt jobb på startsidan_
+
+== Startsida -Verksamhetsnytt ==
+På startsidan finns nyheter från VGR och det egna sjukhuset. Nyheterna sållas ut så att användaren får information som är relevant för henne, med andra ord push information.
+
+<br>
+<br>_Figur 26: Informationsruta från VGR_
+
+== Startsida – Min kalender ==
+På startsidan kan användaren se sin kalender, vad som händer inom den närmsta veckan eller under den aktuella dagen. Default visas vecka, men detta kan ändras under Mitt jobb/Kalender.
+
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp45V3ytbcI/AAAAAAAAAD8/-K7oJJqvf3w/s720/Picture%2029.png
+<br>_Figur 27: Kalender på startsida_
+
+== Startsida – Evenemangskalendern ==
+Utseendet av evenemangskalendern är ännu inte utformat.
+
 
 
 
