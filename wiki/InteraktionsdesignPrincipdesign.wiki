@@ -33,7 +33,8 @@ Den generella areaindelningen innehåller sex areor:
  # Samarbetsfunktioner (Fasta) – Till samarbetsfunktionen hör E-post, snabbmeddelanden och diskussionsgrupper, vilka användaren kan använda för att kommunicera med sina medarbetare. Användaren kan se om det finns några nya inlägg/meddelanden. För e-post och diskussionsgrupper kan användaren klicka sig till den del av Portalen där finns presenterade mer detaljerat. 
  # Innehåll och sekundärnavigering (Dynamisk) – Här presenteras innehållet som finns under de olika flikarna. Hur och vilken typ av information som presenteras påverkas av vem som är inloggad.
 
-*Innehållsförteckning*
+<br><br>
+*Innehållsförteckning* (återfinns längst ner på varje sida)
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriltlinjerAnvandargranssnitt Introduktion] 
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignForvantadeEffekter Förväntade effekter och målgrupper]
  # Principdesign
