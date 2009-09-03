@@ -1,6 +1,6 @@
 #summary Beskriver designriktlinjer för startsidan
 
-= Detaljdesign: Start =
+= Bättre koll på jobbet, detaljdesign: Start =
 
 Startsidan skall ge användaren både snabb tillgång till ofta använda dokument samt en inblick över sitt arbete, vad som händer på arbetsplatsen och om det finns viktig information att ta del av. Här finns information från VGR, om det egna sjukhuset eller om den egna avdelningen. Vidare finns även de dokument och kalenderhändelser hon behöver ta del av.
 
