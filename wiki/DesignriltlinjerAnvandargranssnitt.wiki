@@ -29,7 +29,7 @@ Det material som legat till grund för principdesign utgörs främst av:
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerByggstenar?ts=1251969727&updated=GenerellaDesignriktlinjerByggstenar Generella designriktlinjer: Byggstenar]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerVisuellAterkoppling?ts=1251969771&updated=GenerellaDesignriktlinjerVisuellAterkoppling Generella designriktlinjer: Visuell återkoppling]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerGrafiskForm?ts=1251969808&updated=GenerellaDesignriktlinjerGrafiskForm Generella designriktlinjer: Grafisk form]
- # [http://code.google.com/p/oppna-program-portalramverk/wiki/ Tillämpade designriktlinjer, Bättre koll på jobbet]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/TillampadeDesignriktlinjerBattreKollPaJobbet?ts=1251969900&updated=TillampadeDesignriktlinjerBattreKollPaJobbet Tillämpade designriktlinjer, Bättre koll på jobbet]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignForvantadeEffekter Tillämpade designriktlinjer, Bättre koll på jobbet: Förväntade effekter och målgrupper]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignPrincipdesign Tillämpade designriktlinjer, Bättre koll på jobbet: Principdesign]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignInnehall Tillämpade designriktlinjer, Bättre koll på jobbet: Innehåll]
