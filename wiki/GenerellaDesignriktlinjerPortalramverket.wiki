@@ -2,6 +2,66 @@
 
 = Generella designriktlinjer: Portalramverket =
 
+== Portalen ==
+Portalen är den fungerande (körbara) tillämpningen av ramverket som byggts med syfte att skapa en ingång för den information och de funktioner som den enskilde behöver för att ha ”bättre koll på jobbet”. 
+2.1.1	Principdesign
+Principdesignen för portalen består huvudsakligen av fyra delar; innehåll navigering, systemnamn och kortvägar/notifikationen. De tre sistnämnda är sådana som är återkommande oberoende var användaren befinner sig i applikationen. Aktuellt innehåll är däremot känsligt för var användaren befinner sig för tillfället. Den primära navigeringen i Portalen sker via flikar. 
+
+<br>
+<br>_Figur 1: Principdesign för Portalen_
+
+== Struktur ==
+<br>
+<br>_Figur 2: Flikar i Portalen_
+
+Portalen består av ett antal flikar, såsom ”Mitt jobb”, ”Hitta” och ”Egna inställningar”. För respektive flik finns det olika typer av innehåll. De olika flikarna och dess innehåll beskrivs i följande stycken.
+
+=== Startsida ===
+
+<br>
+<br>_Figur 3: Portalens startsida_
+
+Under startsidan finns det inga fristående applikationer, utan den består av ett antal portlets innehållandes information riktad direkt till användaren. Startsidan kan ses som en anslagstavla som informerar användaren om vad som är nytt, vilka uppdateringar som har gjorts och så vidare. Användaren skall på ett ögonblick få helhetssyn både av sitt arbete och av sin roll som anställd. I viss utsträckning skall användaren även kunna agera på informationen.
+
+=== Mitt jobb ===
+
+<br>
+<br>_Figur 4: Mitt jobb_
+
+Under ”Mitt jobb” finns funktioner som har med det egen administrativa jobbet att göra som används i stort sett dagligen både i användarens yrkesroll och i användarens roll som anställd. Exempel är den egna kalendern, kontakter samt dokument. 
+
+=== Användarberoende system ===
+
+<br>
+<br>_Figur 5: Användarberoende system i Portalen_
+
+Vad som finns under användaroberoende system beror, som det låter, på vem användaren är. Här placeras de applikationer som användaren behöver i sin yrkesroll. Exempel är journalsystem väsentligt för en läkare och sjuksköterska, medan ett system som hanterar diktat är viktigt för en läkarsekreterare.
+Notera att det som placeras här skall vara något som användaren brukar flera gånger per dag. Övriga applikationer borde hanteras som externa länkar. 
+
+=== Hitta ===
+
+<br>
+<br>_Figur 6: Under Hitta i Portalen_
+
+Under ”Hitta” finns sökfunktionen. Är det så att användaren behöver söka bland den information som finns i applikationen som skall utvecklas, kan detta föras in som ett sökområde. Ett sökområde är en grupp av information som användaren kan söka på samt även sortera sin träfflista utifrån (se stycke 7.5.2.1).
+
+=== Egna inställningar ===
+
+<br>
+<br>_Figur 7: Egna inställningar_
+
+Under ”Egna inställningar” finns de inställningar som användaren kan göra om sig själv, både gällande kontaktinformation och sin profil. Vidare kan användaren även anpassa startsidan efter hennes egna preferenser.
+
+== Ramverket ==
+Ramverket erbjuder 4 byggstenar: 
+ * Integrerad applikation – en samling av informationer och funktioner som presenteras i helfönster. En integrerad applikation omfattar stöd för att hantera de tjänster och den information som efterfrågas inom ett avgränsat och specialiserat verksamhetsområde.
+ * Modal dialog  – ett ”tittfönster” mot en avgränsad mängd information som ger detaljer till något som presenterats översiktligt i ramverket. 
+ * Portlet – den generella byggstenen som innefattar en samling av informationer och funktioner som kan grupperas logiskt. En samling av portlets bygger upp varje sida i ramverket. En samling av portlets bygger även upp en integrerad applikation.  
+ * Fristående applikation – en fristående applikation med förmåga att visa sig i ett webbfönster.
+
+För de funktioner som är så pass omfattande att de inte går att utforma till en modal dialog eller en portlet skall antingen utformas som en integrerad eller fristående applikation. I de fall då applikationen är nödvändig för att användaren skall få en överblick av sitt arbete samt att kunna utföra de mest relevanta uppgifterna borde integreras direkt i Portalen. Exempel på detta är e-postprogram och användarens egen kalender. Läs mer om hur applikationer i Portalen utformas i kapitel 3. I de fall då applikationen inte är nödvändig för att användaren skall få en överblick av sitt arbete eller för att kunna utföra de mest relevanta uppgifterna skall snarare utformas som en fristående applikation. Läs mer om hur fristående applikationer utformas i kapitel 6.
+Det finns två olika typer av modala dialoger. För det första finns det modala dialoger för att lägga till eller redigera information som ”bor” i Portalen. Den andra typen av modal dialog är då mer detaljerad information presenteras om något som finns i ett externt system. Ett exempel på detta är listan med ”Mina uppgifter” där ett antal poster presenteras. Posterna kan härstamma från fristående applikationer och vill användaren läsa mer om en sådan post öppnas den detaljerade informationen i en modal dialog. Läs mer om hur modala dialoger utformas i kapitel 4.
+En portlet används för att visa information från applikationer, både fristående samt de applikationer som finns integrerade direkt i Portalen. Användaren kan klicka på en post i en portlet öppna en modal dialog med informationen. Om behov finns, kan användaren även öppna den fristående applikationen från en portlet. Läs mer om hur portlet utformas i kapitel 5.
 
 
 <br><br>
