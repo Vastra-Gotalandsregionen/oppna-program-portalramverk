@@ -1,6 +1,6 @@
 #summary Beskriver innehållshantering i portalen
 
-= Innehåll =
+= Bättre koll på jobbet: Innehåll =
 Det exakta innehållet i Portalen bestäms i varje ögonblick av användarens profil. Exakt vad som skall gå att förändra, på vilket sätt informationen förändras och vad som påverkar detta är ännu oklart och behöver utredas ytterligare. Nedan följer en tanke om hur det kan se ut.
 
 http://lh5.ggpht.com/_mHREyZKezxI/Spz2FNfwx3I/AAAAAAAAABw/y-MESYFYgdY/s720/Picture%203.png
