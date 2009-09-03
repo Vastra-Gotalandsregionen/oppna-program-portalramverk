@@ -24,7 +24,6 @@ Detaljdesignen beskriver de enskilda delarna i användargränssnittet i detalj m
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignPrincipdesign Tillämpade designriktlinjer, Bättre koll på jobbet: Principdesign]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignInnehall Tillämpade designriktlinjer, Bättre koll på jobbet: Innehåll]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignBeteendeFunktioner Tillämpade designriktlinjer, Bättre koll på jobbet: Beteenden och funktioner]
- # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesign Tillämpade designriktlinjer, Bättre koll på jobbet: Detaljdesign]
  # Detaljdesign
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesignFastaFunktioner Fasta funktioner]
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesignStart Start]
