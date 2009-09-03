@@ -78,16 +78,16 @@ När det gäller modala dialoger används alltid en knapp istället för ikon & 
 Om knappen skall vara låst tills användaren fyllt i det hon skall fylla i kan knappen gråmarkeras, fast detta bara om användaren förstår varför. Vidare skall aldrig en knapps text eller funktion ändras, utan de skall vara konstanta. Är det så att det ändå behövs ha ytterligare en funktion eller liknande, borde en ny knapp läggas till stället.
 Nedan presenteras några exempel på generella knappar samt när de skall användas i gränssnittet.
 
-Knapptext	Användning
-OK	Används för att spara ändringar i en modal dialog
-Spara och stäng	Sparar och stänger nuvarande modal dialog. Sparadialog om ändringar har gjorts.
-Avbryt	Avslutar en dialog utan att spara ändringar.
-Ja	Används i meddelandedialoger för att indikera jakande svar
-Nej	Används i meddelandedialoger för att indikera nekande svar
-Ta bort	Tar bort ett objekt
-Sök	Används både i modala dialoger och direkt i en applikation för at starta en sökning. Kombineras alltid med ett fritextfält till vänster om knappen.
-Gå	Använd direkt i applikationer då användaren valt något ur en lista och vill öppna upp valt objekt, exempelvis genvägar.
-Uppdatera	Knapp för att 
+|| *Knapptext* || *Användning* ||
+|| OK || Används för att spara ändringar i en modal dialog ||
+|| Spara och stäng || Sparar och stänger nuvarande modal dialog. Sparadialog om ändringar har gjorts.||
+||Avbryt || Avslutar en dialog utan att spara ändringar.||
+|| Ja || Används i meddelandedialoger för att indikera jakande svar ||
+|| Nej || Används i meddelandedialoger för att indikera nekande svar ||
+|| Ta bort || Tar bort ett objekt ||
+|| Sök || Används både i modala dialoger och direkt i en applikation för at starta en |sökning. Kombineras alltid med ett fritextfält till vänster om knappen. ||
+|| Gå || Använd direkt i applikationer då användaren valt något ur en lista och vill öppna upp valt objekt, exempelvis genvägar. ||
+|| Uppdatera || Knapp för att uppdatera. ||
 _Tabell 1: Ikoner i gränssnitt_
 
 == Hantera objekt ==
