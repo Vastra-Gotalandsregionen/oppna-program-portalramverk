@@ -9,11 +9,11 @@ Det aktuella stycket beskriver de färger som skall användas i applikationer el
 För varje färg finns en beskrivning om exempel användning. Naturligtvis skall det gå att kombinera färgerna på andra sätt än det som angivs. Det är även väldigt viktigt att försöka använda samma färg till samma sak på alla ställen. Dock har färg en mycket stark signaleffekt på användaren och bör därför används med försiktighet. Det är även viktigt att undvika att ha färg som ensam informationsbärare, då det finns personer som har problem att se färger.
 
 || Benämning || Exempel användning || RGB/Hex || Utseende ||
-|| VGRblå || Rubriken för applikationen och färg på länkar i applikationen || 0,91,170/#0055BA || X ||
+|| VGRblå || Rubriken för applikationen och färg på länkar i applikationen || 0,91,170/#0055BA || http://lh5.ggpht.com/_mHREyZKezxI/Sp-5X0d6kLI/AAAAAAAAAeo/uHUrYyRbbkQ/0055BA.png ||
 || Ljuslila || Linje till rubriken || 186,174,217/#baaed9 || http://lh5.ggpht.com/_mHREyZKezxI/Sp-5eTo4XzI/AAAAAAAAAe0/_2nhQrypycg/baaed9.png ||
 || Blå 1 || Färg i toning || 196,213,249/#c4d5f9 || http://lh5.ggpht.com/_mHREyZKezxI/Sp-5efCUupI/AAAAAAAAAe4/uvf2rLH1dKY/c4d5f9.png ||
 || Blå 2 ||Blåa linjer runt modala dialoger || 141,186,245/#8dbaf5 || http://lh5.ggpht.com/_mHREyZKezxI/Sp-5XpDjzSI/AAAAAAAAAek/WJ0qCLIGo4s/8dbaf5.png ||
-|| Ljuslila || Bakgrund till rubriker samt linjer runt text || 232,237,255/#e8edff || x ||
+|| Ljuslila || Bakgrund till rubriker samt linjer runt text || 232,237,255/#e8edff || http://lh6.ggpht.com/_mHREyZKezxI/Sp-5eWxNarI/AAAAAAAAAfA/Lgk4SqBIA60/e8edff.png ||
 || Grå || Nedtonad text. || 95,95,95/#5f5f5f || http://lh4.ggpht.com/_mHREyZKezxI/Sp-5Xvzq-4I/AAAAAAAAAeg/KCSDMUbOXqM/5f5f5f.png ||
 || Ljusblå || Färg för varannan rad i listor || 225,241,255/#e1f1ff || http://lh4.ggpht.com/_mHREyZKezxI/Sp-5ec1H6gI/AAAAAAAAAe8/bez6dNvv__k/e1f1ff.png ||
 || Ljusgrå || Rubriker till bland annat fritext & dropdown-listor || 128,128,128/#808080 || http://lh6.ggpht.com/_mHREyZKezxI/Sp-5YDpqmJI/AAAAAAAAAew/s027rtRolgc/808080.png ||
