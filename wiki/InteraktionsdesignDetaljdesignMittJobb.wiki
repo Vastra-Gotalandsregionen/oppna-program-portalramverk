@@ -1,6 +1,6 @@
 #summary Beskriver designriktlinjer för Mitt jobb-sidorna
 
-= Detaljdesign: Mitt jobb =
+= Bättre koll på jobbet, detaljdesign: Mitt jobb =
 
 Under ”Mitt jobb” finns både specifik information rörande arbetsplatsen (exempelvis avdelning 27) och information som rör användaren som individ, såsom exempelvis kalender mer arbetstider och de personliga kontakterna. Här finns även de redskap som användaren behöver ha i sitt arbete, exempelvis bestämmelser som skall följas, samt även dokument och rutiner för att sköta de administrativa uppgifterna.
 
