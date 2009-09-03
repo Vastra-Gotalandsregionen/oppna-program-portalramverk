@@ -2,6 +2,153 @@
 
 = Generella designriktlinjer: Byggstenar =
 
+Följande kapitel beskiver funktion och beteende för de byggstenar som kan vid utvecklande av en applikation.
+
+== Meddelandedialog ==
+För de funktioner som kräver att användaren bekräftar ett val öppnar en meddelandedialog. Ett exempel på detta är om användaren väljer att ta bort ett objekt av något slag, exempelvis en kontakt. Meddelanden skall utformas på ett förklarande och enkelt sätt till användaren.
+
+<br>
+<br>_Figur 25: Exempel på meddelandedialog_
+
+=== Felmeddelandedialog ===
+Felmeddelanden skall vara korta och hjälpa användaren vidare. Det skall inte innehålla bisatser. Felmeddelandet bör i första meningen förklara vad som gått fel och i andra meningen presentera ett alternativ som är det mest sannolika som användaren önskar åstadkomma. Det meningsbärande ordet bör presenteras först, alternativt mycket tidigt i den första meningen.
+ 
+<br>
+<br>_Figur 26: Exempel på felmeddelande_
+
+== Formulär ==
+Då användaren skall lägga till eller redigera information skall hon kunna göra detta i ett formulär. Ett formulär består i stort sett av ett antal fält som användaren skall fylla i. Formulär presenteras i de flesta fallen i modala dialoger. Grundläggande principer om hur formulär skall utformas finns presenterade i Bilaga 2 – Att utforma.
+ 
+<br>
+<br>_Figur 27: Exempel på formulär som användaren skall fylla i_
+
+== Wizard ==
+I de fall då användaren behöver utföra en uppgift som består av ett antal strukturerade sekventiella delar skall en wizard användas. Varje steg bör vara enkla och innehålla en typ av deluppgift som användaren skall fylla i. Ett exempel på detta är de inställningar som användaren behöver göra om sig själv då hon öppnar Portalen första gången. Det är viktigt att bildväxlingarna mellan de olika stegen i wizarden är tydliga. Användaren bör även kunna navigera fram och tillbaka i den.
+
+== Flikar ==
+Då det finns behov att ha en navigering i en integrerad eller fristående applikation skall horisontella flikar användas i första hand. Behövs en sekundär navigering skall den utformas som en andra rad under de primära flikarna. 
+
+<br>
+<br>_Figur 28: Exempel på primära och sekundära flikar i Portalen_
+
+== Knappar och länkar ==
+För att öppna upp något eller göra något kan knappar, ikon & länk samt bara länkar användas. Vilken av dem som skall användas vid vilket tillfälle beskrivs nedan. 
+
+=== Länk ===
+Det finns två sätt att använda den länk. En typ av länk är en genväg till externa webbsidor, dokument, applikationer och så vidare. 
+
+<br>
+<br>_Figur 29: Exempel på extern länk i applikationen:
+
+Den andra typen av länk är genväg till dokument, filer, nyheter och så vidare i den applikationen som länken finns i. Exempelvis kan det finnas en snabblista med nyheter på startsidan. Klickar användaren på någon av länkarna öppnas den del av applikationen där nyheten finns presenterad.
+
+=== Utseende ===
+ 
+<br>
+<br>_Figur 30: Exempel på två länkar_
+
+En länk bör alltid svara blå och understruken, vilket är en förutsättning för att användaren snabbt skall uppfatta att det är en länk. 
+Namnet på länken behöver vara beskrivande, så att användaren förstår vad den leder till, exempelvis rubriken på dokumentet eller namnet på applikationen.
+De länkar som leder till externa webbsidor eller applikationer bör indikera att det leder till något som ligger utanför applikationen. Efter länknamnet skall då ”extern länk” skrivas ut.
+Leder länken till en fil med ett visst filformat som krävs för att öppna länken, kan detta stå i grått bakom länknamnet.
+
+=== Ikon & Länk ===
+ 
+<br>
+<br>_Figur 31: Exempel på ikon & länk i applikationen_
+
+Sammanfattat kan man säga att en ikon & länk används istället för en knapp direkt i applikationen. En ikon & länk tar användaren vidare i webbapplikationen, såsom exempelvis att öppna upp något i en modal dialog eller gå till en specifik plats i applikationen. Handlar det om något mer avancerat, exempelvis att utföra en sökning eller liknande, används en knapp. 
+
+=== Utseende ===
+ 
+<br>
+<br>_Figur 32: Utseende på länk_
+
+En länk bör alltid svara blå och understruken, vilket är en förutsättning för att användaren snabbt skall uppfatta att det är en länk.
+Ikonen står alltid till vänster om länken. Mer information om vilka ikoner som kan användas finns under stycke 10.2.
+Namnet på länken behöver vara beskrivande, så att användaren förstår vad den leder till, exempelvis rubriken på dokumentet eller namnet på applikationen.
+
+=== Knapp ===
+ 
+<br>
+<br>_Figur 33: Exempel på knapp i applikationen_
+
+En ikon & länk används direkt i applikationen för att exempelvis öppna upp en dialog. En knapp används aldrig direkt i webbapplikationen, med undantag när det kommer till sök. 
+När det gäller modala dialoger används alltid en knapp istället för ikon & länk. Något annat som påvisar att en knapp borde användas är då det handlar om mer avancerade funktioner än att ta användaren vidare i gränssnittet, såsom exempelvis att spara ändringar. 
+Om knappen skall vara låst tills användaren fyllt i det hon skall fylla i kan knappen gråmarkeras, fast detta bara om användaren förstår varför. Vidare skall aldrig en knapps text eller funktion ändras, utan de skall vara konstanta. Är det så att det ändå behövs ha ytterligare en funktion eller liknande, borde en ny knapp läggas till stället.
+Nedan presenteras några exempel på generella knappar samt när de skall användas i gränssnittet.
+
+Knapptext	Användning
+OK	Används för att spara ändringar i en modal dialog
+Spara och stäng	Sparar och stänger nuvarande modal dialog. Sparadialog om ändringar har gjorts.
+Avbryt	Avslutar en dialog utan att spara ändringar.
+Ja	Används i meddelandedialoger för att indikera jakande svar
+Nej	Används i meddelandedialoger för att indikera nekande svar
+Ta bort	Tar bort ett objekt
+Sök	Används både i modala dialoger och direkt i en applikation för at starta en sökning. Kombineras alltid med ett fritextfält till vänster om knappen.
+Gå	Använd direkt i applikationer då användaren valt något ur en lista och vill öppna upp valt objekt, exempelvis genvägar.
+Uppdatera	Knapp för att 
+_Tabell 1: Ikoner i gränssnitt_
+
+== Hantera objekt ==
+Följande avsnitt beskriver hur användaren skall kunna hantera olika objekt, såsom exempelvis en kontakt, en uppgift och så vidare.
+ 
+<br>
+<br>_Figur 34: Exempel på objekt som skall gå att hantera_
+
+=== Lägg till ===
+En länk & ikon för att lägga till ett objekt skall finnas direkt i applikationen. Då användaren klickar på den skall en modal dialog öppnas där användaren kan fylla i uppgifter för att lägga till det nya objektet. 
+När användaren valt att stänga ner och spara dialogen skall det nyskapade objektet finnas med bland de tidigare skapade objektet.
+
+=== Redigera ===
+Användaren skall även kunna redigera objekt. Är det så att ”Redigera” inte lämpar sig som benämning, kan även termen ”Ändra” användas. 
+Presenteras objekten i en lista skall en ikon och länk för att redigera användas för respektive objekt. Klickar användaren på länken öppnas samma modala fönster upp som när användaren skapat ett nytt objekt. Skillnaden är att de uppgifter som finns om objektet redan är förifyllda. 
+När användaren gjort sina ändringar och klickar på ”Spara och stäng”, stängs den modala dialogen ner och objektet uppdateras.
+
+=== Ta bort ===
+Användaren skall kunna ta bort ett objekt. Står objekten i en lista skall en ikon och länk för att ta bort presenteras för respektive objekt. Klickar användaren på länken presenteras en meddelandedialog (se stycke 8.1) som ber användaren bekräfta huruvida hon vill ta bort objektet eller inte. Klickar användaren på ”Ja” tas objektet bort, medan om användaren klickar på ”Nej” tas objektet inte bort.
+
+== Listor ==
+När sökfunktion behövs och när det räcker med sortering och filtrering. Hur en filtreringslista ser ut (med rader och rubriker) och hur en träfflista ser ut i söken finns presenterat i nedanstående stycken. Grundläggande principer om hur olika listor skall utformas finns presenterade i Bilaga 2 – Att utforma.
+
+=== Sorterbara listor ===
+I en sorterbar lista består en post av en rad. Varannan rad i listan skall markeras ut med den ljusblåa färgen (se stycke 10.1) för att underlätta för användaren när hon läser av poster i listan. 
+En rad innehåller flera kolumner, vilket specificerar posten ytterligare. Användaren kan sortera posterna i listan genom att klicka på rubriken för en kolumn. Det kolumnhuvud som bestämmer sorteringsordningen skall markeras med en pil till höger om namnet, se bild nedan.
+  
+<br>
+<br>_Figur 35: Exempel på sorterbar lista_
+
+=== Träfflistor ===
+I en träfflista, tillskillnad från sorterbara listor, kan en post bestå av flera rader. Vill användaren sortera den typen av lista kan hon göra detta genom att välja sorteringsalternativ via uteslutande val. 
+ 
+<br>
+<br>_Figur 36: Exempel på träfflista_
+I vissa fall finns det behov att utöka information direkt i träfflistan för att snabbt ge detaljer om objektet till användaren, utan att hon behöver öppna upp det. Ett exempel på detta är träfflistan då användaren har gjort en sökning. Nedan följer ett exempel.
+Användaren kan utöka träffen genom att föra muspekaren över ett specifikt objekt och sedan välja att visa mer (se figur nedan). Användaren kan sedan dölja informationen och så vidare.
+ 
+<br>
+<br>_Figur 37: Exempel träfflista som går att utöka (sökresultat)_
+
+== Rullist ==
+Det skall bara finnas en rullist och det är den som finns längst till höger i Portalen. Om all information som finns i den aktuella vyn av Portalen bör rullisten vara inaktiv.
+Rullisten skall hela tiden spegla hur mycket information som visas. 
+Inga horisontella rullister skall finnas. Behövs en horisontell rullist bör länkar med ”Föregående” och ”Nästa” användas istället.
+
+== Trädvy ==
+Mer än tre nivåer skall inte finnas i en trädvy. Användaren skall kunna expandera/kollapsa innehållet i en trädvy genom att klicka på en ikon över ett plustecken respektive minustecken.
+
+== Radioknappar och checkbox ==
+Radioknappar kan användas när användaren har 2-8 valmöjligheter och då bara ett val är giltigt åt gången. Medan checkboxar bör användas då det finns 1-8 valmöjligheter och 0, 1 eller flera alternativ är giltiga åt gången. Antalet val bör inte överstiga åtta för varken radioknappar och checkboxar, då det finns risk att det blir allt för svårt för användaren att få en överblick av vilka val som finns.
+Vidare bör elementen placeras vertikalt i gränssnittet, detta för att hjälpa användarens avläsning av dem.
+ 
+<br>
+<br>_Figur 38: Exempel på användning av checkbox_
+ 
+<br>
+<br>_Figur 39: Exempel på användning av radioknappar_
+
+
+
 
 
 <br><br>
