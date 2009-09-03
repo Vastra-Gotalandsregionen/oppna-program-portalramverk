@@ -2,6 +2,25 @@
 
 = Generella designriktlinjer: Integrerad applikation =
 
+Det finns vissa förutsättningar och begränsningar för de applikationer som integreras direkt i Portalen.
+
+== Kvalifikationer ==
+Applikationen måste vara av en sådan art att den är nödvändig för att användaren skall få en överblick av sitt arbete samt att kunna utföra de mest relevanta uppgifterna. Ett exempel på detta är användarens kontakter och kalender. 
+
+== Placering i Portalen ==
+Det gäller att applikationen placeras som en flik på en logisk plats i Portalens navigation och på att ställe där det finns en likhet med flikar/funktioner som redan finns där. Detta för att underlätta för användaren då hon skall använda och hitta i Portalen. Exempelvis lämpar det sig inte att placera en applikation för att föra journalanteckningar under ”Mitt jobb”. Där skall nämligen bara funktioner som handlar om det egenadministrativa arbetet att göra, medan en applikation för journalanteckningar är ett verktyg som användaren behöver i sin yrkesroll. 
+Observera att det inte duger med att ange applikationen som en länk bland ”Mina genvägar” som sedan leder till den aktuella delen av Portalen. Är det så att det känns som den mest naturliga lösningen borde applikationen utformas som en fristående applikation istället (se kapitel 6).
+Läs mer om Portalens olika innehållsdelar för att avgöra var din applikation hör hemma (se stycke 2.2).
+
+== Storlek och utseende ==
+Det finns ett antal fasta funktioner i Portalen, vilka syns oavsett var i Portalen användaren befinner sig. Detta sätter naturligtvis en storleksbegränsning på de applikationer som skall integreras direkt i Portalen.
+ Figur 8: Storlek för applikationer som finns direkt i Portalen
+Den maximala bredden på en integrerad applikation är 585 pixlar.
+Finns behov av en extra spalt i applikationen, såsom exempelvis inkorg, utkorg, utkast under e-postapplikationen samt listan med sökområden under Hitta/Sök, kan utrymme 1 och utrymme 2 användas.
+
+== Navigation ==
+I de fall där det är mest lämpligt att applikationen placeras i Portalen som en egen flik kan en sekundär navigering vara aktuell. En sekundär navigering är en andra rad av flikar som placeras under den primära navigeringen i Portalen.
+Applikationen bör inte ha en egen rullist, utan behöver användaren skrolla kan hon använda den som finns längst till höger i Portalen. 
 
 
 <br><br>
