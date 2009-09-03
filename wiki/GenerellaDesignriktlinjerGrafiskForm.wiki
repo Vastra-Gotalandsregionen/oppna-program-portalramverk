@@ -38,23 +38,23 @@ Nedan följer ett antal exempel där ovanstående färger används.
 == Ikoner ==
 Ikonerna som används i gränssnittet kommer från http://www.famfamfam.com/lab/icons/silk/. Nedan följer en sammanställning över vilka ikoner som skall användas och hur de skall användas. Finns behov av fler ikoner än nedanstående skall ikonerna främst hämtas från ovanstående länk. Det är dock viktigt att ikonen testas på de faktiskt användarna, för att ta reda på huruvida ikonen är lätt att förstå.
 
-|| Namn	Användning	Ikontext (till höger om ikon)	Utseende
-cancel.png	Används i modala dialoger för att stänga ner den		 
-status_online.png	Markerar att användaren är inloggad	Inloggad som [namn]	 
-add.png	Används för att lägga till något	Lägg till [vad]	 
-arrow_left.png	Används som knapp för att gå tillbaka ett steg i applikationen	Tillbaka till lista med evenemang	 
-pencil.png	Används som knapp för att redigera något	Redigera	 
-delete.png	Används som knapp för att ta bort något	Ta bort	 
-email.png	Länk till att maila evenemang som kalenderhändelse	Skicka kalenderhändelse	 
-calendar.png	Markerar länk till kalenderfunktion 		 
-clock.png	Klickar användaren på klockan kan hon välja en tid utifrån klockslag.		 
-link.png	Markerar länk	Länk till Sambo (extern)	 
-attach.png	Markerar att det finns något bifogat	Bifoga	 
-user.png	Länk till adressbok	Sök via adressbok	 
-help.png	Indikerar en hjälpfunktion	Hjälp	 
-information.png	Indikerar att det finns mer information om detta		 
-print.png	Skriv ut	Skriv ut	 
-magnifier.png	Ikon för att söka		 
+|| Namn || Användning || Ikontext (till höger om ikon) || Utseende ||
+|| cancel.png || Används i modala dialoger för att stänga ner den || - || x ||
+|| status_online.png || Markerar att användaren är inloggad || Inloggad som [namn] || x ||
+|| add.png || Används för att lägga till något || Lägg till [vad] || x ||
+|| arrow_left.png || Används som knapp för att gå tillbaka ett steg i applikationen || Tillbaka till lista med evenemang || x ||
+|| pencil.png || Används som knapp för att redigera något || Redigera || x ||
+|| delete.png || Används som knapp för att ta bort något || Ta bort || x ||
+|| email.png || Länk till att maila evenemang som kalenderhändelse || Skicka kalenderhändelse || x ||
+|| calendar.png || Markerar länk till kalenderfunktion || - || x ||
+|| clock.png || Klickar användaren på klockan kan hon välja en tid utifrån klockslag || - || x ||
+|| link.png || Markerar länk || Länk till Sambo (extern) || x ||	 
+|| attach.png || Markerar att det finns något bifogat || Bifoga || x ||
+|| user.png || Länk till adressbok || Sök via adressbok || x ||
+|| help.png || Indikerar en hjälpfunktion || Hjälp || x ||
+|| information.png || Indikerar att det finns mer information om detta || - || x ||	 
+|| print.png || Skriv ut || Skriv ut || x ||
+|| magnifier.png || Ikon för att söka || - || x ||	 
 _Tabell 3: Ikoner i gränssnitt_
 
 == Typsnitt ==
@@ -64,25 +64,22 @@ Typsnittet anges storleken vid normalinställning i de allra flesta webbläsare.
 === Brödtext ===
 Brödtext är den löpande textmassan. Grundtypsnittet för brödtext i applikationer är Verdana. Om Verdana saknas används Arial, och om det också saknas Helvetica, och om även det saknas blir det något annat sens-seriff typsnitt. 
 
-Storlek 		normal: 12 px
+Storlek:
+normal: 12 px
 text som är mindre än brödtexten: 11 px
-ABCDEFGHIJKLMNOPQRSTUVXYZÄÅÖ
-abcdefghijklmnopqrstuvxyzåäö
-01234567890
 
-<br> X
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Sp-wyHSKd0I/AAAAAAAAAdY/5Wl8Oa2F6Uk/ver.png
 <br>_Figur 47: Utseende på typsnittet Verdana_
 
 === Rubriker ===
 Grundtypsnittet för rubriker i applikationer är Arial. Om Arial saknas används Helvetica och om det också saknas blir det något annat sens-seriff typsnitt.
-Storlek 	h1: 20 px
-	h2: 14 px
-	h3, h4, h5, h6: 12 px
-ABCDEFGHIJKLMNOPQRSTUVXYZÄÅÖ
-abcdefghijklmnopqrstuvxyzåäö
-01234567890
 
-<br> X
+Storlek:
+h1: 20 px
+h2: 14 px
+h3, h4, h5, h6: 12 px
+
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp-wyT1WfcI/AAAAAAAAAdc/eeFtC_bXF0I/ari.png
 <br>_Figur 48: Utseende på typsnittet Arial_
 
 === Listor ===
