@@ -1,6 +1,6 @@
 #summary Beskriver detaljerad design av olika funktioner
 
-= Detaljdesign =
+= Bättre koll på jobbet: Detaljdesign =
 Dealjdesignen har på grund av sin omfattning delats upp i underkategorier. I slutet av varje sida följer innehållsförteckning för både detaljdesign och den övergripande kategorin designriktlinjer.
 
 Detaljdesignen beskriver de enskilda delarna i användargränssnittet i detalj med avseende på beteende, information och presentation. Presentationen och innehållet i de olika delarna kan till viss del se skiljaktiga ut, beroende på vilken användare som inloggad.
