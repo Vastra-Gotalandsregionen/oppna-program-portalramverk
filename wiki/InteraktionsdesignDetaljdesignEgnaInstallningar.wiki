@@ -1,6 +1,6 @@
 #summary One-sentence summary of this page.
 
-= Detaljdesign: Egna inställningar =
+= Bättre koll på jobbet, detaljdesign: Egna inställningar =
 
 Under egna inställningar skall användaren kunna se information om sig själv, redigera informationen, ange vilka arbetsplatser hon har samt att kunna göra viss anpassning av startsidan.
 
