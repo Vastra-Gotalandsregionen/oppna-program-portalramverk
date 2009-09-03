@@ -1,6 +1,6 @@
 #summary Beskriver beteenden och funktioner för olika gränssnittskomponenter
 
-= Beteenden och funktioner =
+= Bättre koll på jobbet: Beteenden och funktioner =
 Följande kapitel beskriver de beteenden och funktioner som Portalen bygger på, vilket gäller för hela Portalen om inget annat anges.
 
 == Navigering ==
