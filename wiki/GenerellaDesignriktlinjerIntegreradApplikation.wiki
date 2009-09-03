@@ -14,7 +14,10 @@ Läs mer om Portalens olika innehållsdelar för att avgöra var din applikation
 
 == Storlek och utseende ==
 Det finns ett antal fasta funktioner i Portalen, vilka syns oavsett var i Portalen användaren befinner sig. Detta sätter naturligtvis en storleksbegränsning på de applikationer som skall integreras direkt i Portalen.
- Figur 8: Storlek för applikationer som finns direkt i Portalen
+
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Sp-fUEKijQI/AAAAAAAAAaI/aEGPO_EIoO4/s800/Picture%2076.jpg
+<br>_ Figur 8: Storlek för applikationer som finns direkt i Portalen_
+
 Den maximala bredden på en integrerad applikation är 585 pixlar.
 Finns behov av en extra spalt i applikationen, såsom exempelvis inkorg, utkorg, utkast under e-postapplikationen samt listan med sökområden under Hitta/Sök, kan utrymme 1 och utrymme 2 användas.
 
