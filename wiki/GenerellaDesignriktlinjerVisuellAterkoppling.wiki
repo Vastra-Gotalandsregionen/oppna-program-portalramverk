@@ -2,6 +2,37 @@
 
 = Generella designriktlinjer: Visuell återkoppling =
 
+För att användaren skall kunna arbeta effektivt och utan fel är tydlig återkoppling och presentation av information på ett korrekt sätt av yttersta vikt. Det är väldigt viktigt att användaren kan se vad resultatet är på sina handlingar. Exempel på detta är att information som användaren raderat blir utgråad, att ett markerat objekt ändrar utseende efter att användaren klickat på det samt att antalet träffar från de olika sökområdena presenteras.
+
+== Väntetider ==
+Vid de tillfällen då det är långa väntetider för användaren, skall hon få återkoppling. Exempelvis att öppna en post får högst ta två sekunder under normala omständigheter. 
+För det första skall muspekaren ändras till ett timglas (eller motsvarande) om applikationen kommer att vara upptaget upp till 8 sekunder. Vidare kan en förloppsindikator användas om applikationen kommer vara upptaget mer än 8 sekunder.
+
+== Markerat objekt ==
+Det skall vara tydligt för användaren vilket objekt som har fokus (är valt)
+När ett objekt har markerats skall färgen på objektet bli starkare och mörkare än de objekt som inte är markerade. Används något typsnitt kan typsnittets tjocklek ökas, såsom att gå från Normal till Fet stil. Markerade objekt kan även få bakgrundsfärg för att förtydliga vilket som är valt. Se nedanstående exempel.
+  
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Sp-fbCx-sLI/AAAAAAAAAb8/aYbblXHzBNg/Picture%20107.jpg
+<br>_Figur 40: Exempel på då ett objekt har markerats_
+
+== Inaktuell information ==
+Det skall synas på information som är inaktuell då användaren exempelvis har valt att ta bort det och då det ännu skall finnas kvar. Exempel på detta är när användaren utfört en uppgift och markerat den som klar. Informationen skall då gråas ut och även få en genomstrykning för att indikera på annat sätt än via färgförändring. 
+ 
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp-fba7k4pI/AAAAAAAAAcA/rJ0liK1sgoE/Picture%20108.jpg
+<br>_Figur 41: Inaktuell information gråas ut_
+
+== Uppdaterad information ==
+Information som är viktig för användaren att veta huruvida den är uppdaterad eller inte, såsom exempelvis om det gjorts ändringar i ett PM som en sjuksköterska följer, skall detta märkas ut. Exakt hur detta skall se ut beror på vilken typ av information som skall märkas som uppdaterad. Ett exempel är att ha ett rött utropstecken efter dokumentnamnet.
+
+== Prioritering låg/normal/hög ==
+Ibland behövs samma typ av informationsobjekt märkas ut med prioritering, detta för att underlätta för användaren då hon avsöker gränssnittet. Exempelvis kan färgtoningar användas, där rött är högsta prioritet och där ljusrosa är lägsta prioritet, se figur nedan.
+ 
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Sp-fbjZ8NWI/AAAAAAAAAcE/LXufuGWDoIo/Picture%20109.jpg
+<br>_Figur 42: Prioritering mellan samma typ av objekt_
+
+== Privat information ==
+Information som användaren vill hålla privat skall markera detta på ett tydligt sätt till användaren. Hur privat information skall utformas beror på vilken typ av information det handlar om och i vilken kontext den skall finnas. Exempel på privat information är exempelvis privata kalenderhändelser som markeras med grön färg.
+
 
 
 <br><br>
