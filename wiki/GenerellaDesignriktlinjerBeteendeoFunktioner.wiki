@@ -2,6 +2,72 @@
 
 = Generella designriktlinjer: Beteenden och funktioner =
 
+Följande kapitel beskriver de beteenden och funktioner för applikationer som utvecklas för och inom Portalramverket.
+
+== Hågkomst ==
+Det är fördelaktigt om applikationen har hågkomst för var och vad användaren gjort tidigare. Det objekt som användaren tittat på senast bör visas, när hon återgår till den delen av applikationen. Exempelvis när användaren bläddrar bort från e-post-applikationen och återkommer senare, så bör det aktiva meddelandet vid lämnandet vara aktivt när hon återkommer. Observera att detta är en riktlinje som måste värderas från fall till fall, det är inte ett mönster som alltid är bra att följa.
+
+== Tillbaka ==
+Då användaren vill gå tillbaka i applikationen skall hon kunna använda sig av tillbaka-knappen i webbläsaren. 
+Vid de tillfällen då det är det enda sättet att ta sig tillbaka på, är det fördelaktigt att förtydliga detta via en ikon och länk som visar att användaren kan ta sig tillbaka ett steg. Nedan finns en bild på de två sättet att navigera tillbaka.
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp-fWsrjv6I/AAAAAAAAAa0/YWY2SeBZkOc/s800/Picture%2087.jpg
+<br>_Figur 19: Knappar för att backa ett steg_
+
+== Kopiera och klistra in ==
+För samtliga fritextfält behöver det gå att använda kopiera (CTRL+C) och klistra in (CTRL+V). Detta för att underlätta för användaren när hon fyller i information. Exempelvis behöver hon kunna kopiera och klistra in information mellan två fält i applikationen, men även kunna klistra in kopierad text i applikationen.
+
+== Tool-tip ==
+I Portalen finns det en tool-tip funktion där användaren, genom att föra muspekaren över objektet, exempelvis kan bli informerad om vad objektet betyder och vad hon kan göra med det. Om, när och hur tool-tip funktionen skall implementeras är ännu inte beslutat.
+
+<br>http://lh4.ggpht.com/_mHREyZKezxI/Sp-fWhHWQ-I/AAAAAAAAAa4/IF89HIWQkcc/Picture%2088.jpg
+<br>_Figur 20: Tool-tip funktion_
+
+== Sök ==
+Följande avsnitt presenterar de beteenden och funktioner som gäller för sök. Det finns två olika typer av sök, en generell och ett funktionsspecifikt sök. 
+
+=== Funktionsspecifikt sök ===
+Det funktionsspecifika söket söker endast bland den information som finns presenteras i just denna applikation.
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp-fW-Jqx8I/AAAAAAAAAa8/0LSwMWN03Kc/s800/Picture%2089.jpg
+<br>_Figur 21: Exempel på funktionsspecifikt sök under ”Mina kontakter”_
+
+=== Generellt sök ===
+Den generella sökfunktionen söker på i stort sett all information som finns att tillgå i applikationen och även i vissa fall från andra källor.
+
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp-fXcBqQfI/AAAAAAAAAbA/nv7YOsiv758/s800/Picture%2090.jpg
+<br>_Figur 22: Generell sök_
+
+=== Sökområden ===
+Eftersom ett generellt sök kan bestå av information som kommer från ett flertal olika källor och applikationer, skall sökområden användas för att underlätta för användaren då hon vill hitta något. Sökresultatet presenteras sedan utifrån de olika sökområdena. Användaren kan klicka runt bland områdena för att hitta just den information som hon letar efter. 
+De olika sökområdena kan med fördel presenteras genomgående i en hierarkisk struktur till vänster i gränssnittet. Det område som användaren har valt skall markeras på ett tydligt sätt. Vidare bör antalet träffar presenteras inom en parates efter vare sökområde. 
+Notera att en och samma träff kan finnas i mer än ett sökområde.
+Det har utförts en del utredningar för att hitta sökområden som användare av Portalen är i behov av. Det är ännu inte fastställt vilka sökområdena är, nedan presenteras ett förslag på vilka områdena skulle kunna vara:
+ * Dokument
+ * Person
+ * Kommande aktiviteter
+ * Webbsida
+  * Interna 
+  * Externa
+ * Nyheter
+  * Interna
+  * Externa
+  * Pressmeddelanden
+ * Organisation
+ * Diskussionsgrupp
+
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp-fXRiazfI/AAAAAAAAAbE/W2j63CCAWMo/Picture%2091.jpg
+<br>_Figur 23: Presentation av sökområde_
+
+Ovanstående är som tidigare nämnts ett förslag på vilka sökområdena skulle kunna vara. En tanke är att användaren kanske skulle vilja kunna bland sina e-postmeddelanden.  
+=== Tolkning av sökord ===
+Exakt hur sökorden tolkas är ännu inte helt klart, utan en mer korrekt beskrivning skall göras.
+
+=== Detaljerat sök ===
+Följande stycke beskriver hur den detaljerade sökfunktionen skall fungera. Den detaljerade sökfunktionen innehåller ett antal statiska kategorier som användaren kan använda sig av för att snäva av sin sökning.  Vilka kategorierna är beror på vilket sökområde användaren har valt. 
+
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp-fX6bgU-I/AAAAAAAAAbI/jjjnhZdPnos/s800/Picture%2092.jpg
+<br>_Figur 24: Detaljerad sök_
 
 
 <br><br>
