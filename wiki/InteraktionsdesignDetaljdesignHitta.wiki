@@ -1,6 +1,6 @@
 #summary Beskriver designriktlinjer för Hitta- och söksidorna
 
-= Detaljdesign: Hitta =
+= Bättre koll på jobbet, detaljdesign: Hitta =
 
 Under fliken ”Hitta” finns den generella sökfunktionen samt en möjlighet att navigera i en organisation. Sökfunktionen innehåller ett antal sakområden som användaren kan använda sig av för att sortera ut den typ av information som hon vill söka efter. 
 == Sök ==
