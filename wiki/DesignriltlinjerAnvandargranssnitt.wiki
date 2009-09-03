@@ -2,19 +2,20 @@
 
 = Introduktion till interaktionsdesign för portalramverket =
 
-Dessa sidor beskriver designriktlinjer för användargränssnitt. Sidorna beskriver ett användargränssnitt för Portalen som utgår från de kända behoven hos verksamheten och användarna. I en förlängning skall interaktionsdesignen kompletteras med riktlinjer för nya applikationer och tjänster, men detta har inte varit syftet i denna etapp. 
+Dessa sidor beskriver designriktlinjer för användargränssnitt av portalramverket. Sidorna har delats upp i _generella designriktlinjer_ och _tilämpade designriktlinjer_. De generella designriktlinjerna beskriver allmänna riktlinjer för design av olika delar inom portalramverket. De tillämpade designriktlinjerna beskriver designriktlinjer för intranätet i portalramverket och kan användas som mer detaljerad referens.
+
 Dokumentet beskriver interaktionen mellan användaren och systemet. Det beskriver alltså:
- 
-  * Presentation – med avseende på gruppering, storlek och placering, men inte med avseende på grafisk formgivning. 
-  * Beteende – hur responderar användargränssnittet på användarens aktioner och i viss mån vilka regler styr gränssnittets beteende. 
-  * Information – vilka informationsmängder visas till användaren. Dock framgår inte från vilket system denna information hämtas.  
+ * Presentation – med avseende på gruppering, storlek och placering, men inte med avseende på grafisk formgivning. 
+ * Beteende – hur responderar användargränssnittet på användarens aktioner och i viss mån vilka regler styr gränssnittets beteende. 
+ * Information – vilka informationsmängder visas till användaren. Dock framgår inte från vilket system denna information hämtas.  
 
+Det material som legat till grund för de generella designriktlinjerna utgörs främst av:
+ * kommer snart...
 
-Det material som legat till grund för principdesign utgörs främst av:
-
-  * Användningstest utfört på SÄS Borås och KS, där ett tidigare lösningsförslag utvärderades för att se om det motsvarar förväntningar och nytta för verksamheten och användaren. 
-  * 20 stycken intervjuer på arbetsplatsen, hos bland annat sjuksköterskor, läkare och läkarsekreterare anställda på SU, där befintligt arbetssätt och befintliga systemstöd har studeras.
-  * Workshop med verksamhetsansvariga för att ta ett formellt beslut om syfte och mätpunkter.
+Det material som legat till grund för de specifika designriktlinjerna utgörs främst av:
+ * Användningstest utfört på SÄS Borås och KS, där ett tidigare lösningsförslag utvärderades för att se om det motsvarar förväntningar och nytta för verksamheten och användaren. 
+ * 20 stycken intervjuer på arbetsplatsen, hos bland annat sjuksköterskor, läkare och läkarsekreterare anställda på SU, där befintligt arbetssätt och befintliga systemstöd har studeras.
+ * Workshop med verksamhetsansvariga för att ta ett formellt beslut om syfte och mätpunkter.
 
 
 <br><br>
