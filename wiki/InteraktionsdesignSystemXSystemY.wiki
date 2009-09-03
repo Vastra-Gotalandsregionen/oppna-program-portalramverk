@@ -1,6 +1,6 @@
 #summary Beskriver innehåll under System X, system Y
 
-= Detaljdesign: System X, system Y =
+= Bättre koll på jobbet, detaljdesign: System X, system Y =
 
 Under ”System X, System Y” finns de mest viktiga program som användaren behöver för att klara sitt dagliga arbete, såsom exempelvis läkarsekreteraren som använder sig av system för att hantera diktat, exempelvis MedSpeach, under mer eller mindre hela sin arbetsdag. Detta är något som behöver analyseras noggrannare tillsammans med respektive verksamhet.
 
