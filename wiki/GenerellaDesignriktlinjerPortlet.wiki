@@ -2,6 +2,56 @@
 
 = Generella designriktlinjer: Portlet =
 
+En portlet skall ses som en beståndsdel av en webbsida. Webbsidan kan innehålla ett flertal portlets samtidigt. Portlets placeras som ett rutnät på webbsidan, genom att applicera de portlets som logiskt hör ihop tillsammans. Detta enligt närhetsprinciper, vilken du kan läsa om i bilaga 2. En portlet innehåller information som logiskt hör ihop, men kan hämtas från olika typer av applikationer eller webbsidor.
+En portlet kan innehålla information från någon applikation som finns längre in i Portalens informationsstruktur, såsom en lista över användarens senast inkomna e-postmeddelanden. En portlet kan också innehålla information som hämtas från externa applikationer och webbsidor, vilket fallet är för Evenemangskalendern där en lista med evenemang presenteras på startsidan.
+
+== Kvalifikationer ==
+En portlet skall användas för att visa information som logiskt hör ihop. Den information som fyller en portlet kan komma från nyheter och dokument samt information från fristående och integrerade applikationer. Portlets visar endast information som motsvarar användarens profil. 
+En portlet ger ibland tillgång till funktioner. Exempelvis kan användaren klicka på en post i en portlet öppna en modal dialog med detaljinformation eller en fristående applikation. 
+
+== Placering i Portalen ==
+När en ny portlet skapas för Portalen gäller det att den placeras på en logisk plats i Portalen. Detta för att underlätta för användaren då hon integrerar med Portalen. Läs mer om Portalens olika innehållsdelar för att avgöra var din portlet hemma (se stycke 2.2).
+== Storlek och utseende ==
+
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Sp-fUoD4-QI/AAAAAAAAAaU/r7MVvSCyk9w/s800/Picture%2079.jpg
+<br>_Figur 11: Exempel på portlet i Portalen_
+
+Storleken för en portlet kan variera beroende på vad den behöver innehålla samt var den finns. Dock bör en portlet inte bli mindre än 250 pixlar bred.
+
+<br>http://lh4.ggpht.com/_mHREyZKezxI/Sp-fU7sNO5I/AAAAAAAAAaY/C_4bJw7NBhA/s800/Picture%2080.jpg
+<br>_Figur 12: Utseende på portlet_
+
+I en portlet finns alltid en titel som beskriver vad den innehåller, exempelvis ”E-post” och ”Verksamhetsnytt”. 
+En portlet bör aldrig innehålla element som rullister eller knappar, medan ikoner och länkar går utmärkt. 
+
+== Innehåll & navigation ==
+Hur användaren kan navigera med och i en portlet beror på vad portleten innehåller. En portlet kan innehålla olika typer av information, se nedanstående exempel.
+
+=== Information från extern applikation ===
+Det finns portlets som innehåller information från externa applikationer. Exempel på detta är en portlet för Evenemangskalendern som visar en lista med aktiviteter.
+Rubriken i portleten är då en länk till den externa applikationen, om det är så att användaren skall kunna öppna applikationen. När användaren klickar på länken öppnas den externa applikationen upp i en ny webbläsare. 
+
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp-fVCgrB0I/AAAAAAAAAac/D4kp7P4ju7I/s800/Picture%2081.jpg
+<br>_Figur 13: Exempel då användaren öppnar en extern applikation från en portlet_
+
+=== Information från applikationer i Portalen ===
+Ibland kan det vara nödvändigt att presentera information på Portalens startsida från applikationer som befinner sig längre ner i Portalens struktur. 
+För de portlets som innehåller information från applikationer som ”bor” i portalen skall rubriken för portleten vara en länk. Länken tar användaren vidare till källan. 
+
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Sp-fVdC1P7I/AAAAAAAAAag/dZhBWEQ6cvQ/s800/Picture%2082.jpg
+<br>_Figur 14: Exempel då användaren tar sig till en annan del av Portalen via en portlet_
+
+=== Fristående portlet ===
+Det finns de fall då en portlet innehåller information som varken kommer från en extern applikation eller från en applikation som ”bor” någonstans i Portalen. Då användaren vill läsa mer om samma sak och då innehållet är så pass omfattande att det inte får plats i en portlet, behövs en navigering. Det finns ett par sätt att utforma navigeringen:
+ * När innehållet är utformat som en lista och då listans poster är så många att de inte får plats i en portlet, skall en paginering användas. Användaren kan använda dessa för att bläddra bland posterna genom att klicka på ”Nästa” eller gå tillbaka via ”Föregående”.
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp-fVq6_w2I/AAAAAAAAAak/IJs3AalMOPk/s800/Picture%2083.jpg
+<br>_Figur 15: Horisontell navigering i portlet med ”Föregående” och ”Nästa”_
+
+ * I de fall då portleten innehåller information som skall gå att utöka och detaljera, skall minimering och maximering av en portlet användas, se bild nedan.
+
+<br>http://lh4.ggpht.com/_mHREyZKezxI/Sp-fVtFu-qI/AAAAAAAAAao/usimthHi290/s800/Picture%2084.jpg
+<br>_Figur 16: Utseende för att maximera och minimera en portlet_
 
 
 <br><br>
