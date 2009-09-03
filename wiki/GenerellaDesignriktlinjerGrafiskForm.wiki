@@ -9,16 +9,16 @@ Det aktuella stycket beskriver de färger som skall användas i applikationer el
 För varje färg finns en beskrivning om exempel användning. Naturligtvis skall det gå att kombinera färgerna på andra sätt än det som angivs. Det är även väldigt viktigt att försöka använda samma färg till samma sak på alla ställen. Dock har färg en mycket stark signaleffekt på användaren och bör därför används med försiktighet. Det är även viktigt att undvika att ha färg som ensam informationsbärare, då det finns personer som har problem att se färger.
 
 || Benämning || Exempel användning || RGB/Hex || Utseende ||
-|| VGRblå || Rubriken för applikationen och färg på länkar i applikationen || 0,91,170/#0055BAA || X ||
-|| Ljuslila || Linje till rubriken || 186,174,217/#baaed9 || x ||
-|| Blå 1 || Färg i toning || 196,213,249/#c4d5f9 || x ||
-|| Blå 2 ||Blåa linjer runt modala dialoger || 141,186,245/#8dbaf5 || x ||
+|| VGRblå || Rubriken för applikationen och färg på länkar i applikationen || 0,91,170/#0055BA || X ||
+|| Ljuslila || Linje till rubriken || 186,174,217/#baaed9 || http://lh5.ggpht.com/_mHREyZKezxI/Sp-5eTo4XzI/AAAAAAAAAe0/_2nhQrypycg/baaed9.png ||
+|| Blå 1 || Färg i toning || 196,213,249/#c4d5f9 || http://lh5.ggpht.com/_mHREyZKezxI/Sp-5efCUupI/AAAAAAAAAe4/uvf2rLH1dKY/c4d5f9.png ||
+|| Blå 2 ||Blåa linjer runt modala dialoger || 141,186,245/#8dbaf5 || http://lh5.ggpht.com/_mHREyZKezxI/Sp-5XpDjzSI/AAAAAAAAAek/WJ0qCLIGo4s/8dbaf5.png ||
 || Ljuslila || Bakgrund till rubriker samt linjer runt text || 232,237,255/#e8edff || x ||
-|| Grå || Nedtonad text. || 95,95,95/#5f5f5f || x ||
-|| Ljusblå || Färg för varannan rad i listor || 225,241,255/#e1f1ff || x ||
-|| Ljusgrå || Rubriker till bland annat fritext & dropdown-listor || 128,128,128/#808080 || x ||
-|| Röd || Färg till asterix (tvingande fält) || 255,0,0/#ff0000 || x ||
-|| Lila || Besökt länk || 117,64,108/#75406C || x ||
+|| Grå || Nedtonad text. || 95,95,95/#5f5f5f || http://lh4.ggpht.com/_mHREyZKezxI/Sp-5Xvzq-4I/AAAAAAAAAeg/KCSDMUbOXqM/5f5f5f.png ||
+|| Ljusblå || Färg för varannan rad i listor || 225,241,255/#e1f1ff || http://lh4.ggpht.com/_mHREyZKezxI/Sp-5ec1H6gI/AAAAAAAAAe8/bez6dNvv__k/e1f1ff.png ||
+|| Ljusgrå || Rubriker till bland annat fritext & dropdown-listor || 128,128,128/#808080 || http://lh6.ggpht.com/_mHREyZKezxI/Sp-5YDpqmJI/AAAAAAAAAew/s027rtRolgc/808080.png ||
+|| Röd || Färg till asterix (tvingande fält) || 255,0,0/#ff0000 || http://lh3.ggpht.com/_mHREyZKezxI/Sp-5etJRpOI/AAAAAAAAAfE/XjDIgBcpbFU/ff0000.png ||
+|| Lila || Besökt länk || 117,64,108/#75406C || http://lh5.ggpht.com/_mHREyZKezxI/Sp-5X8DWs9I/AAAAAAAAAes/5VoGxdZYPjI/75406C.png ||
 _Tabell 2: Summering av färger som används i ID-skisserna för Evenemangskalendern_
 
 Nedan följer ett antal exempel där ovanstående färger används.
