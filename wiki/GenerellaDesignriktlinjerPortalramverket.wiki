@@ -7,32 +7,32 @@ Portalen är den fungerande (körbara) tillämpningen av ramverket som byggts me
 2.1.1	Principdesign
 Principdesignen för portalen består huvudsakligen av fyra delar; innehåll navigering, systemnamn och kortvägar/notifikationen. De tre sistnämnda är sådana som är återkommande oberoende var användaren befinner sig i applikationen. Aktuellt innehåll är däremot känsligt för var användaren befinner sig för tillfället. Den primära navigeringen i Portalen sker via flikar. 
 
-<br>
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Sp-fSEziBYI/AAAAAAAAAZs/q1yXtYZGC68/s800/Picture%2069.jpg
 <br>_Figur 1: Principdesign för Portalen_
 
 == Struktur ==
-<br>
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp-fSL5flgI/AAAAAAAAAZw/fhQ9t33Lq00/s800/Picture%2070.jpg
 <br>_Figur 2: Flikar i Portalen_
 
 Portalen består av ett antal flikar, såsom ”Mitt jobb”, ”Hitta” och ”Egna inställningar”. För respektive flik finns det olika typer av innehåll. De olika flikarna och dess innehåll beskrivs i följande stycken.
 
 === Startsida ===
 
-<br>
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Sp-fSucMxzI/AAAAAAAAAZ0/CzF9c1sOahc/s800/Picture%2071.jpg
 <br>_Figur 3: Portalens startsida_
 
 Under startsidan finns det inga fristående applikationer, utan den består av ett antal portlets innehållandes information riktad direkt till användaren. Startsidan kan ses som en anslagstavla som informerar användaren om vad som är nytt, vilka uppdateringar som har gjorts och så vidare. Användaren skall på ett ögonblick få helhetssyn både av sitt arbete och av sin roll som anställd. I viss utsträckning skall användaren även kunna agera på informationen.
 
 === Mitt jobb ===
 
-<br>
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp-fSzpa1lI/AAAAAAAAAZ4/UTSjctsj4q0/s800/Picture%2072.jpg
 <br>_Figur 4: Mitt jobb_
 
 Under ”Mitt jobb” finns funktioner som har med det egen administrativa jobbet att göra som används i stort sett dagligen både i användarens yrkesroll och i användarens roll som anställd. Exempel är den egna kalendern, kontakter samt dokument. 
 
 === Användarberoende system ===
 
-<br>
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp-fTFozaFI/AAAAAAAAAZ8/awgkO_GS6jU/s800/Picture%2073.jpg
 <br>_Figur 5: Användarberoende system i Portalen_
 
 Vad som finns under användaroberoende system beror, som det låter, på vem användaren är. Här placeras de applikationer som användaren behöver i sin yrkesroll. Exempel är journalsystem väsentligt för en läkare och sjuksköterska, medan ett system som hanterar diktat är viktigt för en läkarsekreterare.
@@ -40,14 +40,14 @@ Notera att det som placeras här skall vara något som användaren brukar flera 
 
 === Hitta ===
 
-<br>
+<br>http://lh4.ggpht.com/_mHREyZKezxI/Sp-fTWwH_xI/AAAAAAAAAaA/WjQh9NCcozE/s800/Picture%2074.jpg
 <br>_Figur 6: Under Hitta i Portalen_
 
 Under ”Hitta” finns sökfunktionen. Är det så att användaren behöver söka bland den information som finns i applikationen som skall utvecklas, kan detta föras in som ett sökområde. Ett sökområde är en grupp av information som användaren kan söka på samt även sortera sin träfflista utifrån (se stycke 7.5.2.1).
 
 === Egna inställningar ===
 
-<br>
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp-fTz7yL3I/AAAAAAAAAaE/b6GyynU3KZQ/s800/Picture%2075.jpg
 <br>_Figur 7: Egna inställningar_
 
 Under ”Egna inställningar” finns de inställningar som användaren kan göra om sig själv, både gällande kontaktinformation och sin profil. Vidare kan användaren även anpassa startsidan efter hennes egna preferenser.
