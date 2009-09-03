@@ -1,6 +1,6 @@
 #summary Beskriver grundläggande designprinciper
 
-= Principdesign =
+= Bättre koll på jobbet: Principdesign =
 Principdesignen beskriver systemets struktur. Den definierar också vilka delar i systemet som tar stort utrymme i gränssnittet och vilka delar som är mindre framträdande. 
 
 == Utgångspunkt ==
