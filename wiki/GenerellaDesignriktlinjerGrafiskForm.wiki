@@ -2,6 +2,130 @@
 
 = Generella designriktlinjer: Grafisk form =
 
+Följande kapitel beskriver den grafiska formen som applikationer utvecklade inom och för Portalramverket skall följa. Detta för att underlätta för användarna, då applikationerna påminner om varandra gällande grafisk form. På så sätt kan användaren utnyttja tidigare erfarenheter från andra applikationer, när hon skall använda en applikation för första gången.
+
+== Färg ==
+Det aktuella stycket beskriver de färger som skall användas i applikationer eller dialoger som utvecklas inom Portalramverket. Färg skall användas för att fånga uppmärksamheten, exempelvis föra att visa när ett nytt e-postmeddelande har kommit it. 
+För varje färg finns en beskrivning om exempel användning. Naturligtvis skall det gå att kombinera färgerna på andra sätt än det som angivs. Det är även väldigt viktigt att försöka använda samma färg till samma sak på alla ställen. Dock har färg en mycket stark signaleffekt på användaren och bör därför används med försiktighet. Det är även viktigt att undvika att ha färg som ensam informationsbärare, då det finns personer som har problem att se färger.
+
+|| Benämning	Exempel användning	RGB/Hex	Utseende
+VGRblå	Rubriken för applikationen och färg på länkar i applikationen	  0, 91, 170 /
+#0055BAA	
+Ljuslila	Linje till rubriken	186, 174, 217 /
+#baaed9	
+Blå 1	Färg i toning	196, 213, 249 /
+#C4D5F9	
+
+Blå 2	Blåa linjer runt modala dialoger	141, 186, 245 /
+#8dbaf5	
+Ljuslila	Bakgrund till rubriker samt linjer runt text	232, 237, 255 /
+#e8edff	
+Grå	Nedtonad text.	95, 95, 95
+#5f5f5f	
+Ljusblå 	Färg för varannan rad i listor	225, 241, 255 /
+#e1f1ff	
+Ljusgrå	Rubriker till bland annat fritext & dropdown-listor 	128, 128, 128 /
+#808080	
+Röd	Färg till asterix (tvingande fält)	255, 0, 0 /
+#ff0000	
+Lila	Besökt länk	117, 64, 108 /
+#75406C
+_Tabell 2: Summering av färger som används i ID-skisserna för Evenemangskalendern_
+
+Nedan följer ett antal exempel där ovanstående färger används.
+ 
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Sp-fbwmDWxI/AAAAAAAAAcI/mb1-01sMymQ/s800/Picture%20110.jpg
+<br>_Figur 43: Exempel 1 på användning av färg_
+ 
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp-fcPVZrHI/AAAAAAAAAcM/4pa3-bXBJEs/s800/Picture%20111.jpg
+<br>_Figur 44: Exempel 2 på användning av färg
+ 
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp-fcl371wI/AAAAAAAAAcQ/O_gKKFt-198/s800/Picture%20112.jpg
+<br>_Figur 45: Exempel 3 på användning av färg
+ 
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Sp-fc7jTzmI/AAAAAAAAAcU/fNbOwSeQ-9w/s800/Picture%20113.jpg
+<br>_Figur 46: Exempel 4 på användning av färg
+
+== Ikoner ==
+Ikonerna som används i gränssnittet kommer från http://www.famfamfam.com/lab/icons/silk/. Nedan följer en sammanställning över vilka ikoner som skall användas och hur de skall användas. Finns behov av fler ikoner än nedanstående skall ikonerna främst hämtas från ovanstående länk. Det är dock viktigt att ikonen testas på de faktiskt användarna, för att ta reda på huruvida ikonen är lätt att förstå.
+
+|| Namn	Användning	Ikontext (till höger om ikon)	Utseende
+cancel.png	Används i modala dialoger för att stänga ner den		 
+status_online.png	Markerar att användaren är inloggad	Inloggad som [namn]	 
+add.png	Används för att lägga till något	Lägg till [vad]	 
+arrow_left.png	Används som knapp för att gå tillbaka ett steg i applikationen	Tillbaka till lista med evenemang	 
+pencil.png	Används som knapp för att redigera något	Redigera	 
+delete.png	Används som knapp för att ta bort något	Ta bort	 
+email.png	Länk till att maila evenemang som kalenderhändelse	Skicka kalenderhändelse	 
+calendar.png	Markerar länk till kalenderfunktion 		 
+clock.png	Klickar användaren på klockan kan hon välja en tid utifrån klockslag.		 
+link.png	Markerar länk	Länk till Sambo (extern)	 
+attach.png	Markerar att det finns något bifogat	Bifoga	 
+user.png	Länk till adressbok	Sök via adressbok	 
+help.png	Indikerar en hjälpfunktion	Hjälp	 
+information.png	Indikerar att det finns mer information om detta		 
+print.png	Skriv ut	Skriv ut	 
+magnifier.png	Ikon för att söka		 
+_Tabell 3: Ikoner i gränssnitt_
+
+== Typsnitt ==
+Texterna bör alltid vara svart, med undantag för vissa rubriker och länkar. Nedan följer en beskrivning om vilka typsnitt som skall användas och när de skall användas.
+Typsnittet anges storleken vid normalinställning i de allra flesta webbläsare. Användaren skall dock kunna anpassa textstorleken efter sina behov. När det står ”om ett typsnitt saknas”, menas om det saknas för användaren. När en applikation utvecklas skall alltid det första typsnittet väljas.
+
+=== Brödtext ===
+Brödtext är den löpande textmassan. Grundtypsnittet för brödtext i applikationer är Verdana. Om Verdana saknas används Arial, och om det också saknas Helvetica, och om även det saknas blir det något annat sens-seriff typsnitt. 
+
+Storlek 		normal: 12 px
+text som är mindre än brödtexten: 11 px
+ABCDEFGHIJKLMNOPQRSTUVXYZÄÅÖ
+abcdefghijklmnopqrstuvxyzåäö
+01234567890
+
+<br> X
+<br>_Figur 47: Utseende på typsnittet Verdana_
+
+=== Rubriker ===
+Grundtypsnittet för rubriker i applikationer är Arial. Om Arial saknas används Helvetica och om det också saknas blir det något annat sens-seriff typsnitt.
+Storlek 	h1: 20 px
+	h2: 14 px
+	h3, h4, h5, h6: 12 px
+ABCDEFGHIJKLMNOPQRSTUVXYZÄÅÖ
+abcdefghijklmnopqrstuvxyzåäö
+01234567890
+
+<br> X
+<br>_Figur 48: Utseende på typsnittet Arial_
+
+=== Listor ===
+I vissa listor används typsnittsvalen Arial, om det saknas används Helvetica och om det också saknas blir det något annat sens-seriff typsnitt. Verdana har valts bort för att få mer utrymme i listor då Verdana är ett väldigt brett typsnitt.
+Storlek: 11 px
+
+== Informationsstyrning ==
+Den information som presenterar i Portalen är alltid styrd efter vem användaren är. Ett mål är att endast den information som rör användaren visas. 
+Detta genom att det exakta innehållet i Portalen bestäms i varje ögonblick av användarens profil. Exakt vad som skall gå att förändra, på vilket sätt informationen förändras och vad som påverkar detta är ännu oklart och behöver utredas ytterligare. Nedan följer en tanke om hur det kan se ut.
+
+
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Sp-fdEc6udI/AAAAAAAAAcY/3INtzhDgx0Y/Picture%20114.jpg
+<br>_Figur 49: Information i Portalen_
+
+Med push information menas information som automatiskt presenteras för användaren utan att hon egentligen behöver söka eller ställa in något för att få det. Medan pull information menas att användaren aktivt gör en inställning få informationen. 
+
+== Systemrättigheter (Push) ==
+När det kommer till de tekniska aspekterna på hur innehållet i Portalen ser ut handlar det bland annat om vilka system som användaren kan få information från under ”Mina uppgifter”. Exempelvis en läkarsekreterare som har rättigheter i programmet MedSpeach får alltså automatiskt påminnelse när det finns diktat att skriva in. 
+
+== Anställning (Push) ==
+Användarens anställning består av ett antal komponenter. Ett antagande har gjorts att den besår av yrkesroll, specialitet och arbetsplats, så som exempelvis ”läkare, ortopedi, SÄS Ulricehamn, avd 32” eller ”IT-strategi, IT, Regionkansliet”
+Huruvida dessa tre är korrekta för att styra allt informationsinnehåll och hur de då skall anges är ännu inte utrett. Det har dock antagits att den information som behövs delvis hämtas från KIV, men också att denna behöver kompletteras.  
+
+== Egna ansvarsområden (pull) ==
+Eftersom ett flertal av personerna som jobbar inom VGR har flera ansvarsområden utöver sin anställning. Ett ansvarsområde är uppbyggt av samma komponenter som en anställning är, det vill säga yrkesroll, specialitet och arbetsplats.
+
+== Egen anpassning (pull) ==
+Användaren kan även påverka innehållet i Portalen genom att göra vissa personliga val, såsom exempelvis vad som skall visas i en specifik portlet. Användaren kan lägga till och ta bort vilka källor, såsom egna uppgifter, IT-nyheter om Melior, notifieringar från MedSpeach, som visas.
+Inställningar som görs vid första inloggningen
+Användaren behöver göra vissa inställningar första gången hon loggar in i Portalen, detta för att komplettera sin personliga profil. Är inte profilen komplett är risken stor att innehållet i Portalen inte överensstämmer med användarens behov. 
+Vilka inställningar som behövs göras är ännu inte fastställt och behövs utredas ytterligare (TBD). 
+
 
 
 <br><br>
