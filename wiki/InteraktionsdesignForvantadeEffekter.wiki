@@ -1,7 +1,7 @@
 #summary Beskriver förväntade effekter och de målgrupper som förväntas uppfylla dem
 
 
-= Förväntade effekter =
+= Tillämpade designriktlinjer, bättre koll på jobbet: Förväntade effekter =
 Syftet med Portalen är att den skall mynna ut i att användarna får bättre koll på jobbet än i dagsläget. Med koll menas att systemet presenterar den information som berör användaren utan att hon behöver söka aktivt efter den och att man vid de tillfällen som man söker efter specifik information också hittar den. Till jobbet hör både de specifika arbetsuppgifterna i den egna ansvarsrollen och i vidare mening jobbrelaterad information. En positiv bieffekt av att säkerställa bättre koll på jobbet antas vara en ökad patientsäkerhet och en effektivare arbetsprocess. 
 
 
