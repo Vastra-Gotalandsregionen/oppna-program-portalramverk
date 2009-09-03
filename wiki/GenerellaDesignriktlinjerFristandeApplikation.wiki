@@ -2,6 +2,35 @@
 
 = Generella designriktlinjer: Fristående applikation =
 
+För de applikationer som skall utformas som fristående från Portalen finns det inte lika mycket begränsningar som i övriga varianter. Eftersom en typisk användare brukar ett flertal olika system varje dag, med olika interaktionsmöjligheter etc, är det av stor vikt att applikationerna följer en viss typ av mönster.
+
+== Kvalifikationer ==
+Syftet med Portalen är att den skall leda till att användaren får bättre koll på jobbet. Detta betyder att de applikationer, funktioner eller liknande som bidrar i hög grad till ”bättre koll” skall placeras i Portalen. När det kommer till applikationer som istället skall utformas som en fristående applikation, handlar det om applikationer som inte är fullständigt nödvändiga för att användaren skall kunna få en överblick av sitt arbete och inte heller för att kunna utföra de mest relevanta uppgifterna. En applikation som utformas som en fristående applikation kan ändå vara kopplad till Portalen. Exempelvis kan information från den fristående applikationen presenteras i en modal dialog eller i en portlet direkt i Portalen.
+
+== Placering i Portalen ==
+Eftersom en fristående applikation inte är integrerad i Portalen finns det naturligtvis inte några riktlinjer gällande den exakta placeringen. 
+Finns det behov att trycka ut information till användaren via Portalen kan information från applikationen presenteras i en portlet som finns i Portalens gränssnitt. Vill användaren agera på informationen som presenteras, såsom exempelvis att läsa mer detaljer, redigera det som står eller till och med skapa ny information via funktioner från applikationen, skall användaren kunna göra detta. Exakt hur det skall gå till beror på vad användaren vill göra, se nedanstående alternativ:
+ * Om användaren exempelvis vill läsa mer om en informationspost kan en modal dialog öppnas direkt i Portalen, utan att den fristående applikationen behöver öppnas. 
+ * Om användaren vill agera på informationen, såsom exempelvis redigera det som står, öppnas den fristående applikationen upp som ger användaren möjlighet att göra detta.
+ * För de applikationer som inte faller under Portalen, skall användaren kunna öppna den fristående applikationen genom att klicka på en genväg. Den fristående applikationen öppnas då i en ny webbläsare.
+
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Sp-fWCTqt7I/AAAAAAAAAas/YH7WTvwJPso/s800/Picture%2085.jpg
+<br>_Figur 17: Exempel då användaren tar sig till en annan webbsida_
+
+== Storlek och utseende ==
+En fristående applikation skall utvecklas utifrån en skärmstorlek på 1024 x 768 pixlar (bredd x höjd).
+
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Sp-fWQx9_jI/AAAAAAAAAaw/To0aAGPms4w/s800/Picture%2086.jpg
+<br>_Figur 18: Exempel utseende för fristående applikation_
+
+Ovanstående bild är exempel på hur en fristående applikation kan utformas.
+I applikationens sidhuvud bör Västra Götalandsregionens logotyp finnas längst till vänster, följt av applikationens namn. 
+Kräver applikationen någon form av inloggning kan inloggningen med fördel placeras till höger i panelen för applikationen.
+Behövs någon form av global sökfunktion placeras den längst ut till höger i panelen.
+
+== Navigation ==
+Finns det behov av navigering bör flikar användas som den primära navigeringen (se stycke 8.4). Vid behov kan även en sekundär navigering användas. Den sekundära navigeringen placeras under den primära navigeringen.
+Istället för att ha ett flertal rullister, används en enda rullist till höger i webbläsaren för att skrolla på hela sidan samtidigt. 
 
 
 <br><br>
