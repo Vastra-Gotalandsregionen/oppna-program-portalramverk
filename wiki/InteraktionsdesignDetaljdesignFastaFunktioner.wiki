@@ -1,6 +1,6 @@
 #summary Detaljdesign av fasta funktioner
 
-= Bättre koll på jobbet, Detaljdesign: Fasta funktioner =
+= Bättre koll på jobbet, detaljdesign: Fasta funktioner =
 De fasta funktionerna består av de tjänster som syns och går att interagera med oberoende var användaren befinner sig i Portalen.
 ￼
 <br>http://lh4.ggpht.com/_mHREyZKezxI/Sp0FSiYYHUI/AAAAAAAAAC0/e_cyhUhnmbI/s800/Picture%2017.png
