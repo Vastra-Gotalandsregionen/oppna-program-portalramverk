@@ -7,19 +7,19 @@ Följande kapitel beskiver funktion och beteende för de byggstenar som kan vid 
 == Meddelandedialog ==
 För de funktioner som kräver att användaren bekräftar ett val öppnar en meddelandedialog. Ett exempel på detta är om användaren väljer att ta bort ett objekt av något slag, exempelvis en kontakt. Meddelanden skall utformas på ett förklarande och enkelt sätt till användaren.
 
-<br>
+<br>http://lh4.ggpht.com/_mHREyZKezxI/Sp-fYIwYZwI/AAAAAAAAAbM/9qzByY3fjVk/Picture%2093.jpg
 <br>_Figur 25: Exempel på meddelandedialog_
 
 === Felmeddelandedialog ===
 Felmeddelanden skall vara korta och hjälpa användaren vidare. Det skall inte innehålla bisatser. Felmeddelandet bör i första meningen förklara vad som gått fel och i andra meningen presentera ett alternativ som är det mest sannolika som användaren önskar åstadkomma. Det meningsbärande ordet bör presenteras först, alternativt mycket tidigt i den första meningen.
  
-<br>
+<br>http://lh4.ggpht.com/_mHREyZKezxI/Sp-fYdWbjOI/AAAAAAAAAbQ/L8Nlo2X_FRA/Picture%2094.jpg
 <br>_Figur 26: Exempel på felmeddelande_
 
 == Formulär ==
 Då användaren skall lägga till eller redigera information skall hon kunna göra detta i ett formulär. Ett formulär består i stort sett av ett antal fält som användaren skall fylla i. Formulär presenteras i de flesta fallen i modala dialoger. Grundläggande principer om hur formulär skall utformas finns presenterade i Bilaga 2 – Att utforma.
  
-<br>
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp-fYsO5gUI/AAAAAAAAAbU/uqhDjXTwSj4/s800/Picture%2095.jpg
 <br>_Figur 27: Exempel på formulär som användaren skall fylla i_
 
 == Wizard ==
@@ -28,7 +28,7 @@ I de fall då användaren behöver utföra en uppgift som består av ett antal s
 == Flikar ==
 Då det finns behov att ha en navigering i en integrerad eller fristående applikation skall horisontella flikar användas i första hand. Behövs en sekundär navigering skall den utformas som en andra rad under de primära flikarna. 
 
-<br>
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Sp-fY9OjhrI/AAAAAAAAAbY/GNkPM5ing30/Picture%2096.jpg
 <br>_Figur 28: Exempel på primära och sekundära flikar i Portalen_
 
 == Knappar och länkar ==
@@ -37,14 +37,14 @@ För att öppna upp något eller göra något kan knappar, ikon & länk samt bar
 === Länk ===
 Det finns två sätt att använda den länk. En typ av länk är en genväg till externa webbsidor, dokument, applikationer och så vidare. 
 
-<br>
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp-fZJlHtwI/AAAAAAAAAbc/D0_TT3sn_58/s800/Picture%2097.jpg
 <br>_Figur 29: Exempel på extern länk i applikationen:
 
 Den andra typen av länk är genväg till dokument, filer, nyheter och så vidare i den applikationen som länken finns i. Exempelvis kan det finnas en snabblista med nyheter på startsidan. Klickar användaren på någon av länkarna öppnas den del av applikationen där nyheten finns presenterad.
 
 === Utseende ===
  
-<br>
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Sp-oRDUC6QI/AAAAAAAAAdM/IJfVcBloRgw/uts1.png
 <br>_Figur 30: Exempel på två länkar_
 
 En länk bör alltid svara blå och understruken, vilket är en förutsättning för att användaren snabbt skall uppfatta att det är en länk. 
@@ -54,14 +54,14 @@ Leder länken till en fil med ett visst filformat som krävs för att öppna lä
 
 === Ikon & Länk ===
  
-<br>
+<br>http://lh4.ggpht.com/_mHREyZKezxI/Sp-fZWeTEoI/AAAAAAAAAbg/UpxQE83-qxc/s800/Picture%2099.jpg
 <br>_Figur 31: Exempel på ikon & länk i applikationen_
 
 Sammanfattat kan man säga att en ikon & länk används istället för en knapp direkt i applikationen. En ikon & länk tar användaren vidare i webbapplikationen, såsom exempelvis att öppna upp något i en modal dialog eller gå till en specifik plats i applikationen. Handlar det om något mer avancerat, exempelvis att utföra en sökning eller liknande, används en knapp. 
 
 === Utseende ===
  
-<br>
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp-n_usHKqI/AAAAAAAAAdI/YCjzKoYGXXY/uts.png
 <br>_Figur 32: Utseende på länk_
 
 En länk bör alltid svara blå och understruken, vilket är en förutsättning för att användaren snabbt skall uppfatta att det är en länk.
@@ -70,7 +70,7 @@ Namnet på länken behöver vara beskrivande, så att användaren förstår vad 
 
 === Knapp ===
  
-<br>
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Sp-fZVjd-tI/AAAAAAAAAbk/4y6nlUwjcUA/Picture%20101.jpg
 <br>_Figur 33: Exempel på knapp i applikationen_
 
 En ikon & länk används direkt i applikationen för att exempelvis öppna upp en dialog. En knapp används aldrig direkt i webbapplikationen, med undantag när det kommer till sök. 
@@ -93,7 +93,7 @@ _Tabell 1: Ikoner i gränssnitt_
 == Hantera objekt ==
 Följande avsnitt beskriver hur användaren skall kunna hantera olika objekt, såsom exempelvis en kontakt, en uppgift och så vidare.
  
-<br>
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp-fZoGB8lI/AAAAAAAAAbo/746PiR4tRR4/s800/Picture%20102.jpg
 <br>_Figur 34: Exempel på objekt som skall gå att hantera_
 
 === Lägg till ===
@@ -115,18 +115,19 @@ När sökfunktion behövs och när det räcker med sortering och filtrering. Hur
 I en sorterbar lista består en post av en rad. Varannan rad i listan skall markeras ut med den ljusblåa färgen (se stycke 10.1) för att underlätta för användaren när hon läser av poster i listan. 
 En rad innehåller flera kolumner, vilket specificerar posten ytterligare. Användaren kan sortera posterna i listan genom att klicka på rubriken för en kolumn. Det kolumnhuvud som bestämmer sorteringsordningen skall markeras med en pil till höger om namnet, se bild nedan.
   
-<br>
+<br>http://lh4.ggpht.com/_mHREyZKezxI/Sp-faD9YKZI/AAAAAAAAAbs/0nuxskfR5PE/s800/Picture%20103.jpg
 <br>_Figur 35: Exempel på sorterbar lista_
 
 === Träfflistor ===
 I en träfflista, tillskillnad från sorterbara listor, kan en post bestå av flera rader. Vill användaren sortera den typen av lista kan hon göra detta genom att välja sorteringsalternativ via uteslutande val. 
  
-<br>
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Sp-fabdx7vI/AAAAAAAAAbw/GiEm7dSEEME/s800/Picture%20104.jpg
 <br>_Figur 36: Exempel på träfflista_
+
 I vissa fall finns det behov att utöka information direkt i träfflistan för att snabbt ge detaljer om objektet till användaren, utan att hon behöver öppna upp det. Ett exempel på detta är träfflistan då användaren har gjort en sökning. Nedan följer ett exempel.
 Användaren kan utöka träffen genom att föra muspekaren över ett specifikt objekt och sedan välja att visa mer (se figur nedan). Användaren kan sedan dölja informationen och så vidare.
  
-<br>
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Sp-faqE0YSI/AAAAAAAAAb0/62QZrJ4ttrM/s800/Picture%20105.jpg
 <br>_Figur 37: Exempel träfflista som går att utöka (sökresultat)_
 
 == Rullist ==
@@ -141,10 +142,10 @@ Mer än tre nivåer skall inte finnas i en trädvy. Användaren skall kunna expa
 Radioknappar kan användas när användaren har 2-8 valmöjligheter och då bara ett val är giltigt åt gången. Medan checkboxar bör användas då det finns 1-8 valmöjligheter och 0, 1 eller flera alternativ är giltiga åt gången. Antalet val bör inte överstiga åtta för varken radioknappar och checkboxar, då det finns risk att det blir allt för svårt för användaren att få en överblick av vilka val som finns.
 Vidare bör elementen placeras vertikalt i gränssnittet, detta för att hjälpa användarens avläsning av dem.
  
-<br>
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp-pT88gGAI/AAAAAAAAAdQ/E4kZUQseSdg/cb.png
 <br>_Figur 38: Exempel på användning av checkbox_
  
-<br>
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Sp-pUMFudcI/AAAAAAAAAdU/pv1hhTMKI1w/rb.png
 <br>_Figur 39: Exempel på användning av radioknappar_
 
 
