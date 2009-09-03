@@ -5,12 +5,24 @@
 Det finns ett antal oklarheter, gällande verksamheten, teknik/arkitektur samt projektmodell (TBD), i den aktuella interaktionsdesignen för Portalen. För det första kan det handla om funktioner som inte finns implementerade i prototypen ännu, och detta på grund av tidsmässiga skäl. Vidare finns de oklarheter som behövs utredas ytterligare och/eller behövs tas ett beslut om. Slutligen finns de funktioner som har lagts på is tills vidare, exempelvis på grund av att det verkar finnas bristande behöv för dem eller att det i dagsläget inte är tekniskt möjligt att genomföra dem. Mer om oklarheterna finns att läsa i Bilaga1 ID V2 Portalramverket oklarheter, v 0.6.
 
 
+
+
 <br><br>
-*Innehållsförteckning* (återfinns längst ner på varje sida)
- # [http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriltlinjerAnvandargranssnitt Introduktion] 
- # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignForvantadeEffekter Förväntade effekter och målgrupper]
- # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignPrincipdesign Principdesign]
- # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignInnehall Innehåll]
- # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignBeteendeFunktioner Beteenden och funktioner]
- # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesign Detaljdesign]
- # Ännu inte utrett
+*Innehållsförteckning*
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriltlinjerAnvandargranssnitt Introduktion till interaktionsdesign för portalramverket]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerPortalramverket?ts=1251969346&updated=GenerellaDesignriktlinjerPortalramverket Generella designriktlinjer: Portalramverket]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerIntegreradApplikation?ts=1251969401&updated=GenerellaDesignriktlinjerIntegreradApplikation Generella designriktlinjer: Integrerad applikation]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerModalDialog?ts=1251969439&updated=GenerellaDesignriktlinjerModalDialog Generella designriktlinjer: Modal dialog]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerPortlet?ts=1251969476&updated=GenerellaDesignriktlinjerPortlet Generella designriktlinjer: Portlet]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerFristandeApplikation?ts=1251969550&updated=GenerellaDesignriktlinjerFristandeApplikation Generella designriktlinjer: Fristående applikation]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBeteendeoFunktioner?ts=1251969604&updated=GenerellaDesignriktlinjerBeteendeoFunktioner Generella designriktlinjer: Beteenden och funktioner]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerByggstenar?ts=1251969727&updated=GenerellaDesignriktlinjerByggstenar Generella designriktlinjer: Byggstenar]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerVisuellAterkoppling?ts=1251969771&updated=GenerellaDesignriktlinjerVisuellAterkoppling Generella designriktlinjer: Visuell återkoppling]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerGrafiskForm?ts=1251969808&updated=GenerellaDesignriktlinjerGrafiskForm Generella designriktlinjer: Grafisk form]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/TillampadeDesignriktlinjerBattreKollPaJobbet?ts=1251969900&updated=TillampadeDesignriktlinjerBattreKollPaJobbet Tillämpade designriktlinjer, Bättre koll på jobbet]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignForvantadeEffekter Tillämpade designriktlinjer, Bättre koll på jobbet: Förväntade effekter och målgrupper]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignPrincipdesign Tillämpade designriktlinjer, Bättre koll på jobbet: Principdesign]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignInnehall Tillämpade designriktlinjer, Bättre koll på jobbet: Innehåll]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignBeteendeFunktioner Tillämpade designriktlinjer, Bättre koll på jobbet: Beteenden och funktioner]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesign Tillämpade designriktlinjer, Bättre koll på jobbet: Detaljdesign]
+ # Tillämpade designriktlinjer, Bättre koll på jobbet: Ännu inte utrett
