@@ -29,7 +29,7 @@ Kräver applikationen någon form av inloggning kan inloggningen med fördel pla
 Behövs någon form av global sökfunktion placeras den längst ut till höger i panelen.
 
 == Navigation ==
-Finns det behov av navigering bör flikar användas som den primära navigeringen (se stycke 8.4). Vid behov kan även en sekundär navigering användas. Den sekundära navigeringen placeras under den primära navigeringen.
+Finns det behov av navigering bör flikar användas som den primära navigeringen, se avsnitt Flikar under [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerByggstenar Byggstenar]. Vid behov kan även en sekundär navigering användas. Den sekundära navigeringen placeras under den primära navigeringen.
 Istället för att ha ett flertal rullister, används en enda rullist till höger i webbläsaren för att skrolla på hela sidan samtidigt. 
 
 
