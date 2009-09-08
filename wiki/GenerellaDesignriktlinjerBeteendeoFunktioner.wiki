@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Beskriver beteenden och funktioner
 
 = Generella designriktlinjer: Beteenden och funktioner =
 
