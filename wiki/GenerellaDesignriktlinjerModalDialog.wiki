@@ -37,7 +37,7 @@ Eftersom en modal dialog tillåts växa på höjden för att få plats med all i
 
 <br><br>
 *Innehållsförteckning*
- # [http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriltlinjerAnvandargranssnitt Introduktion till interaktionsdesign för portalramverket]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriktlinjerAnvandargranssnitt Introduktion till interaktionsdesign för portalramverket]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerPortalramverket?ts=1251969346&updated=GenerellaDesignriktlinjerPortalramverket Generella designriktlinjer: Portalramverket]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerIntegreradApplikation?ts=1251969401&updated=GenerellaDesignriktlinjerIntegreradApplikation Generella designriktlinjer: Integrerad applikation]
  # Generella designriktlinjer: Modal dialog
