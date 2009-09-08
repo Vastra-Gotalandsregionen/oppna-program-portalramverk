@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Beskriver riktlinjer för egna inställningar
 
 = Bättre koll på jobbet, detaljdesign: Egna inställningar =
 
