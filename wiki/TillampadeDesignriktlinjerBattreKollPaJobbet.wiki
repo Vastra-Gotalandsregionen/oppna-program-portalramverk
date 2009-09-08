@@ -2,7 +2,10 @@
 
 = Introduktion till tillämpade designriktlinjer, Bättre koll på jobbet =
 
-De specifika designriktlinjerna beskiver designriktlinjer för ett intranätet i portalen. Dokumentationen utgår från de generella riktlinjerna.
+De specifika designriktlinjerna beskiver designriktlinjer för ett intranätet i portalen. Dokumentationen utgår från de generella riktlinjerna. Se respektive undersida för detaljer.
+
+== Ursprungligt dokument: ==
+[http://oppna-program-portalramverk.googlecode.com/files/Interaktionsdesign%20V2%20Portalramverket%200.6.doc Bättre koll på jobbet - interaktionsdesign v2] Det dokument som motsvarar de specifika designriktlinjerna <br><br>
 
 <br><br>
 *Innehållsförteckning*
