@@ -14,7 +14,7 @@ För de användare som behöver tidsrapportera, i exempelvis Kom o GÅ, kan hon 
 Om användaren har stämplat ut står det ”Stämpla ut” istället för den befintliga texten på ovanstående bild.
 
 == Generell sök ==
-Användaren kan använda sig av den fasta generella sökfunktionen då hon skall söka. Då användaren skrivit in ett sökord och sedan klickat på ”Sök” presenteras sökträffarna under fliken Hitta/Sök (se stycke 6.5.1) på samma sätt som om användaren gjort en sökning direkt under fliken.
+Användaren kan använda sig av den fasta generella sökfunktionen då hon skall söka. Då användaren skrivit in ett sökord och sedan klickat på ”Sök” presenteras sökträffarna under fliken Hitta/Sök, se Startsida - Mitt jobb under [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesignFastaFunktioner avsnitt Detaljdesign - Fasta funktioner], på samma sätt som om användaren gjort en sökning direkt under fliken.
 
 <br>http://lh4.ggpht.com/_mHREyZKezxI/Sp0FSwSzllI/AAAAAAAAAC8/fZ0zx7b4pj8/Picture%2019.png
 ￼ <br>_Figur 18: Fasta funktion för att göra en generell sökning_
@@ -33,8 +33,8 @@ Via denna länk kan användaren snabbt komma åt sina kontakter.
 <br>_Figur 20: Genväg för att komma till ”Mina kontakter”_
 
 == Mina uppgifter ==
-Under ”Mina uppgifter” finns det två sorters påminnelser/upplysningar. De första är uppgifter som användaren själv har skapat under Mitt jobb/Uppgifter (se stycke 6.1.5). De uppgifterna finns presenterade överst i listan under ”Mitt jobb”.
-Den andra typen av uppgifter är påminnelser/upplysningar från bassystem som användaren använder sig av i sitt arbete. Det kan både handla om att det finns ett planerat driftstopp eller rent av en upplysning om att ett labbsvar är klart eller att det finns fakturor att attestera.  Den här typen av uppgifter genereras automatiskt, beroende på vilka system användaren valt att få notifikationer från (se stycke 6.6.2.2).  
+Under ”Mina uppgifter” finns det två sorters påminnelser/upplysningar. De första är uppgifter som användaren själv har skapat under Mitt jobb/Uppgifter, se Mina uppgifter under [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesignFastaFunktioner Detaljdesign - fasta funktioner]. De uppgifterna finns presenterade överst i listan under ”Mitt jobb”.
+Den andra typen av uppgifter är påminnelser/upplysningar från bassystem som användaren använder sig av i sitt arbete. Det kan både handla om att det finns ett planerat driftstopp eller rent av en upplysning om att ett labbsvar är klart eller att det finns fakturor att attestera.  Den här typen av uppgifter genereras automatiskt, beroende på vilka system användaren valt att få notifikationer från, se avsnitt Egna inställningar under [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesignEgnaInstallningar Detaljdesign - Egna inställningar].  
 ￼
 <br>http://lh3.ggpht.com/_mHREyZKezxI/Sp0FYlzDVrI/AAAAAAAAADI/rvfii538abw/s800/Picture%2022.png
 <br>_Figur 21: Utseende av portlet för ”Mina uppgifter”_
