@@ -2,4 +2,27 @@
 
 = Bilaga 1: Informationsstyrning =
 
-...
+
+Den information som presenterar i Portalen är alltid styrd efter vem användaren är. Ett mål är att endast den information som rör användaren visas. Detta genom att det exakta innehållet i Portalen bestäms i varje ögonblick av användarens profil. Exakt vad som skall gå att förändra, på vilket sätt informationen förändras och vad som påverkar detta är ännu oklart och behöver utredas ytterligare. Nedan följer en tanke om hur det kan se ut.
+<br>http://lh6.ggpht.com/_mHREyZKezxI/Sp-fdEc6udI/AAAAAAAAAcY/3INtzhDgx0Y/Picture%20114.jpg
+<br>_Figur 49: Information i Portalen_<br>
+
+
+Med push information menas information som automatiskt presenteras för användaren utan att hon egentligen behöver söka eller ställa in något för att få det. Medan pull information menas att användaren aktivt gör en inställning få informationen.
+
+== Systemrättigheter (Push) ==
+När det kommer till de tekniska aspekterna på hur innehållet i Portalen ser ut handlar det bland annat om vilka system som användaren kan få information från under ”Mina uppgifter”. Exempelvis en läkarsekreterare som har rättigheter i programmet MedSpeach får alltså automatiskt påminnelse när det finns diktat att skriva in.
+
+== Anställning (Push) ==
+Användarens anställning består av ett antal komponenter. Ett antagande har gjorts att den besår av yrkesroll, specialitet och arbetsplats, så som exempelvis ”läkare, ortopedi, SÄS Ulricehamn, avd 32” eller ”IT-strategi, IT, Regionkansliet”
+Huruvida dessa tre är korrekta för att styra allt informationsinnehåll och hur de då skall anges är ännu inte utrett. Det har dock antagits att den information som behövs delvis hämtas från KIV, men också att denna behöver kompletteras.
+
+== Egna ansvarsområden (pull) ==
+Eftersom ett flertal av personerna som jobbar inom VGR har flera ansvarsområden utöver sin anställning. Ett ansvarsområde är uppbyggt av samma komponenter som en anställning är, det vill säga yrkesroll, specialitet och arbetsplats.
+
+== Egen anpassning (pull) ==
+Användaren kan även påverka innehållet i Portalen genom att göra vissa personliga val, såsom exempelvis vad som skall visas i en specifik portlet. Användaren kan lägga till och ta bort vilka källor, såsom egna uppgifter, IT- nyheter om Melior, notifieringar från MedSpeach, som visas.
+
+== Inställningar som görs vid första inloggningen ==
+Användaren behöver göra vissa inställningar första gången hon loggar in i Portalen, detta för att komplettera sin personliga profil. Är inte profilen komplett är risken stor att innehållet i Portalen inte överensstämmer med användarens behov.
+Vilka inställningar som behövs göras är ännu inte fastställt och behövs utredas ytterligare (TBD).
