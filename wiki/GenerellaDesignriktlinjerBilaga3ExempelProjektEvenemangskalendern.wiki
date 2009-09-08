@@ -13,20 +13,20 @@ Det första som gjorde var att bestämma vilka/vilken typ av utförande som E
 Ett första antagande gjordes att Evenemangskalendern är så pass omfattande att den antingen borde utformas som en integrerad applikation eller som en fristående applikation. Att endast använda modala dialoger och portlets uteslöts därför direkt.
 Trots att Evenemangskalendern underlättar för användaren när det kommer till kunskapsutveckling, är den inte nödvändig för att användaren skall kunna utföra de mest relevanta arbetsuppgifterna i sitt arbete. Evenemangskalendern är inte heller vital för att användaren skall få den total överblick av sitt arbete. Evenemangskalendern utformas därför av förklarliga skäl som en fristående applikation och inte som en integrerad applikation.
 
-<br>
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp-fdmpRHYI/AAAAAAAAAcc/LYbXr0NoTRU/s800/Picture%20115.jpg
 <br>_Figur 50: Evenemangskalendern som fristående applikation_
 
 == Portlet ==
 Redan innan Evenemangskalendern skulle utvecklas använde administratörer intranäten för de olika avdelningarna och sjukhusen för att publicera utbildningar och andra evenemang som personalen kunde tänkas vilja delta på. Under intervjuer med användarna framkom det att denna kanal är viktig för att förmedla evenemang eller liknande. En portlet placerades därför på Portalens startsida innehållandes olika aktiviteter som trycks ut direkt till användaren. Exempelvis om användaren är sjuksköterska och jobbar på medicinkliniken på Sahlgrenska får hon evenemang som berör de olika områdena.
 
-<br>
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp-fd4zqpOI/AAAAAAAAAcg/87o-cg1MEEE/s800/Picture%20116.jpg
 <br>_Figur 51: Aktiviteter från Evenemangskalendern presenterad på startsidan_
 
 == Modal dialog ==
 Den information som får plats i en portlet är inte tillräcklig för det användaren behöver veta om ett evenemang för att besluta huruvida hon kan/vill delta på det.
 Det fanns två huvudsakliga alternativ för att lösa detta. Det första var att då användaren klickar på ett evenemang öppnas en ny webbläsare med applikationen för Evenemangskalendern upp med det evenemanget presenterat. Det andra alternativet var att en modal dialog öppnas med evenemanget istället. Det senare alternativet valdes framför allt för att det inte fanns något behov från användarna i detta skede att kunna komma åt funktioner som att redigera eller ta bort ett evenemang.
 
-<br>
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp-feEY3bWI/AAAAAAAAAck/633Ax5iL6eM/s800/Picture%20117.jpg
 <br>_Figur 52: Aktivitet presenteras i en modal dialog_
 
 För de målgrupper som behöver kunna hantera evenemang, exempelvis administratörer, har istället möjlighet från portleten i Portalen att öppna applikationen och utföra sina ändringar där.
@@ -34,7 +34,7 @@ För de målgrupper som behöver kunna hantera evenemang, exempelvis administ
 == Aktiviteter direkt i användarens kalender ==
 Utifrån intervjuer med användaren kom det fram att det är viktigt att se den egna kalendern när man skall avgöra huruvida man kan gå på aktiviteten eller inte. Av den orsaken placerades aktiviteter från Evenemangskalendern som alternativ att presenteras i användarens kalender. De aktiviteter som presenteras där är sådana som trycks ut till användaren. En annan fördel med detta är det är lättare att söka efter aktiviteter som sker längre fram i tiden, än då hon skulle klicka sig framåt bland aktiviteterna presenterade i portleten på startsidan.
 
-<br>
+<br>http://lh3.ggpht.com/_mHREyZKezxI/Sp-fes55FHI/AAAAAAAAAco/IYM3bXv_y-c/s800/Picture%20118.jpg
 <br>_Figur 53: Aktiviteter direkt i användarens kalender_
 
 == Sökområde ==
