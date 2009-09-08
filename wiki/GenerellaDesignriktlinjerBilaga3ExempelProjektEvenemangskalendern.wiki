@@ -40,5 +40,5 @@ Utifrån intervjuer med användaren kom det fram att det är viktigt att se d
 == Sökområde ==
 Det finns ett behov från användarnas håll att ha möjlighet att söka efter aktiviteter som ligger utanför hennes profil och därmed inte trycks ut till henne. Portalens sökfunktion utökades därför med ett ytterligare sökområde, där användaren kan söka efter händelser direkt i Portalen, utan att behöva öppna Evenemangskalendern som en fristående applikation.
 
-<br>
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp-fe0MWXFI/AAAAAAAAAcs/nU4j859-Fa8/s800/Picture%20119.jpg
 <br>_Figur 54: Aktivitet presenteras i en modal dialog_
