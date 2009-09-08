@@ -119,7 +119,7 @@ Vilka inställningar som behövs göras är ännu inte fastställt och behövs u
 
 <br><br>
 *Innehållsförteckning*
- # [http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriltlinjerAnvandargranssnitt Introduktion till interaktionsdesign för portalramverket]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriktlinjerAnvandargranssnitt Introduktion till interaktionsdesign för portalramverket]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerPortalramverket?ts=1251969346&updated=GenerellaDesignriktlinjerPortalramverket Generella designriktlinjer: Portalramverket]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerIntegreradApplikation?ts=1251969401&updated=GenerellaDesignriktlinjerIntegreradApplikation Generella designriktlinjer: Integrerad applikation]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerModalDialog?ts=1251969439&updated=GenerellaDesignriktlinjerModalDialog Generella designriktlinjer: Modal dialog]
