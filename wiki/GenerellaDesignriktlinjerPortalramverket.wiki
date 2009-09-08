@@ -4,7 +4,8 @@
 
 == Portalen ==
 Portalen är den fungerande (körbara) tillämpningen av ramverket som byggts med syfte att skapa en ingång för den information och de funktioner som den enskilde behöver för att ha ”bättre koll på jobbet”. 
-2.1.1	Principdesign
+
+== Principdesign ==
 Principdesignen för portalen består huvudsakligen av fyra delar; innehåll navigering, systemnamn och kortvägar/notifikationen. De tre sistnämnda är sådana som är återkommande oberoende var användaren befinner sig i applikationen. Aktuellt innehåll är däremot känsligt för var användaren befinner sig för tillfället. Den primära navigeringen i Portalen sker via flikar. 
 
 <br>http://lh6.ggpht.com/_mHREyZKezxI/Sp-fSEziBYI/AAAAAAAAAZs/q1yXtYZGC68/s800/Picture%2069.jpg
