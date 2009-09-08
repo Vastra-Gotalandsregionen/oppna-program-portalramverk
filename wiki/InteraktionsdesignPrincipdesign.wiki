@@ -7,7 +7,7 @@ Principdesignen beskriver systemets struktur. Den definierar också vilka delar 
 Portalen består av en samling av information som en användare kan tänkas behöva i sitt arbete. Informationen finns inte direkt lagrad i Portalen, utan den genereras från andra webbsidor och system. 
 Det finns två olika karaktärer för de system som Portalen sträcker över. För det första finns de system som ligger direkt i Portalen, exempelvis e-postprogram, vilket ger användaren en möjlighet att både läsa information hämtat från systemet och möjlighet att agera i systemet. 
 För det andra finns det system som Portalen endast kan visa information ifrån, såsom system för labbsvar, faktura hantering och diktat. Om användaren sedan vill agera på informationen eller läsa ytterligare information, måste hon klicka på en länk som öppnar systemet i ett nytt fönster.
-Hur användaren kan navigera sig bland de två typerna av system finns presenterade mer detaljerat under stycke 5.1.3.
+Hur användaren kan navigera sig bland de två typerna av system finns presenterade mer detaljerat under länkar i [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignBeteendeFunktioner avsnitt Beteenden och funktioner].
 
 == Navigering ==
 Följande figur beskriver hur Portalen är uppbyggd. 
