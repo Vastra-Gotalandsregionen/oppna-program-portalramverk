@@ -47,7 +47,8 @@ Kalendern innefattar samtliga kalendrar som användaren använder sig av, detta 
 Vilken kalendervy som är automatiskt fördefinierad kan tänkas vara beroende på vilken målgrupp användaren tillhör, men detta är något som skall utredas vidare. Användaren kan bestämma huruvida dagsvyn eller veckovyn visas här och på startsidan som fördefinierad.
 
 <br>http://lh3.ggpht.com/_mHREyZKezxI/Sp45gKcozFI/AAAAAAAAAEY/L_WdgeVwM3I/s800/Picture%2035.png
-<br>_Figur 32: Kalendern under ”Mitt jobb”_
+<br>_Figur 32: Kalendern under ”Mitt jobb”_<br>
+
 Genom att använda kalenderöversikten kan användaren ändra hur kalendern presenteras genom att endera klicka på en dag eller på en vecka. Följande figur visar hur en dagsvy ser ut:
 
 <br>http://lh3.ggpht.com/_mHREyZKezxI/Sp45oyot2uI/AAAAAAAAAEc/JibgmDUJ8gM/s800/Picture%2036.png
