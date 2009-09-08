@@ -1,4 +1,4 @@
-#summary Besktiver designriktlinjer för integrerad applikation
+#summary Beskriver designriktlinjer för integrerad applikation
 
 = Generella designriktlinjer: Integrerad applikation =
 
