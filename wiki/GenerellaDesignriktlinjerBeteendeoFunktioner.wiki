@@ -1,4 +1,4 @@
-#summary Beskriver beteenden och funktioner
+#summary Beskriver beteenden och funktioner i portalramverket
 
 = Generella designriktlinjer: Beteenden och funktioner =
 
