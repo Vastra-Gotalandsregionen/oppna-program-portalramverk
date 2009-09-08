@@ -2,7 +2,7 @@
 
 = Generella designriktlinjer: Portlet =
 
-En portlet skall ses som en beståndsdel av en webbsida. Webbsidan kan innehålla ett flertal portlets samtidigt. Portlets placeras som ett rutnät på webbsidan, genom att applicera de portlets som logiskt hör ihop tillsammans. Detta enligt närhetsprinciper, vilken du kan läsa om i bilaga 2. En portlet innehåller information som logiskt hör ihop, men kan hämtas från olika typer av applikationer eller webbsidor.
+En portlet skall ses som en beståndsdel av en webbsida. Webbsidan kan innehålla ett flertal portlets samtidigt. Portlets placeras som ett rutnät på webbsidan, genom att applicera de portlets som logiskt hör ihop tillsammans. Detta enligt närhetsprinciper, vilken du kan läsa om i [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga2AttUtforma bilaga 2: att utforma]. En portlet innehåller information som logiskt hör ihop, men kan hämtas från olika typer av applikationer eller webbsidor.
 En portlet kan innehålla information från någon applikation som finns längre in i Portalens informationsstruktur, såsom en lista över användarens senast inkomna e-postmeddelanden. En portlet kan också innehålla information som hämtas från externa applikationer och webbsidor, vilket fallet är för Evenemangskalendern där en lista med evenemang presenteras på startsidan.
 
 == Kvalifikationer ==
@@ -10,7 +10,7 @@ En portlet skall användas för att visa information som logiskt hör ihop. Den 
 En portlet ger ibland tillgång till funktioner. Exempelvis kan användaren klicka på en post i en portlet öppna en modal dialog med detaljinformation eller en fristående applikation. 
 
 == Placering i Portalen ==
-När en ny portlet skapas för Portalen gäller det att den placeras på en logisk plats i Portalen. Detta för att underlätta för användaren då hon integrerar med Portalen. Läs mer om Portalens olika innehållsdelar för att avgöra var din portlet hemma (se stycke 2.2).
+När en ny portlet skapas för Portalen gäller det att den placeras på en logisk plats i Portalen. Detta för att underlätta för användaren då hon integrerar med Portalen. Läs mer om Portalens olika innehållsdelar för att avgöra var din portlet hemma, se avsnitt Struktur under [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerPortalramverket Portalramverket].
 == Storlek och utseende ==
 
 <br>http://lh6.ggpht.com/_mHREyZKezxI/Sp-fUoD4-QI/AAAAAAAAAaU/r7MVvSCyk9w/s800/Picture%2079.jpg
