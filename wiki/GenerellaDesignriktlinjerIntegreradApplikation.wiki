@@ -10,7 +10,7 @@ Applikationen måste vara av en sådan art att den är nödvändig för att anv�
 == Placering i Portalen ==
 Det gäller att applikationen placeras som en flik på en logisk plats i Portalens navigation och på att ställe där det finns en likhet med flikar/funktioner som redan finns där. Detta för att underlätta för användaren då hon skall använda och hitta i Portalen. Exempelvis lämpar det sig inte att placera en applikation för att föra journalanteckningar under ”Mitt jobb”. Där skall nämligen bara funktioner som handlar om det egenadministrativa arbetet att göra, medan en applikation för journalanteckningar är ett verktyg som användaren behöver i sin yrkesroll. 
 Observera att det inte duger med att ange applikationen som en länk bland ”Mina genvägar” som sedan leder till den aktuella delen av Portalen. Är det så att det känns som den mest naturliga lösningen borde applikationen utformas som en fristående applikation istället (se kapitel 6).
-Läs mer om Portalens olika innehållsdelar för att avgöra var din applikation hör hemma (se stycke 2.2).
+Läs mer om Portalens olika innehållsdelar för att avgöra var din applikation hör hemma under struktur i [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerPortalramverket avsnitt Portalramverket].
 
 == Storlek och utseende ==
 Det finns ett antal fasta funktioner i Portalen, vilka syns oavsett var i Portalen användaren befinner sig. Detta sätter naturligtvis en storleksbegränsning på de applikationer som skall integreras direkt i Portalen.
