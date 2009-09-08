@@ -2,14 +2,14 @@
 
 = Introduktion till interaktionsdesign för portalramverket =
 
-Dessa sidor beskriver designriktlinjer för användargränssnitt av portalramverket. Sidorna har delats upp i _generella designriktlinjer_ och _tilämpade designriktlinjer_. De generella designriktlinjerna beskriver allmänna riktlinjer för design av olika delar inom portalramverket. De tillämpade designriktlinjerna beskriver designriktlinjer för intranätet i portalramverket och kan användas som mer detaljerad referens.
+Dessa sidor beskriver designriktlinjer för användargränssnitt av portalramverket. Sidorna har delats upp i _generella designriktlinjer_ och _tillämpade designriktlinjer_. De generella designriktlinjerna beskriver allmänna riktlinjer för design av olika delar inom portalramverket. De tillämpade designriktlinjerna beskriver designriktlinjer för intranätet i portalramverket och kan användas som mer detaljerad referens.
 
 Samtliga sidor beskriver interaktionen mellan användaren och systemet, alltså:
  * Presentation – med avseende på gruppering, storlek och placering, men inte med avseende på grafisk formgivning. 
  * Beteende – hur responderar användargränssnittet på användarens aktioner och i viss mån vilka regler styr gränssnittets beteende. 
  * Information – vilka informationsmängder visas till användaren. Dock framgår inte från vilket system denna information hämtas.  
 
-De generella designriktlinjerna är skrivna för såväl verksamhetsansvariga som fått en idé om en (ny eller utökad) tjänst och för en person med kunskap om verksamhetsfrågeställning och teknik som vill utforma en specifik lösning. Det senare brukar kallas att göra en interaktionsdesign.
+*De generella designriktlinjerna* är skrivna för såväl verksamhetsansvariga som fått en idé om en (ny eller utökad) tjänst och för en person med kunskap om verksamhetsfrågeställning och teknik som vill utforma en specifik lösning. Det senare brukar kallas att göra en interaktionsdesign.
 De generella designriktlinjerna skall alltså beskriva Ramverket, men för att lyckas med det används Portalens uppbyggnad, information och funktioner.
 Tanken är att dokumentet ska hjälpa denna person att snabbt förstå hur idén om den nya tjänsten ska utformas så att den passar in i Portalramverkets struktur och så att de komponenter som ramverket erbjuder används på det mest effektiva sättet. 
 Det mönster som ramverkets utseende, funktioner och innehåll följer är optimerat för att minimera antalet handgrepp som användaren behöver göra för att hitta information eller utföra en funktion. Mönstret syftar alltså till att skapa överblick och att göra det enkelt att komma åt den information och funktioner som användaren behöver i sitt dagliga arbete.  Att följa mönstret blir alltså viktigt för att: 
@@ -19,7 +19,7 @@ Notera att dokumentet beskriver ett ramverk som skall fyllas på med funktioner 
 Notera även att användningen av dessa riktlinjer omöjligtvis kan garantera att nya applikationer ger god användningskvalité. För att ta fram med god design krävs också en god kännedom om användarna, deras situation, sammanhanget och den nytta som skall skapas.
 
 
-De specifika designriktlinjerna beskiver designriktlinjer för intranätet i portalen. I en förlängning skall de specifika designriktlinjerna kompletteras med riktlinjer för nya applikationer och tjänster. Det material som legat till grund för de specifika designriktlinjerna utgörs främst av:
+*De specifika designriktlinjerna* beskiver designriktlinjer för intranätet i portalen. I en förlängning skall de specifika designriktlinjerna kompletteras med riktlinjer för nya applikationer och tjänster. Det material som legat till grund för de specifika designriktlinjerna utgörs främst av:
  * Användningstest utfört på SÄS Borås och KS, där ett tidigare lösningsförslag utvärderades för att se om det motsvarar förväntningar och nytta för verksamheten och användaren. 
  * 20 stycken intervjuer på arbetsplatsen, hos bland annat sjuksköterskor, läkare och läkarsekreterare anställda på SU, där befintligt arbetssätt och befintliga systemstöd har studeras.
  * Workshop med verksamhetsansvariga för att ta ett formellt beslut om syfte och mätpunkter. <br><br>
@@ -58,4 +58,4 @@ Tanken är att ramverket ska bli det verktyg som samlar den information och de 
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignInnehall Tillämpade designriktlinjer, Bättre koll på jobbet: Innehåll]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignBeteendeFunktioner Tillämpade designriktlinjer, Bättre koll på jobbet: Beteenden och funktioner]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesign Tillämpade designriktlinjer, Bättre koll på jobbet: Detaljdesign]
- # [http://code.google.com/p/oppna-program-portalramverk/wiki/AnnuInteUtrett?ts=1251892328&updated=AnnuInteUtrett Tillämpade designriktlinjer, Bättre koll på jobbet: Ännu inte utrett]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/AnnuInteUtrett?ts=1251892328&updated=AnnuInteUtrett Tillämpade designriktlinjer, Bättre koll på jobbet: Ännu inte utrett (ej uppdaterad)]
