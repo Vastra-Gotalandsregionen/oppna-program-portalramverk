@@ -15,7 +15,7 @@ När användaren fyllt i sökorden och klickat på ”SÖK” får hon upp en si
 <br>_Figur 48: Utseende då användaren har gjort en sökning, men inte valt sökområde_
 
 === Detaljerat sök ===
-Användaren skall även kunna göra en detaljerad sökning, om hon exempelvis vill hitta ett dokument från en viss avdelning eller skriven av en viss författare. Detta gör hon genom att filtrera med hjälp av fördefinierade kategorier och alternativ. Det finns olika kategorier för olika sökområden (se 5.3.3). Användaren kan klicka fram och klicka bort alternativen som hon vill och sökresultatet skall ändras dynamiskt utefter användarens val.
+Användaren skall även kunna göra en detaljerad sökning, om hon exempelvis vill hitta ett dokument från en viss avdelning eller skriven av en viss författare. Detta gör hon genom att filtrera med hjälp av fördefinierade kategorier och alternativ. Det finns olika kategorier för olika sökområden, se avsnitt Spara genvägar under [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignBeteendeFunktioner avsnitt Beteenden och funktioner]. Användaren kan klicka fram och klicka bort alternativen som hon vill och sökresultatet skall ändras dynamiskt utefter användarens val.
 
 <br>http://lh6.ggpht.com/_mHREyZKezxI/Sp47r620eVI/AAAAAAAAAHA/ixirIpzfHMM/s800/Picture%2052.png
 <br>_Figur 49: Detaljerad sök_
@@ -29,7 +29,7 @@ Då användaren gjort en sökning efter ett dokument kan det se ut enligt följa
 I ovanstående figur kan användaren välja att ”Visa detaljer” om träffen, då ser det ut enligt följande:
 
 <br>http://lh3.ggpht.com/_mHREyZKezxI/Sp47sAzMiaI/AAAAAAAAAHI/4sy5TRG6gMY/s800/Picture%2054.png
-<br>_Figur 51: Utseende då användaren valt att visa detaljer om en källa_
+<br>_Figur 51: Utseende då användaren valt att visa detaljer om en källa_<br>
 Användaren kan även välja att visa mer detaljer om författaren, då ser det ut enligt följande:
 
 <br>http://lh3.ggpht.com/_mHREyZKezxI/Sp47y8dBaNI/AAAAAAAAAHM/UW2igXbpK1M/s800/Picture%2055.png
