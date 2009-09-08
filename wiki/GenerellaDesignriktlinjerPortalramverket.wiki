@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Beskriver principdesign, struktur, flikar, hitta och ramverk
 
 = Generella designriktlinjer: Portalramverket =
 
@@ -44,7 +44,7 @@ Notera att det som placeras här skall vara något som användaren brukar flera 
 <br>http://lh4.ggpht.com/_mHREyZKezxI/Sp-fTWwH_xI/AAAAAAAAAaA/WjQh9NCcozE/s800/Picture%2074.jpg
 <br>_Figur 6: Under Hitta i Portalen_
 
-Under ”Hitta” finns sökfunktionen. Är det så att användaren behöver söka bland den information som finns i applikationen som skall utvecklas, kan detta föras in som ett sökområde. Ett sökområde är en grupp av information som användaren kan söka på samt även sortera sin träfflista utifrån (se stycke 7.5.2.1).
+Under ”Hitta” finns sökfunktionen. Är det så att användaren behöver söka bland den information som finns i applikationen som skall utvecklas, kan detta föras in som ett sökområde. Ett sökområde är en grupp av information som användaren kan söka på samt även sortera sin träfflista utifrån (se sökområden under [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBeteendeoFunktioner beteenden och funktioner]).
 
 === Egna inställningar ===
 
@@ -60,9 +60,9 @@ Ramverket erbjuder 4 byggstenar:
  * Portlet – den generella byggstenen som innefattar en samling av informationer och funktioner som kan grupperas logiskt. En samling av portlets bygger upp varje sida i ramverket. En samling av portlets bygger även upp en integrerad applikation.  
  * Fristående applikation – en fristående applikation med förmåga att visa sig i ett webbfönster.
 
-För de funktioner som är så pass omfattande att de inte går att utforma till en modal dialog eller en portlet skall antingen utformas som en integrerad eller fristående applikation. I de fall då applikationen är nödvändig för att användaren skall få en överblick av sitt arbete samt att kunna utföra de mest relevanta uppgifterna borde integreras direkt i Portalen. Exempel på detta är e-postprogram och användarens egen kalender. Läs mer om hur applikationer i Portalen utformas i kapitel 3. I de fall då applikationen inte är nödvändig för att användaren skall få en överblick av sitt arbete eller för att kunna utföra de mest relevanta uppgifterna skall snarare utformas som en fristående applikation. Läs mer om hur fristående applikationer utformas i kapitel 6.
-Det finns två olika typer av modala dialoger. För det första finns det modala dialoger för att lägga till eller redigera information som ”bor” i Portalen. Den andra typen av modal dialog är då mer detaljerad information presenteras om något som finns i ett externt system. Ett exempel på detta är listan med ”Mina uppgifter” där ett antal poster presenteras. Posterna kan härstamma från fristående applikationer och vill användaren läsa mer om en sådan post öppnas den detaljerade informationen i en modal dialog. Läs mer om hur modala dialoger utformas i kapitel 4.
-En portlet används för att visa information från applikationer, både fristående samt de applikationer som finns integrerade direkt i Portalen. Användaren kan klicka på en post i en portlet öppna en modal dialog med informationen. Om behov finns, kan användaren även öppna den fristående applikationen från en portlet. Läs mer om hur portlet utformas i kapitel 5.
+För de funktioner som är så pass omfattande att de inte går att utforma till en modal dialog eller en portlet skall antingen utformas som en integrerad eller fristående applikation. I de fall då applikationen är nödvändig för att användaren skall få en överblick av sitt arbete samt att kunna utföra de mest relevanta uppgifterna borde integreras direkt i Portalen. Exempel på detta är e-postprogram och användarens egen kalender. Läs mer om hur applikationer i Portalen utformas i [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerIntegreradApplikation avsnitt Integrerad applikation]. I de fall då applikationen inte är nödvändig för att användaren skall få en överblick av sitt arbete eller för att kunna utföra de mest relevanta uppgifterna skall snarare utformas som en fristående applikation. Läs mer om hur fristående applikationer utformas i [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerFristandeApplikation avsnitt Fristående applikation].
+Det finns två olika typer av modala dialoger. För det första finns det modala dialoger för att lägga till eller redigera information som ”bor” i Portalen. Den andra typen av modal dialog är då mer detaljerad information presenteras om något som finns i ett externt system. Ett exempel på detta är listan med ”Mina uppgifter” där ett antal poster presenteras. Posterna kan härstamma från fristående applikationer och vill användaren läsa mer om en sådan post öppnas den detaljerade informationen i en modal dialog. Läs mer om hur modala dialoger utformas i [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerModalDialog avsnitt Modal dialog].
+En portlet används för att visa information från applikationer, både fristående samt de applikationer som finns integrerade direkt i Portalen. Användaren kan klicka på en post i en portlet öppna en modal dialog med informationen. Om behov finns, kan användaren även öppna den fristående applikationen från en portlet. Läs mer om hur portlet utformas i [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerPortlet avsnitt Portlet].
 
 
 <br><br>
