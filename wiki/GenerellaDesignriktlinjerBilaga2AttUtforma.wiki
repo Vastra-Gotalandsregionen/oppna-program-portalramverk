@@ -25,8 +25,6 @@ Nedan följer tumregler relaterade till syn, minne och tanke samt även rumreg
 * Visa alltid om det finns mer relevant information än vad som ryms på skärmen
 
 == Placering ==
-Bilaga 2 – Att utforma
-Bilaga 3 – Exempel projekt -Evenemangskalendern
 Nedan följer ett antal riktlinjer som baseras sig på hur människan läser av och tar till sig information.
 
  * Gruppera genom att använda mellanrum
