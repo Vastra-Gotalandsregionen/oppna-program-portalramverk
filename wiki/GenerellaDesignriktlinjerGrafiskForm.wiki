@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Beskriver riktlinjer för grafisk form
 
 = Generella designriktlinjer: Grafisk form =
 
@@ -19,6 +19,7 @@ För varje färg finns en beskrivning om exempel användning. Naturligtvis skall
 || Ljusgrå || Rubriker till bland annat fritext & dropdown-listor || 128,128,128/#808080 || http://lh6.ggpht.com/_mHREyZKezxI/Sp-5YDpqmJI/AAAAAAAAAew/s027rtRolgc/808080.png ||
 || Röd || Färg till asterix (tvingande fält) || 255,0,0/#ff0000 || http://lh3.ggpht.com/_mHREyZKezxI/Sp-5etJRpOI/AAAAAAAAAfE/XjDIgBcpbFU/ff0000.png ||
 || Lila || Besökt länk || 117,64,108/#75406C || http://lh5.ggpht.com/_mHREyZKezxI/Sp-5X8DWs9I/AAAAAAAAAes/5VoGxdZYPjI/75406C.png ||
+
 _Tabell 2: Summering av färger som används i ID-skisserna för Evenemangskalendern_
 
 Nedan följer ett antal exempel där ovanstående färger används.
@@ -58,6 +59,7 @@ Ikonerna som används i gränssnittet kommer från http://www.famfamfam.com/lab/
 || information.png || Indikerar att det finns mer information om detta || - || http://lh6.ggpht.com/_mHREyZKezxI/Sp-zrQnFRHI/AAAAAAAAAeU/O8FkL61YNu0/information.png ||	 
 || print.png || Skriv ut || Skriv ut || http://lh3.ggpht.com/_mHREyZKezxI/Sp-zxfP2GFI/AAAAAAAAAec/If262BFyx4A/printer.png ||
 || magnifier.png || Ikon för att söka || - || http://lh3.ggpht.com/_mHREyZKezxI/Sp-zrV46LFI/AAAAAAAAAeY/B6tAi7MWMCY/magnifier.png ||	 
+
 _Tabell 3: Ikoner i gränssnitt_
 
 == Typsnitt ==
