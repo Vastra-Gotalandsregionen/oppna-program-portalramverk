@@ -28,3 +28,6 @@ Det finns ett antal oklarheter, gällande verksamheten, teknik/arkitektur samt p
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignBeteendeFunktioner Tillämpade designriktlinjer, Bättre koll på jobbet: Beteenden och funktioner]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesign Tillämpade designriktlinjer, Bättre koll på jobbet: Detaljdesign]
  # Tillämpade designriktlinjer, Bättre koll på jobbet: Ännu inte utrett
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga1Informationsstyrning Bilaga 1: Informationsstyrning]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga2AttUtforma Bilaga 2: Att utforma]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga3ExempelProjektEvenemangskalendern Bilaga 3: Exempelprojekt evenemangskalendern]
