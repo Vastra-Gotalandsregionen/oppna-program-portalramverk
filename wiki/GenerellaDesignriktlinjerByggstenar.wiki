@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Beskriver ingående byggstenar i portalramverket
 
 = Generella designriktlinjer: Byggstenar =
 
@@ -17,7 +17,7 @@ Felmeddelanden skall vara korta och hjälpa användaren vidare. Det skall inte i
 <br>_Figur 26: Exempel på felmeddelande_
 
 == Formulär ==
-Då användaren skall lägga till eller redigera information skall hon kunna göra detta i ett formulär. Ett formulär består i stort sett av ett antal fält som användaren skall fylla i. Formulär presenteras i de flesta fallen i modala dialoger. Grundläggande principer om hur formulär skall utformas finns presenterade i Bilaga 2 – Att utforma.
+Då användaren skall lägga till eller redigera information skall hon kunna göra detta i ett formulär. Ett formulär består i stort sett av ett antal fält som användaren skall fylla i. Formulär presenteras i de flesta fallen i modala dialoger. Grundläggande principer om hur formulär skall utformas finns presenterade i [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga2AttUtforma Bilaga 2 – Att utforma]. <br>
  
 <br>http://lh3.ggpht.com/_mHREyZKezxI/Sp-fYsO5gUI/AAAAAAAAAbU/uqhDjXTwSj4/s800/Picture%2095.jpg
 <br>_Figur 27: Exempel på formulär som användaren skall fylla i_
@@ -65,7 +65,7 @@ Sammanfattat kan man säga att en ikon & länk används istället för en knapp 
 <br>_Figur 32: Utseende på länk_
 
 En länk bör alltid svara blå och understruken, vilket är en förutsättning för att användaren snabbt skall uppfatta att det är en länk.
-Ikonen står alltid till vänster om länken. Mer information om vilka ikoner som kan användas finns under stycke 10.2.
+Ikonen står alltid till vänster om länken. Mer information om vilka ikoner som kan användas finns under Ikoner under [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerGrafiskForm avsnitt Grafisk form].
 Namnet på länken behöver vara beskrivande, så att användaren förstår vad den leder till, exempelvis rubriken på dokumentet eller namnet på applikationen.
 
 === Knapp ===
@@ -109,10 +109,10 @@ När användaren gjort sina ändringar och klickar på ”Spara och stäng”, s
 Användaren skall kunna ta bort ett objekt. Står objekten i en lista skall en ikon och länk för att ta bort presenteras för respektive objekt. Klickar användaren på länken presenteras en meddelandedialog (se stycke 8.1) som ber användaren bekräfta huruvida hon vill ta bort objektet eller inte. Klickar användaren på ”Ja” tas objektet bort, medan om användaren klickar på ”Nej” tas objektet inte bort.
 
 == Listor ==
-När sökfunktion behövs och när det räcker med sortering och filtrering. Hur en filtreringslista ser ut (med rader och rubriker) och hur en träfflista ser ut i söken finns presenterat i nedanstående stycken. Grundläggande principer om hur olika listor skall utformas finns presenterade i Bilaga 2 – Att utforma.
+När sökfunktion behövs och när det räcker med sortering och filtrering. Hur en filtreringslista ser ut (med rader och rubriker) och hur en träfflista ser ut i söken finns presenterat i nedanstående stycken. Grundläggande principer om hur olika listor skall utformas finns presenterade i [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga2AttUtforma Bilaga 2 – Att utforma].
 
 === Sorterbara listor ===
-I en sorterbar lista består en post av en rad. Varannan rad i listan skall markeras ut med den ljusblåa färgen (se stycke 10.1) för att underlätta för användaren när hon läser av poster i listan. 
+I en sorterbar lista består en post av en rad. Varannan rad i listan skall markeras ut med den ljusblåa färgen, se avsnitt Färg under [[http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerGrafiskForm avsnitt Grafisk form] för att underlätta för användaren när hon läser av poster i listan. 
 En rad innehåller flera kolumner, vilket specificerar posten ytterligare. Användaren kan sortera posterna i listan genom att klicka på rubriken för en kolumn. Det kolumnhuvud som bestämmer sorteringsordningen skall markeras med en pil till höger om namnet, se bild nedan.
   
 <br>http://lh4.ggpht.com/_mHREyZKezxI/Sp-faD9YKZI/AAAAAAAAAbs/0nuxskfR5PE/s800/Picture%20103.jpg
