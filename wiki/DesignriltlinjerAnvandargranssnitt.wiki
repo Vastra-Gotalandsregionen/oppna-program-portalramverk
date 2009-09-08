@@ -22,8 +22,11 @@ Notera även att användningen av dessa riktlinjer omöjligtvis kan garantera at
 De specifika designriktlinjerna beskiver designriktlinjer för intranätet i portalen. Det material som legat till grund för de specifika designriktlinjerna utgörs främst av:
  * Användningstest utfört på SÄS Borås och KS, där ett tidigare lösningsförslag utvärderades för att se om det motsvarar förväntningar och nytta för verksamheten och användaren. 
  * 20 stycken intervjuer på arbetsplatsen, hos bland annat sjuksköterskor, läkare och läkarsekreterare anställda på SU, där befintligt arbetssätt och befintliga systemstöd har studeras.
- * Workshop med verksamhetsansvariga för att ta ett formellt beslut om syfte och mätpunkter.
+ * Workshop med verksamhetsansvariga för att ta ett formellt beslut om syfte och mätpunkter. <br><br>
 
+== Ursprungliga dokument: ==
+[http://oppna-program-portalramverk.googlecode.com/files/Portalramverket%20-Riktlinjer%20f%C3%B6r%20design%200.7.pdf Portalramverkets användargränssnitt - riktlinjer för design v0.7] Det dokument som motsvarar de generella designriktlinjerna<br>
+[http://oppna-program-portalramverk.googlecode.com/files/Interaktionsdesign%20V2%20Portalramverket%200.6.doc Bättre koll på jobbet - interaktionsdesign v2] Det dokument som motsvarar de specifika designriktlinjerna <br><br>
 
 <br><br>
 *Innehållsförteckning* (återfinns längst ner på varje sida)
