@@ -27,7 +27,7 @@ Notera även att användningen av dessa riktlinjer omöjligtvis kan garantera at
 == Bakgrund ==
 IT-strategiska avdelningen för Västra Götalandsregionen (VGR) bedriver projektet ”Portalramverk” . Portalramverket avser att förverkliga de idéer som beskrivs av den nationella strategin för IT i vården och i de nationella/gemensamma ansatser som gjorts för att beskriva bastjänster, informationsstrukturer, regler för datahantering etc.
 Syftet är att bygga en plattform för:
- * effektivare hantering av intern information och funktioner för personlig administration(”intranät”),
+ * effektivare hantering av intern information och funktioner för personlig administration(”intranät”),
  * information och funktioner för specifika ansvarsområden (exempelvis Regional patientöversikt, Inköpsportalen). Detta kallas senare för ”integrerad applikation”.
  * och för att ge översikt från, och åtkomst till de befintliga applikationer som den anställde behöver.
 Det som levereras från projektet är två delar:
