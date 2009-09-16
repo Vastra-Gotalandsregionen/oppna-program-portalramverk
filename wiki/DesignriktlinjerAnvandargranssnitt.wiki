@@ -22,7 +22,8 @@ Notera även att användningen av dessa riktlinjer omöjligtvis kan garantera at
 *De specifika designriktlinjerna* beskiver designriktlinjer för intranätet i portalen. I en förlängning skall de specifika designriktlinjerna kompletteras med riktlinjer för nya applikationer och tjänster. Det material som legat till grund för de specifika designriktlinjerna utgörs främst av:
  * Användningstest utfört på SÄS Borås och KS, där ett tidigare lösningsförslag utvärderades för att se om det motsvarar förväntningar och nytta för verksamheten och användaren. 
  * 20 stycken intervjuer på arbetsplatsen, hos bland annat sjuksköterskor, läkare och läkarsekreterare anställda på SU, där befintligt arbetssätt och befintliga systemstöd har studeras.
- * Workshop med verksamhetsansvariga för att ta ett formellt beslut om syfte och mätpunkter. <br><br>
+ * Workshop med verksamhetsansvariga för att ta ett formellt beslut om syfte och mätpunkter.
+
 
 == Bakgrund ==
 IT-strategiska avdelningen för Västra Götalandsregionen (VGR) bedriver projektet ”Portalramverk” . Portalramverket avser att förverkliga de idéer som beskrivs av den nationella strategin för IT i vården och i de nationella/gemensamma ansatser som gjorts för att beskriva bastjänster, informationsstrukturer, regler för datahantering etc.
@@ -32,7 +33,7 @@ Syftet är att bygga en plattform för:
  * och för att ge översikt från, och åtkomst till de befintliga applikationer som den anställde behöver.
 Det som levereras från projektet är två delar:
  * ”Portalen” som är en fungerande uppsättning av information och funktioner som bygger på ramverket. Portalen byggs i nuläget med främsta avsikt att kunna påvisa hur ramverket skall användas. På sikt kan man tänka sig att Portalen blir den enda applikation man som anställd behöver för att ha åtkomst till lejonparten av all information och all funktionalitet man behöver i arbetet.
- * ”Ramverket” som är de förutsättningar för att utöka ”Portalen” med nya funktioner.
+ * ”Ramverket” som är de förutsättningar för att utöka ”Portalen” med nya funktioner.
 Tanken är att ramverket ska bli det verktyg som samlar den information och de funktioner som den enskilde anställde behöver för att ha ”bättre koll på jobbet”. Ramverkets konstruktion syftar till att minimera antalet onödiga handgrepp (logga in, klicka runt och söka) för att få (för arbetet) relevant information, samt att säkerställa att användaren lyckas i de tillfällen hon aktivt söker efter något.
 
 
