@@ -1,6 +1,7 @@
 <div class="lfr-dock interactive-mode">
+    
 	<h2 class="user-greeting">
-		<span>$user_greeting</span>
+		<span>$user_greeting #language ("close")</span>
 	</h2>
 
 	<ul class="lfr-dock-list">
