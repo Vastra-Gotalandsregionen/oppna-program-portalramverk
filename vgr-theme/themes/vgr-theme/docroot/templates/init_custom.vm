@@ -1,3 +1,1 @@
-#*
-This file allows you to override and define new velocity variables.
-*#
+#set ($css_class = "yui-skin-vgr")
