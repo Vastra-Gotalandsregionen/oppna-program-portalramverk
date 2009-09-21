@@ -1,7 +1,13 @@
 <div class="lfr-dock interactive-mode">
     
 	<h2 class="user-greeting">
-		<span>$user_greeting #language ("close")</span>
+		<span>
+    		#if ($is_default_user)
+                #language ("vgrNotLoggedIn")
+            #else
+                #language ("vgrLoggedIn") $user_name
+            #end
+		</span>
 	</h2>
 
 	<ul class="lfr-dock-list">
