@@ -1,4 +1,13 @@
 #summary Hur man utvecklar och driftsätter regionportalens tema för Liferay Portal
 #labels Phase-Deploy
 
-=  =
+= Regionportalens tema för Liferay Portal =
+
+För att se hur portlets mm kommer att se ut när man använder portalen är det lämpligt att även under utveckling använda sig av regionportalens tema.
+
+Om du inte vill vidareutveckla temat utan enbart använda temat finns det möjlighet att [http://code.google.com/p/oppna-program-portalramverk/downloads/list ladda ner] en färdig utgåva av temat. Teman i Liferay Portal har samma struktur som en Java EE-webbapplikation vilket gör att temat distribueras som en WAR-fil.
+
+= Utveckling av temat =
+
+ # [http://code.google.com/p/oppna-program-portalramverk/source/checkout Checka ut] [http://code.google.com/p/oppna-program-portalramverk/source/browse/#svn/trunk/vgr-theme temats källkod].
+ # Skapa 
