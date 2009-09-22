@@ -135,3 +135,13 @@
     # Set the version of Liferay Portal that these plugins are designed for.
     #
     lp.version=5.2.3
+
+##
+## Hot deploy
+##
+
+    #
+    # Set the path to the portal installation's hot deploy dir. The build artifact will be transferred via SCP.
+    #
+    hotdeploy.scp.path=username:password@liferayServer.domain.tld:deployDirRelativeToUsernamesHomeDir/
+    

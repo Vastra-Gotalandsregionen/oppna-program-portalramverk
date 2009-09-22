@@ -5,8 +5,6 @@
 	When building inside eclipse, make sure ant-eclipse has jsch.jar and ant-jsch.jar in classpath. In ubuntu, one way of
 	achieving this is setting ANT_HOME to /usr/share/ant (if using standard ant deb package). -->
 	
-	<property name="vgr.deploy.dir" value="liferay:hittheroad@antonio.vgregion.se:deploy/" />
-	
 	<target name="compile-hook">
 		<if>
 			<available file="docroot/WEB-INF/src" />
@@ -18,8 +16,8 @@
 		</if>
 	</target>
 
-	<target name="deploy-antonio" depends="war">
-		<scp file="${plugin.file}" todir="${vgr.deploy.dir}"/>
+	<target name="deploy-remote" depends="war">
+		<scp file="${plugin.file}" todir="${hotdeploy.scp.path}"/>
 	</target>
 
 	<import file="../build-common-theme.xml" />
