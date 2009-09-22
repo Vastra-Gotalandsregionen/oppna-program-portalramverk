@@ -18,3 +18,10 @@ Om du inte vill vidareutveckla temat utan enbart använda temat finns det möjli
  # Driftsättning av temat. Kör kommandot "ant" i katalogen "vgr-theme":
    # Lokalt: Target "deploy" (standard)
    # Externt: Target "deploy-remote"
+
+= Konfiguration för Eclipse =
+
+För att kunna redigera temats filer i Eclipse, gör enligt nedan:
+
+# Lägg till "subversionrepositoryt" http://oppna-program-portalramverk.googlecode.com/svn/trunk/vgr-theme/
+# Öppna subversion
