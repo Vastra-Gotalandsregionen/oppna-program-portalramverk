@@ -1,5 +1,9 @@
 <div class="lfr-dock interactive-mode">
     
+    <p>
+    $themeDisplay.getURLHome() 
+    </p>
+    
 	<h2 class="user-greeting">
 		<span>
     		#if ($is_default_user)
@@ -9,11 +13,11 @@
             #end
 		</span>
 	</h2>
-
+	
 	<ul class="lfr-dock-list">
 		#if ($show_home)
 			<li class="home">
-				<a href="$home_url">$home_text</a>
+				<a href="$vgr_home_url">$home_text</a>
 			</li>
 		#end
 
