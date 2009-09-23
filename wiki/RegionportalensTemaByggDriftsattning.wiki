@@ -9,7 +9,7 @@ Om du inte vill vidareutveckla temat utan enbart använda temat finns det möjli
 
 = Utveckling av temat =
 
- # [http://code.google.com/p/oppna-program-portalramverk/source/checkout Checka ut] [http://code.google.com/p/oppna-program-portalramverk/source/browse/#svn/trunk/vgr-theme temats källkod].
+ # [http://code.google.com/p/oppna-program-portalramverk/source/checkout Checka ut] [http://oppna-program-portalramverk.googlecode.com/svn/trunk/vgr-theme källkod].
  # Anpassa temats ant-konfiguration:
    # Utgå från build.properties.template
    # Skapa en build.username.properties-fil, ersätt username med ditt användarnamn
