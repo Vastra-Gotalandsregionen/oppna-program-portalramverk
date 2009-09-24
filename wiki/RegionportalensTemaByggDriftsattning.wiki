@@ -24,7 +24,7 @@ Om du inte vill vidareutveckla temat utan enbart använda temat så kommer det i
 För att kunna redigera temats filer i Eclipse, gör enligt nedan:
 
  # Lägg till "subversionrepositoryt" http://oppna-program-portalramverk.googlecode.com/svn/trunk/vgr-theme/
- # Öppna "perspektivet" (eng. perspective) "SVN Repository exploring"
+ # Öppna "perspektivet" (eng. perspective) "SVN Repository exploring" (Window->Open Perspective->SVN Repository exploring)
  # Högerklicka på repositoryt i vyn (eng. view) "SVN Repositories".
  # Välj "Check out" i högerklicksmenyn och då får du projektet "vgr-theme" i ditt workspace.
  # Modifiera "build.properties.template" enligt ovan.
