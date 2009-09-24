@@ -1,0 +1,20 @@
+/* Liferay portal customizations */
+#nav-main li, .nav-sub li {
+  list-style-type: none;
+}
+
+#nav ul {
+  float: none;
+}
+
+a#logo {
+	margin-left:6px;
+}
+
+.js .interactive-mode {
+    background-color: transparent;
+}
+
+.js .interactive-mode h2 span {
+	border: none;
+}
