@@ -1,9 +1,5 @@
 <div class="lfr-dock interactive-mode">
     
-    <p>
-    $themeDisplay.getURLHome() 
-    </p>
-    
 	<h2 class="user-greeting">
 		<span>
     		#if ($is_default_user)

@@ -20,6 +20,8 @@
                     #foreach ($nav_child in $nav_item.getChildren())
                         #if ($nav_child.isSelected())
                             #set ($nav_child_class = "sel")
+                        #elseif ($nav_item.getChildren().size() == 1)
+                            #set ($nav_child_class = "structural")
                         #else
                             #set ($nav_child_class = "")
                         #end
