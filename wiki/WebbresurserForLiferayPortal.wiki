@@ -4,5 +4,5 @@
 = Webbresurser för Liferay Portal =
 
  # [http://issues.liferay.com Ärenden]
- # [http://svn.liferay.com/repos/public/ Källkoden] Kontakta nån av administratörerna på [https://sourceforge.net/projects/lportal/ sourceforge-projetet] för commit-rättigheter till källkodsarkivet.
+ # [http://svn.liferay.com/repos/public/ Källkoden] (Kontakta nån av administratörerna på [https://sourceforge.net/projects/lportal/ sourceforge-projetet] för commit-rättigheter till källkodsarkivet.)
  # [http://svn.liferay.com/browse Källkoden för "webbläsning"]
