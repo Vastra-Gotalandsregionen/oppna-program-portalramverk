@@ -1,0 +1,8 @@
+#summary En samlingsplats för webbresurser med information om Liferay Portal
+#labels Phase-Implementation
+
+= Webbresurser för Liferay Portal =
+
+ # [http://issues.liferay.com Ärenden]
+ # [Källkoden http://svn.liferay.com/repos/public/] Kontakta nån av administratörerna på [https://sourceforge.net/projects/lportal/ sourceforge-projetet] för commit-rättigheter till källkodsarkivet.
+ # [Källkoden för "webbläsning" http://svn.liferay.com/browse]
