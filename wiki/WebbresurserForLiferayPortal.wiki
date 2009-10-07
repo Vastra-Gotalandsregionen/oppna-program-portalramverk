@@ -4,6 +4,6 @@
 = Webbresurser för Liferay Portal =
 
  * [http://issues.liferay.com Ärenden]
- * [http://svn.liferay.com/repos/public/ Källkoden] (Kontakta nån av administratörerna på [https://sourceforge.net/projects/lportal/ sourceforge-projetet] för commit-rättigheter till källkodsarkivet.)
+ * [http://svn.liferay.com/repos/public/ Källkoden för utcheckning via Subversion-klient]
  * [http://svn.liferay.com/browse Källkoden för "webbläsning"]
  * [http://www.liferay.com/web/guest/community/wiki/-/wiki/Main/How+to+contribute+to+Liferay Att bidra till Liferay Portal]
