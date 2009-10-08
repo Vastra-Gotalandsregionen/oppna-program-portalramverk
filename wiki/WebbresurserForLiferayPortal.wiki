@@ -7,3 +7,4 @@
  * [http://svn.liferay.com/repos/public/ Källkoden för utcheckning via Subversion-klient]
  * [http://svn.liferay.com/browse Källkoden för "webbläsning"]
  * [http://www.liferay.com/web/guest/community/wiki/-/wiki/Main/How+to+contribute+to+Liferay Att bidra till Liferay Portal]
+ * [http://www.liferay.com/web/guest/community/wiki/-/wiki/Proposals/FrontPage Förslag på förbättringar]
