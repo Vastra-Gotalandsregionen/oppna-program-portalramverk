@@ -18,3 +18,8 @@ a#logo {
 .js .interactive-mode h2 span {
 	border: none;
 }
+
+/* width of the login input fields */
+div#ctrl-holder input {
+    width: 200px;
+}
