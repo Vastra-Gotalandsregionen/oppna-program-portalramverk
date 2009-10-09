@@ -20,6 +20,6 @@ a#logo {
 }
 
 /* width of the login input fields */
-div#ctrl-holder input {
+div.ctrl-holder input {
     width: 200px;
 }
