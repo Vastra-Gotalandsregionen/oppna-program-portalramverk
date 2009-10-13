@@ -21,7 +21,7 @@
     </target>		
 		
 	<target name="deploy-remote" depends="compile-hook,war">
-		<scp file="${plugin.file}" todir="${hotdeploy.scp.path}"/>
+		<scp file="${plugin.file}" todir="${hotdeploy.scp.path}" trust="yes"/>
 	</target>
 
 	<import file="../build-common-theme.xml" />
