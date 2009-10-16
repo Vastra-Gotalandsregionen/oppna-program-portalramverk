@@ -7,9 +7,6 @@ Presentation av innehåll sker i regel på tre olika sätt i gränssnittet, via 
 == Samlingssida ==
 Samlingssidan syftar till att ge användaren en god inblick över all information på ämnet utan att exponeras för allt för mycket information. Användaren kan sedan klicka sig ner i strukturen för det hon tycker är relevant och på så sätt få upp detaljer.
 
-*_ Funktioner_*<br>
-Nedan beskrivs de funktioner som användaren kan bruka på samlingssidan.
-
 <br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
 <br>￼ _Figur: Användaren har öppnat upp en träff och kommit till en samlingssida.
 
@@ -19,6 +16,15 @@ Nedan beskrivs de funktioner som användaren kan bruka på samlingssidan.
  # Klickbar länkstig.
  # Funktion för att öppna aktuell sida i nytt fönster (underlättar jämförelse).
  # Funktion för att spara aktuell sida som favorit samt eventuellt dela med sig av information till andra sidor såsom Delicious.
+
+*_ Scrollat _*<br>
+Då användaren scrollar ner på sidan försvinner allt innehåll upp, medan vänsterspalten och funktionerna överst på sidan stannar kvar. Detta för att underlätta för användaren då hon läser stora dokument. 
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>￼ _Figur: Användaren har scrollat ner på sidan.
+
+*Beskrivning av figur: *
+ # Endast innehållet scrollas upp.
 
 
 *_ Hoppa till_*<br>
@@ -45,14 +51,7 @@ För att hjälpa användaren att hela tiden komma framåt finns länkar till så
  # Länk som tar användaren vidare ner i strukturen, i detta fallet till en ny sida när Behandling & Metod presenteras.
 
 
-*_ Scrollat _*<br>
-Då användaren scrollar ner på sidan försvinner allt innehåll upp, medan vänsterspalten och funktionerna överst på sidan stannar kvar. Detta för att underlätta för användaren då hon läser stora dokument. 
 
-<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
-<br>￼ _Figur: Användaren har scrollat ner på sidan.
-
-*Beskrivning av figur: *
- # Endast innehållet scrollas upp.
 
 <br>
 == Undersida ==
