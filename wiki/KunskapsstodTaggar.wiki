@@ -1,20 +1,15 @@
-#summary Beskriver designriktlinjer för ranking
+#summary Beskriver designriktlinjer för taggar
 
-= Bättre koll på jobbet - Kunskapsstöd, detaljdesign: Ranking =
+= Bättre koll på jobbet - Kunskapsstöd, detaljdesign: Taggar =
 
-X
+Det finns taggar på samtliga innehållssidor. Användaren kan även vara med och påverka taggarna för ett visst innehåll.
 
 <br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
-<br>￼ _Figur: Användaren har valt att visa ett PM.
+<br>￼ _Figur: Användaren är inne på någon typ av informationssida.
 
 *Beskrivning av figur: *
- # I
- # I
- # I
- # I
- # I
- # I
- # I
+ # Samtliga taggar presenteras. Klickar användaren på en tagg kommer hon till en söksida där allt innehåll som rör just den taggen presenteras i en träfflista.
+ # För de användare som har tillåtelse (alla vårdaktörer?) ska kunna lämna förslag på nya taggar. Förslagen ska sedan verifieras innan de läggs till.Klickar användaren på länken Föreslå taggar får användaren en möjlighet att lämna förslag på en eller flera taggar och sedan skicka iväg förslaget.
 
 <br><br>
 *Innehållsförteckning*
