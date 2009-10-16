@@ -2,7 +2,8 @@
 
 = Bättre koll på jobbet - Kunskapsstöd, detaljdesign: Associativ navigering =
 
-Förstasidan under den nya fliken syftar till att förenkla för användaren i så hög grad som möjligt när det kommer till att påbörja en sökning. Det ska gå snabbt och enkelt. 
+Den associativa navigeringen innehåller till en början samma innehåll som områdens navigeringen. När användaren kommer ner på en viss nivå (där det är relevant) presenteras relaterad information.
+
 
 <br><br>
 *Innehållsförteckning*
