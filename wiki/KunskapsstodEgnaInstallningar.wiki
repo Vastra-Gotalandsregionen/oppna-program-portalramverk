@@ -1,6 +1,6 @@
-#summary Beskriver designriktlinjer för förstasidan
+#summary Beskriver designriktlinjer för de ändringar användaren kan göra under Egna inställningar
 
-= Bättre koll på jobbet - Kunskapsstöd, detaljdesign: Förstasidan =
+= Bättre koll på jobbet - Kunskapsstöd, detaljdesign: Egna inställningar =
 
 Förstasidan under den nya fliken syftar till att förenkla för användaren i så hög grad som möjligt när det kommer till att påbörja en sökning. Det ska gå snabbt och enkelt. 
 
@@ -30,7 +30,7 @@ Förstasidan under den nya fliken syftar till att förenkla för användaren i s
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodAssociativ Associativ navigering]
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodInnehallssidor Innehållssidor]
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodFunktioner Funktioner]
-  # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodEgnaInstallningar Egna inställningar]
+  # Egna inställningar
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga1Informationsstyrning Bilaga 1: Informationsstyrning]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga2AttUtforma Bilaga 2: Att utforma]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga3ExempelProjektEvenemangskalendern Bilaga 3: Exempelprojekt evenemangskalendern]
