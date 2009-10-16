@@ -2,19 +2,14 @@
 
 = Bättre koll på jobbet - Kunskapsstöd, detaljdesign: Ranking =
 
-X
+Används av VGR för att verifiera huruvida innehållet hjälpte användaren, kan sedan användas som underlag för ranking i träfflistan.
 
 <br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
 <br>￼ _Figur: Användaren har valt att visa ett PM.
 
 *Beskrivning av figur: *
- # I
- # I
- # I
- # I
- # I
- # I
- # I
+ # Användaren får upp en fråga om informationen hjälpte henne och funktion för att svara på frågan.
+
 
 <br><br>
 *Innehållsförteckning*
