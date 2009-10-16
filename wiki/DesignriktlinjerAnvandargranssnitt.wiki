@@ -40,7 +40,7 @@ Tanken är att ramverket ska bli det verktyg som samlar den information och de f
 == Ursprungliga dokument: ==
 [http://oppna-program-portalramverk.googlecode.com/files/Portalramverket%20-Riktlinjer%20f%C3%B6r%20design%200.7.pdf Portalramverkets användargränssnitt - riktlinjer för design v0.7] Det dokument som motsvarar de generella designriktlinjerna<br>
 [http://oppna-program-portalramverk.googlecode.com/files/Interaktionsdesign%20V2%20Portalramverket%200.6.doc Bättre koll på jobbet - interaktionsdesign v2] Det dokument som motsvarar de specifika designriktlinjerna. Visar på utformning av Portalen (Bättre koll på jobbet). <br>
-[http://oppna-program-portalramverk.googlecode.com/files/Bättre%20koll%20på%20jobbet%20-%20Kunskapsstöd%20-%20interaktionsdesgin.pdf Bättre koll på jobbet - Kunskapsstöd - Interaktionsdesign] Det dokument som motsvarar de specifika designriktlinjerna. Utökning av Portalens (Bättre koll på jobbet) funktionalitet med ett kunskapsstöd till vårdaktörerna. <br><br>
+[http://oppna-program-portalramverk.googlecode.com/files/Bättre%20koll%20på%20jobbet%20-%20Kunskapsstöd%20-%20interaktionsdesign.pdf Bättre koll på jobbet - Kunskapsstöd - Interaktionsdesign] Det dokument som motsvarar de specifika designriktlinjerna. Utökning av Portalens (Bättre koll på jobbet) funktionalitet med ett kunskapsstöd till vårdaktörerna. <br><br>
 
 <br><br>
 *Innehållsförteckning* (återfinns längst ner på varje sida)
