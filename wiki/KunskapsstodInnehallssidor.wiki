@@ -2,7 +2,7 @@
 
 = Bättre koll på jobbet - Kunskapsstöd, detaljdesign: Innehållssidor =
 
-Presentation av innehåll sker i regel på tre olika sätt i gränssnittet, via samlingssidor, undersidor samt genom att länka till externa sidor.
+Presentation av innehåll sker i regel på tre olika sätt i gränssnittet, via samlingssidor (med tillhörande undersidor), direkt i gränssnittet samt genom att länka till externa sidor.
 
 == Samlingssida ==
 Samlingssidan syftar till att ge användaren en god inblick över all information på ämnet utan att exponeras för allt för mycket information. Användaren kan sedan klicka sig ner i strukturen för det hon tycker är relevant och på så sätt få upp detaljer.
@@ -53,6 +53,50 @@ Då användaren scrollar ner på sidan försvinner allt innehåll upp, medan vä
 
 *Beskrivning av figur: *
  # Endast innehållet scrollas upp.
+
+<br>
+== Undersida ==
+Användaren kommer till en undersida då hon klickat ner sig i strukturen från en samlingssida.
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>￼ _Figur: Användaren har valt Symtom, antingen genom att välja i innehållsstrukturen ute till vänster eller klickat på länken Läs mer till höger om rubriken Symtom.
+
+*Beskrivning av figur: *
+ # Samma innehållsstruktur är kvar, men användaren kan nu se att hon står på Symtom.
+ # Under Senast besökta sidor kan användaren se att hon senast kom från Diabetes typ 2.
+ # Länkstigen har uppdaterats.
+ # Då information kan refereras till en annan källa står referens, datum samt en länk som tar användaren vidare direkt till källan.
+ # Relaterad information (associativ information) visas alltid där det är relevant. Informationen är indelad i de olika informationstyperna.
+
+
+<br>
+== Undersida ==
+Användaren kommer till en undersida då hon klickat ner sig i strukturen från en samlingssida.
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>￼ _Figur: Användaren har valt Symtom, antingen genom att välja i innehållsstrukturen ute till vänster eller klickat på länken Läs mer till höger om rubriken Symtom.
+
+*Beskrivning av figur: *
+ # S
+ # S
+ # S
+ # S
+ # S
+
+
+<br>
+== Undersida ==
+Användaren kommer till en undersida då hon klickat ner sig i strukturen från en samlingssida.
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>￼ _Figur: Användaren har valt Symtom, antingen genom att välja i innehållsstrukturen ute till vänster eller klickat på länken Läs mer till höger om rubriken Symtom.
+
+*Beskrivning av figur: *
+ # S
+ # S
+ # S
+ # S
+ # S
 
 
 <br><br>
