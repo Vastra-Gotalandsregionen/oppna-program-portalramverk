@@ -8,20 +8,52 @@ Presentation av innehåll sker i regel på tre olika sätt i gränssnittet, via 
 Samlingssidan syftar till att ge användaren en god inblick över all information på ämnet utan att exponeras för allt för mycket information. Användaren kan sedan klicka sig ner i strukturen för det hon tycker är relevant och på så sätt få upp detaljer.
 
 *_ Funktioner_*
-
+Nedan beskrivs de funktioner som användaren kan bruka på samlingssidan.
 
 <br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
 <br>￼ _Figur: Användaren har öppnat upp en träff och kommit till en samlingssida.
 
 *Beskrivning av figur: *
- # X
- # X
- # X
- # X
- # X
- # X
- # X
- # X
+ # Förteckning över allt innehåll indelat i samma områden som informationstyperna. Om användaren klickar på en innehållslänkarna presenteras informationen på en ny sida.Om användaren klickar på Visa all information kommer användaren till en sida där all information presenteras. De informationstyper som användaren valt att markera ut är markerade. Under rubriken Mer hos oss finns innehåll kopplat till i detta fallet Diabetes typ 2 som finns under den interna wikin eller i diskussionsforumet. Under rubriken Mer hos andra finns länkar till träffar kring Diabetes typ 2 som finns i artikeldatabaserna PubMed och Internetmedicin. Under Senast besökta sidor finns historiken för vilka sidor användaren varit på innan, max 8. 
+ # Funktion för att hoppa till specifikt innehåll på aktuell sida.
+ # Klickbar länkstig.
+ # Funktion för att öppna aktuell sida i nytt fönster (underlättar jämförelse).
+ # Funktion för att spara aktuell sida som favorit samt eventuellt dela med sig av information till andra sidor såsom Delicious.
+
+
+*_ Hoppa till_*
+För att underlätta navigeringen för användarna då sidorna blir långa kan hon ange till var på sidan hon vill hoppa via en meny av innehållstrukturen. Funktionen ska visas på sidan oavsett hur långt ner hon scrollat.
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>￼ _Figur: Användaren har aktiverat funktionen för att hoppa till innehåll.
+
+*Beskrivning av figur: *
+ # Allt innehåll på aktuell sida presenteras i en struktur där användaren kan ange till var på sidan hon vill hoppa. Presenteras alltid, oberoende om användaren har scrollat ner på sidan.
+
+
+*_ Innehåll _*
+För att hjälpa användaren att hela tiden komma framåt finns länkar till såväl information längre ner i strukturen men även till helt andra ämnesområden som på ett eller annat sätt är relaterade till där användaren är för tillfället (associativa/relaterade). 
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>￼ _Figur: Användaren har öppnat upp en träff och kommit till en samlingssida.
+
+*Beskrivning av figur: *
+ # Exempel på då en text innehåller en fotonot. Fotonoten presenteras sedan längst ner i stycket.
+ # Exempel på associativ länk i text som hoppar till andra delar av strukturen. Användaren kommer då till en ny sida där Typ 1 –diabetes presenteras.
+ # Exempel på länk som tar användaren vidare ner två hopp i strukturen. Användaren kommer då till en ny sida där informationen presenteras.
+ # Användaren kan minimera och maximera informationen. Om användaren har gjort val gällande vilka informationstyper som märks ut är dessa maximerade, medan övriga är minimerade.
+ # Länk som tar användaren vidare ner i strukturen, i detta fallet till en ny sida när Behandling & Metod presenteras.
+
+
+*_ Scrollat _*
+Då användaren scrollar ner på sidan försvinner allt innehåll upp, medan vänsterspalten och funktionerna överst på sidan stannar kvar. Detta för att underlätta för användaren då hon läser stora dokument. 
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>￼ _Figur: Användaren har scrollat ner på sidan.
+
+*Beskrivning av figur: *
+ # Endast innehållet scrollas upp.
+
 
 <br><br>
 *Innehållsförteckning*
