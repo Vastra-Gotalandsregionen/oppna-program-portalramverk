@@ -43,7 +43,7 @@ X
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodAssociativ Associativ navigering]
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodInnehallssidor Innehållssidor]
    # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodSamlingssida Samlingssida]
-   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodDirekt Artiklar/Dokument som visas direkt i gränssnittet]
+   # Artiklar/Dokument som visas direkt i gränssnittet
    # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodExtern Externt innehåll]
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodFunktioner Funktioner]
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodEgnaInstallningar Egna inställningar]
