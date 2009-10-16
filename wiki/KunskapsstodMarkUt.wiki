@@ -43,7 +43,7 @@ X
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodInnehallssidor Innehållssidor]
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodFunktioner Funktioner]
    # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodRanking Ranking]
-   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodMarkUt Märkt ut]
+   # Märkt ut
    # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodKommentarer Kommentarer]
    # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodTaggar Taggar]
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodEgnaInstallningar Egna inställningar]
