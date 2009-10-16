@@ -7,7 +7,7 @@ Presentation av innehåll sker i regel på tre olika sätt i gränssnittet, via 
 == Samlingssida ==
 Samlingssidan syftar till att ge användaren en god inblick över all information på ämnet utan att exponeras för allt för mycket information. Användaren kan sedan klicka sig ner i strukturen för det hon tycker är relevant och på så sätt få upp detaljer.
 
-*_ Funktioner_*
+*_ Funktioner_*<br>
 Nedan beskrivs de funktioner som användaren kan bruka på samlingssidan.
 
 <br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
@@ -21,7 +21,7 @@ Nedan beskrivs de funktioner som användaren kan bruka på samlingssidan.
  # Funktion för att spara aktuell sida som favorit samt eventuellt dela med sig av information till andra sidor såsom Delicious.
 
 
-*_ Hoppa till_*
+*_ Hoppa till_*<br>
 För att underlätta navigeringen för användarna då sidorna blir långa kan hon ange till var på sidan hon vill hoppa via en meny av innehållstrukturen. Funktionen ska visas på sidan oavsett hur långt ner hon scrollat.
 
 <br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
@@ -31,7 +31,7 @@ För att underlätta navigeringen för användarna då sidorna blir långa kan h
  # Allt innehåll på aktuell sida presenteras i en struktur där användaren kan ange till var på sidan hon vill hoppa. Presenteras alltid, oberoende om användaren har scrollat ner på sidan.
 
 
-*_ Innehåll _*
+*_ Innehåll _*<br>
 För att hjälpa användaren att hela tiden komma framåt finns länkar till såväl information längre ner i strukturen men även till helt andra ämnesområden som på ett eller annat sätt är relaterade till där användaren är för tillfället (associativa/relaterade). 
 
 <br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
@@ -45,7 +45,7 @@ För att hjälpa användaren att hela tiden komma framåt finns länkar till så
  # Länk som tar användaren vidare ner i strukturen, i detta fallet till en ny sida när Behandling & Metod presenteras.
 
 
-*_ Scrollat _*
+*_ Scrollat _*<br>
 Då användaren scrollar ner på sidan försvinner allt innehåll upp, medan vänsterspalten och funktionerna överst på sidan stannar kvar. Detta för att underlätta för användaren då hon läser stora dokument. 
 
 <br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
