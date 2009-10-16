@@ -1,4 +1,4 @@
-#summary Beskriver detaljerad design av olika funktioner
+#summary Beskriver detaljerad design av kunskapsstödet
 
 = Introduktion till tillämpade designriktlinjer, Bättre koll på jobbet - Kunskapsstöd: Detaljdesign=
 De aktuella designriktlinjerna är ett komplement till de designriktlinjer som tidigare tagits fram för Portalen (Bättre koll på jobbet), då de beskriver ett kunskapsstöd för Vårdaktörer som är tänkt att implementeras i Portalen. Dokumentationen utgår från de generella riktlinjerna.
