@@ -7,6 +7,11 @@ Förstasidan under den nya fliken syftar till att förenkla för användaren i s
 <br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
 <br>￼ _Figur: Användaren har klickat på fliken Vårdaktörsportalen i Portalen (Bättre koll på jobbet).
 
+*Funktion: *
+ * *Öppna uppgift*  När användaren klickar på rubriken för en uppgift öppnas uppgiften i en dialog.  
+ * *Öppna applikation*  När användaren klickar på rubriken för en applikation, exempelvis ”Labbsvar (4)”, öppnas applikationen i ett nytt fönster.  
+ * *Markera uppgift som avslutad/oavslutad*  Användaren kan kryssa i/kryssa ur rutan vid en uppgift för att markera uppgiften som avslutad/oavslutad. 
+ * *Lägg till uppgift*  Användaren kan skapa en ny uppgift på två sätt. Antingen under Mitt jobb/Uppgifter eller genom att klicka på länken ”Lägg till uppgift”. Uppgifterna går att tidsbestämma och när en uppgift, som skall utföras innan en specifik tidpunkt, inte är utförd får användaren en påminnelse av detta.
 
 <br><br>
 *Innehållsförteckning*
