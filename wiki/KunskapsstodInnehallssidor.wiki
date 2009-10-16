@@ -4,11 +4,14 @@
 
 Presentation av innehåll sker i regel på tre olika sätt i gränssnittet, via samlingssidor, undersidor samt genom att länka till externa sidor.
 
-== X ==
-X
+== Samlingssida ==
+Samlingssidan syftar till att ge användaren en god inblick över all information på ämnet utan att exponeras för allt för mycket information. Användaren kan sedan klicka sig ner i strukturen för det hon tycker är relevant och på så sätt få upp detaljer.
+
+*_ Funktioner_*
+
 
 <br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
-<br>￼ _Figur: Användaren har klickat på fliken Vårdaktörsportalen i Portalen (Bättre koll på jobbet).
+<br>￼ _Figur: Användaren har öppnat upp en träff och kommit till en samlingssida.
 
 *Beskrivning av figur: *
  # X
