@@ -4,22 +4,58 @@
 
 Under Mina inställningar/Anpassningar kan användaren välja vilka informationstyper som ska märkas ut i gränssnittet, vilka ämnesområden som hon vill ha som snabblänkar samt huruvida hon vill få förklaringar av svåra ord automatiskt i gränssnittet.
 
-== X ==
-X
-
 <br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
-<br>￼ _Figur: Användaren har klickat på fliken Vårdaktörsportalen i Portalen (Bättre koll på jobbet).
+<br>￼ _Figur: Användaren har klickat på Egna inställningar och sedan valt Anpassningar.
 
 *Beskrivning av figur: *
- # X
- # X
- # X
- # X
- # X
- # X
- # X
- # X
+ # Användaren kan ändra vilka ämnesområden som visas.Som förvalt visas de ämnesområden som ingår i hennes anställning (såsom ortoped eller läkare inom hjärta och kärl).
+ # Användaren kan få upp information om hur hennes val kommer påverka gränssnittet.
+ # Användaren kan lägga till fler/ta bort antal ämnesområden.
+ # Användaren kan ange vilka informationstyper som märks ut i gränssnittet. Om förvalda informationstyper skulle dessa troligtvis kunna baseras på användarens anställning (såsom läkare på en vårdcentral eller läkare på ett sjukhus).
+ # Leder till information om hur hennes val kommer påverka gränssnittet.
+ # Användaren kan lägga till fler/ta bort informationstyper som hon vill märka ut.
+ # Användaren kan ange huruvida hon vill få förklaring av svåra ord direkt i gränssnittet.
+ # Leder till information om hur hennes val kommer påverka gränssnittet.
+ # Användaren kan välja huruvida hon vill få ordförklaring eller inte.
 
+För att ändra ämnesområden under Mina ämnesområden klickar användaren på länken Ändra ämnesområden:
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>￼ _Figur: Användaren har klickat på Ändra ämnesområde.
+
+*Beskrivning av figur: *
+ # Modal dialog där användaren kan ange vilka ämnesområden hon vill följa.
+ # Kort information hur hennes val kommer påverka gränssnittet.
+ # Sökfunktion för att hitta de olika fördefinierade ämnesområdena. Auto-fil används för att hjälpa användaren.  Exempel på vilka ämnesområdena skulle kunna vara är:
+  * Diagnoser, generell och specifik nivå (såsom Diabetes och Diabetes typ 2)
+  * Diagnosområden (såsom Endokrina sjukdomar)
+  * Anställning (såsom Ortopedi)
+ # Knapp för att lägga till det ämnesområde användaren sökt upp.
+ # De ämnesområden som användaren valt presenteras i en lista.
+ # Användaren kan markera och ta bort de valda ämnesområdena.
+ # Knapp för att spara ändringarna och stänga ner den modala dialogen.
+
+Användaren kan ändra inställningar för vilka informationstyper som märks ut genom att klicka på länken Ändra informationstyper:
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>￼ _Figur: Användaren har klickat på Ändra informationstyper.
+
+*Beskrivning av figur: *
+ # Modal dialog där användaren kan ange vilka informationstyper hon vill ska märkas ut.
+ # Kort information hur hennes val kommer påverka gränssnittet.
+ # De olika informationstyperna som användaren kan välja mellan.Användaren kan även välja Alla, då markeras samtliga informationstyper.
+ # Knapp för att spara ändringarna och stänga ner den modala dialogen.
+
+För de användare som vill få förklaring av svåra ord direkt i gränssnittet kan hon göra det genom att aktivera funktionen under Ändra ordförklaring:
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>￼ _Figur: Användaren har klickat på Ändra ordförklaring.
+
+*Beskrivning av figur: *
+ # Modal dialog där användaren kan bestämma huruvida hon vill ha förklaring av svåra ord direkt i gränssnittet.
+ # Kort information hur hennes val kommer påverka gränssnittet.
+ # Användaren behöver bara kryssa för sitt val.
+ # Knapp för att spara ändringarna och stänga ner den modala dialogen.
 
 <br><br>
 *Innehållsförteckning*
