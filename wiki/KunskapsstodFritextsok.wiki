@@ -4,6 +4,20 @@
 
 Fritextsöket är det mest viktiga stödet för aktören då hon söker efter information, därav den centrala platsen på sidan. 
 
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>￼ _Figur: Användaren har klickat på fliken Vårdaktörsportalen i Portalen (Bättre koll på jobbet).
+
+*Beskrivning av figur: *
+ # Fu
+ # Fu
+ # Fu
+ # Fu
+ # Fu
+ # Fu
+ # Fu
+ # Fu
+
 <br><br>
 *Innehållsförteckning*
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriktlinjerAnvandargranssnitt Introduktion till interaktionsdesign för portalramverket]
