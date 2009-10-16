@@ -5,16 +5,14 @@
 X
 
 <br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
-<br>￼ _Figur: Användaren har öppnat upp en träff och kommit till en samlingssida.
+<br>￼ _Figur: Användaren har valt att visa ett PM.
 
 *Beskrivning av figur: *
- # F
- # F
- # F
- # F
- # F
- # F
-
+ # Innehållet i artikeln/dokumentet presenteras till vänster i en innehållsstruktur precis som övriga sidor.
+ # Information om vilken version det handlar om samt datum för senaste uppdateringen presenteras.Användaren kan se tidigare versioner. Vidare visas också information huruvida informationen är baserad på evidens eller inte.
+ # Om informationen gäller i en viss del av organisationen framgår detta. Användaren kan få upp andra PM från andra delar av organisationen. Om aktuell information inte tillhör den organisation användaren jobbar på framgår detta tydligt för henne. Användaren kan då enkelt få upp den information hon bör följa. Om det inte finns någon information för den del av organisationen användaren jobbar på så ska hon få upp:
+  * Information från regionnivå
+  * Nationell information
 
 
 <br><br>
