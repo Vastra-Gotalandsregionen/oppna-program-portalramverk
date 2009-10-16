@@ -9,9 +9,14 @@ Förstasidan under den nya fliken syftar till att förenkla för användaren i s
 
 *Beskrivning av figur: *
  * Funktion som hjälper användaren genom att märka ut information som användaren på förhand definierat som relevant för henne. 
- * *Öppna applikation*  När användaren klickar på rubriken för en applikation, exempelvis ”Labbsvar (4)”, öppnas applikationen i ett nytt fönster.  
- * *Markera uppgift som avslutad/oavslutad*  Användaren kan kryssa i/kryssa ur rutan vid en uppgift för att markera uppgiften som avslutad/oavslutad. 
- * *Lägg till uppgift*  Användaren kan skapa en ny uppgift på två sätt. Antingen under Mitt jobb/Uppgifter eller genom att klicka på länken ”Lägg till uppgift”. Uppgifterna går att tidsbestämma och när en uppgift, som skall utföras innan en specifik tidpunkt, inte är utförd får användaren en påminnelse av detta.
+ * Tre olika sätt att hitta information, fritextsök, navigera via område  samt navigation via en associativ navigering. Fritextsöket är förvalt som default.
+ * Innehåll som har uppdaterats sedan användaren senast kikade på det. Vilket innehåll som är relevant utgår ifrån: 
+  * Användarens sparade favoriter
+  * Innehåll kopplat till användarens ämnesområden
+ * Ämnesområden som användaren definierat som intressanta för henne. Om användaren klickat på ett område kommer hon till sidan där det presenteras.
+ * Senast besökta sidor/innehåll som användaren gjort. Klickar användaren på någon av alternativen kommer hon till sidan/innehållet.
+ * Senaste sökningar som användaren gjort. Klickar användaren på en sökning presenteras sökningen fast med en uppdaterad träfflista.
+
 
 <br><br>
 *Innehållsförteckning*
