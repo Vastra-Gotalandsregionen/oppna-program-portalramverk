@@ -1,10 +1,7 @@
-#summary Beskriver designriktlinjer för innehållssidorna
+#summary Beskriver designriktlinjer för samlingssidorna.
 
-= Bättre koll på jobbet - Kunskapsstöd, detaljdesign: Innehållssidor =
+= Bättre koll på jobbet - Kunskapsstöd, detaljdesign: Samlingssida =
 
-Presentation av innehåll sker i regel på tre olika sätt i gränssnittet, via samlingssidor (med tillhörande undersidor), direkt i gränssnittet samt genom att länka till externa sidor.
-
-== Samlingssida ==
 Samlingssidan syftar till att ge användaren en god inblick över all information på ämnet utan att exponeras för allt för mycket information. Användaren kan sedan klicka sig ner i strukturen för det hon tycker är relevant och på så sätt få upp detaljer.
 
 <br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
@@ -51,8 +48,6 @@ För att hjälpa användaren att hela tiden komma framåt finns länkar till så
  # Länk som tar användaren vidare ner i strukturen, i detta fallet till en ny sida när Behandling & Metod presenteras.
 
 
-
-
 <br>
 == Undersida ==
 Användaren kommer till en undersida då hon klickat ner sig i strukturen från en samlingssida.
@@ -66,36 +61,6 @@ Användaren kommer till en undersida då hon klickat ner sig i strukturen från 
  # Länkstigen har uppdaterats.
  # Då information kan refereras till en annan källa står referens, datum samt en länk som tar användaren vidare direkt till källan.
  # Relaterad information (associativ information) visas alltid där det är relevant. Informationen är indelad i de olika informationstyperna.
-
-
-<br>
-== Undersida ==
-Användaren kommer till en undersida då hon klickat ner sig i strukturen från en samlingssida.
-
-<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
-<br>￼ _Figur: Användaren har valt Symtom, antingen genom att välja i innehållsstrukturen ute till vänster eller klickat på länken Läs mer till höger om rubriken Symtom.
-
-*Beskrivning av figur: *
- # S
- # S
- # S
- # S
- # S
-
-
-<br>
-== Undersida ==
-Användaren kommer till en undersida då hon klickat ner sig i strukturen från en samlingssida.
-
-<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
-<br>￼ _Figur: Användaren har valt Symtom, antingen genom att välja i innehållsstrukturen ute till vänster eller klickat på länken Läs mer till höger om rubriken Symtom.
-
-*Beskrivning av figur: *
- # S
- # S
- # S
- # S
- # S
 
 
 <br><br>
@@ -123,7 +88,7 @@ Användaren kommer till en undersida då hon klickat ner sig i strukturen från 
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodNavigeraOmrade Navigerina via område/hierarkisk navigering]
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodAssociativ Associativ navigering]
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodInnehallssidor Innehållssidor]
-   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodSamlingssida Samlingssida]
+   # Samlingssida
    # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodDirekt Artiklar/Dokument som visas direkt i gränssnittet]
    # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodExtern Externt innehåll]
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodFunktioner Funktioner]
