@@ -42,7 +42,7 @@ Vilka inställningar som behövs göras är ännu inte fastställt och behövs u
 
 
 <br><br>
-*Innehållsförteckning*
+*Innehållsförteckning* (återfinns längst ner på varje sida)
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriktlinjerAnvandargranssnitt Introduktion till interaktionsdesign för portalramverket]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerPortalramverket?ts=1251969346&updated=GenerellaDesignriktlinjerPortalramverket Generella designriktlinjer: Portalramverket]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerIntegreradApplikation?ts=1251969401&updated=GenerellaDesignriktlinjerIntegreradApplikation Generella designriktlinjer: Integrerad applikation]
@@ -59,7 +59,8 @@ Vilka inställningar som behövs göras är ännu inte fastställt och behövs u
  # Tillämpade designriktlinjer, Bättre koll på jobbet: Innehåll
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignBeteendeFunktioner Tillämpade designriktlinjer, Bättre koll på jobbet: Beteenden och funktioner]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesign Tillämpade designriktlinjer, Bättre koll på jobbet: Detaljdesign]
- # [http://code.google.com/p/oppna-program-portalramverk/wiki/AnnuInteUtrett?ts=1251892328&updated=AnnuInteUtrett Tillämpade designriktlinjer, Bättre koll på jobbet: Ännu inte utrett]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/AnnuInteUtrett?ts=1251892328&updated=AnnuInteUtrett Tillämpade designriktlinjer, Bättre koll på jobbet: Ännu inte utrett (ej uppdaterad)]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/Kunskapsstod Tillämpade designriktlinjer, Bättre koll på jobbet - Kunskapsstöd: Detaljdesign]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga1Informationsstyrning Bilaga 1: Informationsstyrning]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga2AttUtforma Bilaga 2: Att utforma]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga3ExempelProjektEvenemangskalendern Bilaga 3: Exempelprojekt evenemangskalendern]
