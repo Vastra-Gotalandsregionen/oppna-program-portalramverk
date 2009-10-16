@@ -2,7 +2,7 @@
 
 = Bättre koll på jobbet - Kunskapsstöd, detaljdesign: Funktioner =
 
-Förstasidan under den nya fliken syftar till att förenkla för användaren i så hög grad som möjligt när det kommer till att påbörja en sökning. Det ska gå snabbt och enkelt. 
+Det finns ett antal funktion i gränssnittet som specificeras nedan, exempelvis att läsa/skriva kommentarer, ranka innehåll eller att få vissa informationstyper utmärkta direkt i gränssnittet. 
 
 <br><br>
 *Innehållsförteckning*
