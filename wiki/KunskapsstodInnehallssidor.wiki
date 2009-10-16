@@ -37,7 +37,7 @@ För att underlätta navigeringen för användarna då sidorna blir långa kan h
  # Allt innehåll på aktuell sida presenteras i en struktur där användaren kan ange till var på sidan hon vill hoppa. Presenteras alltid, oberoende om användaren har scrollat ner på sidan.
 
 
-*_ Innehåll _*<br>
+*_ Länkar och funktioner direkt i innehållet _*<br>
 För att hjälpa användaren att hela tiden komma framåt finns länkar till såväl information längre ner i strukturen men även till helt andra ämnesområden som på ett eller annat sätt är relaterade till där användaren är för tillfället (associativa/relaterade). 
 
 <br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
