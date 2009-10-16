@@ -4,13 +4,35 @@
 
 Fritextsöket är det mest viktiga stödet för aktören då hon söker efter information, därav den centrala platsen på sidan. 
 
-== X ==
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>￼ _Figur: Användaren har klickat på fliken Vårdaktörsportalen i Portalen (Bättre koll på jobbet).
+
+*Beskrivning av figur: *
+ #Fritextfält. Användaren får stöd via auto-complete.
+ # Användaren kan välja att söka i specifika källor. Alternativen antas vara:
+  * 1177.se
+  * Fass.se
+  * Folkhälsoguiden.se
+  * Ganfyd.org
+  * Growingpeople.se
+  * Internetmedicin.se
+  * Janusinfo.se
+  * PubMed
+  * SBU.se (Statens beredning för medicinsk utvärdering)
+  * Smittskyddsinstitutet
+  * Socialstyrelsen.se
+  * Vgregion.se
+  * Viss.nu
+  * Vårdverktyget.se (EIRA)
+ # Fritextsökningen döljs då användaren klickar på Dölj
+
+== Utgångsläge ==
 X
 
 <br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
 <br>￼ _Figur: Användaren har klickat på fliken Vårdaktörsportalen i Portalen (Bättre koll på jobbet).
 
-_Beskrivning av figur: 
+*Beskrivning av figur: *
  # X
  # X
  # X
@@ -19,6 +41,7 @@ _Beskrivning av figur: 
  # X
  # X
  # X
+
 
 <br><br>
 *Innehållsförteckning*
