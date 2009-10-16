@@ -4,22 +4,41 @@
 
 För de användare som har mer tid på sig och vill utforska ett helt område kan hon göra detta via den hierarkiska navigeringen.
 
-
-== X ==
-X
-
 <br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
-<br>￼ _Figur: Användaren har klickat på fliken Vårdaktörsportalen i Portalen (Bättre koll på jobbet).
+<br>￼ _Figur: Användaren har klickat på Navigera via område.
 
 *Beskrivning av figur: *
- # X
- # X
- # X
- # X
- # X
- # X
- # X
- # X
+ # Första nivån presenteras.Baseras till stor del på innehållsstrukturen på Socialstyrelsen.se. Dock med vissa modifikationer då vi ska presentera mer information.
+ # Användaren kan välja att dölja navigeringen.
+
+Då användaren har klickat på någon av alternativen i första nivån presenteras andra nivån automatiskt:
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>￼ _Figur: Användaren har klickat på Sjukdomar i första nivån.
+
+*Beskrivning av figur: *
+ # Då användaren valt ett alternativ i första fältet presenteras ytterligare ett fält med alternativ utifrån det gjorda valet.
+ # Ingen information presenteras förens användaren själv väljer att informationen.
+
+Användaren kan fortsätta ner i hierarkin på samma sätt:
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>￼ _Figur: Användaren har klickat ner sig till sista nivån i strukturen och även valt att visa information.
+
+*Beskrivning av figur: *
+ # Indikerar att användaren kan få upp information vid det här steget. Informationen presenteras under navigeringen. Om användaren väljer att klicka på pilen presenteras inte informationen.
+ # Om fler fält behövs försvinner fältet längst ut till vänster för att göra plats åt ett nytt fält längst ut till höger.
+
+<br>
+== Navigering dold ==
+Användaren kan välja att dölja någon av navigeringsmetoderna (fritextsök, navigeringen via område eller associativ navigering.
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>￼ _Figur: Användaren har klickat på länken Dölj ute till höger.
+
+*Beskrivning av figur: *
+ # Navigeringen döljs.
+ # Användaren kan välja att visa navigeringen igen.
 
 <br><br>
 *Innehållsförteckning*
