@@ -40,7 +40,7 @@ Används av VGR för att verifiera huruvida innehållet hjälpte användaren, ka
    # Ranking
    # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodMarkUt Märkt ut]
    # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodKommentarer Kommentarer]
-   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodTaggar Taggar]
+   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodTaggar Etiketter]
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodEgnaInstallningar Egna inställningar]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga1Informationsstyrning Bilaga 1: Informationsstyrning]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga2AttUtforma Bilaga 2: Att utforma]
