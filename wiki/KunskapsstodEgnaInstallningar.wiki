@@ -2,7 +2,7 @@
 
 = Bättre koll på jobbet - Kunskapsstöd, detaljdesign: Egna inställningar =
 
-Under Mina inställningar/Anpassningar kan användaren välja vilka informationstyper som ska märkas ut i gränssnittet samt vilka ämnesområden som hon vill ha som snabblänkar.
+Under Mina inställningar/Anpassningar kan användaren välja vilka informationstyper som ska märkas ut i gränssnittet, vilka ämnesområden som hon vill ha som snabblänkar samt huruvida hon vill få förklaringar av svåra ord automatiskt i gränssnittet.
 
 
 <br><br>
