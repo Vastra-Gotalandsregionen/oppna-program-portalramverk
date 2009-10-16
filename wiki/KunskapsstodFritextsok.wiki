@@ -2,7 +2,7 @@
 
 = Bättre koll på jobbet - Kunskapsstöd, detaljdesign: Fritextsök =
 
-Förstasidan under den nya fliken syftar till att förenkla för användaren i så hög grad som möjligt när det kommer till att påbörja en sökning. Det ska gå snabbt och enkelt. 
+Fritextsöket är det mest viktiga stödet för aktören då hon söker efter information, därav den centrala platsen på sidan. 
 
 <br><br>
 *Innehållsförteckning*
