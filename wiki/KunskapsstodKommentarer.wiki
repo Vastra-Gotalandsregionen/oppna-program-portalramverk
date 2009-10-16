@@ -1,20 +1,17 @@
-#summary Beskriver designriktlinjer för ranking
+#summary Beskriver designriktlinjer för kommentarer
 
-= Bättre koll på jobbet - Kunskapsstöd, detaljdesign: Ranking =
+= Bättre koll på jobbet - Kunskapsstöd, detaljdesign: Kommentarer =
 
-X
+Funktion som hjälper vårdaktörer att hitta snabbt bland stora mängder av information genom att användaren kan definiera vilken informationstyp hon är intresserad av och vill få utmärkt i gränssnittet. 
+
 
 <br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
-<br>￼ _Figur: Användaren har valt att visa ett PM.
+<br>￼ _Figur: Användaren har klickat på fliken Vårdaktörsportalen i prototypen för Bättre koll på jobbet. 
 
 *Beskrivning av figur: *
- # I
- # I
- # I
- # I
- # I
- # I
- # I
+ # Visar vilken information användaren har valt att märka ut.
+ # Snabblänk som öppnar modal dialog, samma som om användaren går via Egna inställningar, där användaren kan ange vilka informationstyper hon vill ska märkas ut. 
+
 
 <br><br>
 *Innehållsförteckning*
