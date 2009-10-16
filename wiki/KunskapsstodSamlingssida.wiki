@@ -1,0 +1,130 @@
+#summary Beskriver designriktlinjer för innehållssidorna
+
+= Bättre koll på jobbet - Kunskapsstöd, detaljdesign: Innehållssidor =
+
+Presentation av innehåll sker i regel på tre olika sätt i gränssnittet, via samlingssidor (med tillhörande undersidor), direkt i gränssnittet samt genom att länka till externa sidor.
+
+== Samlingssida ==
+Samlingssidan syftar till att ge användaren en god inblick över all information på ämnet utan att exponeras för allt för mycket information. Användaren kan sedan klicka sig ner i strukturen för det hon tycker är relevant och på så sätt få upp detaljer.
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>￼ _Figur: Användaren har öppnat upp en träff och kommit till en samlingssida.
+
+*Beskrivning av figur: *
+ # Förteckning över allt innehåll indelat i samma områden som informationstyperna. Om användaren klickar på en innehållslänkarna presenteras informationen på en ny sida.Om användaren klickar på Visa all information kommer användaren till en sida där all information presenteras. De informationstyper som användaren valt att markera ut är markerade. Under rubriken Mer hos oss finns innehåll kopplat till i detta fallet Diabetes typ 2 som finns under den interna wikin eller i diskussionsforumet. Under rubriken Mer hos andra finns länkar till träffar kring Diabetes typ 2 som finns i artikeldatabaserna PubMed och Internetmedicin. Under Senast besökta sidor finns historiken för vilka sidor användaren varit på innan, max 8. 
+ # Funktion för att hoppa till specifikt innehåll på aktuell sida.
+ # Klickbar länkstig.
+ # Funktion för att öppna aktuell sida i nytt fönster (underlättar jämförelse).
+ # Funktion för att spara aktuell sida som favorit samt eventuellt dela med sig av information till andra sidor såsom Delicious.
+
+*_ Scrollat _*<br>
+Då användaren scrollar ner på sidan försvinner allt innehåll upp, medan vänsterspalten och funktionerna överst på sidan stannar kvar. Detta för att underlätta för användaren då hon läser stora dokument. 
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>￼ _Figur: Användaren har scrollat ner på sidan.
+
+*Beskrivning av figur: *
+ # Endast innehållet scrollas upp.
+
+
+*_ Hoppa till_*<br>
+För att underlätta navigeringen för användarna då sidorna blir långa kan hon ange till var på sidan hon vill hoppa via en meny av innehållstrukturen. Funktionen ska visas på sidan oavsett hur långt ner hon scrollat.
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>￼ _Figur: Användaren har aktiverat funktionen för att hoppa till innehåll.
+
+*Beskrivning av figur: *
+ # Allt innehåll på aktuell sida presenteras i en struktur där användaren kan ange till var på sidan hon vill hoppa. Presenteras alltid, oberoende om användaren har scrollat ner på sidan.
+
+
+*_ Länkar och funktioner direkt i innehållet _*<br>
+För att hjälpa användaren att hela tiden komma framåt finns länkar till såväl information längre ner i strukturen men även till helt andra ämnesområden som på ett eller annat sätt är relaterade till där användaren är för tillfället (associativa/relaterade). 
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>￼ _Figur: Användaren har öppnat upp en träff och kommit till en samlingssida.
+
+*Beskrivning av figur: *
+ # Exempel på då en text innehåller en fotonot. Fotonoten presenteras sedan längst ner i stycket.
+ # Exempel på associativ länk i text som hoppar till andra delar av strukturen. Användaren kommer då till en ny sida där Typ 1 –diabetes presenteras.
+ # Exempel på länk som tar användaren vidare ner två hopp i strukturen. Användaren kommer då till en ny sida där informationen presenteras.
+ # Användaren kan minimera och maximera informationen. Om användaren har gjort val gällande vilka informationstyper som märks ut är dessa maximerade, medan övriga är minimerade.
+ # Länk som tar användaren vidare ner i strukturen, i detta fallet till en ny sida när Behandling & Metod presenteras.
+
+
+
+
+<br>
+== Undersida ==
+Användaren kommer till en undersida då hon klickat ner sig i strukturen från en samlingssida.
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>￼ _Figur: Användaren har valt Symtom, antingen genom att välja i innehållsstrukturen ute till vänster eller klickat på länken Läs mer till höger om rubriken Symtom.
+
+*Beskrivning av figur: *
+ # Samma innehållsstruktur är kvar, men användaren kan nu se att hon står på Symtom.
+ # Under Senast besökta sidor kan användaren se att hon senast kom från Diabetes typ 2.
+ # Länkstigen har uppdaterats.
+ # Då information kan refereras till en annan källa står referens, datum samt en länk som tar användaren vidare direkt till källan.
+ # Relaterad information (associativ information) visas alltid där det är relevant. Informationen är indelad i de olika informationstyperna.
+
+
+<br>
+== Undersida ==
+Användaren kommer till en undersida då hon klickat ner sig i strukturen från en samlingssida.
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>￼ _Figur: Användaren har valt Symtom, antingen genom att välja i innehållsstrukturen ute till vänster eller klickat på länken Läs mer till höger om rubriken Symtom.
+
+*Beskrivning av figur: *
+ # S
+ # S
+ # S
+ # S
+ # S
+
+
+<br>
+== Undersida ==
+Användaren kommer till en undersida då hon klickat ner sig i strukturen från en samlingssida.
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>￼ _Figur: Användaren har valt Symtom, antingen genom att välja i innehållsstrukturen ute till vänster eller klickat på länken Läs mer till höger om rubriken Symtom.
+
+*Beskrivning av figur: *
+ # S
+ # S
+ # S
+ # S
+ # S
+
+
+<br><br>
+*Innehållsförteckning*
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriktlinjerAnvandargranssnitt Introduktion till interaktionsdesign för portalramverket]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerPortalramverket?ts=1251969346&updated=GenerellaDesignriktlinjerPortalramverket Generella designriktlinjer: Portalramverket]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerIntegreradApplikation?ts=1251969401&updated=GenerellaDesignriktlinjerIntegreradApplikation Generella designriktlinjer: Integrerad applikation]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerModalDialog?ts=1251969439&updated=GenerellaDesignriktlinjerModalDialog Generella designriktlinjer: Modal dialog]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerPortlet?ts=1251969476&updated=GenerellaDesignriktlinjerPortlet Generella designriktlinjer: Portlet]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerFristandeApplikation?ts=1251969550&updated=GenerellaDesignriktlinjerFristandeApplikation Generella designriktlinjer: Fristående applikation]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBeteendeoFunktioner?ts=1251969604&updated=GenerellaDesignriktlinjerBeteendeoFunktioner Generella designriktlinjer: Beteenden och funktioner]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerByggstenar?ts=1251969727&updated=GenerellaDesignriktlinjerByggstenar Generella designriktlinjer: Byggstenar]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerVisuellAterkoppling?ts=1251969771&updated=GenerellaDesignriktlinjerVisuellAterkoppling Generella designriktlinjer: Visuell återkoppling]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerGrafiskForm?ts=1251969808&updated=GenerellaDesignriktlinjerGrafiskForm Generella designriktlinjer: Grafisk form]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/TillampadeDesignriktlinjerBattreKollPaJobbet?ts=1251969900&updated=TillampadeDesignriktlinjerBattreKollPaJobbet Tillämpade designriktlinjer, Bättre koll på jobbet]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignForvantadeEffekter Tillämpade designriktlinjer, Bättre koll på jobbet: Förväntade effekter och målgrupper]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignPrincipdesign Tillämpade designriktlinjer, Bättre koll på jobbet: Principdesign]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignInnehall Tillämpade designriktlinjer, Bättre koll på jobbet: Innehåll]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignBeteendeFunktioner Tillämpade designriktlinjer, Bättre koll på jobbet: Beteenden och funktioner]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesign Tillämpade designriktlinjer, Bättre koll på jobbet: Detaljdesign]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/AnnuInteUtrett?ts=1251892328&updated=AnnuInteUtrett Tillämpade designriktlinjer, Bättre koll på jobbet: Ännu inte utrett]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/Kunskapsstod Tillämpade designriktlinjer, Bättre koll på jobbet - Kunskapsstöd: Detaljdesign]
+  # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodForstasidan Förstasidan]
+  # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodFritextsok Fritextsök]
+  # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodNavigeraOmrade Navigerina via område/hierarkisk navigering]
+  # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodAssociativ Associativ navigering]
+  # Innehållssidor
+  # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodFunktioner Funktioner]
+  # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodEgnaInstallningar Egna inställningar]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga1Informationsstyrning Bilaga 1: Informationsstyrning]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga2AttUtforma Bilaga 2: Att utforma]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga3ExempelProjektEvenemangskalendern Bilaga 3: Exempelprojekt evenemangskalendern]
