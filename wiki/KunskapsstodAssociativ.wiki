@@ -4,21 +4,42 @@
 
 Den associativa navigeringen innehåller till en början samma innehåll som områdens navigeringen. När användaren kommer ner på en viss nivå (där det är relevant) presenteras relaterad information.
 
-== X ==
-X
+Notera att nedanstående information är förslag och kan ändras beroende på vilken teknisk lösning som väljs. 
+
 
 <br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
-<br>￼ _Figur: Användaren har klickat på fliken Vårdaktörsportalen i Portalen (Bättre koll på jobbet).
+<br>￼ _Figur: Användaren har klickat på länken Associativ navigering.
 
 *Beskrivning av figur: *
- # X
- # X
- # X
- # X
- # X
- # X
- # X
- # X
+ # Första nivån presenteras.Baseras till stor del på innehållsstrukturen på Socialstyrelsen.se. Dock med vissa modifikationer då vi ska presentera mer information.
+ # Användaren kan välja att dölja navigeringen.
+ # Tanken är att navigeringen ska kunna expanderas så att hela ytan i webbläsaren utnyttjas, det vill säga tre lägen:
+  * Dold
+  * Halva ytan (sen som syns på denna bild)
+  * Hela tiden
+
+Användaren kan klicka på något av alternativen och på så sätt komma längre ner i strukturen.
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>￼ _Figur: Användaren har klickat sig ner till Endokrina sjukdomar i strukturen.
+
+*Beskrivning av figur: *
+ # Användaren kan enkelt gå tillbaka då hon hela tiden ser ”historiken”. Troligtvis presenteras endast 2 steg bakåt, detta för att ge utrymme.
+ # Användaren kan se samtliga alternativ som ligger på samma nivå som det alternativ hon senast valt.
+ # Det alternativ användaren senast valt presenteras tydligt.
+ # Möjliga val utifrån senast gjort val presenteras.
+ # Indikerar att användaren kan få upp information vid det här steget. Informationen presenteras under navigeringen. Om användaren väljer att endast klicka på texten för alternativet presenteras inte informationen.
+
+<br>
+== Presentation av innehåll ==
+Då användaren kommit ner på en tillräcklig djup detaljeringsnivå kan hon välja att få upp information, detta genom att klicka på ikonen för att visa information.
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>￼ _Figur: Användaren har valt att visa information.
+
+*Beskrivning av figur: *
+ # Innehållet presenteras nedan.
+
 
 <br><br>
 *Innehållsförteckning*
