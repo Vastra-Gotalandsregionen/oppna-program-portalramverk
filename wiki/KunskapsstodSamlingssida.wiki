@@ -122,7 +122,10 @@ Användaren kommer till en undersida då hon klickat ner sig i strukturen från 
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodFritextsok Fritextsök]
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodNavigeraOmrade Navigerina via område/hierarkisk navigering]
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodAssociativ Associativ navigering]
-  # Innehållssidor
+  # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodInnehallssidor Innehållssidor]
+   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodSamlingssida Samlingssida]
+   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodDirekt Artiklar/Dokument som visas direkt i gränssnittet]
+   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodExtern Externt innehåll]
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodFunktioner Funktioner]
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodEgnaInstallningar Egna inställningar]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga1Informationsstyrning Bilaga 1: Informationsstyrning]
