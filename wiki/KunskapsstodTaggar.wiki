@@ -1,15 +1,15 @@
-#summary Beskriver designriktlinjer för taggar
+#summary Beskriver designriktlinjer för etiketter (taggar)
 
-= Bättre koll på jobbet - Kunskapsstöd, detaljdesign: Taggar =
+= Bättre koll på jobbet - Kunskapsstöd, detaljdesign: Etiketter =
 
-Det finns taggar på samtliga innehållssidor. Användaren kan även vara med och påverka taggarna för ett visst innehåll.
+Det finns etiketter på samtliga innehållssidor. Användaren kan även vara med och påverka etiketterna för ett visst innehåll.
 
 <br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
 <br>￼ _Figur: Användaren är inne på någon typ av informationssida.
 
 *Beskrivning av figur: *
- # Samtliga taggar presenteras. Klickar användaren på en tagg kommer hon till en söksida där allt innehåll som rör just den taggen presenteras i en träfflista.
- # För de användare som har tillåtelse (alla vårdaktörer?) ska kunna lämna förslag på nya taggar. Förslagen ska sedan verifieras innan de läggs till.Klickar användaren på länken Föreslå taggar får användaren en möjlighet att lämna förslag på en eller flera taggar och sedan skicka iväg förslaget.
+ # Samtliga etiketter presenteras. Klickar användaren på en etikett kommer hon till en söksida där allt innehåll som rör just den etiketten presenteras i en träfflista.
+ # För de användare som har tillåtelse (alla vårdaktörer?) ska kunna lämna förslag på nya etiketter. Förslagen ska sedan verifieras innan de läggs till.Klickar användaren på länken Föreslå etiketter får användaren en möjlighet att lämna förslag på en eller flera etiketter och sedan skicka iväg förslaget.
 
 <br><br>
 *Innehållsförteckning*
@@ -40,7 +40,7 @@ Det finns taggar på samtliga innehållssidor. Användaren kan även vara med oc
    # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodRanking Ranking]
    # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodMarkUt Märkt ut]
    # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodKommentarer Kommentarer]
-   # Taggar
+   # Etiketter
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodEgnaInstallningar Egna inställningar]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga1Informationsstyrning Bilaga 1: Informationsstyrning]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga2AttUtforma Bilaga 2: Att utforma]
