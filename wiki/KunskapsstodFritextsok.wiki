@@ -1,6 +1,6 @@
-#summary Beskriver designriktlinjer för förstasidan
+#summary Beskriver designriktlinjer för fritextsöket
 
-= Bättre koll på jobbet - Kunskapsstöd, detaljdesign: Förstasidan =
+= Bättre koll på jobbet - Kunskapsstöd, detaljdesign: Fritextsök =
 
 Förstasidan under den nya fliken syftar till att förenkla för användaren i så hög grad som möjligt när det kommer till att påbörja en sökning. Det ska gå snabbt och enkelt. 
 
@@ -25,7 +25,7 @@ Förstasidan under den nya fliken syftar till att förenkla för användaren i s
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/AnnuInteUtrett?ts=1251892328&updated=AnnuInteUtrett Tillämpade designriktlinjer, Bättre koll på jobbet: Ännu inte utrett]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/Kunskapsstod Tillämpade designriktlinjer, Bättre koll på jobbet - Kunskapsstöd: Detaljdesign]
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodForstasidan Förstasidan]
-  # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodFritextsok Fritextsök]
+  # Fritextsök
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodNavigeraOmrade Navigerina via område/hierarkisk navigering]
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodAssociativ Associativ navigering]
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodInnehallssidor Innehållssidor]
