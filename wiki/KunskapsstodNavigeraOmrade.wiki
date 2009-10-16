@@ -18,8 +18,6 @@ För de användare som har mer tid på sig och vill utforska ett helt område ka
  # Fu
  # Fu
 
-
-
 <br><br>
 *Innehållsförteckning*
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriktlinjerAnvandargranssnitt Introduktion till interaktionsdesign för portalramverket]
