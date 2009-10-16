@@ -51,7 +51,7 @@ Då det finns en kommentar på ett innehåll ser det ut enligt följande:
    # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodRanking Ranking]
    # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodMarkUt Märkt ut]
    # Kommentarer
-   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodTaggar Taggar]
+   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodTaggar Etiketter]
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodEgnaInstallningar Egna inställningar]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga1Informationsstyrning Bilaga 1: Informationsstyrning]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga2AttUtforma Bilaga 2: Att utforma]
