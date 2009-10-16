@@ -8,7 +8,7 @@ Fritextsöket är det mest viktiga stödet för aktören då hon söker efter in
 <br>￼ _Figur: Användaren har klickat på fliken Vårdaktörsportalen i Portalen (Bättre koll på jobbet).
 
 *Beskrivning av figur: *
- #Fritextfält. Användaren får stöd via auto-complete.
+ # Fritextfält. Användaren får stöd via auto-complete.
  # Användaren kan välja att söka i specifika källor. Alternativen antas vara:
   * 1177.se
   * Fass.se
@@ -26,21 +26,46 @@ Fritextsöket är det mest viktiga stödet för aktören då hon söker efter in
   * Vårdverktyget.se (EIRA)
  # Fritextsökningen döljs då användaren klickar på Dölj
 
-== Utgångsläge ==
-X
+
+== Träfflista ==
+Då användaren har sökt presenteras samtliga träffar i en träfflista.
 
 <br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
-<br>￼ _Figur: Användaren har klickat på fliken Vårdaktörsportalen i Portalen (Bättre koll på jobbet).
+<br>￼ _Figur: Användaren har skrivit in sitt sökord och klickat på Sök-knappen..
 
 *Beskrivning av figur: *
- # X
- # X
- # X
- # X
- # X
- # X
- # X
- # X
+ # Användaren kan välja mellan att se samtliga träffar eller de träffar som finns inom hennes ämnesområden.Som förvalt är Inom mina ämnesområden.
+ # Användaren kan välja hur träffarna ska sorteras. Alternativen antas vara:
+  * Informationstyp = Utifrån de informationstyper används genomgående för hela webbsidan. Förvald.
+  * Källa = Utifrån vilken sida innehållet kommer från.
+  * Högst rankad = Utifrån hur väl andra användare har upplevt träffen hjälper henne (ranking).
+ # Användaren kan filtrera träffarna. Som förvalt kan hon filtrera utifrån informationstyp. 
+ # Användaren kan även välja att filtrera utifrån fler filter än informationstyp. 
+ # Titel, beskrivning, datum för senast uppdaterat och källa presenteras för samtliga träffar.
+
+
+== Fler filter ==
+Då användaren har valt att visa fler filter presenteras samtliga filter i vänsterkolumnen.
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>￼ _Figur: Användaren har klickat på länken Fler filter.
+
+*Beskrivning av figur: *
+ # Samtliga filter presenteras och användaren kan välja att söka utifrån en eller flera av filtren.Då användaren gjort ett val uppdateras träfflistan, möjliga filter med alternativ samt antal träffar för respektive alternativ.
+ # Användaren kan dölja filtren igen. 
+
+Förövrigt ska filtren fungera såsom den lösning som redan finns idag.
+
+
+== Menade du ==
+Då användarens sökord inte genererar några träffar eller då användarens sökord ofta är ett skrivfel för ett annat ord får hon upp en fråga med förslag på ord som hon kanske menade.
+
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>￼ _Figur: Användaren har sökt på ett felaktigt ord alternativt ett ord som är ett skrivfel för ett annat vanligt ord.
+
+*Beskrivning av figur: *
+ # Förslag på ord som användaren kanske menade istället.Om användaren klickar på länken görs en sökning med aktuellt ord som sökkriterium. 
 
 
 <br><br>
