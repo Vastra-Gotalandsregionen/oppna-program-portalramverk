@@ -2,19 +2,22 @@
 
 = Bättre koll på jobbet - Kunskapsstöd, detaljdesign: Externt innehåll =
 
-X
+Med externt innehåll menas då användaren har klickat på information som ligger extern och som vi inte kommer visa direkt i gränssnittet.
 
 <br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
-<br>￼ _Figur: Användaren har öppnat upp en träff och kommit till en samlingssida.
+<br>￼ _Figur: Användaren har klickat på innehåll som ligger externt.
 
 *Beskrivning av figur: *
- # F
- # F
- # F
- # F
- # F
- # F
-
+ # Titeln på informationen presenteras tydligt.
+ # Vidare presenteras även en länk till informationen samt även, om möjligt, egenskaper såsom:
+  * Information om källan
+  * Namn på författaren/författarna. Om personerna finns bland kontakterna på VGR presenteras en länk till kontaktinformationen om författaren.
+  * Datum för då informationen senast uppdaterades
+  * Nyckelord
+  * Kort abstrakt
+  * Vilka som refererat till källan/sparat den som favorit
+  * Omdömen
+  * Referenser som informationen refererar till
 
 
 <br><br>
