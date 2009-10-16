@@ -44,7 +44,7 @@ X
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodFunktioner Funktioner]
    # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodRanking Ranking]
    # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodMarkUt Märkt ut]
-   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodKommentarer Kommentarer]
+   # Kommentarer
    # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodTaggar Taggar]
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodEgnaInstallningar Egna inställningar]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga1Informationsstyrning Bilaga 1: Informationsstyrning]
