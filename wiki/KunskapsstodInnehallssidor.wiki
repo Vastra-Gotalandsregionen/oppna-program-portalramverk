@@ -2,7 +2,7 @@
 
 = Bättre koll på jobbet - Kunskapsstöd, detaljdesign: Innehållssidor =
 
-Förstasidan under den nya fliken syftar till att förenkla för användaren i så hög grad som möjligt när det kommer till att påbörja en sökning. Det ska gå snabbt och enkelt. 
+Presentation av innehåll sker i regel på tre olika sätt i gränssnittet, via samlingssidor, undersidor samt genom att länka till externa sidor.
 
 <br><br>
 *Innehållsförteckning*
