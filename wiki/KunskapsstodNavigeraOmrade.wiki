@@ -2,7 +2,8 @@
 
 = Bättre koll på jobbet - Kunskapsstöd, detaljdesign: Navigera via område/hierarkisk navigering =
 
-Förstasidan under den nya fliken syftar till att förenkla för användaren i så hög grad som möjligt när det kommer till att påbörja en sökning. Det ska gå snabbt och enkelt. 
+För de användare som har mer tid på sig och vill utforska ett helt område kan hon göra detta via den hierarkiska navigeringen.
+
 
 <br><br>
 *Innehållsförteckning*
