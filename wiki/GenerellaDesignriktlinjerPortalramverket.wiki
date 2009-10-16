@@ -66,9 +66,9 @@ En portlet används för att visa information från applikationer, både fristå
 
 
 <br><br>
-*Innehållsförteckning*
- # [http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriktlinjerAnvandargranssnitt Introduktion till interaktionsdesign för portalramverket]
- # Generella designriktlinjer: Portalramverket
+*Innehållsförteckning* (återfinns längst ner på varje sida)
+ # Introduktion till interaktionsdesign för portalramverket
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerPortalramverket?ts=1251969346&updated=GenerellaDesignriktlinjerPortalramverket Generella designriktlinjer: Portalramverket]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerIntegreradApplikation?ts=1251969401&updated=GenerellaDesignriktlinjerIntegreradApplikation Generella designriktlinjer: Integrerad applikation]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerModalDialog?ts=1251969439&updated=GenerellaDesignriktlinjerModalDialog Generella designriktlinjer: Modal dialog]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerPortlet?ts=1251969476&updated=GenerellaDesignriktlinjerPortlet Generella designriktlinjer: Portlet]
@@ -83,7 +83,8 @@ En portlet används för att visa information från applikationer, både fristå
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignInnehall Tillämpade designriktlinjer, Bättre koll på jobbet: Innehåll]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignBeteendeFunktioner Tillämpade designriktlinjer, Bättre koll på jobbet: Beteenden och funktioner]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesign Tillämpade designriktlinjer, Bättre koll på jobbet: Detaljdesign]
- # [http://code.google.com/p/oppna-program-portalramverk/wiki/AnnuInteUtrett?ts=1251892328&updated=AnnuInteUtrett Tillämpade designriktlinjer, Bättre koll på jobbet: Ännu inte utrett]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/AnnuInteUtrett?ts=1251892328&updated=AnnuInteUtrett Tillämpade designriktlinjer, Bättre koll på jobbet: Ännu inte utrett (ej uppdaterad)]
+ # [http://code.google.com/p/oppna-program-portalramverk/wiki/Kunskapsstod Tillämpade designriktlinjer, Bättre koll på jobbet - Kunskapsstöd: Detaljdesign]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga1Informationsstyrning Bilaga 1: Informationsstyrning]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga2AttUtforma Bilaga 2: Att utforma]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga3ExempelProjektEvenemangskalendern Bilaga 3: Exempelprojekt evenemangskalendern]
