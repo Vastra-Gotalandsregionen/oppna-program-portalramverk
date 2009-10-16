@@ -26,7 +26,7 @@ Fritextsöket är det mest viktiga stödet för aktören då hon söker efter in
   * Vårdverktyget.se (EIRA)
  # Fritextsökningen döljs då användaren klickar på Dölj
 
-
+<br>
 == Träfflista ==
 Då användaren har sökt presenteras samtliga träffar i en träfflista.
 
@@ -43,7 +43,7 @@ Då användaren har sökt presenteras samtliga träffar i en träfflista.
  # Användaren kan även välja att filtrera utifrån fler filter än informationstyp. 
  # Titel, beskrivning, datum för senast uppdaterat och källa presenteras för samtliga träffar.
 
-
+<br>
 == Fler filter ==
 Då användaren har valt att visa fler filter presenteras samtliga filter i vänsterkolumnen.
 
@@ -56,7 +56,7 @@ Då användaren har valt att visa fler filter presenteras samtliga filter i vän
 
 Förövrigt ska filtren fungera såsom den lösning som redan finns idag.
 
-
+<br>
 == Menade du ==
 Då användarens sökord inte genererar några träffar eller då användarens sökord ofta är ett skrivfel för ett annat ord får hon upp en fråga med förslag på ord som hon kanske menade.
 
