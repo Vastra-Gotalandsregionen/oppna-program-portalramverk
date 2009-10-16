@@ -2,15 +2,24 @@
 
 = Bättre koll på jobbet - Kunskapsstöd, detaljdesign: Kommentarer =
 
-Funktion som hjälper vårdaktörer att hitta snabbt bland stora mängder av information genom att användaren kan definiera vilken informationstyp hon är intresserad av och vill få utmärkt i gränssnittet. 
+Användarna kan läsa och skriva kommentarer på allt innehåll som presenteras i kunskapsstödet.
 
 
 <br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
-<br>￼ _Figur: Användaren har klickat på fliken Vårdaktörsportalen i prototypen för Bättre koll på jobbet. 
+<br>￼ _Figur: Användaren är inne på någon typ av informationssida som inte kommenterats tidigare.
 
 *Beskrivning av figur: *
- # Visar vilken information användaren har valt att märka ut.
- # Snabblänk som öppnar modal dialog, samma som om användaren går via Egna inställningar, där användaren kan ange vilka informationstyper hon vill ska märkas ut. 
+ # Användaren kan läsa andras kommentarer. För de användare som har tillåtelse (samtliga vårdaktörer?) kan de även skriva kommentarer.
+
+Då det finns en kommentar på ett innehåll ser det ut enligt följande:
+
+<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>￼ _Figur: Det finns en kommentar skriven
+
+*Beskrivning av figur: *
+ # Användaren kan läsa kommentaren som är skriven. Vidare presenteras även:
+  * Vem som skrivit kommentaren (om personen inte valt att vara anonym). Om det är en person som finns bland kontakterna presenteras en länk till sidan där personen presenteras.
+  * När kommentaren är skriven
 
 
 <br><br>
