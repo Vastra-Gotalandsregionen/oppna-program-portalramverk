@@ -2,7 +2,8 @@
 
 = Bättre koll på jobbet - Kunskapsstöd, detaljdesign: Egna inställningar =
 
-Förstasidan under den nya fliken syftar till att förenkla för användaren i så hög grad som möjligt när det kommer till att påbörja en sökning. Det ska gå snabbt och enkelt. 
+Under Mina inställningar/Anpassningar kan användaren välja vilka informationstyper som ska märkas ut i gränssnittet samt vilka ämnesområden som hon vill ha som snabblänkar.
+
 
 <br><br>
 *Innehållsförteckning*
