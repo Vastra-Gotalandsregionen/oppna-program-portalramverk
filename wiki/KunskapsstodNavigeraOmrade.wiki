@@ -1,6 +1,6 @@
-#summary Beskriver designriktlinjer för förstasidan
+#summary Beskriver designriktlinjer för funktionen att navigera via område/hierarkisk navigering
 
-= Bättre koll på jobbet - Kunskapsstöd, detaljdesign: Förstasidan =
+= Bättre koll på jobbet - Kunskapsstöd, detaljdesign: Navigera via område/hierarkisk navigering =
 
 Förstasidan under den nya fliken syftar till att förenkla för användaren i så hög grad som möjligt när det kommer till att påbörja en sökning. Det ska gå snabbt och enkelt. 
 
