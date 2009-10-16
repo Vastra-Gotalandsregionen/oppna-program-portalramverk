@@ -1,0 +1,8 @@
+#summary One-sentence summary of this page.
+
+= Introduktion till tillämpade designriktlinjer, Bättre koll på jobbet - Kunskapsstöd =
+
+De aktuella designriktlinjerna är ett komplement till de designriktlinjer som tidigare tagits fram för Portalen (Bättre koll på jobbet) då de beskriver ett kunskapsstöd för Vårdaktörer. Dokumentationen utgår från de generella riktlinjerna. Se respektive undersida för detaljer.
+
+== Ursprungligt dokument: ==
+[http://oppna-program-portalramverk.googlecode.com/files/Bättre%20koll%20på%20jobbet%20-%20Kunskapsstöd%20-%20interaktionsdesign.pdf Bättre koll på jobbet - Kunskapsstöd - Interaktionsdesign] Det dokument som motsvarar de specifika designriktlinjerna. Utökning av Portalens (Bättre koll på jobbet) funktionalitet med ett kunskapsstöd till vårdaktörerna. <br><br>
