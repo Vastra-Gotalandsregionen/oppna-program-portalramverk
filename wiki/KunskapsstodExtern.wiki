@@ -44,7 +44,7 @@ X
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodInnehallssidor Innehållssidor]
    # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodSamlingssida Samlingssida]
    # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodDirekt Artiklar/Dokument som visas direkt i gränssnittet]
-   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodExtern Externt innehåll]
+   # Externt innehåll
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodFunktioner Funktioner]
   # [http://code.google.com/p/oppna-program-portalramverk/wiki/KunskapsstodEgnaInstallningar Egna inställningar]
  # [http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga1Informationsstyrning Bilaga 1: Informationsstyrning]
