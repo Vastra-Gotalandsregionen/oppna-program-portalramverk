@@ -13,7 +13,11 @@
 	<ul class="lfr-dock-list">
 		#if ($show_home)
 			<li class="home">
-				<a href="$vgr_home_url">$home_text</a>
+                #if ($is_default_user)
+    				<a href="$vgr_home_url_public">$home_text</a>
+    			#else
+                    <a href="$vgr_home_url_private">$home_text</a>
+    			#end
 			</li>
 		#end
 
