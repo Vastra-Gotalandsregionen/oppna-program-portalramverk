@@ -47,7 +47,7 @@ Då användaren har sökt presenteras samtliga träffar i en träfflista.
 == Fler filter ==
 Då användaren har valt att visa fler filter presenteras samtliga filter i vänsterkolumnen.
 
-<br>http://lh6.ggpht.com/_mHREyZKezxI/St14bB-M5kI/AAAAAAAAAgQ/1NnMwF2KfNo/s400/FlerFilter.jpg
+<br>http://lh6.ggpht.com/_mHREyZKezxI/St14bB-M5kI/AAAAAAAAAgQ/1NnMwF2KfNo/s800/FlerFilter.jpg
 <br>￼ _Figur: Användaren har klickat på länken Fler filter.
 
 *Beskrivning av figur: *
