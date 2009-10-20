@@ -4,7 +4,7 @@
 
 För de användare som har mer tid på sig och vill utforska ett helt område kan hon göra detta via den hierarkiska navigeringen.
 
-<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>http://lh5.ggpht.com/_mHREyZKezxI/St14t-tg-qI/AAAAAAAAAg8/iTNRnEyLBLc/s800/Navigering1.jpg
 <br>￼ _Figur: Användaren har klickat på Navigera via område.
 
 *Beskrivning av figur: *
@@ -13,7 +13,7 @@ För de användare som har mer tid på sig och vill utforska ett helt område ka
 
 Då användaren har klickat på någon av alternativen i första nivån presenteras andra nivån automatiskt:
 
-<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>http://lh3.ggpht.com/_mHREyZKezxI/St14uUrYMdI/AAAAAAAAAhA/xgWkWuIPjVk/s800/Navigering2.jpg
 <br>￼ _Figur: Användaren har klickat på Sjukdomar i första nivån.
 
 *Beskrivning av figur: *
@@ -22,7 +22,7 @@ Då användaren har klickat på någon av alternativen i första nivån presente
 
 Användaren kan fortsätta ner i hierarkin på samma sätt:
 
-<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>http://lh6.ggpht.com/_mHREyZKezxI/St14uvteTjI/AAAAAAAAAhE/bPShA8ANmPk/s800/Navigering3.jpg
 <br>￼ _Figur: Användaren har klickat ner sig till sista nivån i strukturen och även valt att visa information.
 
 *Beskrivning av figur: *
@@ -33,7 +33,7 @@ Användaren kan fortsätta ner i hierarkin på samma sätt:
 == Navigering dold ==
 Användaren kan välja att dölja någon av navigeringsmetoderna (fritextsök, navigeringen via område eller associativ navigering.
 
-<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>http://lh4.ggpht.com/_mHREyZKezxI/St14vslMBlI/AAAAAAAAAhI/XbmqRGozUco/s800/NavigeringDold.jpg
 <br>￼ _Figur: Användaren har klickat på länken Dölj ute till höger.
 
 *Beskrivning av figur: *
