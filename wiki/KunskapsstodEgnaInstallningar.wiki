@@ -4,7 +4,7 @@
 
 Under Mina inställningar/Anpassningar kan användaren välja vilka informationstyper som ska märkas ut i gränssnittet, vilka ämnesområden som hon vill ha som snabblänkar samt huruvida hon vill få förklaringar av svåra ord automatiskt i gränssnittet.
 
-<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>http://lh6.ggpht.com/_mHREyZKezxI/St14kS-vIII/AAAAAAAAAgs/yRVisXa3PjA/s800/MinaInstallningar.jpg
 <br>￼ _Figur: Användaren har klickat på Egna inställningar och sedan valt Anpassningar.
 
 *Beskrivning av figur: *
@@ -20,7 +20,7 @@ Under Mina inställningar/Anpassningar kan användaren välja vilka informations
 
 För att ändra ämnesområden under Mina ämnesområden klickar användaren på länken Ändra ämnesområden:
 
-<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>http://lh4.ggpht.com/_mHREyZKezxI/St14knPQagI/AAAAAAAAAg0/vlPVeD2fyYM/s800/MinaInstallningar2.jpg
 <br>￼ _Figur: Användaren har klickat på Ändra ämnesområde.
 
 *Beskrivning av figur: *
@@ -37,7 +37,7 @@ För att ändra ämnesområden under Mina ämnesområden klickar användaren på
 
 Användaren kan ändra inställningar för vilka informationstyper som märks ut genom att klicka på länken Ändra informationstyper:
 
-<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>http://lh6.ggpht.com/_mHREyZKezxI/St14krb2g8I/AAAAAAAAAgw/OWVWhAlSKSw/s800/MinaInstallningar3.jpg
 <br>￼ _Figur: Användaren har klickat på Ändra informationstyper.
 
 *Beskrivning av figur: *
@@ -48,7 +48,7 @@ Användaren kan ändra inställningar för vilka informationstyper som märks ut
 
 För de användare som vill få förklaring av svåra ord direkt i gränssnittet kan hon göra det genom att aktivera funktionen under Ändra ordförklaring:
 
-<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>http://lh4.ggpht.com/_mHREyZKezxI/St14tldk8cI/AAAAAAAAAg4/W_StR-0UZpA/s800/MinaInstallningar4.jpg
 <br>￼ _Figur: Användaren har klickat på Ändra ordförklaring.
 
 *Beskrivning av figur: *
