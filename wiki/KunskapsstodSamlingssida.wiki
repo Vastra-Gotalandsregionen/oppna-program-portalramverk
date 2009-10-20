@@ -4,7 +4,7 @@
 
 Samlingssidan syftar till att ge användaren en god inblick över all information på ämnet utan att exponeras för allt för mycket information. Användaren kan sedan klicka sig ner i strukturen för det hon tycker är relevant och på så sätt få upp detaljer.
 
-<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>http://lh3.ggpht.com/_mHREyZKezxI/St15USpIk0I/AAAAAAAAAhQ/x2Pz_36hFPY/s800/Samlingssida.jpg
 <br>￼ _Figur: Användaren har öppnat upp en träff och kommit till en samlingssida.
 
 *Beskrivning av figur: *
@@ -17,7 +17,7 @@ Samlingssidan syftar till att ge användaren en god inblick över all informatio
 *_ Scrollat _*<br>
 Då användaren scrollar ner på sidan försvinner allt innehåll upp, medan vänsterspalten och funktionerna överst på sidan stannar kvar. Detta för att underlätta för användaren då hon läser stora dokument. 
 
-<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>http://lh6.ggpht.com/_mHREyZKezxI/St15UyKNrVI/AAAAAAAAAhc/vgI3xibh90Q/s800/Samlingssida4.jpg
 <br>￼ _Figur: Användaren har scrollat ner på sidan.
 
 *Beskrivning av figur: *
@@ -27,7 +27,7 @@ Då användaren scrollar ner på sidan försvinner allt innehåll upp, medan vä
 *_ Hoppa till_*<br>
 För att underlätta navigeringen för användarna då sidorna blir långa kan hon ange till var på sidan hon vill hoppa via en meny av innehållstrukturen. Funktionen ska visas på sidan oavsett hur långt ner hon scrollat.
 
-<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>http://lh3.ggpht.com/_mHREyZKezxI/St15UvNbLvI/AAAAAAAAAhU/EixWqAHUd54/s800/Samlingssida2.jpg
 <br>￼ _Figur: Användaren har aktiverat funktionen för att hoppa till innehåll.
 
 *Beskrivning av figur: *
@@ -37,7 +37,7 @@ För att underlätta navigeringen för användarna då sidorna blir långa kan h
 *_ Länkar och funktioner direkt i innehållet _*<br>
 För att hjälpa användaren att hela tiden komma framåt finns länkar till såväl information längre ner i strukturen men även till helt andra ämnesområden som på ett eller annat sätt är relaterade till där användaren är för tillfället (associativa/relaterade). 
 
-<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>http://lh4.ggpht.com/_mHREyZKezxI/St15Um7g08I/AAAAAAAAAhY/UIZ4g_m1kD4/s800/Samlingssida3.jpg
 <br>￼ _Figur: Användaren har öppnat upp en träff och kommit till en samlingssida.
 
 *Beskrivning av figur: *
@@ -52,7 +52,7 @@ För att hjälpa användaren att hela tiden komma framåt finns länkar till så
 == Undersida ==
 Användaren kommer till en undersida då hon klickat ner sig i strukturen från en samlingssida.
 
-<br>http://lh5.ggpht.com/_mHREyZKezxI/Sp0FSqihPuI/AAAAAAAAAC4/E6_s5MPnjds/Picture%2018.png
+<br>http://lh5.ggpht.com/_mHREyZKezxI/St15eUCSDEI/AAAAAAAAAhg/6UxjW35cChA/s800/Samlingssida5.jpg
 <br>￼ _Figur: Användaren har valt Symtom, antingen genom att välja i innehållsstrukturen ute till vänster eller klickat på länken Läs mer till höger om rubriken Symtom.
 
 *Beskrivning av figur: *
