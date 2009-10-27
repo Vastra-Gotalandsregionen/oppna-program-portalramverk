@@ -29,7 +29,7 @@
 
 		#if ($show_sign_in)
 			<li class="sign-in">
-				<a href="$sign_in_url">$sign_in_text</a>
+				<a href="$vgr_home_url_public">$sign_in_text</a>
 			</li>
 		#end
 
