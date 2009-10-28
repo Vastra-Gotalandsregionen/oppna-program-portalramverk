@@ -13,5 +13,10 @@
       <wap-template-path>/layouttpl/vgr_theme_template_80_20.wap.tpl</wap-template-path>
       <thumbnail-path>/layouttpl/vgr_theme_template_80_20.png</thumbnail-path>
     </layout-template>
+      <layout-template id="vgr_theme_template_2_2_1" name="VGR - 3 Columns (2/2/1)">
+        <template-path>/layouttpl/vgr_theme_template_2_2_1.tpl</template-path>
+        <wap-template-path>/layouttpl/vgr_theme_template_2_2_1.wap.tpl</wap-template-path>
+        <thumbnail-path>/layouttpl/vgr_theme_template_2_2_1.png</thumbnail-path>
+      </layout-template>
   </custom>
 </layout-templates>
