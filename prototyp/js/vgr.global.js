@@ -103,6 +103,9 @@ VGR.ajaxDialog = function() {
 		if (o.responseText !== undefined) {
 			oDialog.setBody(o.responseText);
 			oDialog.render();
+    	 	if (/#$/.test(oDialog.form.action)) {
+    	 	    oDialog.form.action = '' + window.location.protocol + '//' + window.location.hostname + window.location.pathname;
+    	 	}
 			if (config.sDialogInit) {
 				config.sDialogInit();
 			}
@@ -138,6 +141,7 @@ VGR.ajaxDialog = function() {
 		var oDialogContainer = document.createElement('div');
 		oDialogContainer.id = config.sDialogContainerId;
 		oCont.insertBefore(oDialogContainer, oCont.firstChild);
+		sActionURL = document.location.href;
 		oDialog = new YAHOO.widget.Dialog(oDialogContainer, {
 				width:config.sDialogWidth,
 				fixedcenter:true,
@@ -161,11 +165,13 @@ VGR.ajaxDialog = function() {
 		var oLink, sUrl, callback, request;
 		for (var i=0, l=dialogLinks.length; i<l; i++) {
 			oLink = dialogLinks[i];
+			oLink.dialogInit = config.sDialogInit;
 			YUE.addListener(oLink, 'click',	function(e) {
 				YUE.preventDefault(e);
 				sUrl = this.href;
 				// The dialog's header text is taken from the link's title attribute.
 				oDialog.setHeader(this.title || config.sDialogHeader);
+				config.sDialogInit = this.dialogInit;
 				callback = {
 					success:handleSuccess,
 					failure:handleFailure
@@ -188,7 +194,14 @@ VGR.ajaxDialog = function() {
  */
 VGR.Effect = function(el) {
 	this.oEl = YAHOO.util.Dom.get(el);
-	this.height = parseInt(YAHOO.util.Dom.getStyle(this.oEl,'height'), 10);
+    var curHeight;
+    var height = YAHOO.util.Dom.getStyle(this.oEl,'height');
+    if (height==='auto') {
+        curHeight = this.oEl.offsetHeight;
+    } else {
+        curHeight = Math.max(parseInt(height, 10),this.oEl.offsetHeight);
+    }
+    this.height = curHeight;
 	this.width = parseInt(YAHOO.util.Dom.getStyle(this.oEl,'width'), 10);
 	if (isNaN(this.height)) {
 		this.height = this.oEl.offsetHeight;
@@ -225,17 +238,24 @@ VGR.Effect.prototype.BlindDown = function(iTimer, onComplete) {
 	this.oEl.style.left = '-9999px';
 	this.oEl.style.visibility = 'hidden';
 	this.oEl.style.overflow = 'hidden';
-	this.oEl.style.height = '';
-	var height = parseInt(YAHOO.util.Dom.getStyle(this.oEl,'height'), 10);
-	if (isNaN(height)) {
-		height = this.oEl.offsetHeight;
-	}
+    if (this.height == 0) {
+        YAHOO.util.Dom.removeClass('hidden', this.oEl);
+        var curHeight;
+        var height = YAHOO.util.Dom.getStyle(this.oEl,'height');
+        if (height==='auto') {
+            curHeight = this.oEl.offsetHeight;
+        } else {
+            curHeight = Math.max(parseInt(height, 10),this.oEl.offsetHeight);
+        }
+        this.height = curHeight;
+        YAHOO.util.Dom.addClass('hidden', this.oEl);
+    }
 	this.oEl.style.height = '0';
 	this.oEl.style.position = 'static';
 	this.oEl.style.left = '';
 	this.oEl.style.visibility = 'visible';
 	var timer = iTimer || 1;
-	var blind = new YAHOO.util.Anim(this.oEl, { height: { to:height, from:0} }, timer, YAHOO.util.Easing.easeOut);
+	var blind = new YAHOO.util.Anim(this.oEl, { height: { to:this.height, from:0} }, timer, YAHOO.util.Easing.easeOut);
 	if (onComplete) {
 		blind.onComplete.subscribe(onComplete);
 	}
@@ -258,6 +278,10 @@ VGR.Toggler = function(trigger, target, props) {
 		sOpenClass:'open',
 		sClosedClass:'closed',
 		bAnimated:true,
+		bSeparateLink:false, // Create a separate link for toggling
+		sTriggerClass:'trigger', // Classname for the toggling link
+		sMoreText:'Läs mer', // Text for the link that leads to the original URL
+		sMoreClass:'more', // Classname for the link that leads to the original URL
 		fSpeed:0.5
 	};
 	for (key in props) {
@@ -281,18 +305,38 @@ VGR.Toggler = function(trigger, target, props) {
 VGR.Toggler.prototype.init = function() {
 	if (!VGR.browserOK) { return; }
 	var self = this;
-	this.isClosed = YAHOO.util.Dom.hasClass(this.oTarget, this.config.sHiddenClass);
-	YAHOO.util.Dom.addClass(this.oTrigger, this.isClosed ? this.config.sClosedClass : this.config.sOpenClass);
+	var YUD = YAHOO.util.Dom;
+	var YUE = YAHOO.util.Event;
+	this.isClosed = YUD.hasClass(this.oTarget, this.config.sHiddenClass);
+	YUD.addClass(this.oTrigger, this.isClosed ? this.config.sClosedClass : this.config.sOpenClass);
 	var oLink = document.createElement('a');
-	oLink.href = '#';
-	while (this.oTrigger.childNodes.length > 0) {
-		oLink.appendChild(this.oTrigger.firstChild);
-	}
-	this.oTrigger.appendChild(oLink);
-	YAHOO.util.Event.addListener(oLink, 'click', function(e) {
-		YAHOO.util.Event.preventDefault(e);
-		self.Toggle();
-	});
+    var currLink = YUD.getFirstChildBy(this.oTrigger, function(el){ return el.tagName.toUpperCase() == 'A';});
+	if (this.config.bSeparateLink && currLink) {
+	    // Create separate links if the trigger element contains a link
+	    oLink.href = currLink.href;
+	    oLink.onclick = currLink.onclick; // Copy event handlers for onclick
+	    currLink.href = '#';
+	    YUD.addClass(currLink, this.config.sTriggerClass);
+	    oLink.className = this.config.sMoreClass;
+	    oLink.appendChild(document.createTextNode(this.config.sMoreText));
+    	this.oTrigger.appendChild(oLink);
+    	currLink.onclick = null;
+    	YUE.addListener(currLink, 'click', function(e) {
+    		YUE.preventDefault(e);
+    		self.Toggle();
+    	});
+    } else {
+    	oLink.href = '#';
+	    YUD.addClass(oLink, this.config.sTriggerClass);
+    	while (this.oTrigger.childNodes.length > 0) {
+    		oLink.appendChild(this.oTrigger.firstChild);
+    	}
+    	this.oTrigger.appendChild(oLink);
+    	YUE.addListener(oLink, 'click', function(e) {
+    		YUE.preventDefault(e);
+    		self.Toggle();
+    	});        
+    }
 };
 /**
  * Checks which state the togglable element is in and changes it.
@@ -314,10 +358,10 @@ VGR.Toggler.prototype.Toggle = function() {
 VGR.Toggler.prototype.Expand = function() {
 	var self = this;
 	if (!self.animationActive) {
-		self.animationActive = true;
 		YAHOO.util.Dom.replaceClass(self.oTrigger, this.config.sClosedClass, this.config.sOpenClass);
 		YAHOO.util.Dom.removeClass(self.oTarget, this.config.sHiddenClass);
 		if (this.config.bAnimated) {
+		    self.animationActive = true;
 			this.effect.BlindDown(this.config.fSpeed, function() {
 				self.animationActive = false;
 			});
@@ -529,6 +573,33 @@ VGR.linkInfo = function() {
 }();
 
 /**
+ * Disable submit on forms with action="inactive"
+ */
+VGR.inactiveForms = function() {
+	var YUE = YAHOO.util.Event;
+	var YUD = YAHOO.util.Dom;
+	var config = {
+		reAction: /inactive$/
+	};
+	function init() {
+		if (!VGR.browserOK) { return; }
+		var forms = YUD.getElementsBy(
+		    function (el) { return config.reAction.test(el.action); },
+		    'form',
+		    document,
+		    function (el) {
+		        YUE.addListener(el, 'submit', function(e) {
+                    YUE.preventDefault(e);
+		        });
+		    }
+		);
+	}
+	return {
+		init:init
+	};
+}();
+
+/**
  * Initialise scripts when the DOM is ready
  * @requires YAHOO.util.Event
  * @requires VGR
@@ -536,4 +607,5 @@ VGR.linkInfo = function() {
 YAHOO.util.Event.onDOMReady(function() {
 	VGR.clearCookies.init();
 	VGR.linkInfo.init();
+	VGR.inactiveForms.init();
 });

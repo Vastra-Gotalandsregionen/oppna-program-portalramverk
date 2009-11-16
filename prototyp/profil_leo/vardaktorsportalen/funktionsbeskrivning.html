@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sv" lang="sv">
+<head profile="http://dublincore.org/documents/dcq-html/">
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<title>Funktionsbeskrivning av prototyp - Vårdaktörsportalen VGR (Prototyp)</title>
+
+	<!-- Meta data -->
+	<meta name="keywords" content="relevant keywords for this page" />
+	<meta name="description" content="A brief description of this page's content." />
+	<meta name="robots" content="noindex" />
+
+	<!-- Dublin Core meta data -->
+	<link rel="schema.DC" href="http://purl.org/DC/elements/1.1/" />
+	<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+	<meta name="DC.title" content="Dokumentets titel" />
+	<meta name="DC.identifier" scheme="DCTERMS.URI" content="http://vgregion.se/url-till-dokumentet/" />
+	<meta name="DC.creator" content="Dokumentets skapare" />
+	<meta name="DC.publisher" content="Organisationens namn" />
+	<meta name="DC.description" content="En kort beskrivning av dokumentets syfte och innehåll." />
+	<meta name="DCTERMS.modified" scheme="DCTERMS.W3CDTF" content="YYYY-MM-DD" />
+	<meta name="DCTERMS.created" scheme="DCTERMS.W3CDTF" content="YYYY-MM-DD" />
+	<meta name="DC.type" scheme="DCTERMS.DCMIType" content="Text" />
+	<meta name="DC.format" scheme="DCTERMS.IMT" content="text/html" />
+
+	<!-- Shortcut icon -->
+	<link rel="shortcut icon" href="../../i/favicon.ico" type="image/ico" />
+
+	<!-- CSS, hidden from old browsers, including IE/Mac -->
+	<style type="text/css" media="screen,projection">
+		@import '../../css/grids-min.css'; /* YUI Grids CSS */
+		@import '../../css/main.css'; /* Global CSS */
+		/* CSS för YUI-widgets */
+		@import '../../js/yui/assets/container.css'; /* Dialoger */
+		@import '../../js/yui/assets/skins/vgr/container.css'; /* Dialoger */
+		@import '../../js/yui/assets/skins/vgr/autocomplete.css'; /* Autocomplete */
+	</style>
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" href="../../css/ie.css" type="text/css" media="screen" />
+	<![endif]-->
+	<link rel="stylesheet" href="../../css/print.css" type="text/css" media="print" />
+
+	<!-- JavaScript -->
+	<script type="text/javascript" src="../../js/yui/utilities.js"></script>
+	<script type="text/javascript" src="../../js/yui/container-min.js"></script>
+	<script type="text/javascript" src="../../js/yui/tabview-min.js"></script>
+	<script type="text/javascript" src="../../js/yui/datasource-min.js"></script>
+	<script type="text/javascript" src="../../js/yui/autocomplete-min.js"></script>
+	<script type="text/javascript" src="../../js/vgr.global.js"></script>
+	<script type="text/javascript" src="../../js/vgr.vardaktorsportalen.js"></script>
+</head>
+<body class="yui-skin-vgr">
+<div id="doc3" class="yui-t5">
+	<div id="hd">
+		<div id="skip"><a href="#yui-main" accesskey="s">Hoppa till sidans huvudinnehåll</a></div>
+		<a href="../index.html" id="logo"><img src="../../i/logo.gif" alt="Västra Götalandsregionen" /></a>
+		<form method="get" action="../hitta/traffar.html" id="search" class="form-general search-module">
+			<div class="text">
+				<label for="searchtext" class="structural">Sök:</label>
+				<input type="text" id="searchtext" name="searchtext" accesskey="4" size="20" />
+			</div>
+			<div class="submit-area">
+				<input type="submit" value="Sök" />
+			</div>
+		</form>
+		<p id="login-status" class="logged-in">Inloggad som Leo Andersson <a href="../../index.html">Logga ut</a></p>
+		<div id="nav" class="clearfix">
+			<p class="structural"><strong>Huvudnavigering</strong></p>
+			<ul id="nav-main">
+				<li id="tab-start"><a href="../index.html" accesskey="1">Start</a></li>
+				<li id="tab-mitt-jobb"><a href="../mitt_jobb/index.html">Mitt jobb</a></li>
+				<li id="tab-system-x"><a href="../vard/patientoversikt.html">Vård</a></li>
+				<li id="tab-vardaktorsportalen" class="sel"><a href="index.html" class="sel">Vårdaktörsportalen</a></li>
+				<li id="tab-hitta"><a href="../hitta/index.html">Hitta</a></li>
+				<li id="tab-installningar"><a href="../installningar/index.html">Egna inställningar</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="bd">
+		<div id="yui-main">
+			<div class="yui-b">
+				<div class="yui-g">
+					<h1>Funktionsbeskrivning av sidor i denna prototyp</h1>
+					<p>Här beskrivs innehåll och funktionalitet på de olika sidor inom Vårdaktörsportalen som finns med i denna prototyp.</p>
+					<h2>Generell funktionalitet</h2>
+					<p>Följande finns på de flesta sidor:</p>
+					<ul>
+						<li><strong>Markerade informationstyper:</strong> Visar vilka informationstyper man har valt att framhäva visuellt. Det går att ändra informationstyper i dialogrutan som visas när man klickar på länken "Ändra" (dock ej ”Alla” och de som ligger på nivån under "Behandling", alltså "PM" med flera). De ändringar man gör slår igenom och följer med vid fortsatt navigering. Några informationstyper är förvalda för att det ska se ut som att man har varit inne i portalen tidigare.</li>
+						<li><strong>Sök, Navigera via ämnesområde och Associativ navigering:</strong> Sök- och navigeringsfältet går att förminska och förstora med hjälp av länken "Dölj". Det går att byta mellan de olika navigeringssätten.</li>
+						<li><strong>Fritextsök:</strong> Överallt där fritextsöken visas kan man demonstrera autocompletefunktionen genom att börja skriva in "d". Endast ord som börjar på d finns med. Om man skriver in "diabetesretiopati" (observera felstavningen) och klickar på "Sök" kommer man till en sida med "Menade du…"-funktion. Skriver man något annat kommer man till en sökresultatsida för "diabetesretinopati".</li>
+					</ul>
+
+					<h2><a href="index.html">Startsidan</a></h2>
+					<p>Under listan ”Mina ämnesområden” kan man klicka på ”Ändra ämnesområden” för att visa en dialog där man kan lägga till och ta bort ämnesområden man är intresserad av. Textfältet i dialogrutan har autocompletefunktion. De ändringar man gör här får ingen effekt på innehållet i prototypen utan är enbart för att visa på möjligheten.</p>
+
+					<h2><a href="sokresultat-menade-du.html">Sökresultat, ”Menade du…”</a></h2>
+					<p>Denna sida visas om man skriver in ”diabetesretiopati” i sökfältet. Länken ”diabetesretinopati” leder till samma sökresultatsida som visas om man har skrivit in något annat.</p>
+
+					<h2><a href="sokresultat-mina.html">Sökresultat, mina områden</a></h2>
+					<p>Visas när man klickar på ”Sök”. Listar sökresultat per informationstyp, avgränsat till de ämnesområden man har valt.</p>
+					<p>I sökresultatlistningen kan man klicka på rubriken för respektive informationstyp för att dölja eller visa dess tillhörande sökträffar. Om man har valt att markera en eller flera informationstyper är alla andra utom de informationstyperna dolda när sidan laddas. Om man klickar på ”Ändra” efter ”Markerade informationstyper” och gör ändringar slår dessa igenom när man klickar på ”Spara &amp; stäng”.</p>
+					<p>”Filtrera sökträffar” följer bara med till webbläsarfönstrets övre kant om man scrollar sidan nedåt. Om filterlistan är längre än fönstret är högt scrollar den med hela tiden för att undvika att vissa delar av den blir omöjliga att nå.</p>
+					<p>Under ”Filtrera sökträffar” är länken ”Behandling” aktiv och leder till en sida som visar enbart sökresultaten för den informationstypen.</p>
+					<p>Nedanför informationstyperna finns länken ”Visa fler filter”. Den leder till en likadan sökresultatsida med fler filtreringsmöjligheter.</p>
+					<p>Ovanför sökresultaten finns en selectmeny för sortering av sökresultaten. Den är inte aktiv i prototypen, men man kan öppna den och visa att möjligheten kommer att finnas.</p>
+					<p>Klickbara länkar i sökresultaten är dessa:</p>
+					<ul>
+						<li>Behandling
+							<ul>
+								<li>Vårdprogram diabetes – sena komplikationer, ögon</li>
+								<li>Diabetes – individuell vårdöverenskommelse</li>
+								<li>Nationella riktlinjer för diabetesvården</li>
+							</ul>
+						</li>
+						<li>Vetenskapliga artiklar
+							<ul>
+								<li>Blodsockerkontroll för diabetespatienter viktigare än man trott</li>
+							</ul>
+						</li>
+						<li>Patientinformation
+							<ul>
+								<li>Diabetes typ 1/ Komplikationer och följdsjukdomar</li>
+								<li>Ögonundersökning/ Varför görs undersökningen?</li>
+							</ul>
+						</li>
+					</ul>
+
+					<h2><a href="sokresultat-alla.html">Sökresultat, alla områden</a></h2>
+					<p>Samma funktionalitet som ”Sökresultat, mina områden” men med fler träffar.</p>
+
+					<h2><a href="sokresultat-mina-fler-filter.html">Sökresultat, fler filter (mina områden)</a></h2>
+					<p>Samma innehåll som ”Sökresultat, mina områden” (eller ”Sökresultat, alla” om det är därifrån man kommer). Skillnaden är att fler filtertyper visas under informationstyperna. Ingen av dessa länkar är aktiv i prototypen.</p>
+					<p>Länken ”Visa färre filter” leder tillbaka till den sökresultatsida man kom ifrån.</p>
+
+					<h2><a href="sokresultat-alla-fler-filter.html">Sökresultat, fler filter (alla områden)</a></h2>
+					<p>Samma funktionalitet som ”Sökresultat, fler filter (mina områden)” men med fler träffar.</p>
+
+					<h2><a href="sokresultat-mina-behandling.html">Sökresultat för ”diabetesretinopati” i informationstypen ”Behandling”</a></h2>
+					<p>Visar enbart träffar inom informationstypen ”Behandling”.</p>
+					<p>Eftersom endast en informationstyp visas finns här ingen möjlighet att dölja eller visa sökresultaten.</p>
+					<p>Länken ”Visa fler filter” är inaktiv här.</p>
+					<p>Länken ”Visa alla informationstyper” leder tillbaka till ”Sökresultat, mina områden”.</p>
+
+					<h2><a href="undersida-vardprogram-diabetes.html">Vårdprogram diabetes – sena komplikationer, ögon</a></h2>
+					<p>Här finns ett dokument som visas i sin helhet i portalens gränssnitt.</p>
+					<p>Under huvudrubriken finns funktioner för att hoppa direkt till ett avnsitt på sidan, öppna en kopia av sidan i ett nytt fönster och för att bokmärka, dela med sig av sidan. Hoppa till avsnitt och öppna i nytt fönster är aktiva, men bokmärkningen är bara i demosyfte.</p>
+					<p>Länkarna i dokumentet är aktiva och leder till externa webbplatser.</p>
+					<p>Direkt efter dokumentet finns ”Etiketter” med länken ”Föreslå etiketter”. Klickar man på den visas ett formulär där man kan skriva in förslag. Inget händer när man klickar på skicka.</p>
+					<p>Sist på sidan följer kommentarer samt ett formulär för att skriva en egen kommentar. Inget händer när man klickar på ”Lägg till kommentar”.</p>
+
+					<h2><a href="undersida-extern-individuell-vardoverenskommelse.html">Diabetes - Individuell vårdöverenskommelse</a></h2>
+					<p>Denna sida visar hur ett extern dokument sammanfattas och länkas till i portalen. Fulltextlänken är aktiv liksom länken till Stig Attvall, en av författarna.</p>
+					<p>Etiketter och kommentarer enligt ”Vårdprogram diabetes – sena komplikationer, ögon”.</p>
+
+					<h2><a href="undersida-extern-forebygga-diabeteskomplikationer.html">Nationella riktlinjer för diabetesvården</a></h2>
+					<p>Se ”Diabetes - Individuell vårdöverenskommelse”.</p>
+
+					<h2><a href="undersida-extern-blodsockerkontroll.html">Blodsockerkontroll för diabetespatienter viktigare än man trott</a></h2>
+					<p>Se ”Diabetes - Individuell vårdöverenskommelse”.</p>
+
+					<h2><a href="undersida-extern-diabetes-komplikationer.html">Diabetes typ 1/ Komplikationer och följdsjukdomar</a></h2>
+					<p>Se ”Diabetes - Individuell vårdöverenskommelse”.</p>
+
+					<h2><a href="undersida-extern-diabetes-ogonundersokning.html">Ögonundersökning/ Varför görs undersökningen?</a></h2>
+					<p>Se ”Diabetes - Individuell vårdöverenskommelse”.</p>
+
+					<h2><a href="omradesnavigering.html">Navigera via ämnesområde</a></h2>
+					<p>Samma innehåll som startsidan, men formuläret för fritextsökning är ersatt med en länklista. Den enda aktiva länken i listan är ”Sjukdomar”.</p>
+
+					<h2><a href="omradesnavigering-2.html">Navigera via ämnesområde, Sjukdomar</a></h2>
+					<p>Länklista i två nivåer. Den enda aktiva länken i nivå 2 är ”Endokrina sjukdomar”.</p>
+
+					<h2><a href="omradesnavigering-3.html">Navigera via ämnesområde, Sjukdomar, Endokrina sjukdomar</a></h2>
+					<p>Länklista i tre nivåer. Den enda aktiva länken i nivå 3 är ”Diabetes”. Man kan klicka dels på namnet eller pilen för att navigera ner ytterligare en nivå, dels på den streckade symbolen till vänster om pilen för att ladda den information som finns på denna nivå. Man kommer då till ”Navigera via ämnesområde, Sjukdomar, Endokrina sjukdomar, Diabetes (med information)”.</p>
+
+					<h2><a href="omradesnavigering-4.html">Navigera via ämnesområde, Sjukdomar, Endokrina sjukdomar, Diabetes</a></h2>
+					<p>Länklista i fyra nivåer. Den enda aktiva länken i nivå 4 är ”Typ 2”.</p>
+
+					<h2><a href="omradesnavigering-3b.html">Navigera via ämnesområde, Sjukdomar, Endokrina sjukdomar, Diabetes (med information)</a></h2>
+					<p>Som ovan men med informationsinnehåll grupperat efter informationstyp. Som på sökresultatsidan kan man dölja informationen inom enskilda informationstyper, och om man har valt att markera vissa informationstyper är övriga dolda (ihopfällda) när sidan laddas.</p>
+
+					<h2><a href="omradesnavigering-5.html">Navigera via ämnesområde, Sjukdomar, Endokrina sjukdomar, Diabetes, Diabetes Typ 2</a></h2>
+					<p>Som ovan men med information om Diabetes Typ 2.</p>
+
+					<h2><a href="associativ-navigering.html">Associativ navigering</a></h2>
+					<p>Visar ett ”proof-of-concept” för associativ navigering. Den är lite rörig eftersom det är så mycket information, men den fungerar. Det går att klicka sig fram till samma information som när man navigerar via ämnesområde: ”Sjukdomar” - ”Endokrina sjukdomar” - ”Diabetes” - ”Diabetes Typ 2”. Det går också att klicka på de streckade symbolerna för att komma till motsvarande sida som ”Navigera via ämnesområde, Sjukdomar, Endokrina sjukdomar, Diabetes, Diabetes Typ 2” men med den associativa navigeringen i stället.</p>
+
+					<h2><a href="associativ-navigering-diabetes.html">Navigera via ämnesområde, Sjukdomar, Endokrina sjukdomar, Diabetes, Diabetes Typ 2 (via associativ navigering)</a></h2>
+					<p>”Navigera via ämnesområde, Sjukdomar, Endokrina sjukdomar, Diabetes, Diabetes Typ 2” men med den associativa navigeringen i stället.</p>
+
+					<h2><a href="../installningar/anpassningar.html">Inställningar - anpassningar</a></h2>
+					<p>Inställningssida för Vårdaktörsportalen. Nås via ”Egna inställningar” - ”Anpassningar” i huvudmenyn.</p>
+					<p>När man klickar på någon av ”Ändra”-länkarna visas en dialogruta för respektive inställning.</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

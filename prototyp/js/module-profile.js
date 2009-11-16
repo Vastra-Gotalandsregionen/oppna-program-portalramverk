@@ -97,8 +97,9 @@ VGR.updateOptions = function() {
 YAHOO.util.Event.onDOMReady(function() {
 	if (!VGR.browserOK) { return; }
 	var YUD = YAHOO.util.Dom;
-	// Initialise a modal dialog
-	VGR.ajaxDialog.init('module-profile', {sDialogInit:VGR.updateOptions.init});
+	// Initialise modal dialogs
+	VGR.ajaxDialog.init('module-profile-1', {sDialogInit:VGR.updateOptions.init});
+	VGR.ajaxDialog.init('module-profile-3', {sDialogInit:null});
 	// Initialise togglable elements
 	var oCont = document.getElementById('module-profile');
 	var oTriggers = YUD.getElementsByClassName('foldable', 'h2', oCont);
