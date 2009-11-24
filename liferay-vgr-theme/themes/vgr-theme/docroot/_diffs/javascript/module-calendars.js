@@ -72,6 +72,9 @@ VGR.calendar = function() {
 		var selYear = document.getElementById(config.sYearId);
 		var selMonth = document.getElementById(config.sMonthId);
 		var selDay = document.getElementById(config.sDayId);
+		// Check first if container exists, otherwise YAHOO.widget.Calendar will fail
+		var container = YAHOO.util.Dom.get(config.sCalendarContainerId);
+		if (!container) { return; }
 		VGR.calendar.cal1 = new YAHOO.widget.Calendar("cal1", config.sCalendarContainerId, {
 			LOCALE_WEEKDAYS:'short',
 			// First day of week is Monday

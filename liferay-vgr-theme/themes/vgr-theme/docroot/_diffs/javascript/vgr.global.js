@@ -490,7 +490,9 @@ VGR.accordion = function() {
 VGR.clearCookies = function() {
 	function init() {
 		if (!VGR.browserOK) { return; }
-		var loginLink = document.getElementById('login-status').getElementsByTagName('a')[0];
+		var loginStatus = document.getElementById('login-status');
+		if (!loginStatus) { return; }
+		var loginLink = loginStatus.getElementsByTagName('a')[0];
 		if (!loginLink) { return; }
 		YAHOO.util.Event.addListener(loginLink,'click', function() {
 			VGR.cookies.deleteCookie("readEmail","/");
