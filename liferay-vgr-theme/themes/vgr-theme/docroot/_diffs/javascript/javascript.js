@@ -29,6 +29,7 @@ function() {
         loadjscssfile("/vgr-theme/javascript/yui/dom-min.js", "js");  
 	loadjscssfile("/vgr-theme/javascript/yui/utilities.js", "js");		
 	loadjscssfile("/vgr-theme/javascript/yui/yahoo-dom-event.js", "js");		
+        loadjscssfile("/vgr-theme/javascript/yui/element-beta-min.js", "js");
         loadjscssfile("/vgr-theme/javascript/yui/container-min.js", "js");
         loadjscssfile("/vgr-theme/javascript/yui/event-min.js", "js");
         loadjscssfile("/vgr-theme/javascript/yui/connection.js", "js");
