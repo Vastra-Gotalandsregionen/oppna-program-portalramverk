@@ -26,17 +26,20 @@ jQuery(document).last(
 function() {
     // Load custom VGR scripts
         loadjscssfile("/vgr-theme/javascript/yui/yahoo-min.js", "js");	
-		loadjscssfile("/vgr-theme/javascript/yui/utilities.js", "js");		
-		loadjscssfile("/vgr-theme/javascript/yui/yahoo-dom-event.js", "js");		
+        loadjscssfile("/vgr-theme/javascript/yui/dom-min.js", "js");  
+	loadjscssfile("/vgr-theme/javascript/yui/utilities.js", "js");		
+	loadjscssfile("/vgr-theme/javascript/yui/yahoo-dom-event.js", "js");		
         loadjscssfile("/vgr-theme/javascript/yui/container-min.js", "js");
+        loadjscssfile("/vgr-theme/javascript/yui/event-min.js", "js");
+        loadjscssfile("/vgr-theme/javascript/yui/connection.js", "js");
         loadjscssfile("/vgr-theme/javascript/yui/tabview-min.js", "js");        
-		loadjscssfile("/vgr-theme/javascript/yui/calendar-min.js", "js");		
+	loadjscssfile("/vgr-theme/javascript/yui/calendar-min.js", "js");		
         loadjscssfile("/vgr-theme/javascript/login.js", "js");        
-		loadjscssfile("/vgr-theme/javascript/vgr.global.js", "js");
-		loadjscssfile("/vgr-theme/javascript/module-address-book.js", "js");
+	loadjscssfile("/vgr-theme/javascript/vgr.global.js", "js");
+	loadjscssfile("/vgr-theme/javascript/module-address-book.js", "js");
         loadjscssfile("/vgr-theme/javascript/module-calendar-full.js", "js");		
-		loadjscssfile("/vgr-theme/javascript/module-calendar.js", "js");
-		loadjscssfile("/vgr-theme/javascript/module-calendars.js", "js");        
+	loadjscssfile("/vgr-theme/javascript/module-calendar.js", "js");
+	loadjscssfile("/vgr-theme/javascript/module-calendars.js", "js");        
         loadjscssfile("/vgr-theme/javascript/module-messages.js", "js");
         loadjscssfile("/vgr-theme/javascript/module-profile.js", "js");
         loadjscssfile("/vgr-theme/javascript/module-search-filter.js", "js");
