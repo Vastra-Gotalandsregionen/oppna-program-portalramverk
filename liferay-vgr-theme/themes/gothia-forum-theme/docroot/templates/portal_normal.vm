@@ -136,10 +136,6 @@ $theme.include($top_messages_include)
 					$velocityPortletPreferences.reset()
 				#end
 			</div>
-
-			#if ($has_navigation)
-				#parse ("$full_templates_path/bottom_navigation.vm")
-			#end
 		</div>
 	</div>
 		</div>
