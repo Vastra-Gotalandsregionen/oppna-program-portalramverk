@@ -67,7 +67,7 @@ body #content-wrapper {
 /* Navigation */
 
 #navigation {
-	background: url(../images/custom/bg.png) no-repeat;
+	background: url(http://www.fou.nu/info/dir/page/161/TopMenu_bg.gif) no-repeat;
 	border: none;
 	height: 25px;
 	line-height: 1;
@@ -85,12 +85,15 @@ body #content-wrapper {
 }
 
 #navigation li {
-	background: none;
-	border: none;
-	border-right: 1px solid #1F242A;
-	height: 11px;
-	margin: 0;
-	padding: 7px 25px;
+    float: left;
+    list-style-type: none;
+    position: relative;
+    list-style-position: outside;
+    background-image: url(http://www.fou.nu/info/dir/page/161/TopMenu_separator.gif);
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 25px;
+
 }
 
 #navigation li:hover {
@@ -120,16 +123,16 @@ body #content-wrapper {
 }
 
 #navigation li a {
-	background: none;
-	color: #B4C1C9;
-	font-size: 11px;
-	font-weight: bold;
-	padding: 0;
+	color: #333333;
+    display: block;
+    float: left;
+	font-size: 1.15em;
+    height: 25px;
+	padding: 0.2em 1em 0 0.8em;
 	text-decoration: none;
 }
 
 #navigation li a span {
-	background: none;
 	padding: 0;
 }
 
@@ -144,7 +147,7 @@ body #content-wrapper {
 }
 
 #navigation ul li.selected {
-	background: #1F242A url(../images/custom/bullet_selected.png) no-repeat 12px 50%;
+	background: #000000 url(../images/custom/bullet_selected.png) no-repeat 12px 50%;
 }
 
 .ie6 #navigation li.selected {
@@ -161,7 +164,7 @@ body #content-wrapper {
 
 #navigation li.selected a {
 	background: none;
-	color: #FFF;
+	color: #333333;
 	padding: 0;
 }
 
