@@ -5,7 +5,7 @@
 	<compatibility>
 		<version>5.2.0+</version>
 	</compatibility>
-	<theme id="liferay-jedi" name="Liferay Jedi">
+	<theme id="liferay-jedi" name="Gothia Forum Tema">
 		<settings>
 			<setting key="css-template-id" value="CSS-TEMPLATE" />
 			<setting key="footer-article-id" value="4280" />

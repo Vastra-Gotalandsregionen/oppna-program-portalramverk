@@ -2,7 +2,7 @@
  *             --- CSS Generator (c)2004 e-rixon.com/Hans Eriksson ---
  * Generator: e-rixon.com information system ver 3.4.1, see http://www.e-rixon.com
  * Datetime: 2010-01-21 14:17:57
- * Page: (161) Gothia Forum för klinisk forskning | Site: www.fou.nu | Link: GothiaForumVGR
+ * Page: (161) Gothia Forum fï¿½r klinisk forskning | Site: www.fou.nu | Link: GothiaForumVGR
  * Font: () Arial, Helvetica, sans-serif
  */
 
@@ -276,8 +276,8 @@
   .csstabhidden {
    background-color: #acacac ! important;
   }
- /* länkar */
-  /* stödfunktioner */
+ /* lï¿½nkar */
+  /* stï¿½dfunktioner */
 
   .numbers{
    text-align: right !important;
@@ -1581,11 +1581,11 @@ body {
 
   
 
-  background-image:url(/info/dir/page/161/TopMenu_bg.gif);
+  background-image:url(http://www.fou.nu/info/dir/page/161/TopMenu_bg.gif);
 
   background-repeat:repeat-x;
 
-  background-position:left bottom;
+  background-position:left bottom; 
 
   display:inline;
 
@@ -1603,7 +1603,7 @@ body {
 
 .t9 li {
 
-  background-image:url(/info/dir/page/161/TopMenu_separator.gif);
+  background-image:url(http://www.fou.nu/info/dir/page/161/TopMenu_separator.gif);
 
   background-repeat:no-repeat;
 
@@ -2288,15 +2288,15 @@ body {
  }
 
 /* -----
-justerade tillägg HE
+justerade tillï¿½gg HE
 */
 #journal .section {
     padding: 5px 10px;
 }
 #journal .section dl.j_inlagg_data {
 	margin: 5px 0;
-	background-color: silver; /* skall ändras till titlebg */
-	border-top: 1px solid gray; /* skall ändras till titleborder */
+	background-color: silver; /* skall ï¿½ndras till titlebg */
+	border-top: 1px solid gray; /* skall ï¿½ndras till titleborder */
 }
 #journal dl.j_inlagg_data dt{
     font-size: smaller;
@@ -2318,7 +2318,7 @@ justerade tillägg HE
 }
 
 /* ------------------------------
-Lars Gunthers tillägg
+Lars Gunthers tillï¿½gg
 */
 /* clearfloat */
 .section:after, #journal .section form p:after {
@@ -2345,13 +2345,13 @@ Lars Gunthers tillägg
     background-color: red;
 }
 #journal .journal_level_ {
-    /* Borde aldrig bli använd */
+    /* Borde aldrig bli anvï¿½nd */
     margin-left: 0;
     background: red !important;
     content: "Varning - journal_level klassen utan siffra";
 }
 #journal .journal_level_0 {
-    /* Borde aldrig bli använd */
+    /* Borde aldrig bli anvï¿½nd */
     margin-left: 0;
     background: red !important;
     content: "Varning - level 0 aktiverad av misstag";
@@ -2362,7 +2362,7 @@ Lars Gunthers tillägg
 #journal .journal_level_2 {
     margin-left: 40px;
 }
-/* fallback för alla ev. djupare nivåer */
+/* fallback fï¿½r alla ev. djupare nivï¿½er */
 div[class*=journal_level_] {
     margin-left: 40px;
 }
@@ -2384,5 +2384,5 @@ input.pseudodisabled {
 }
 
 /* -----------------------------
-Slut på Lars Gunthers tillägg
+Slut pï¿½ Lars Gunthers tillï¿½gg
 *//** end of CSS **/

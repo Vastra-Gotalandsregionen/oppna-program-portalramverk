@@ -1,8 +1,8 @@
 <div
 	#if ($page_group.isOrganization() || $page_group.isUser())
-		class="profile t9"
+		class="profile"
 	#else
-		class="sort-pages modify-pages t9"
+		class="sort-pages modify-pages"
 	#end
 
 	id="navigation"
