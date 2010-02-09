@@ -28,7 +28,6 @@
 			</li>
 		#end
 	</ul>
-		
 	<ul class="nav-sub">
         #foreach ($nav_item in $nav_items)
             #if ($nav_item.hasChildren())
@@ -48,7 +47,4 @@
             #end
         #end
     </ul>
-	
-	
-
 </div>

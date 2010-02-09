@@ -80,7 +80,7 @@ body #content-wrapper {
 }
 
 #navigation ul {
-	float: left;
+	float: none;
 	width: auto;
 }
 
@@ -239,7 +239,7 @@ body #content-wrapper {
 /* Nav-sub */
 #navigation .nav-sub {
 	clear: both;
-	margin: 3px;
+	margin: 0 8px;
 	background: #fff;
 }
 

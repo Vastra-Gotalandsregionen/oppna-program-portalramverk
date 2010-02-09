@@ -13,14 +13,6 @@
 
 	#css ($css_main_file)
 
-	<script type="text/javascript">
-		// <![CDATA[
-			$page_javascript_1
-			$page_javascript_2
-			$page_javascript_3
-		// ]]>
-	</script>
-
 	#if ($company_logo != "")
 		<style type="text/css">
 			#banner .logo {
@@ -102,9 +94,9 @@ $theme.include($top_messages_include)
 	<div class="t7">
 		<div class="t8">
 			<div class="t9">
-	#if ($has_navigation)
-		#parse ("$full_templates_path/navigation.vm")
-	#end
+				#if ($has_navigation)
+					#parse ("$full_templates_path/navigation.vm")
+				#end
 			</div>
 		
 	<div id="back-container t10">
@@ -143,8 +135,6 @@ $theme.include($top_messages_include)
 </div>
 
 </body>
-
-#js ($js_main_file)
 
 $theme.include($bottom_include)
 
