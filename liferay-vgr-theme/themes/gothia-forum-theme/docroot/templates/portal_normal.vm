@@ -144,8 +144,6 @@ $theme.include($top_messages_include)
 
 </body>
 
-#js ($js_main_file)
-
 $theme.include($bottom_include)
 
 </html>
