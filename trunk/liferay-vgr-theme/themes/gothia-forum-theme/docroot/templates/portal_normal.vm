@@ -13,14 +13,6 @@
 
 	#css ($css_main_file)
 
-	<script type="text/javascript">
-		// <![CDATA[
-			$page_javascript_1
-			$page_javascript_2
-			$page_javascript_3
-		// ]]>
-	</script>
-
 	#if ($company_logo != "")
 		<style type="text/css">
 			#banner .logo {
@@ -94,7 +86,7 @@ $theme.include($top_messages_include)
 
 		<div id="top-menu">
 			#if ($is_signed_in)
-				| <a href="$themeDisplay.getPathFriendlyURLPublic()/$user.getScreenName()/profile">#language ("my-profile")</a>
+				<a href="$themeDisplay.getPathFriendlyURLPublic()/$user.getScreenName()/profile">#language ("my-profile")</a>
 			#end
 		</div>
 	</div>
@@ -102,44 +94,53 @@ $theme.include($top_messages_include)
 	<div class="t7">
 		<div class="t8">
 			<div class="t9">
-	#if ($has_navigation)
-		#parse ("$full_templates_path/navigation.vm")
-	#end
+				#if ($has_navigation)
+					#parse ("$full_templates_path/navigation.vm")
+				#end
 			</div>
 		
-	<div id="back-container t10">
-		#if ($selectable)
-			$theme.include($content_include)
-		#else
-			$portletDisplay.recycle()
-
-			$portletDisplay.setTitle($the_title)
-
-			$theme.wrapPortlet("portlet.vm", $content_include)
-		#end
-
-		<div id="footer">
-			<p class="copyright-notice">&copy; 2000-$the_year $company_name</p>
-
-			<div class="footer-award-images">
-				#set ($journalArticleLocalService = $serviceLocator.findService("com.liferay.portlet.journal.service.JournalArticleLocalService"))
-
-				#set ($journalArticleId = $theme_settings.getProperty("footer-article-id"))
-
-				#if ($journalArticleLocalService.hasArticle($guestGroup.getGroupId(), $journalArticleId))
-					$velocityPortletPreferences.setValue("portlet-setup-show-borders", "false")
-					$velocityPortletPreferences.setValue("group-id", "$guestGroup.getGroupId()")
-					$velocityPortletPreferences.setValue("article-id", $journalArticleId)
-
-					$theme.runtime("56_INSTANCE_a453", "", $velocityPortletPreferences.toString())
-
-					$velocityPortletPreferences.reset()
+			<div id="back-container t10">
+				#if ($selectable)
+					$theme.include($content_include)
+				#else
+					$portletDisplay.recycle()
+		
+					$portletDisplay.setTitle($the_title)
+		
+					$theme.wrapPortlet("portlet.vm", $content_include)
 				#end
 			</div>
 		</div>
 	</div>
+	<div class="t19">
+		<div class="t20">
+			<div class="t21">
+				<div class="t22">
+					<div class="t23">
+						<div id="pagefooter" class="pagefooter">
+							<p class="copyright-notice">&copy; 2000-$the_year $company_name</p>
+				
+							<div class="footer-award-images">
+								#set ($journalArticleLocalService = $serviceLocator.findService("com.liferay.portlet.journal.service.JournalArticleLocalService"))
+				
+								#set ($journalArticleId = $theme_settings.getProperty("footer-article-id"))
+				
+								#if ($journalArticleLocalService.hasArticle($guestGroup.getGroupId(), $journalArticleId))
+									$velocityPortletPreferences.setValue("portlet-setup-show-borders", "false")
+									$velocityPortletPreferences.setValue("group-id", "$guestGroup.getGroupId()")
+									$velocityPortletPreferences.setValue("article-id", $journalArticleId)
+				
+									$theme.runtime("56_INSTANCE_a453", "", $velocityPortletPreferences.toString())
+				
+									$velocityPortletPreferences.reset()
+								#end
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-	</div>
+	</div>	
 </div>
 
 </body>
