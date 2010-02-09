@@ -96,6 +96,10 @@ body #content-wrapper {
 
 }
 
+#navigation ul li.group {
+	display: none;
+}
+
 #navigation li:hover {
 	background: #D8DDE0;
 	border-bottom: #ABAFB2;
@@ -116,6 +120,10 @@ body #content-wrapper {
 }
 .js #navigation .enter-page input {
 	margin: 0;
+}
+
+.js #add-page{
+	display:none;
 }
 
 #navigation li:hover a {
@@ -239,7 +247,7 @@ body #content-wrapper {
 /* Nav-sub */
 #navigation .nav-sub {
 	clear: both;
-	margin: 3px;
+	margin: 0 8px;
 	background: #fff;
 }
 
@@ -660,73 +668,16 @@ ul.message-board-edit-controls {
 }
 
 #top-menu a {
-	color: #000;
-	padding: 0 3px;
+	color: #FFF;
+	padding: 0 10px;
 	text-decoration: none;
+	font-size:13px;
 }
 
 #top-menu a:hover {
 	text-decoration: underline;
 }
 
-#navigation.profile {
-	background-image: url(../images/custom/profile_bg.png);
-}
-
-#navigation.profile li {
-	background: #060708;
-	position: relative;
-	z-index: 100;
-}
-
-#navigation.profile .group {
-	position: relative;
-	z-index: 10000;
-}
-
-#navigation.profile .group .group-indicator {
-	background: url(../images/custom/group_indicator.png) no-repeat;
-	height: 10px;
-	position: absolute;
-	right: -7px;
-	top: 8px;
-	width: 8px;
-}
-#navigation.profile ul li a {
-	color: #B4C1C9;
-}
-
-#navigation.profile ul li.selected {
-	background-image: none;
-}
-
-#navigation.profile ul li.selected a,
-#navigation.profile ul li.selected:hover a {
-	color: #FFF;
-}
-
-#navigation.profile ul li:hover {
-	background: #060708;
-}
-
-#navigation.profile ul li.group {
-	background: #DEEDF4;
-	border-bottom: #ABAFB2;
-	font-size: 11px;
-}
-
-#navigation.profile ul li.group span {
-	cursor: default;
-	font-weight: bold;
-}
-
-#navigation.profile ul li.selected:hover {
-	background: #1F242A url(../images/custom/bullet_selected.png) no-repeat 12px 50%;
-}
-
-#navigation.profile ul li a:hover span {
-	text-decoration: underline;
-}
 
 .portlet-activities .day-separator,
 .portlet-activities .first-day-separator {

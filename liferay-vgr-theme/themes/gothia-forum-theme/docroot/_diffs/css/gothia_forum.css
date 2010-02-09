@@ -14,18 +14,7 @@
  font-family : Arial, Helvetica, sans-serif; 
    font-size: small;
   }
-  form{ 
- -moz-border-radius: 7px; 
-   color : #000000;
-   background-color : #F8F0D0;
-   padding : 5px;
-   border-color: #808080;
-   border-style : solid solid solid solid;
-   border-width: 1px 1px 1px 1px;
-   margin: 5px 0px 4em 0px;
-   text-align : left;
-  }
-  .formgroup{
+.formgroup{
    color:#FFFFFF;
    background-color:#F8F0D0;
    padding:3px;
@@ -868,12 +857,6 @@ body > #top_drawer {
 
   
 
- form {
-   background-image: url(/info/module/common/picture/form_bg.jpg);
-   background-color: #F9F0D1;
-   background-repeat: repeat-x;
-   border:1px solid #b5b098;
- }
  .infoframe, .xrefframe, #jjournal .section {
    background-image: url(/info/module/common/picture/infoframe_bg.jpg);
    background-color: #EDEADB;
@@ -1423,7 +1406,7 @@ body {
 
 .t2 {
 
-  background-image:url(/info/dir/page/161/main_bg.jpg);
+  background-image:url(http://www.fou.nu/info/dir/page/161/main_bg.jpg);
 
   background-repeat:repeat-x;
 
@@ -1437,7 +1420,7 @@ body {
 
   background-color:#4d86b5;
 
-  background-image:url(/info/dir/page/161/main_bg.jpg);
+  background-image:url(http://www.fou.nuhttp://www.fou.nu/info/dir/page/161/main_bg.jpg);
 
   background-repeat:repeat-x;
 
@@ -1467,7 +1450,7 @@ body {
 
   
 
-  background-image:url(/info/dir/page/161/top_dekor.gif);
+  background-image:url(http://www.fou.nu/info/dir/page/161/top_dekor.gif);
 
   background-repeat:no-repeat;
 
@@ -1560,21 +1543,12 @@ body {
  }
 
 .t8 {
-
-  
-
   background-image:url(/gothia-forum-theme/images/gothia/PageContent_BGright.gif);
-
   background-repeat:no-repeat;
-
   background-position:right top;
-
-  padding:0.3em 1px 0 0;
-
+  padding:0.4em 1px 0 0;
   width:100%;
-
   margin:0 auto 0 auto;
-
  }
 
 .t9 { 
@@ -1705,7 +1679,7 @@ body {
 
   display:inline;
 
-  background-image:url(/info/dir/page/161/LeftMenu_BG_new.gif);
+  background-image:url(http://www.fou.nu/info/dir/page/161/LeftMenu_BG_new.gif);
 
   background-repeat:no-repeat;
 
@@ -1965,7 +1939,7 @@ body {
 
   
 
-  background-image:url(/info/dir/page/161/LeftMenu_BG_bottom.gif);
+  background-image:url(http://www.fou.nu/info/dir/page/161/LeftMenu_BG_bottom.gif);
 
   background-repeat:no-repeat;
 
@@ -2137,7 +2111,7 @@ body {
 
   
 
-  background-image:url(/info/dir/page/161/footer_bg.jpg);
+  background-image:url(http://www.fou.nu/info/dir/page/161/footer_bg.jpg);
 
   background-repeat:repeat-x;
 
@@ -2151,7 +2125,7 @@ body {
 
   background-color:#2f6b9b;
 
-  background-image:url(/info/dir/page/161/footer_bg.jpg);
+  background-image:url(http://www.fou.nu/info/dir/page/161/footer_bg.jpg);
 
   background-repeat:repeat-x;
 
@@ -2197,7 +2171,7 @@ body {
 
   background-color:#ffffff;
 
-  background-image:url(/info/dir/page/161/footer_left.gif);
+  background-image:url(http://www.fou.nu/info/dir/page/161/footer_left.gif);
 
   background-repeat:no-repeat;
 
@@ -2223,7 +2197,7 @@ body {
 
   
 
-  background-image:url(/info/dir/page/161/footer_right.gif);
+  background-image:url(http://www.fou.nu/info/dir/page/161/footer_right.gif);
 
   background-repeat:no-repeat;
 
@@ -2236,33 +2210,21 @@ body {
  }
 
 .pagefooter { 
-
   clear:both;
-
   padding:15px 2px 15px 2px;
-
   text-align:right;
-
   border-top:1px  solid #333333;
-
   margin:0 15px 0 4px;
-
   font-size:1.05em;
-
 }
 
 .pagefooter a {
-
   color:#005bad;
-
   text-decoration:none;
-
 }
 
 .pagefooter a:hover, a:focus.pagefooter {
-
   text-decoration:underline;
-
 }
 
 .t25 { 
