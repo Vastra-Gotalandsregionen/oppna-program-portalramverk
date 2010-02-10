@@ -1,3 +1,2 @@
-#*
-This file allows you to override and define new velocity variables.
-*#
+#set ($gothia_forum_home_url_private = $themeDisplay.getPortalURL() + "/web/gothia-forum/")
+#set ($gothia_forum_home_url_public = $themeDisplay.getPortalURL() + "/web/gothia-forum/")
