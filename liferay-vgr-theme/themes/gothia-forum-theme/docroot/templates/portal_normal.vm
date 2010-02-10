@@ -63,52 +63,53 @@
 <body class="$css_class">
 
 $theme.include($top_messages_include)
-
-<div id="wrapper">
-	<div id="banner">
-		<h1 class="logo">
-			<a class="png" href="$company_url">$company_name</a>
-		</h1>
-
-		#parse ("$full_templates_path/dock.vm")
-
-		#if ($group_id == $guestGroup.getGroupId())
-			<div class="search">
-				$theme.journalContentSearch()
-			</div>
-		#end
-
-		#if ($update_available_url)
-			<div class="popup-alert-notice">
-				<a class="update-available" href="$update_available_url">#language ("updates-are-available-for-liferay")</a>
-			</div>
-		#end
-
-		<div id="top-menu">
-			#if ($is_signed_in)
-				<a href="$themeDisplay.getPathFriendlyURLPublic()/$user.getScreenName()/profile">#language ("my-profile")</a>
+<div class="t2">
+	<div id="wrapper">
+		<div id="banner">
+			<h1 class="logo">
+				<a class="png" href="$company_url">$company_name</a>
+			</h1>
+	
+			#parse ("$full_templates_path/dock.vm")
+	
+			#if ($group_id == $guestGroup.getGroupId())
+				<div class="search">
+					$theme.journalContentSearch()
+				</div>
 			#end
-		</div>
-	</div>
-
-	<div class="t7">
-		<div class="t8">
-			<div class="t9">
-				#if ($has_navigation)
-					#parse ("$full_templates_path/navigation.vm")
+	
+			#if ($update_available_url)
+				<div class="popup-alert-notice">
+					<a class="update-available" href="$update_available_url">#language ("updates-are-available-for-liferay")</a>
+				</div>
+			#end
+	
+			<div id="top-menu">
+				#if ($is_signed_in)
+					<a href="$themeDisplay.getPathFriendlyURLPublic()/$user.getScreenName()/profile">#language ("my-profile")</a>
 				#end
 			</div>
-		
-			<div id="back-container t10">
-				#if ($selectable)
-					$theme.include($content_include)
-				#else
-					$portletDisplay.recycle()
-		
-					$portletDisplay.setTitle($the_title)
-		
-					$theme.wrapPortlet("portlet.vm", $content_include)
-				#end
+		</div>
+	
+		<div class="t7">
+			<div class="t8">
+				<div class="t9">
+					#if ($has_navigation)
+						#parse ("$full_templates_path/navigation.vm")
+					#end
+				</div>
+			
+				<div id="back-container" class="t10">
+					#if ($selectable)
+						$theme.include($content_include)
+					#else
+						$portletDisplay.recycle()
+			
+						$portletDisplay.setTitle($the_title)
+			
+						$theme.wrapPortlet("portlet.vm", $content_include)
+					#end
+				</div>
 			</div>
 		</div>
 	</div>
@@ -139,10 +140,10 @@ $theme.include($top_messages_include)
 					</div>
 				</div>
 			</div>
+			<div class="t25"></div>
 		</div>
 	</div>	
 </div>
-
 </body>
 
 $theme.include($bottom_include)

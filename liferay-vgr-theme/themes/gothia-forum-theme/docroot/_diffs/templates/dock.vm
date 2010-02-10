@@ -4,13 +4,23 @@
 	</div-->
 
 	<h2 class="user-greeting">
-		<span>$user_greeting</span>
+		<span>
+    		#if ($is_default_user)
+                #language ("vgrNotLoggedIn")
+            #else
+                #language ("vgrLoggedIn") $user_name
+            #end
+		</span>
 	</h2>
 
 	<ul class="lfr-dock-list">
 		#if ($show_home)
 			<li class="home">
-				<a href="$home_url">$home_text</a>
+                #if ($is_default_user)
+    				<a href="$gothia_forum_home_url_public">$home_text</a>
+    			#else
+                    <a href="$gothia_forum_home_url_private">$home_text</a>
+    			#end
 			</li>
 		#end
 
