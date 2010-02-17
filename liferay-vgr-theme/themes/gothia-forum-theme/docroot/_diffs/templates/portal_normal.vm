@@ -2,7 +2,7 @@
 
 #parse ($init)
 
-#set ($company_url = $company_url + "/web/guest/home")
+#set ($company_url = $company_url + "/../gothia-forum/startsida")
 
 <html dir="#language ("lang.dir")" xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +67,7 @@ $theme.include($top_messages_include)
 	<div id="wrapper">
 		<div id="banner">
 			<h1 class="logo">
-				<a class="png" href="$company_url">$company_name</a>
+				<a class="png" href="$home_url">$company_name</a>
 			</h1>
 	
 			#parse ("$full_templates_path/dock.vm")
