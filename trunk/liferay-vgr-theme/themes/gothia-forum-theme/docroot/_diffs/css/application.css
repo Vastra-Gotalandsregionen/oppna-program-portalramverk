@@ -30,6 +30,7 @@
 }
 
 .results-header th, .results-header td {
+	background: #426E93;
 	color: #FFF;
 	padding: 5px 10px;
 }
