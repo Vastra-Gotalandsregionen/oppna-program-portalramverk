@@ -1,5 +1,0 @@
-## Modulstruktur
-#vgr-p-xxx.vgr-p (vgr-portlet) (>= 1)
-	#vgr-m-xxx.vgr-m (vgr-module) (>= 1)
-		h2 (0/1)
-		.vgr-m-c (vgr-module-content) (0/1)

@@ -1,2 +1,0 @@
-#set ($css_class = "yui-skin-vgr")
-#set ($vgr_home_url = $themeDisplay.getPortalURL() + "/group/vgregion/")

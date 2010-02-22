@@ -1,8 +1,0 @@
-<div class="columns-2" id="content-wrapper">
-     <table class="lfr-grid" id="layout-grid">
-        <tr>
-            <td class="lfr-column eighty" id="column-1" valign="top">$processor.processColumn("column-1")</td>
-            <td class="lfr-column twenty" id="column-2" valign="top">$processor.processColumn("column-2")</td>
-        </tr>
-     </table>
-</div>
