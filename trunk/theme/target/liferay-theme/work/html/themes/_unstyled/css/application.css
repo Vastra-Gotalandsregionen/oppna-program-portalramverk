@@ -1,0 +1,456 @@
+/* ---------- Main ---------- */
+
+.ui-wrapper {
+}
+
+.ui-wrapper input, .ui-wrapper textarea {
+}
+
+.results-header {
+}
+
+.results-header th, .results-header td {
+}
+
+.results-header th a, .results-header td a {
+}
+
+.results-header .sort-column .result-column-name {
+}
+
+.results-header .sort-desc .result-column-name {
+}
+
+.results-row td {
+}
+
+.results-row.alt td {
+}
+
+.results-row.hover td {
+}
+
+/* ---------- Asset Categories ---------- */
+
+.ui-asset-categories {
+}
+
+.ui-asset-categories:after {
+}
+
+.ie .ui-asset-categories {
+}
+
+.ui-asset-categories.empty {
+}
+
+.ui-asset-categories .ui-asset-category {
+}
+
+.ui-asset-categories .ui-asset-category:hover {
+}
+
+.ui-asset-categories .ui-asset-category-delete {
+}
+
+.ui-asset-categories .ui-asset-category-delete span {
+}
+
+.ui-asset-categories .ui-asset-category-delete:hover span {
+}
+
+.ui-asset-categories-input {
+}
+
+.tags-vocabulary-name span {
+}
+
+/* ---------- Breadcrumbs ---------- */
+
+.breadcrumbs {
+}
+
+.breadcrumbs li {
+}
+
+.breadcrumbs .last {
+}
+
+.breadcrumbs .last a {
+}
+
+/* ---------- Site breadcrumbs ---------- */
+
+.site-breadcrumbs {
+}
+
+.site-breadcrumbs ul {
+}
+
+.site-breadcrumbs li {
+}
+
+.site-breadcrumbs li span {
+}
+
+.site-breadcrumbs li span a {
+}
+
+.site-breadcrumbs .last {
+}
+
+.site-breadcrumbs .last span {
+}
+
+/* ---------- Dragging/sorting indicators ---------- */
+
+.lfr-grid.dragging {
+}
+
+.lfr-grid.dragging .lfr-column {
+}
+
+.drop-area {
+}
+
+.active-area {
+}
+
+.portlet-boundary.yui-dd-dragging {
+}
+
+.aui-proxy {
+}
+
+.ie .aui-proxy {
+}
+
+.aui-proxy.generic-portlet {
+}
+
+.aui-proxy.generic-portlet .portlet-title {
+}
+
+.aui-proxy.not-intersecting .forbidden-action {
+}
+
+.ie .aui-proxy.not-intersecting .forbidden-action {
+}
+
+.aui-resizable-proxy {
+}
+
+.aui-sortable-proxy {
+}
+
+.portlet-sort-helper {
+}
+
+/* ---------- Resizables ---------- */
+
+.aui-resizable {
+}
+
+.ie6 .aui-resizable {
+}
+
+.ie6 .aui-resizable-wrap {
+}
+
+.aui-resizable-handle {
+}
+
+.aui-resizable .aui-resizable-handle {
+}
+
+.aui-resizable-handle-t, .aui-resizable-handle-b {
+}
+
+.aui-resizable-handle-t {
+}
+
+.aui-resizable-handle-b {
+}
+
+.ie6 .aui-resizable-handle-t, .ie6 .aui-resizable-handle-b {
+}
+
+.aui-resizable-handle-l, .aui-resizable-handle-r {
+}
+
+.aui-resizable-handle-r {
+}
+
+.aui-resizable-handle-l {
+}
+
+.aui-resizable-handle-tr, .aui-resizable-handle-tr {
+}
+
+.aui-resizable-handle-tr {
+}
+
+.aui-resizable-handle-tl {
+}
+
+.aui-resizable-handle-bl, .aui-resizable-handle-br {
+}
+
+.aui-resizable-handle-br {
+}
+
+.aui-resizable-handle-bl {
+}
+
+.aui-resizable-hover .aui-resizable-handle, .aui-resizable-hidden .aui-resizable-handle {
+}
+
+.ie .aui-resizable-hover .aui-resizable-handle, .ie .aui-resizable-hidden .aui-resizable-handle {
+}
+
+.aui-resizable-ghost {
+}
+
+.ie .aui-resizable-ghost {
+}
+
+.aui-resizable-knob .aui-resizable-handle {
+}
+
+.aui-resizable-knob .aui-resizable-handle-t {
+}
+
+.aui-resizable-knob .aui-resizable-handle-r {
+}
+
+.aui-resizable-knob .aui-resizable-handle-b {
+}
+
+.aui-resizable-knob .aui-resizable-handle-l {
+}
+
+.aui-resizable-knob .aui-resizable-handle-tr {
+}
+
+.aui-resizable-knob .aui-resizable-handle-tl {
+}
+
+.aui-resizable-knob .aui-resizable-handle-bl {
+}
+
+.aui-resizable-knob .aui-resizable-handle-br {
+}
+
+.aui-resizable-status {
+}
+
+.aui-resizable-status strong, .aui-resizable-status em {
+}
+
+.ie6 .aui-resizable-status, .ie6 .aui-resizable-status strong, .ie6 .aui-resizable-status em {
+}
+
+.freeform .portlet-boundary .aui-resizable-handle {
+}
+
+/* ---------- Slider ---------- */
+
+.ui-slider {
+}
+
+.ui-slider-handle {
+}
+
+.ui-slider-disabled .ui-slider-handle {
+}
+
+.ie .ui-slider-disabled .ui-slider-handle {
+}
+
+.ui-slider-range {
+}
+
+.ie .ui-slider-range {
+}
+
+/* ---------- Container ---------- */
+
+.aui-panel-container {
+}
+
+.aui-overlay-content {
+}
+
+.aui-panel {
+}
+
+.aui-panel .aui-header {
+}
+
+.ie6 .aui-panel .aui-header {
+}
+
+.aui-overlay .container-close {
+}
+
+.aui-panel .aui-body {
+}
+
+.aui-panel.aui-resizable .aui-body {
+}
+
+.ie6 body.masked select {
+}
+
+.ie6 div.aui-panel-container select {
+}
+
+.ie6 div.drag select {
+}
+
+.ie6 div.hide-select select {
+}
+
+.aui-mask {
+}
+
+.ie .aui-mask {
+}
+
+.hide-scrollbars, .hide-scrollbars * {
+}
+
+.hide-scrollbars select {
+}
+
+.show-scrollbars {
+}
+
+.aui-panel-container.show-scrollbars {
+}
+
+.aui-panel-container.show-scrollbars .underlay {
+}
+
+/* ---------- Context Panel ---------- */
+
+.aui-context-panel-container {
+}
+
+.aui-context-panel {
+}
+
+.aui-context-panel .container-close {
+}
+
+.aui-context-panel .aui-context-panel-pointer, .aui-context-panel .aui-context-panel-pointer-inner {
+}
+
+.aui-context-panel-arrow-tl .aui-context-panel-pointer {
+}
+
+.aui-context-panel-arrow-tl .aui-context-panel-pointer {
+}
+
+.aui-context-panel-arrow-tl .aui-context-panel-pointer-inner {
+}
+
+.aui-context-panel-arrow-tl .aui-context-panel-pointer-inner {
+}
+
+.aui-context-panel-arrow-rt .aui-context-panel-pointer {
+}
+
+.aui-context-panel-arrow-rt .aui-context-panel-pointer {
+}
+
+.aui-context-panel-arrow-rt .aui-context-panel-pointer-inner {
+}
+
+.aui-context-panel-arrow-rt .aui-context-panel-pointer-inner {
+}
+
+/* ---------- Portal tool tips ---------- */
+
+.aui-tooltip {
+}
+
+/* ---------- Tags ---------- */
+
+.ui-tags {
+}
+
+.ui-tags:after {
+}
+
+.ie .ui-tags {
+}
+
+.ui-tags.empty {
+}
+
+.ui-tags .ui-tag {
+}
+
+.ui-tags .ui-tag:hover {
+}
+
+.ui-tags .ui-tag-delete {
+}
+
+.ui-tags .ui-tag-delete span {
+}
+
+.ui-tags .ui-tag-delete:hover span {
+}
+
+.ui-tags-input {
+}
+
+.tags-vocabulary-name span {
+}
+
+/* ---------- Tag cloud and tag list ---------- */
+
+.tag-cloud, .tag-list {
+}
+
+.tag-cloud {
+}
+
+.tag-cloud li, .tag-list li {
+}
+
+.tag-cloud a, .tag-list a {
+}
+
+.tag-cloud .tag-asset-count {
+}
+
+.tag-cloud .tag-popularity-1 {
+}
+
+.tag-cloud .tag-popularity-2 {
+}
+
+.tag-cloud .tag-popularity-3 {
+}
+
+.tag-cloud .tag-popularity-4 {
+}
+
+.tag-cloud .tag-popularity-5 {
+}
+
+.tag-cloud .tag-popularity-6 {
+}
+
+/* ---------- Rounded corners ---------- */
+
+.aui-context-panel {
+}
+
+/* ---------- Drop shadows ---------- */
+
+.aui-context-panel {
+}

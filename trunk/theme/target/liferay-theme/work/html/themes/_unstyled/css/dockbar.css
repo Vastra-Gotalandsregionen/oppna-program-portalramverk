@@ -1,0 +1,200 @@
+.dockbar {
+}
+
+.dockbar:after {
+}
+
+.ie7 .dockbar {
+}
+
+.ie6 .dockbar, .ie6 .lfr-dockbar-pinned .dockbar {
+}
+
+.dockbar .user-avatar .sign-out {
+}
+
+.dockbar ul {
+}
+
+.dockbar li li {
+}
+
+html > .lfr-dockbar-pinned {
+}
+
+.lfr-dockbar-pinned .dockbar {
+}
+
+.dockbar .pin-dockbar {
+}
+
+.ie6 .dockbar .pin-dockbar {
+}
+
+.pin-dockbar img {
+}
+
+.lfr-dockbar-pinned .pin-dockbar img {
+}
+
+.dockbar .user-avatar img {
+}
+
+.dockbar .impersonating-user {
+}
+
+.dockbar .impersonating-user .user-links a {
+}
+
+.dockbar .menu-container .notice-message {
+}
+
+.dockbar .menu-container {
+}
+
+.aui-dockbarmenu-hidden {
+}
+
+.dockbar .aui-toolbar {
+}
+
+.dockbar .user-toolbar {
+}
+
+.aui-toolbar li {
+}
+
+.ie6 .aui-toolbar li, .ie7 .aui-toolbar li {
+}
+
+.aui-toolbar .has-submenu.selected {
+}
+
+.aui-toolbar-separator {
+}
+
+.aui-underlay {
+}
+
+.aui-underlay-hidden {
+}
+
+.aui-underlay-content {
+}
+
+.aui-underlay .aui-widget-hd {
+}
+
+.aui-underlay-close {
+}
+
+.aui-underlay .portal-add-content {
+}
+
+.aui-underlay .lfr-portlet-item {
+}
+
+.add-application .aui-widget-bd {
+}
+
+.add-application {
+}
+
+.manage-layouts {
+}
+
+.dockbar .menu-container {
+}
+
+.dockbar .menu-container h4 {
+}
+
+.dockbar .menu-container ul {
+}
+
+.dockbar .menu-container li {
+}
+
+.dockbar .menu-container li.last {
+}
+
+.dockbar .menu-container li ul {
+}
+
+.dockbar .menu-container li a {
+}
+
+.dockbar .menu-container li a:hover {
+}
+
+.dockbar .my-places-container {
+}
+
+.ie6 .dockbar .my-places-container {
+}
+
+.my-places-container ul, .my-places-container li {
+}
+
+.dockbar .my-places-container a {
+}
+
+.ie6 .dockbar .my-places-container a {
+}
+
+.dockbar .my-places-container .current-site a {
+}
+
+.dockbar .my-places-container .site-name {
+}
+
+.dockbar .my-places-container .site-type {
+}
+
+.dockbar .my-places-container a:hover .site-type {
+}
+
+.ie7 .dockbar .my-places-container .site-type {
+}
+
+.dockbar .toggle-controls a {
+}
+
+.controls-hidden .toggle-controls a {
+}
+
+.dockbar .control-panel {
+}
+
+.dockbar .menu-button {
+}
+
+.dockbar .menu-button span {
+}
+
+.dockbar .add-content .menu-button span {
+}
+
+.dockbar .manage-content .menu-button span {
+}
+
+.dockbar .my-places .menu-button span {
+}
+
+.dockbar .staging-options .menu-button span {
+}
+
+.dockbar-messages-container {
+}
+
+.dockbar-messages {
+}
+
+.showing-messages .dockbar-messages {
+}
+
+.multiple-messages .dockbar-message {
+}
+
+.multiple-messages .first {
+}
