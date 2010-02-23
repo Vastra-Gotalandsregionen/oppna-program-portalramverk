@@ -49,6 +49,13 @@
 	  <target>1.5</target>
 	</configuration>
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-eclipse-plugin</artifactId>
+        <configuration>
+          <wtpversion>2.0</wtpversion>
+        </configuration>
+      </plugin>
     </plugins>
   </build>
   <dependencies>
