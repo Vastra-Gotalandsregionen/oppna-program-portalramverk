@@ -17,7 +17,7 @@
 #if($is_signed_in)
 	#dockbar()
 #end
-
+<div id="vgr_page">
 <div id="wrapper">
 	<div id="banner">
 		<h1 class="logo">
@@ -60,6 +60,7 @@
 			Sponsrad av <a href="http://www.vgregion.se">Västra Götalandsregionen</a>
 		</div>
 	</div>
+</div>
 </div>
 
 </body>
