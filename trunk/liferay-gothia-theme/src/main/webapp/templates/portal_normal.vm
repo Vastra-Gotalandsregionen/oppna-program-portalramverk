@@ -17,6 +17,8 @@
 #if($is_signed_in)
 	#dockbar()
 #end
+
+<div id="vgr_bg">
 <div id="vgr_page">
 <div id="wrapper">
 	<div id="banner">
@@ -62,6 +64,7 @@
 	</div>
 </div>
 </div>
+</div>    
 
 </body>
 
