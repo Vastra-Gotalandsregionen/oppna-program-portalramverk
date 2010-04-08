@@ -4,10 +4,11 @@
 
 @import url(color_schemes/orange.css);
 
+@import url(vgr_navigation_portlet.css);
+
 /* ---------- Base styles ---------- */
 
 body {
-    background: url(../images/dock/main_bg.jpg) repeat-x scroll 0 30px #F5F5F5; 
 	font-size: 11px;
 }
 
@@ -33,6 +34,13 @@ hr, .separator {
 	max-width: 90%;
 	min-width: 960px;
 	position: relative;
+}
+
+#vgr_bg {
+    background: url(../images/dock/main_bg.jpg) repeat-x scroll 0 0 #F5F5F5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 #vgr_page {
@@ -129,7 +137,7 @@ body #banner .logo a {
 	min-height: 2.2em;
 	padding-left: 5px;
     padding-right: 5px;
-    padding-bottom: 0.5em;
+    padding-bottom: 0.8em;
 }
 
 #navigation ul {
@@ -157,7 +165,7 @@ body #banner .logo a {
 }
 
 #navigation li.selected a {
-    background-color:#666666;
+    background-color:#5B677D;
     background-image:url("../images/navigation/TopMenu_separator_hover.gif");
     background-position:right center;
     background-repeat:no-repeat;
@@ -186,23 +194,29 @@ body #banner .logo a {
 }
 
 #navigation a:hover, #navigation a:focus {
-    background: #4B7FAD;
+    background-color: #1963A0;
+    background-image: url("../images/navigation/TopMenu_separator_hover.gif");
+    background-position: right center;
+    background-repeat: no-repeat;
     color: #FFF;
     outline: 0;
     margin-top: 2px;
 }
 
-#navigation .selected a, #navigation .child-menu li a {
+#navigation .selected a {
 	background: #666666;
 	color: #FFF;
 	outline: 0;
     margin-top: 2px;
 }
 
-
+#navigation .child-menu li a {
+    outline: 0;
+    margin-top: 2px;
+}
 
 #navigation li:hover .child-menu {
-    background: #414445 url(../images/navigation/TopMenu_bg.gif) scroll 0 0;
+    background: #E3E3E3;
 	display: block;
 	position: absolute;
 	width: 200px;
@@ -230,18 +244,24 @@ body #banner .logo a {
 
 #navigation .child-menu li a {
 	cursor: pointer !important;
+    display: block;
+    background: transparent;
+    color: #333333;
+    padding-left: 15px;
 }
 
 .ie7 #navigation .child-menu li a {
 	zoom: 1;
 }
 
-#navigation .child-menu li a:hover {
-	background-color: #414445;
+#navigation .child-menu a:hover {
+	background-color: #1963A0;
+    color: #FFF;
 }
 
 #navigation .child-menu .selected a {
-	background: #414445 url(../images/navigation/bullet_selected.png) no-repeat 5px 50%;
+    color: #333333;                 
+	background: url(../images/navigation/bullet_selected.png) no-repeat 5px 50%;
 }
 
 /* ---------- Portlet wrapper and icons ---------- */
@@ -351,7 +371,7 @@ body.lfr-has-sidebar {
 /* ---------- Site breadcrumbs ---------- */
 
 .site-breadcrumbs {
-	margin: 0 0 5px;
+	margin: 0 0;
 	width: auto;
 }
 
@@ -469,16 +489,22 @@ body.lfr-has-sidebar {
 	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5), 1px 1px 0 #FFF;
 }
 
-.logo .current-community, #navigation, .portlet, .portlet-topper, .site-breadcrumbs ul {
+.logo .current-community, #navigation, .portlet, .portlet-topper {
     -moz-border-radius: 4px 4px 0 0;
     -webkit-border-radius: 4px 4px 0 0;
     border-radius: 4px 4px 0 0;
 }
 
-#navigation a {
+#navigation a, .site-breadcrumbs ul {
     -moz-border-radius: 0 0 0 0;
     -webkit-border-radius: 0 0 0 0;
     border-radius: 0 0 0 0;
+}
+
+#navigation li:hover .child-menu {
+    -moz-border-radius: 0 0 4px 4px;
+    -webkit-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
 }
 
 .aui-combobox .aui-toolbar-first {
