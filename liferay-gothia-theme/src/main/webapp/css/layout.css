@@ -51,6 +51,14 @@
 	padding: 50px;
 }
 
+.portlet-column-first {
+    padding-left: 2px;
+}
+
+.portlet-column-last {
+    padding-right: 2px;
+}
+
 #main-content.dragging .portlet-column {
 	border: 3px double #828F95;
 	height: 100px;
