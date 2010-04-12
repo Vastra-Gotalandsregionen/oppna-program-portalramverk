@@ -1,10 +1,10 @@
 .nav-menu h2 a {
-	padding-bottom: 0em;
 	text-decoration: none;
 	line-height: 1.25;
-	font-weight: bold;
-	color: #474A4B;
+	color: #FFF;
 	padding-left: 20px;
+    padding-bottom: 18px;
+    padding-top: 6px;
 	display: block;
 	outline: 0 none;
 	font-size: 1em;
@@ -16,14 +16,20 @@
 	padding-bottom: 0.15em;
 	padding-top: 0.15em;
 	line-height: 1.25;
-	font-weight: bold;
-	color: #474A4B;
+	color: #FFF;
 	padding-left: 0px;
+    padding-right: 10px;
 	display: block;
 	outline: 0 none;
 	text-decoration: none;
 	cursor: pointer;
-	font-size: 1.0em;
+	font-size: 14px;
+}
+
+.nav-menu li a.selected {
+    color: #FFF;
+    font-weight: normal;
+    text-decoration: underline;
 }
 
 .nav-menu ul {
@@ -36,4 +42,10 @@
 
 .nav-menu ul ul {
 	margin-top: 0px;
+}
+
+.nav-menu {
+    background: url("../images/navigation/LeftMenu_BG_new.gif") no-repeat scroll 0 0 transparent;
+    padding-top: 1px;
+    max-width: 217px;
 }
