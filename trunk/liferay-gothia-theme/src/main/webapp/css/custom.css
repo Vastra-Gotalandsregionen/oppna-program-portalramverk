@@ -10,6 +10,7 @@
 
 body {
 	font-size: 11px;
+    background-color: #F5F5F5;
 }
 
 a {
@@ -37,10 +38,10 @@ hr, .separator {
 }
 
 #vgr_bg {
-    background: url(../images/dock/main_bg.jpg) repeat-x scroll 0 0 #F5F5F5;
+    background: url(../images/dock/main_bg.jpg) repeat-x scroll 0 0;
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 333px;
 }
 
 #vgr_page {
@@ -52,6 +53,15 @@ hr, .separator {
 
 }
 
+.gothia_title {
+    color: #FFF;
+    position: absolute;
+    right: 0;
+    margin-top: 5px;
+    margin-right: 10px;
+    font-size: 38px;
+    font-weight: bold;
+}
 
 .ie6 #wrapper {
 	width: 90%;
@@ -70,10 +80,27 @@ hr, .separator {
 
 body #banner .logo a {
 	float: left;
+    background: url(../images/gothia/vg_logo.jpg) no-repeat center left;
+    display: block;
+    font-size: 0;
+    text-indent: -9999em;
+    width: 290px;
+    height: 67px;
+    margin: 0 0 8px 0;
+}
+
+.ie7 body #banner .logo a {
+    margin: 0;
+}
+
+
+#banner .logo {
+    padding: 0;
+    margin: 0.5em 0;
 }
 
 .current-community {
-	display: none;
+	/*display: none;*/
 }
 
 .logo .current-community {
@@ -99,17 +126,36 @@ body #banner .logo a {
 	z-index: 1000;
 }
 
-#sign-in {
-	background: url(../images/common/key.png) no-repeat 3px 50%;
-	font-weight: bold;
-	padding: 5px 5px 5px 25px;
-	position: absolute;
-	right: 0;
-	top: 1.4em;
+#navigation a.sign-in {
+    padding-left: 1.8em;
+    margin-top: 0;
 }
 
+.ie7 #navigation a.sign-in {
+    margin-top: 5px;
+}
+
+.ie7 #navigation a:hover.sign-in {
+    margin-top: 5px;
+}
+
+#navigation a:hover.sign-in {
+    background: url(../images/common/key.png) no-repeat 0 40%;
+    padding-left: 1.8em;
+    margin-top: 0;
+    color: #000;
+}
+
+.sign-in {
+	background: url(../images/common/key.png) no-repeat 0 40%;
+	font-weight: bold;
+	position: absolute;
+	right: 0;
+}
+
+
 .guest-community .logo .current-community {
-	display: none;
+	/*display: none;*/
 }
 
 .private-page .logo .current-community {
@@ -126,6 +172,7 @@ body #banner .logo a {
 
 #main-content {
     background: #FFF;
+    min-height: 400px;
 }
 
 /* ---------- Main navigation ---------- */
@@ -140,10 +187,18 @@ body #banner .logo a {
     padding-bottom: 0.8em;
 }
 
+.ie7 #navigation {
+    padding-bottom: 0.5em;
+}
+
 #navigation ul {
 	list-style: none;
 	margin: 0;
 	padding: 3px;
+}
+
+.ie7 #navigation ul {
+    padding: 0;
 }
 
 #navigation li, #navigation a {
@@ -213,6 +268,9 @@ body #banner .logo a {
 #navigation .child-menu li a {
     outline: 0;
     margin-top: 2px;
+    display: inline-block;
+    white-space: normal;
+    position: relative;
 }
 
 #navigation li:hover .child-menu {
@@ -223,12 +281,21 @@ body #banner .logo a {
 	z-index: 300;
 }
 
-.ie6 #navigation li.hover .child-menu {
-	background: #414445;
-	display: block;
+.ie6 #navigation li:hover .child-menu {
+	background: #E3E3E3;
+	display: inline;
 	position: absolute;
 	width: 200px;
 	z-index: 300;
+}
+
+.ie7 #navigation li:hover .child-menu {
+    float: none;
+}
+
+.ie7 #navigation li:hover {
+    position: relative;
+    z-index: 3000;
 }
 
 #navigation .child-menu {
