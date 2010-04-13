@@ -289,15 +289,6 @@ body #banner .logo a {
 	z-index: 300;
 }
 
-.ie7 #navigation li:hover .child-menu {
-    float: none;
-}
-
-.ie7 #navigation li:hover {
-    position: relative;
-    z-index: 3000;
-}
-
 #navigation .child-menu {
 	display: none;
 }
@@ -315,10 +306,6 @@ body #banner .logo a {
     background: transparent;
     color: #333333;
     padding-left: 15px;
-}
-
-.ie7 #navigation .child-menu li a {
-	zoom: 1;
 }
 
 #navigation .child-menu a:hover {

@@ -10,42 +10,89 @@
 	font-size: 1em;
 }
 
-.nav-menu li, .nav-menu li a {
-	position: relative;
-	overflow: hidden;
-	padding-bottom: 0.15em;
-	padding-top: 0.15em;
-	line-height: 1.25;
-	color: #FFF;
-	padding-left: 0px;
-    padding-right: 10px;
-	display: block;
-	outline: 0 none;
-	text-decoration: none;
-	cursor: pointer;
-	font-size: 14px;
+.nav-menu li {
+    background-color: #4D86B5;
+
 }
 
-.nav-menu li a.selected {
+.nav-menu li li {
+    background-color: #FFF;
+    border-color: #E2E2E2 -moz-use-text-color -moz-use-text-color;
+    border-right: medium none;
+    border-style: solid none none;
+    border-width: 1px medium medium;
+    display: block;
+    padding-left: 0;
+    padding-top: 3px;
+    width: 100%;
+}
+
+.nav-menu li a {
+    background: url("../images/navigation/left_menu_link_bg.jpg") repeat-x scroll left top transparent;
+	border-top: 1px solid #3F6C93;
     color: #FFF;
-    font-weight: normal;
+    display: block;
+    height: auto !important;
+    line-height: 1.4em;
+    min-height: 20px;
+    padding: 0.4em 10px 0.7em 17px;
+    text-decoration: none;
+}
+
+.nav-menu li a.selected, .nav-menu li a.selected:hover {
+    background: url("../images/navigation/left_menu_link_bg_haschildren_bg_selected.jpg") no-repeat scroll left top transparent;
+}
+
+.nav-menu li a:hover, .nav-menu li a:focus {
+    background: url("../images/navigation/left_menu_link_bg_hover.jpg") repeat-x scroll left top transparent;
+    text-decoration: none;
+}
+
+.nav-menu li li a {
+    background-color: TRANSPARENT;
+    background-image: none;
+    border-top: medium none;
+    color: #005195;
+    display: block;
+    height: auto !important;
+    line-height: 16px;
+    margin-bottom: 0;
+    margin-left: 4px;
+    min-height: 16px;
+    padding-bottom: 7px;
+    padding-left: 13px;
+    padding-top: 2px;
+    width: 87%;
+}
+
+.nav-menu li li a:hover, .nav-menu li li a:focus {
+    background-image: none;
     text-decoration: underline;
 }
 
 .nav-menu ul {
-	padding-left: 20px;
-	margin: 0em;
-	margin-left: 0em;
-	margin-top: -15px;
+	padding-left: 5px; 
+	margin: 0;
     list-style: none outside none;
+    border-bottom: medium none;
+    width: 207px;
+    font-size: 14px;
 }
 
 .nav-menu ul ul {
-	margin-top: 0px;
+    background: url("../images/navigation/leftMenu_ulliul_bg.gif") no-repeat scroll left top #FFF;
+    border-color: -moz-use-text-color #E2E2E2;
+    border-style: none solid;
+    border-width: medium 1px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-top: 0;
+    width: 207px;
 }
 
 .nav-menu {
     background: url("../images/navigation/LeftMenu_BG_new.gif") no-repeat scroll 0 0 transparent;
     padding-top: 1px;
+    padding-bottom: 1px;
     max-width: 217px;
 }
