@@ -12,9 +12,13 @@
 	
 	<ul class="lfr-dock-list">
 		#if ($show_home)
-			<li class="home">
-				<a href="$vgr_home_url">$home_text</a>
-			</li>
+                    <li class="home">
+                        #if ($is_default_user)
+                            <a href="$vgr_home_url_public">$home_text</a>
+                        #else
+                            <a href="$vgr_home_url_private">$home_text</a>
+                        #end
+                    </li>
 		#end
 
 		#if ($show_control_panel)
@@ -25,7 +29,7 @@
 
 		#if ($show_sign_in)
 			<li class="sign-in">
-				<a href="$sign_in_url">$sign_in_text</a>
+				<a href="$vgr_home_url_public">$sign_in_text</a>
 			</li>
 		#end
 

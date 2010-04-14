@@ -22,14 +22,19 @@ jQuery(document).last(
 /*
  * This function gets loaded when everything, including the portlets, is on the page.
  */
-
 function() {
     // Load custom VGR scripts
-        loadjscssfile("/vgr-theme/javascript/yui/calendar-min.js", "js");
+        loadjscssfile("/vgr-theme/javascript/yui/yahoo-min.js", "js");
+        loadjscssfile("/vgr-theme/javascript/yui/utilities.js", "js");
+        loadjscssfile("/vgr-theme/javascript/yui/yahoo-dom-event.js", "js");
+        loadjscssfile("/vgr-theme/javascript/yui/element-beta-min.js", "js");
         loadjscssfile("/vgr-theme/javascript/yui/container-min.js", "js");
         loadjscssfile("/vgr-theme/javascript/yui/tabview-min.js", "js");
-        loadjscssfile("/vgr-theme/javascript/yui/utilities.js", "js");
+        loadjscssfile("/vgr-theme/javascript/yui/calendar-min.js", "js");
+        loadjscssfile("/vgr-theme/javascript/yui/connection.js", "js");
+        loadjscssfile("/vgr-theme/javascript/yui/event-min.js", "js");
         loadjscssfile("/vgr-theme/javascript/login.js", "js");
+        loadjscssfile("/vgr-theme/javascript/vgr.global.js", "js");
         loadjscssfile("/vgr-theme/javascript/module-address-book.js", "js");
         loadjscssfile("/vgr-theme/javascript/module-calendar-full.js", "js");
         loadjscssfile("/vgr-theme/javascript/module-calendar.js", "js");
@@ -41,7 +46,6 @@ function() {
         loadjscssfile("/vgr-theme/javascript/module-todos-latest.js", "js");
         loadjscssfile("/vgr-theme/javascript/module-todos.js", "js");
         loadjscssfile("/vgr-theme/javascript/module-tracker.js", "js");
-        loadjscssfile("/vgr-theme/javascript/vgr.global.js", "js");
     });
 
 function loadjscssfile(filename, filetype) {
