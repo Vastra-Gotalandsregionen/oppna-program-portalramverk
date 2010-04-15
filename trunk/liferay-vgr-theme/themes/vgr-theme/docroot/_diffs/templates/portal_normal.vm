@@ -31,7 +31,7 @@ $theme.include($top_messages_include)
                             </span>
 
                             <span id="vgr_portal_title">
-                                Regionportal
+                                Regionportalen
                             </span>
                         </h1>
 
