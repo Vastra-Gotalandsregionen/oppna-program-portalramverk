@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<project name="theme" basedir="." default="deploy-local">
+	<!-- Depends on ant-jsch.jar and jsch.jar which are shipped with Ant 1.7.1 (optional?). In ubuntu, see package ant-optional.
+	When building inside eclipse, make sure ant-eclipse has jsch.jar and ant-jsch.jar in classpath. In ubuntu, one way of
+	achieving this is setting ANT_HOME to /usr/share/ant (if using standard ant deb package). -->
+	
+	<target name="compile-hook">
+		<if>
+			<available file="docroot/WEB-INF/src" />
+			<then>
+				<copy todir="docroot/WEB-INF/classes">
+					<fileset dir="docroot/WEB-INF/src" includes="**/*.properties" />
+				</copy>
+			</then>
+		</if>
+	</target>
+
+	<target name="deploy-local" depends="compile-hook">
+        <antcall target="deploy"></antcall>
+    </target>		
+		
+	<target name="deploy-remote" depends="compile-hook,war">
+		<scp file="${plugin.file}" todir="${hotdeploy.scp.path}" trust="yes"/>
+	</target>
+
+	<import file="../build-common-theme.xml" />
+
+	<property name="theme.parent" value="_styled" />
+</project>

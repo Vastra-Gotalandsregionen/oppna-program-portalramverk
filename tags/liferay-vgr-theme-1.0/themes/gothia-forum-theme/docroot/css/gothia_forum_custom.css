@@ -1,0 +1,729 @@
+@import url(gothia_forum.css);
+
+
+html body {
+  padding-bottom: 0px;
+}
+	
+/* Base */
+#wrapper {
+	background: none;
+	margin: 0 auto;
+	width: 976px;
+}
+
+#content-wrapper {
+	margin: 0 auto;
+	padding: 7px;
+	width: auto;
+}
+
+body #content-wrapper {
+	font-size: 12px;
+}
+
+.ie #content-wrapper {
+	zoom: 1;
+}
+
+#content-wrapper #layout-grid {
+	margin:15px 0 0;
+}
+
+#banner {
+  background: url(../images/gothia/top_dekor.gif);
+  background-repeat:no-repeat;
+  background-position:right top;
+  width:100%;
+  height:9.2em;
+  margin:0 auto 0 auto;
+}
+
+#banner h1.logo {
+	background: none;
+	margin: 0;
+	position: static;
+}
+
+#footer {
+	background: #E2E6E8 url(../images/custom/footer_bg.jpg) no-repeat 50% 50%;
+	border: 1px solid #6B767B;
+	height: 125px;
+	margin: 0 auto;
+	position: relative;
+	width: 950px;
+}
+
+/* Navigation */
+
+#navigation ul {
+	float: none;
+	width: auto;
+}
+
+#navigation li {
+    float: left;
+    list-style-type: none;
+    position: relative;
+    list-style-position: outside;
+    background-image: url(http://www.fou.nu/info/dir/page/161/TopMenu_separator.gif);
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 25px;
+
+}
+
+#navigation ul li.group {
+	display: none;
+}
+
+#navigation li:hover {
+	background: #D8DDE0;
+	border-bottom: #ABAFB2;
+}
+.js #navigation .enter-page .save-page {
+	background:transparent url(../images/dock/my_place_current.png) no-repeat scroll 0 50%;
+	margin: 2px 0 0 10px;
+	padding-left: 20px;
+}
+
+.js #navigation .enter-page .save-page:hover {
+	color: white;
+}
+
+.js #navigation .enter-page:hover {
+	background: none;
+	color: white;
+}
+.js #navigation .enter-page input {
+	margin: 0;
+}
+
+.js #add-page{
+	display:none;
+}
+
+#navigation li:hover a {
+	color: #000;
+}
+
+#navigation li a {
+	color: #333333;
+    display: block;
+    float: left;
+	font-size: 1.15em;
+    height: 25px;
+	padding: 0.2em 1em 0 0.8em;
+	text-decoration: none;
+}
+
+#navigation li a span {
+	padding: 0;
+}
+
+#navigation li a:hover {
+	background: none;
+	color: #000;
+	padding-bottom: 0;
+}
+
+#navigation li a:hover span {
+	background: none;
+}
+
+#navigation ul li.selected {
+	background-image:url(http://www.fou.nu/info/dir/page/161/TopMenu_separator.gif);
+	background-position:right center;
+	background-repeat:no-repeat;
+	background-color: transparent;
+	float:left;
+	height:25px;
+	list-style-position:outside;
+	list-style-type:none;
+	position:relative;
+}
+
+.ie6 #navigation li.selected {
+	background: #1F242A;
+}
+
+#navigation li.selected:hover {
+	background: #D8DDE0;
+}
+
+.ie6 #navigation li.init {
+	background: #D8DDE0;
+}
+
+#navigation li.selected a {
+	background: none;
+	color: #333333;
+	padding: 0.2em 1em 0 0.8em;
+	
+}
+
+#navigation li.selected a span {
+	background: none;
+	font-size: 1em;
+	padding: 0;
+	font-weight: bold;
+	color:#666666;
+}
+
+#navigation li.selected a:hover {
+	border-bottom: #ABAFB2;
+	padding-bottom: 0;
+}
+
+#navigation li.init a {
+	color: #000;
+}
+
+.js #navigation .enter-page {
+	background:transparent none repeat scroll 0% 0%;
+	margin-left: -25px;
+	margin-top: -7px;
+	padding: 0;
+	width: auto;
+}
+
+.js #add-page a {
+	color: #666;
+}
+
+.js #add-page {
+	background: transparent;
+	border: none;
+	margin: 3px 15px 0 0;
+	float: right;
+	font-weight: bold;
+	line-height: 1.5em;
+	padding-top: 0px;
+	position: static;
+}
+
+.js #add-page a:hover span {
+	background: none;
+}
+
+.js #add-page a span {
+	background: none;
+	padding: 0;
+}
+
+.ie7 .enter-page {
+	position: relative;
+	top: -1px;
+}
+
+.ie7 .save-page {
+	position: relative;
+	top: -6px;
+}
+
+/* Nav-sub */
+#navigation .nav-sub {
+	clear: both;
+	margin: 0 8px;
+	background: #fff;
+}
+
+#navigation .nav-sub+.nav-sub {
+	border-top: 1px solid #fff;
+}
+
+#navigation .nav-sub li {
+	background-image: none;
+}
+
+#navigation ul.nav-sub li.selected {
+	background-image: none;
+	background: #D8DDE0;
+}
+
+#navigation ul.nav-sub li.selected a span {
+	font-size: 1em;
+	font-weight: bold;
+	color:#666666;
+}
+
+
+#navigation .nav-sub li a {
+	color: #222;
+	margin: 3px 3px 0 0;
+	padding: 3px 6px 4px;
+	font-size: 0.94em;
+}
+
+/* Dock */
+
+.js .lfr-dock.interactive-mode {
+  min-width:150px;
+  position:absolute;
+  right:5%;
+}
+
+.js .lfr-dock.interactive-mode h2 {
+  background:transparent url(../images/dock/right_bg.png) no-repeat scroll 100% 0;
+  font-size:1em;
+  margin:0;
+  padding:0 37px 0 0;
+  position:relative;
+  z-index:82;
+}
+
+/* Search */
+
+#banner .search {
+	position: absolute;
+	right: 13px;
+	top: 35px;
+}
+
+#banner .search form {
+	padding-right: 49px;
+	padding-top: 2px;
+	position: relative;
+}
+
+.ie6 .search input.text {
+	background: #FFF;
+	border: none;
+	color: #211C19;
+	font-size: 16px;
+	font-weight: normal;
+	margin: 0px -10px 0px 0px;
+	padding: 3px;
+	width: 150px;
+}
+
+#banner .search input[type=text] {
+	background: #FFF;
+	border: none;
+	color: #211C19;
+	font-size: 16px;
+	font-weight: normal;
+	margin: 0px -10px 0px 0px;
+	padding: 3px;
+	width: 150px;
+}
+
+#banner .search input[type=image] {
+	display: none;
+}
+
+#banner .search input.focus {
+	background: #FFF;
+}
+
+#banner .search .search-input-link {
+	background: url(../images/custom/search_btn.png) no-repeat;
+	display: block;
+	height: 26px;
+	position: absolute;
+	right: 0;
+	top: 2px;
+	width: 39px;
+}
+
+.ie #banner .search .search-input-link {
+	top: 3px;
+}
+
+/* Language */
+
+#banner .lfr-dock .lang {
+	position: absolute;
+	right: 110%;
+	text-align: right;
+	top: 4px;
+	width: 350px;
+}
+
+/* Portlet */
+
+.portlet,
+.portlet-topper,
+.portlet-content,
+.portlet-title {
+	background: #FFF none;
+	border: none;
+	margin: 0;
+}
+
+.portlet {
+	margin: 12px;
+	padding: 0;
+}
+
+.ie7 .portlet {
+	zoom: 1;
+}
+
+.portlet-content {
+	padding: 12px;
+}
+
+.portlet-topper {
+	border-bottom: 1px solid #D9D9D9;
+}
+
+.portlet-title {
+	font-size: 17px;
+	padding: 12px 0 12px 12px;
+}
+
+.ie6 .portlet-icons {
+	padding-right: 10px;
+}
+
+/* Layout Specific */
+
+#portlet-wrapper- {
+	/* Liferay Old */
+	background: transparent;
+	margin: 0;
+	padding: 14px;
+}
+
+#portlet-wrapper-sign-in {
+	/* Liferay New */
+	background: transparent;
+	margin: 0;
+	padding: 14px;
+}
+
+#layout-grid .lfr-portlet-column.empty {
+	display: none;
+}
+
+#content-wrapper.columns-max {
+	padding: 2px;
+}
+
+.columns-max #column-1 {
+	background: #D5DADE;
+	border: 1px solid #6E7679;
+	margin: 11px;
+	width: 948px;
+}
+
+.lfr-portlet-column {
+	background: #D5DADE;
+	border: 1px solid #6E7679;
+	margin-bottom: -100001px;
+	padding-bottom: 100000px;
+	position: static !important;
+}
+
+#layout-grid .lfr-column {
+	overflow: hidden;
+}
+
+.columns-1 #column-1 .lfr-portlet-column {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#wrapper .columns-1 .lfr-column {
+	padding: 5px;
+	width: 950px;
+}
+
+.columns-2 #column-1 {
+	padding: 5px;
+}
+
+.columns-2 #column-2 {
+	padding: 5px;
+}
+
+.portal-popup #content-wrapper {
+	background: none;
+	margin: 0;
+}
+
+.portal-popup .columns-max #column-1 {
+	background: #FFF;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+body.portal-popup {
+	padding: 0;
+}
+
+.portal-popup #p_p_id_15_ {
+	background: #FFF;
+	padding: 2px;
+}
+
+/* Drop Down Menu */
+
+#navigation .child-menu {
+	background: url(../images/custom/menu_drop.png) scroll no-repeat left bottom;
+	height: auto;
+	left: -1px;
+	overflow: visible;
+	padding-bottom: 5px;
+	position: absolute;
+	top: 25px;
+	width: 209px;
+	z-index: 79;
+}
+
+.ie #navigation .child-menu {
+	height: auto;
+}
+
+.ie6 #navigation .child-menu {
+	height: 1%;
+}
+
+#navigation .child-menu ul {
+	height: auto;
+	padding-bottom: 2px;
+}
+
+#navigation .child-menu ul,
+#navigation .child-menu li,
+#navigation .child-menu a {
+	background: transparent none;
+}
+
+#navigation .child-menu ul,
+#navigation .child-menu li {
+	float: none;
+}
+
+#navigation .child-menu li {
+	border: none;
+	display: block;
+	padding: 5px 10px;
+}
+
+#navigation .child-menu li a {
+	color: #000;
+	display: block;
+	padding: 0 10px;
+	width: auto;
+}
+
+#navigation .child-menu a:hover {
+	background: #000;
+	color: #FFF;
+}
+
+/* Bottom Navigation */
+
+#footer .copyright-notice,
+#footer ul {
+	bottom: -45px;
+	padding-bottom: 10px;
+	position: absolute;
+}
+
+#footer .copyright-notice {
+	color: #FFF;
+}
+
+#footer ul {
+	right: 0;
+}
+
+#footer li {
+	border-right: 1px solid #FFF;
+	display: inline;
+	float: left;
+	margin-left: 9px;
+	padding-right: 8px;
+}
+
+#footer li.last-child {
+	border: none;
+	padding: 0;
+}
+
+#footer li a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#footer li a:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+#footer .lang {
+	bottom: -60px;
+	padding-bottom: 10px;
+	position: absolute;
+}
+
+/* Blogs */
+
+.portlet-blogs .entry-body {
+	font-size: 12px;
+	line-height: 1.3;
+}
+
+.portlet-blogs .entry-author {
+	font-size: 11px;
+	margin-bottom: 1em;
+}
+
+.portlet-blogs .entry-title {
+	font-size: 1.5em;
+	margin-bottom: 3px;
+}
+
+/* Message Boards */
+
+.portlet-section-body .message-board-thread-top {
+	border-bottom-color: #3A4E66;
+}
+
+.portlet-section-alternate .message-board-thread-top {
+	border-bottom-color: #212C3A;
+}
+
+.message-board-message-container .portlet-section-alternate td {
+	border: 1px solid #212C3A;
+}
+
+.message-board-message-container .portlet-section-body td {
+	border: 1px solid #3A4E66;
+}
+
+#content-wrapper .message-board-thread-controls {
+	border: none;
+}
+
+#content-wrapper .message-board-title {
+	border: none;
+	color: #151C25;
+	padding: 5px;
+}
+
+#content-wrapper .toggle_id_message_boards_view_message_thread {
+	border: none;
+	margin-bottom: 10px;
+}
+
+.message-board-message-container table {
+	color: #E7EEF6;
+}
+
+.mac.firefox .portlet-message-boards .message-container table {
+	table-layout: auto;
+}
+
+.message-board-code, .message-board-quote {
+	background: #EEE;
+	border: 1px solid #CCC;
+	padding: 5px;
+}
+
+.lfr-highlighted, .lfr-highlighted a {
+	color: #FFC;
+}
+
+ul.message-board-edit-controls {
+	list-style: none;
+}
+
+/* World of Liferay */
+
+#top-menu {
+	bottom: 6px;
+	font: bold 10px Arial,Verdana,sans-serif;
+	position: absolute;
+	right: 12px;
+}
+
+#top-menu a {
+	color: #FFF;
+	padding: 0 10px;
+	text-decoration: none;
+	font-size:13px;
+}
+
+#top-menu a:hover {
+	text-decoration: underline;
+}
+
+
+.portlet-activities .day-separator,
+.portlet-activities .first-day-separator {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.ie .portlet-recent-bloggers .taglib-search-iterator {
+	width: 190px;
+}
+
+.taglib-search-iterator .user-name {
+	display: block;
+	font-size: 12px;
+	font-weight: bold;
+	min-width: 100px;
+}
+
+.taglib-search-iterator .user-profile-image {
+}
+
+.taglib-search-iterator .user-details {
+	font-size: 11px;
+	line-height: 1.3;
+}
+
+.taglib-search-iterator .portlet-section-body td,
+.taglib-search-iterator .portlet-section-alternate td,
+.taglib-search-iterator .portlet-section-body-hover td,
+.taglib-search-iterator .portlet-section-alternate-hover td {
+	border: none;
+	padding: 5px 10px;
+}
+
+.taglib-search-iterator .portlet-section-body td td,
+.taglib-search-iterator .portlet-section-alternate td td,
+.taglib-search-iterator .portlet-section-body-hover td td,
+.taglib-search-iterator .portlet-section-alternate-hover td td {
+	padding: 0;
+	padding-right: 5px;
+}
+
+.taglib-search-iterator .portlet-section-body td {
+	background: #EEF0F2;
+}
+
+.taglib-search-iterator a {
+	text-decoration: none;
+}
+
+.wol-portlet-svn .revision-actions {
+	min-width: 110px;
+	text-align: left;
+}
+
+.wol-portlet-svn .revision-actions li {
+	margin-right: 0.5em;
+}
+
+/* Facebook API Key Page */
+
+.portlet-configuration .facebook-api .api-input {
+	padding-right: 15px;
+}
+
+.ie .portlet-configuration .facebook-api .api-input {
+	padding-right: 20px;
+}
+
+/* Tabs */
+
+.ie body #content-wrapper .tabs li {
+	line-height: 1;
+}
