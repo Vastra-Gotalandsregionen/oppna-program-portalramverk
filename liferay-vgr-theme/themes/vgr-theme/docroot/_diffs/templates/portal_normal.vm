@@ -21,17 +21,21 @@ $theme.include($top_messages_include)
                 <div id="banner">
                         <h1 class="logo">
                             #if ($is_default_user)
-                                <a id="logo" href="$vgr_home_url_public">$company_name</a>
+                                <a id="logo" href="$vgr_home_url_public">
+                                    <span id="vgr_portal_title">
+                                        Regionportalen
+                                    </span>
+                                </a>
                             #else
-                                <a id="logo" href="$vgr_home_url_private">$company_name</a>
+                                <a id="logo" href="$vgr_home_url_private">
+                                    <span id="vgr_portal_title">
+                                        Regionportalen
+                                    </span>
+                                </a>
                             #end
 
                             <span class="current-community">
                                 $community_name
-                            </span>
-
-                            <span id="vgr_portal_title">
-                                Regionportalen
                             </span>
                         </h1>
 
