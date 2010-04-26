@@ -4,6 +4,14 @@
 	<property name="project.dir" value="." />
 
 	<import file="build-common.xml" />
+<!--	<taskdef name="eclipse" classname="prantl.ant.eclipse.EclipseTask" />
+	<eclipse>
+	  <project />
+	  <classpath>
+            <source path="liferay-vgr-theme/themes/vgr-theme/docroot/" />
+            <output path="build" />
+	  </classpath>
+	</eclipse> -->
 
 	<target name="all">
 		<antcall target="clean" />
