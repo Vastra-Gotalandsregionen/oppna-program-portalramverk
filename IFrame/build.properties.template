@@ -1,8 +1,0 @@
-# Copy this file to build.properties and modify the copy to match your env
-# DO NOT CHECK IN THE MODIFIED COPY!!!
-
-wp.config.url=http://localhost:10040/wps/config
-wp.config.pass=wpadmin
-wp.config.user=wpadmin
-
- 

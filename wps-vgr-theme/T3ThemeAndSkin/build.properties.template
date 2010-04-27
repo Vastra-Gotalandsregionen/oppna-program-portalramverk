@@ -1,6 +1,0 @@
-
-wp.config.url=http://localhost:10040/wps/config
-wp.config.pass=wpadmin
-wp.config.user=wpadmin
-wp.profile.root=C:/devenv/profiles/wp_profile
- 
