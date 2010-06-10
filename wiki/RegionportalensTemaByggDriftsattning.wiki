@@ -12,7 +12,7 @@ Om du inte vill vidareutveckla temat utan enbart använda temat så kommer det i
  # [http://code.google.com/p/oppna-program-portalramverk/source/checkout Checka ut] [http://oppna-program-portalramverk.googlecode.com/svn/trunk/vgr-theme källkod].
  # Anpassa temats ant-konfiguration:
    # Utgå från build.properties.template (som finns inuti .../liferay-vgr-theme)
-   # Skapa en build.username.properties-fil, ersätt username med ditt användarnamn (som du är inloggad med på datorn)
+   # Skapa en build.username.properties-fil, ersätt username med ditt användarnamn (som du är inloggad med på datorn). Denna nya fil vill du troligen inte checka in så lägg därför till den i svn.ignore
    # Ändra app.server.dir så att den pekar på din Liferay-installation. Exempel: app.server.dir=/home/username/program/liferay-portal-5.2.3/tomcat-6.0.18/ eller i MS Windows-miljö exempelvis C:/program/liferay-portal-5.2.3/tomcat-6.0.18/.
    # För att driftsätta på en extern portalserver i nätverket (eng. hot deploy), ändra även hotdeploy.scp.path. Exempel: hotdeploy.scp.path=username:password@liferayServer.domain.tld:deployDirRelativeToUsernamesHomeDir/
  # Driftsättning av temat. Kör kommandot "ant" i katalogen "vgr-theme":
