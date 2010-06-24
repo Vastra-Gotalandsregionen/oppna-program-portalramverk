@@ -1,3 +1,15 @@
+//http://www.learningjquery.com/2009/02/slide-elements-in-different-directions
+//jQuery(document).ready(function() {
+//  jQuery('#_27_fm :submit').click(function() {
+//    var $lefty = jQuery('table.sliding td:last-child');
+//    $lefty.animate({
+//      left: parseInt($lefty.css('left'),10) == 0 ?
+//        -$lefty.outerWidth() :
+//        0
+//   });
+//    false;
+//  });
+//});
 jQuery(document).ready(
 
 /*
