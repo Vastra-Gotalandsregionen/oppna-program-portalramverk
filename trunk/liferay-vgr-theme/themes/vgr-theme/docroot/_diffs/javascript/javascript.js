@@ -5,12 +5,15 @@ jQuery(document).ready(
  * This function gets loaded when all the HTML, not including the portlets, is loaded.
  */
 function() {
-  jQuery('#slide-container button').click(function() {
-    var $lefty = jQuery(this).next();
+  jQuery('#content-wrapper button').click(function() {
+    var $righty = jQuery('#slide-container .slide-column');
+    var $lefty = jQuery('#content-wrapper');
+    var $slidy = jQuery('#slide-container');
+    $righty.animate({
+      right: parseInt($righty.css('right'),10) == 0 ? -$righty.outerWidth() : 0
+    });
     $lefty.animate({
-      right: parseInt($lefty.css('right'),10) == 0 ?
-        -$lefty.outerWidth() :
-        0
+      width: parseInt($righty.css('right'),10) == 0 ? $slidy.width() : $slidy.width() - $righty.width() 
     });
   });
 });
