@@ -1,19 +1,28 @@
-<div class="columns-3" id="layout-grid">
-<div class="yui-t5" id="doc3">
-     <div id="yui-main">
-        <div class="yui-b">
-            <div class="yui-g">
-                <div class="lfr-column yui-u first" id="column-1">
-                    $processor.processColumn("column-1")
-                </div>
-                <div class="lfr-column yui-u" id="column-2">
-                    $processor.processColumn("column-2")
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="lfr-column yui-b" id="column-3">
-        $processor.processColumn("column-3")
-    </div>
-</div>
+<style>
+#slide-container {
+  position: relative;
+  clear: both;
+  background-color:#FFFFCC;
+  border:1px solid #999999;
+  height:120px;
+  margin:1em 0;
+  overflow:hidden;
+  width:350px;
+}
+#slide-container .slide-column {
+  position: absolute;
+  background-color:#44CC55;
+  bottom:0;
+  color:#333333;
+  height:36px;
+  right:0;
+  width:20%;
+  height:100%;
+}
+
+</style>
+
+<div id="slide-container" style="">
+  <button>slide it</button>
+  <div class="slide-column">Slide from bottom</div>
 </div>
