@@ -29,5 +29,10 @@
             <wap-template-path>/layouttpl/vgr_theme_template_50_50_slide.wap.tpl</wap-template-path>
             <thumbnail-path>/layouttpl/vgr_theme_template_50_50_slide.png</thumbnail-path>
         </layout-template>
+        <layout-template id="vgr_theme_template_100_slide" name="VGR - 1 Columns with slide">
+            <template-path>/layouttpl/vgr_theme_template_100_slide.tpl</template-path>
+            <wap-template-path>/layouttpl/vgr_theme_template_100_slide.wap.tpl</wap-template-path>
+            <thumbnail-path>/layouttpl/vgr_theme_template_100_slide.png</thumbnail-path>
+        </layout-template>
       </custom>
 </layout-templates>

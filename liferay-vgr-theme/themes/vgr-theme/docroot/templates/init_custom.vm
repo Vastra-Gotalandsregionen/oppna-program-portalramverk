@@ -1,3 +1,8 @@
 #set ($css_class = "yui-skin-vgr")
 #set ($vgr_home_url_private = $themeDisplay.getPortalURL() + "/group/vgregion/")
 #set ($vgr_home_url_public = $themeDisplay.getPortalURL() + "/web/guest/home/")
+#set ($vgr_tyck_till = $themeDisplay.getPortalURL() + "/group/vgregion/tyck-till")
+#set ($vgr_tyck_till_text = "Tyck till")
+#set ($vgr_om_regionportalen = $themeDisplay.getPortalURL() + "/group/vgregion/om-regionportalen")
+#set ($vgr_om_regionportalen_text = "Om Regionportalen")
+

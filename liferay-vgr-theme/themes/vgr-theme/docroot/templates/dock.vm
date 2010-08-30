@@ -21,6 +21,15 @@
             </li>
         #end
 
+        #if ($show_home && !$is_default_user)
+            <li class="my-places">
+                <a href="$vgr_tyck_till">$vgr_tyck_till_text</a>
+            </li>
+            <li class="my-places">
+                <a href="$vgr_om_regionportalen">$vgr_om_regionportalen_text</a>
+            </li>
+        #end
+
         #if (($permissionChecker.isOmniadmin() || $permissionChecker.isCommunityAdmin($portletGroupId)) && $show_control_panel)
             <li class="control-panel">
                 <a href="$control_panel_url">$control_panel_text</a>

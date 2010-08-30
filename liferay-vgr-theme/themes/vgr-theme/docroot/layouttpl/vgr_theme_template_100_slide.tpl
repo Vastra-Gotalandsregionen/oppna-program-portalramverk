@@ -44,21 +44,16 @@ div #content-wrapper {
 <div id="content-wrapper" class="columns-2">
     <div id="layout-grid" class="lfr-grid">
       <div id="main-container">
-        <div id="column-1" class="fifty">
+        <div id="column-1">
           <div class="lfr-column">
             $processor.processColumn("column-1")
           </div>
         </div>
-        <div id="column-2" class="fifty">
-          <div class="lfr-column">
-            $processor.processColumn("column-2")
-          </div>
-        </div>
       </div>
       <div id="slide-container">
-        <div id="column-3">
+        <div id="column-2">
           <div class="lfr-column">
-            $processor.processColumn("column-3")
+            $processor.processColumn("column-2")
           </div>
         </div>
       </div>
