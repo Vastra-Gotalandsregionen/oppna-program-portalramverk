@@ -21,7 +21,7 @@
             </li>
         #end
 
-        #if ($show_add_content && $show_control_panel)
+        #if (($permissionChecker.isOmniadmin() || $permissionChecker.isCommunityAdmin($portletGroupId)) && $show_control_panel)
             <li class="control-panel">
                 <a href="$control_panel_url">$control_panel_text</a>
             </li>
@@ -33,7 +33,7 @@
             </li>
         #end
 
-        #if ($show_add_content && $show_my_account)
+        #if (($permissionChecker.isOmniadmin() || $permissionChecker.isCommunityAdmin($portletGroupId)) && $show_my_account)
             <li class="my-account">
                 <a href="$my_account_url">$my_account_text</a>
             </li>
@@ -54,7 +54,7 @@
             </li>
         #end
 
-        #if ($show_add_content && $show_page_settings)
+        #if (($permissionChecker.isOmniadmin() || $permissionChecker.isCommunityAdmin($portletGroupId)) && $show_page_settings)
             <li class="page-settings">
                 <a href="$page_settings_url">$page_settings_text</a>
             </li>
@@ -68,13 +68,13 @@
             </li>
         #end
 
-        #if ($show_add_content && $show_toggle_controls)
+        #if (($permissionChecker.isOmniadmin() || $permissionChecker.isCommunityAdmin($portletGroupId)) && $show_toggle_controls)
             <li class="toggle-controls">
                 <a href="$toggle_controls_url">$toggle_controls_text</a>
             </li>
         #end
 
-        #if ($show_add_content && $show_my_places)
+        #if (($permissionChecker.isOmniadmin() || $permissionChecker.isCommunityAdmin($portletGroupId)) && $show_my_places)
             <li class="my-places">
                 <a>$my_places_text</a>
 

@@ -1,10 +1,36 @@
+//http://www.learningjquery.com/2009/02/slide-elements-in-different-directions
 jQuery(document).ready(
 
 /*
  * This function gets loaded when all the HTML, not including the portlets, is loaded.
  */
 function() {
+  var hideSlide = jQuery.cookie('hideSlide');
+  
+  toggleNotifications(hideSlide=='true');
+  
+  jQuery('#slide-buttons #hide').click(function() {
+    toggleNotifications(true)
+  });
+  jQuery('#slide-buttons #show').click(function() {
+    toggleNotifications(false)
+  });
+  
 });
+
+function toggleNotifications(hide) {
+  var $main = jQuery('#main-container');
+  var $slide = jQuery('#slide-container');
+  $main.animate({
+    width: hide ? "100%" : "80%" 
+  });
+  $slide.animate({
+    right: hide ? -$slide.outerWidth() : 0
+  });
+  jQuery('#slide-buttons #hide').css("display", hide ? "none" : "inline");
+  jQuery('#slide-buttons #show').css("display", hide ? "inline" : "none");
+  jQuery.cookie('hideSlide', hide);
+}
 
 Liferay.Portlet.ready(
 
@@ -46,6 +72,7 @@ function() {
         loadjscssfile("/vgr-theme/javascript/module-todos-latest.js", "js");
         loadjscssfile("/vgr-theme/javascript/module-todos.js", "js");
         loadjscssfile("/vgr-theme/javascript/module-tracker.js", "js");
+        loadjscssfile("/vgr-theme/javascript/jquery.cookie.js", "js");
     });
 
 function loadjscssfile(filename, filetype) {
