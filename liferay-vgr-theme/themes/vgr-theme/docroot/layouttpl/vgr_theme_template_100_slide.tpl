@@ -2,7 +2,7 @@
   <a id="hide" href="#">Dölj notifieringar</a>
   <a id="show" href="#">Visa notifieringar</a>
 </span>
-<div id="content-wrapper" class="columns-2 slide">
+  <div id="content-wrapper" class="columns-2 slide">
     <div id="layout-grid" class="lfr-grid">
       <div id="main-container">
         <div id="column-1" class="hundred">
