@@ -7,6 +7,10 @@
  width: 50%;
 }
 
+.hundred {
+ width: 100%;
+}
+
 div #content-wrapper {
   clear: both;
   overflow: hidden;
@@ -34,6 +38,10 @@ div #content-wrapper {
   display: none;
 }
 
+#main-container * table {
+  table-layout: fixed;
+}
+
 </style>
 
 
@@ -44,14 +52,14 @@ div #content-wrapper {
 <div id="content-wrapper" class="columns-2">
     <div id="layout-grid" class="lfr-grid">
       <div id="main-container">
-        <div id="column-1">
+        <div id="column-1" class="hundred">
           <div class="lfr-column">
             $processor.processColumn("column-1")
           </div>
         </div>
       </div>
       <div id="slide-container">
-        <div id="column-2">
+        <div id="column-2" class="hundred">
           <div class="lfr-column">
             $processor.processColumn("column-2")
           </div>
