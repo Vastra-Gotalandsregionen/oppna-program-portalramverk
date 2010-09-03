@@ -37,6 +37,9 @@
         #end
 
         #if ($show_sign_in)
+            <li class="my-places">
+                <a href="$vgr_om_regionportalen_public">$vgr_om_regionportalen_text</a>
+            </li>
             <li class="sign-in">
                 <a href="$vgr_home_url_public">$sign_in_text</a>
             </li>
@@ -45,12 +48,6 @@
         #if (($permissionChecker.isOmniadmin() || $permissionChecker.isCommunityAdmin($portletGroupId)) && $show_my_account)
             <li class="my-account">
                 <a href="$my_account_url">$my_account_text</a>
-            </li>
-        #end
-
-        #if ($show_sign_out)
-            <li class="sign-out">
-                <a href="$sign_out_url">$sign_out_text</a>
             </li>
         #end
 
@@ -88,6 +85,12 @@
                 <a>$my_places_text</a>
 
                 $theme.myPlaces()
+            </li>
+        #end
+
+        #if ($show_sign_out)
+            <li class="sign-out">
+                <a href="$sign_out_url">$sign_out_text</a>
             </li>
         #end
 	</ul>

@@ -4,5 +4,6 @@
 #set ($vgr_tyck_till = $themeDisplay.getPortalURL() + "/group/vgregion/tyck-till")
 #set ($vgr_tyck_till_text = "Tyck till")
 #set ($vgr_om_regionportalen = $themeDisplay.getPortalURL() + "/group/vgregion/om-regionportalen")
+#set ($vgr_om_regionportalen_public = $themeDisplay.getPortalURL() + "/web/guest/om-regionportalen")
 #set ($vgr_om_regionportalen_text = "Om Regionportalen")
 
