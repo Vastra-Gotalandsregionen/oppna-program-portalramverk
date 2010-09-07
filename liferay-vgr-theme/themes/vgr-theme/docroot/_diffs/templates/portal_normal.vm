@@ -8,6 +8,10 @@
 	<title>$the_title - $company_name</title>
 
 	$theme.include($top_head_include)
+	
+	<!--[if IE 7]>
+      <link rel="stylesheet" type="text/css" href="/vgr-theme/css/ie7.css">
+    <![endif]-->
 </head>
 
 <body class="$css_class">
