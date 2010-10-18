@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hook PUBLIC "-//Liferay//DTD Hook 6.0.0//EN" "http://www.liferay.com/dtd/liferay-hook_6_0_0.dtd">
+
+<!-- For language modifications, see http://wikis.sun.com/display/websynergy/Customizing+Language.properties+using+hooks+plugin -->
+
+<hook>
+  <portal-properties>portal.properties</portal-properties>
+  <!--language-properties>Language_sv.properties</language-properties-->
+</hook>

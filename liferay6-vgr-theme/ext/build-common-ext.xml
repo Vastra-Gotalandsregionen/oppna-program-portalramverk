@@ -23,8 +23,8 @@ a portlet plugin.
 		<path id="service.classpath">
 			<path refid="lib.classpath" />
 			<path refid="portal.classpath" />
-			<!--<fileset dir="docroot/WEB-INF/lib" includes="*.jar" />
-			<pathelement location="docroot/WEB-INF/classes" />-->
+			<!--<fileset dir="docroot/_diffs.WEB-INF/lib" includes="*.jar" />
+			<pathelement location="docroot/_diffs.WEB-INF/classes" />-->
 		</path>
 
 		<echo>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plugin-package PUBLIC "-//Liferay//DTD Plugin Package 6.0.0//EN" "http://www.liferay.com/dtd/liferay-plugin-package_6_0_0.dtd">
+
+<plugin-package>
+	<name>Regionportalens tema</name>
+	<module-id>vgregion/vgr-2-theme/6.0.0.1/war</module-id>
+	<types>
+		<type>layout-template</type>
+		<type>theme</type>
+	</types>
+	<short-description>
+		VGR theme for Liferay6.
+	</short-description>
+	<change-log></change-log>
+	<page-url>http://www.vgregion.se</page-url>
+	<author>Västra Götalandsregionen</author>
+	<licenses>
+		<license osi-approved="true">LGPL</license>
+	</licenses>
+	<liferay-versions>
+		<liferay-version>6.0.0+</liferay-version>
+	</liferay-versions>
+</plugin-package>
