@@ -28,7 +28,6 @@
             ##Adding static portlet to right column
             $theme.runtime("TaskList_WAR_tasklistportlet")
             $theme.runtime("MyUsdIssues_WAR_myusdissuescoremoduleportlet")
-            
           </div>
         </div>
       </div>
