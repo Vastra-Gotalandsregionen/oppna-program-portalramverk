@@ -2,22 +2,23 @@
   <a id="hide" href="#">Dölj notifieringar</a>
   <a id="show" href="#">Visa notifieringar</a>
 </span>
-<div id="content-wrapper" class="columns-4 slide">
-    <div id="layout-grid" class="lfr-grid">
+<div id="main-content">
+  <div id="content-wrapper" class="columns-4 slide">
+    <div id="layout-grid" class="lfr-grid portlet-layout">
       <div id="main-container">
         <div id="column-1" class="hundred">
-          <div class="lfr-column">
-            $processor.processColumn("column-1")
+          <div class="lfr-column portlet-column portlet-column-first" style="display: block;">
+            $processor.processColumn("column-1", "portlet-column-content portlet-column-content-first")
           </div>
         </div>
         <div id="column-2" class="fifty">
-          <div class="lfr-column">
-            $processor.processColumn("column-2")
+          <div class="lfr-column portlet-column" style="display: block;">
+            $processor.processColumn("column-2", "portlet-column-content")
           </div>
         </div>
         <div id="column-3" class="fifty">
-          <div class="lfr-column">
-            $processor.processColumn("column-3")
+          <div class="lfr-column portlet-column portlet-column-last" style="display: block;">
+            $processor.processColumn("column-3", "portlet-column-content portlet-column-content-last")
           </div>
         </div>
       </div>
@@ -27,9 +28,10 @@
             ##Adding static portlet to right column
             $theme.runtime("TaskList_WAR_tasklistportlet")
             $theme.runtime("MyUsdIssues_WAR_myusdissuescoremoduleportlet")
-            $theme.runtime("MedControl_WAR_medcontrolcorebcmoduleportlet")
+            
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
