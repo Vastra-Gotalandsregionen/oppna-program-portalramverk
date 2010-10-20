@@ -24,9 +24,9 @@ AUI().ready(
             }
 
             A.use('get', function(B) {
-                B.Get.script('/vgr-2-theme/js/jquery-1.4.3.min.js');
-                B.Get.script('/vgr-2-theme/js/jquery.cookie.js');
-                B.Get.script('/vgr-2-theme/js/slider.js');
+                B.Get.script('/vgr-theme/js/jquery-1.4.3.min.js');
+                B.Get.script('/vgr-theme/js/jquery.cookie.js');
+                B.Get.script('/vgr-theme/js/slider.js');
             });
 
             var siteBreadcrumbs = A.one('.site-breadcrumbs');
