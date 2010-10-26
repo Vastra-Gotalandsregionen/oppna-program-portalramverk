@@ -26,11 +26,11 @@
         <div id="wrapper">
             <a href="#main-content" id="skip-to-content">#language("skip-to-content")</a>
 
-            <header id="banner" role="banner">
+            <header id="banner" role="banner" style="display:block">
                 <hgroup id="heading">
                     <h1 class="company-title">
                         <a class="logo" href="$company_url" title="#language("go-to") $company_name">
-                            <span id="vgr_portal_title">Regionportalen</span>
+                            <div id="vgr_portal_title">Regionportalen</div>
                         </a>
                     </h1>
 
@@ -61,7 +61,6 @@
                     #parse ("$full_templates_path/navigation.vm")
                 #end
             </header>
-
             <div id="content">
                 <nav class="site-breadcrumbs" id="breadcrumbs">
                     <h1>
