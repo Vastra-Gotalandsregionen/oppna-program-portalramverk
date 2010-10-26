@@ -12,11 +12,24 @@ Icons by Mark James (http://www.famfamfam.com/lab/icons/silk/) distributed under
 
 #navigation {
     background: none;
+	text-align:left;
+	display:inline;
+	vertical-align: bottom;
+}
+
+#navigation ul {
+	text-align: left;
 }
 
 #heading .logo {
     text-decoration: none;
     text-indent: 0px;
+}
+
+#heading  {
+    display: block;
+	text-align: left;
+	height: 30px;
 }
 
 blockquote,body,caption,div,dl,dt,dd,form,fieldset,h1,h2,h3,h4,h5,h6,html,li,ul,ol,p,pre,textarea,table,td,th {
@@ -371,14 +384,21 @@ img.dec {
 }  /* Override YUI grids' 10px horizontal margins */
 #vgr_portal_title {
   color: #FFFFFF;
-  float: left;
+  floatTT: left;
+  clearTT:both;
+  displayTTT: block;
   font-size: 26px;
   font-weight: normal;
   padding: 0px;
   line-height: 0px;
-  height: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  
+  height: 40px;
+  margin-topTT: 10px;
+  margin-bottomTT: 10px;
+  
+  line-height:10px; 
+  height:10px; 
+  padding:10px;
 }
 
 #hd {
@@ -598,6 +618,11 @@ a.new-search {
 #breadcrumbs {
   margin: 1em 0;
 }
+
+.breadcrumbs {
+  text-align: left;
+}
+
 
 /*
 =Sub navigation
