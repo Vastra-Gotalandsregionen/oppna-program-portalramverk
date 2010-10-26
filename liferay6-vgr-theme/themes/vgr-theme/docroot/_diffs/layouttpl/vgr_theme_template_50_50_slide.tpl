@@ -21,8 +21,8 @@
         <div id="column-3" class="hundred">
           <div class="lfr-column">
             ##Adding static portlet to right column
-            $theme.runtime("TaskList_WAR_TaskList")
-            $theme.runtime("MyUsdIssues_WAR_MyUsdIssues")
+            $theme.runtime("TaskList_WAR_tasklistportlet")
+            $theme.runtime("MyUsdIssues_WAR_myusdissuescoremoduleportlet")
           </div>
         </div>
       </div>
