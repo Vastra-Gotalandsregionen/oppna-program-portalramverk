@@ -62,13 +62,13 @@
                 #end
             </header>
             <div id="content">
-                <nav class="site-breadcrumbs" id="breadcrumbs">
+                <!--nav class="site-breadcrumbs" id="breadcrumbs">
                     <h1>
                         <span>#language("breadcrumbs")</span>
                     </h1>
 
                     #breadcrumbs()
-                </nav>
+                </nav-->
 
                 #if ($selectable)
                     $theme.include($content_include)
