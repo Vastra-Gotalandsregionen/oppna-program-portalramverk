@@ -6,4 +6,5 @@
 <hook>
   <portal-properties>portal.properties</portal-properties>
   <!--language-properties>Language_sv.properties</language-properties-->
+  <custom-jsp-dir>/custom_jsp</custom-jsp-dir>
 </hook>
