@@ -1548,3 +1548,15 @@ div.ctrl-holder input {
 ul, ol, dd {
     text-align: left;
 }
+
+.portlet {
+    background-color: #FFF;
+}
+
+.portlet-topper {
+    border-width: 0;
+}
+
+menu.portlet-topper-toolbar {
+    top: 0px;
+}
