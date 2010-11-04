@@ -19,7 +19,7 @@
             $theme.runtime("TaskList_WAR_tasklistportlet")
             $theme.runtime("MyUsdIssues_WAR_myusdissuescoremoduleportlet")
 		$theme.runtime("RaindanceNotifier_WAR_raindancenotifiercoremoduleportlet")
-		$theme.runtime("MedControl_WAR_medcontrolportlet")
+		$theme.runtime("MedControl_WAR_medcontrolcorebcmoduleportlet")
           </div>
         </div>
       </div>
