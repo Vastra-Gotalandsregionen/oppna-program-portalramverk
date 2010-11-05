@@ -264,15 +264,17 @@ for (String portletId : PropsValues.DOCKBAR_ADD_PORTLETS) {
 
 		<li class="user-avatar <%= themeDisplay.isImpersonated() ? "impersonating-user has-submenu" : "" %>" id="<portlet:namespace />userAvatar">
 			<span class="user-links <%= themeDisplay.isImpersonated() ? "menu-button": "" %>">
-				<aui:a cssClass="user-portrait" href="<%= themeDisplay.getURLMyAccount().toString() %>">
-					<img alt="<%= HtmlUtil.escape(user.getFullName()) %>" src="<%= HtmlUtil.escape(themeDisplay.getPathImage() + "/user_" + (user.isFemale() ? "female" : "male") + "_portrait?img_id=" + user.getPortraitId() + "&t=" + ImageServletTokenUtil.getToken(user.getPortraitId())) %>" />
-				</aui:a>
-
 				<c:choose>
                     <c:when test="<%= permissionChecker.isOmniadmin() %>">
+                        <aui:a cssClass="user-portrait" href="<%= themeDisplay.getURLMyAccount().toString() %>">
+                            <img alt="<%= HtmlUtil.escape(user.getFullName()) %>" src="<%= HtmlUtil.escape(themeDisplay.getPathImage() + "/user_" + (user.isFemale() ? "female" : "male") + "_portrait?img_id=" + user.getPortraitId() + "&t=" + ImageServletTokenUtil.getToken(user.getPortraitId())) %>" />
+                        </aui:a>
                         <aui:a cssClass="user-fullname" href="<%= themeDisplay.getURLMyAccount().toString() %>"><%= HtmlUtil.escape(user.getFullName()) %></aui:a>
                     </c:when>
                     <c:otherwise>
+                        <aui:a cssClass="user-portrait" href="<%= themeDisplay.getPortalURL() + "/group/vgregion/start" %>">
+                            <img alt="<%= HtmlUtil.escape(user.getFullName()) %>" src="<%= HtmlUtil.escape(themeDisplay.getPathImage() + "/user_" + (user.isFemale() ? "female" : "male") + "_portrait?img_id=" + user.getPortraitId() + "&t=" + ImageServletTokenUtil.getToken(user.getPortraitId())) %>" />
+                        </aui:a>
                         <aui:a cssClass="user-fullname" href='<%= themeDisplay.getPortalURL() + "/group/vgregion/start" %>'><%= HtmlUtil.escape(user.getFullName()) %></aui:a>
                     </c:otherwise>
                 </c:choose>
