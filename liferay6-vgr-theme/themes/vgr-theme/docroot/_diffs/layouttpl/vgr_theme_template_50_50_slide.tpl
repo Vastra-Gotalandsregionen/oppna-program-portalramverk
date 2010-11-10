@@ -5,7 +5,7 @@
 <div id="main-content">
   <div id="content-wrapper" class="columns-2 slide">
     <div id="layout-grid" class="lfr-grid portlet-layout">
-      <div id="main-container">
+      <div id="main-container" class="hundred">
         <div id="column-1" class="fifty">
           <div class="lfr-column portlet-column portlet-column-first" style="display: block;">
             $processor.processColumn("column-1", "portlet-column-content portlet-column-content-first")
@@ -22,9 +22,9 @@
           <div class="lfr-column">
             ##Adding static portlet to right column
             $theme.runtime("TaskList_WAR_tasklistportlet")
-            $theme.runtime("MyUsdIssues_WAR_myusdissuescoremoduleportlet")
-            $theme.runtime("RaindanceNotifier_WAR_raindancenotifiercoremoduleportlet")
-            $theme.runtime("MedControl_WAR_medcontrolcorebcmoduleportlet")
+            ##$theme.runtime("MyUsdIssues_WAR_myusdissuescoremoduleportlet")
+            ##$theme.runtime("RaindanceNotifier_WAR_raindancenotifiercoremoduleportlet")
+            ##$theme.runtime("MedControl_WAR_medcontrolcorebcmoduleportlet")
           </div>
         </div>
       </div>

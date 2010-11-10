@@ -272,16 +272,20 @@ for (String portletId : PropsValues.DOCKBAR_ADD_PORTLETS) {
                         <aui:a cssClass="user-fullname" href="<%= themeDisplay.getURLMyAccount().toString() %>"><%= HtmlUtil.escape(user.getFullName()) %></aui:a>
                     </c:when>
                     <c:otherwise>
-                        <aui:a cssClass="user-portrait" href="<%= themeDisplay.getPortalURL() + "/group/vgregion/start" %>">
+                        <a cssClass="user-portrait" href="<%= themeDisplay.getPortalURL() %>/group/vgregion/start">
                             <img alt="<%= HtmlUtil.escape(user.getFullName()) %>" src="<%= HtmlUtil.escape(themeDisplay.getPathImage() + "/user_" + (user.isFemale() ? "female" : "male") + "_portrait?img_id=" + user.getPortraitId() + "&t=" + ImageServletTokenUtil.getToken(user.getPortraitId())) %>" />
-                        </aui:a>
-                        <aui:a cssClass="user-fullname" href='<%= themeDisplay.getPortalURL() + "/group/vgregion/start" %>'><%= HtmlUtil.escape(user.getFullName()) %></aui:a>
+                        </a>
+                        <a cssClass="user-fullname" href="<%= themeDisplay.getPortalURL() %>/group/vgregion/start">
+                            <%= HtmlUtil.escape(user.getFullName()) %>
+                        </a>
                     </c:otherwise>
                 </c:choose>
 
-				<c:if test="<%= themeDisplay.isShowSignOutIcon() %>">
-					<span class="sign-out">(<aui:a href="<%= themeDisplay.getURLSignOut() %>" label="sign-out" />)</span>
-				</c:if>
+                <cite:if test="<%= themeDisplay.isShowSignOutIcon() %>">
+                    <span class="sign-out">
+                        (<aui:a href="<%= HtmlUtil.escape(themeDisplay.getURLSignOut()) %>" label="sign-out" />)
+                    </span>
+                </cite:if>
 			</span>
 
 			<c:if test="<%= themeDisplay.isImpersonated() %>">
@@ -302,32 +306,6 @@ for (String portletId : PropsValues.DOCKBAR_ADD_PORTLETS) {
 							<li>
 								<aui:a href="<%= PortalUtil.getLayoutURL(layout, themeDisplay, false) %>"><liferay-ui:message key="be-yourself-again" /> (<%= HtmlUtil.escape(realUser.getFullName()) %>)</aui:a>
 							</li>
-
-							<%
-							Locale realUserLocale = realUser.getLocale();
-							Locale userLocale = user.getLocale();
-							%>
-
-							<c:if test="<%= !realUserLocale.equals(userLocale) %>">
-
-								<%
-								String doAsUserLanguageId = null;
-								String changeLanguageMessage = null;
-
-								if (locale.getLanguage().equals(realUserLocale.getLanguage()) && locale.getCountry().equals(realUserLocale.getCountry())) {
-									doAsUserLanguageId = userLocale.getLanguage() + "_" + userLocale.getCountry();
-									changeLanguageMessage = LanguageUtil.format(realUserLocale, "use-x's-preferred-language-(x)", new String[] {HtmlUtil.escape(user.getFullName()), userLocale.getDisplayLanguage(realUserLocale)});
-								}
-								else {
-									doAsUserLanguageId = realUserLocale.getLanguage() + "_" + realUserLocale.getCountry();
-									changeLanguageMessage = LanguageUtil.format(realUserLocale, "use-your-preferred-language-(x)", realUserLocale.getDisplayLanguage(realUserLocale));
-								}
-								%>
-
-								<li class="current-user-language">
-									<aui:a href='<%= HttpUtil.setParameter(PortalUtil.getCurrentURL(request), "doAsUserLanguageId", doAsUserLanguageId) %>'><%= changeLanguageMessage %></aui:a>
-								</li>
-							</c:if>
 						</ul>
 					</div>
 				</div>
