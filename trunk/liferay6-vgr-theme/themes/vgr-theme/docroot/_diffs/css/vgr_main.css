@@ -1560,3 +1560,7 @@ ul, ol, dd {
 menu.portlet-topper-toolbar {
     top: 0px;
 }
+
+.ie #content-wrapper.slide * .fifty {
+  width:49%;
+}

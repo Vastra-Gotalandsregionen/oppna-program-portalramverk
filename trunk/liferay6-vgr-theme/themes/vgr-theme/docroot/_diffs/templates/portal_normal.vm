@@ -13,6 +13,7 @@
     <script type="text/javascript" src="/vgr-theme/js/jquery-1.4.3.min.js"></script>
     <script type="text/javascript" src="/vgr-theme/js/jquery.cookie.js"></script>
     <script type="text/javascript" src="/vgr-theme/js/slider.js"></script>
+    <!--script type="text/javascript" src="/vgr-theme/js/firebug-lite/build/firebug-lite.js"></script-->
 </head>
 
 <body class="$css_class">
