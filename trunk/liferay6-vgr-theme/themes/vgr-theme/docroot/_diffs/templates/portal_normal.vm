@@ -35,12 +35,12 @@
                         </a>
                     </h1>
 
-                    <h2 class="community-title">
+                    <!--h2 class="community-title">
                         <a href="$community_default_url" title="#language("go-to") $community_name">
                             <span id="vgr_portal_title">Regionportalen</span>
-                            <!--span>$community_name</span-->
+                            <span>$community_name</span>
                         </a>
-                    </h2>
+                    </h2-->
 
                     <h3 class="page-title">
                         <span>$the_title</span>
