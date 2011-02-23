@@ -10,8 +10,6 @@
 
     $theme.include($top_head_include)
     
-    #js ("$javascript_folder/jquery-1.4.3.min.js")
-    #js ("$javascript_folder/jquery.cookie.js")
     #js ("$javascript_folder/slider.js")
 </head>
 
