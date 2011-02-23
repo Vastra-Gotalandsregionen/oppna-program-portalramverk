@@ -9,11 +9,10 @@
     <title>$the_title - $company_name</title>
 
     $theme.include($top_head_include)
-
-    <script type="text/javascript" src="/vgr-theme/js/jquery-1.4.3.min.js"></script>
-    <script type="text/javascript" src="/vgr-theme/js/jquery.cookie.js"></script>
-    <script type="text/javascript" src="/vgr-theme/js/slider.js"></script>
-    <!--script type="text/javascript" src="/vgr-theme/js/firebug-lite/build/firebug-lite.js"></script-->
+    
+    #js ("$javascript_folder/jquery-1.4.3.min.js")
+    #js ("$javascript_folder/jquery.cookie.js")
+    #js ("$javascript_folder/slider.js")
 </head>
 
 <body class="$css_class">
@@ -92,7 +91,13 @@
 </div>
 
 </body>
-
-    $theme.include($bottom_include)
-
+	$theme.include($bottom_include)
+	
+	#if($enableDebug)		
+		#css ("$css_folder/console-core.css")
+		
+		#if($launchDebugger)
+			#js ("$javascript_folder/debug.js")
+		#end
+	#end
 </html>

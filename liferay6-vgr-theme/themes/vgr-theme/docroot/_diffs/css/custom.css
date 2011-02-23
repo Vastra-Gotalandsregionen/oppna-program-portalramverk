@@ -362,3 +362,264 @@ body #banner .logo a {
 	border-top-left-radius: 0;
 	border-bottom-left-radius: 0;
 }
+
+/* ---------- EA ---------- */
+
+.aui-tabview a:link {
+	color: #004597;
+	text-decoration: none;
+}
+
+.aui-tabview a:link:hover {
+	color: #004597;
+	text-decoration: underline;
+}
+
+.aui-tabview .aui-tab-active a:link,
+.aui-tabview .aui-tab-active a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.aui-dialog-button {
+	display: inline;
+}
+
+.aui-field-element {
+	display: block;
+	text-align: left;
+}
+
+/* form.css */
+
+input[type="text"],
+input[type="password"],
+input[type="file"],
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+select,
+textarea,
+.textarea,
+button,
+a.link-button,
+a:link.link-button,
+a:visited.link-button {
+	background-image: url(../images/forms/input_shadow.png);
+	background-repeat: no-repeat;
+	border: 1px solid;
+	border-color: #BFBFBF #DEDEDE #DEDEDE #BFBFBF;
+	font: 1em Arial, Helvetica, Verdana, sans-serif;
+	padding: 5px 1px;
+}
+
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+button,
+a.link-button,
+a:link.link-button,
+a:visited.link-button {
+	background: #F5F5F5 url(../images/forms/button.png) repeat-x 0 0;
+	border-color: #DEDEDE #BFBFBF #BFBFBF #DEDEDE;
+	color: #34404F;
+	cursor: pointer;
+	font-weight: bold;
+	overflow: visible;
+	padding: 5px;
+	width: auto;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+button:hover,
+button:focus,
+a.link-button:hover {
+	background: #DFF4FF;
+	border: 1px solid #A7CEDF;
+	color: #369;
+}
+
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+button,
+.lfr-actions,
+.lfr-actions ul,
+a.link-button,
+a:link.link-button,
+a:visited.link-button {
+	background: #D4D4D4 url(../images/portlet/header_bg.png) repeat-x 0 0;
+	border: 1px solid;
+	border-color: #C8C9CA #9E9E9E #9E9E9E #C8C9CA;
+	color: #34404F;
+	font-weight: bold;
+	text-shadow: 1px 1px #FFF;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+button:hover,
+.lfr-actions:hover,
+.lfr-actions:hover ul,
+a.link-button:hover {
+	background: #B9CED9 url(../images/application/state_hover_bg.png) repeat-x 0 0;
+	border-color: #627782;
+	color: #369;
+}
+
+input[type="submit"]:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+button:focus,
+.lfr-actions:focus,
+.lfr-actions:focus ul,
+a.link-button:focus {
+	background: #EBEBEB url(../images/application/state_active_bg.png) repeat-x 0 0;
+	border-color: #555;
+}
+
+/* ---------- IE6 chokes on attribute selectors in a chain, so we separate them into their own rule ---------- */
+
+.ie6 input.text,
+input.password,
+.ie6 input.submit,
+.ie6 input.file,
+.ie6 input.button,
+.ie6 button,
+.ie6 a.link-button {
+	background-image: url(../images/forms/input_shadow.png);
+	background-repeat: no-repeat;
+	border: 1px solid;
+	border-color: #BFBFBF #DEDEDE #DEDEDE #BFBFBF;
+	font: 1em Arial, Helvetica, Verdana, sans-serif;
+	padding: 5px 1px;
+}
+
+.ie6 input.submit,
+.ie6 input.button,
+.ie6 button,
+.ie6 .aui-button-disabled input.submit,
+.ie6 .aui-button-disabled input.button,
+.ie6 .aui-button-disabled button,
+.ie6 a.link-button {
+	background: #D4D4D4 url(../images/portlet/header_bg.png) repeat-x 0 0;
+	border-color: #DEDEDE #BFBFBF #BFBFBF #DEDEDE;
+	color: #34404F;
+	cursor: pointer;
+	font-weight: bold;
+	padding: 5px;
+}
+
+a.link-button,
+a:link.link-button {
+	text-decoration: none;
+}
+
+/* extras.css */
+.aui-tabview-list,
+.aui-tab-active,
+body > .lfr-menu-list ul,
+.lfr-actions,
+.aui-dialog-content,
+.aui-dialog .aui-widget-hd,
+.modify-pages .delete-tab,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+button,
+a.link-button,
+a:link.link-button,
+a:visited.link-button {	
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+/* Task List portlet */
+
+.task-list-wrap {
+	margin: 5px;
+}
+
+.task-list-wrap ul.tasks {
+	list-style-type: none;
+}
+
+.task-list-wrap li.task-item {
+	padding: 3px 0;	
+}
+
+.task-list-wrap li.task-item {
+	background: transparent url(../i/prio-LOW.gif) 100% 0 no-repeat;
+	background-image: none;
+	padding-right: 20px;
+}
+
+.task-list-wrap li.priority-high {
+	background-image: url(../i/prio-HIGH.gif);
+}
+
+.task-list-wrap li.priority-medium {
+	background-image: url(../i/prio-MEDIUM.gif);
+}
+
+.task-list-wrap li.priority-low {
+	background-image: url(../i/prio-LOW.gif);
+}
+
+.task-list-wrap input.todo {
+	margin-right: 10px;
+}
+
+.task-list-wrap label.task-label {
+	color:#993333;
+	font-weight: bold;
+}
+
+.task-edit-controls {
+	margin-left: 20px;
+}
+
+.task-edit-controls ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.task-edit-controls ul li {
+	float: left;
+	height: 16px;
+	line-height: 16px;
+	margin-right: 5px;
+}
+
+.task-edit-controls li.edit-task,
+.task-edit-controls li.delete-task {
+	width: 16px;
+}
+
+.task-edit-controls li.edit-task a,
+.task-edit-controls li.delete-task a {
+	background: transparent url(../i/icons/pencil.png) 0 0 no-repeat;
+	display: block;
+}
+
+.task-edit-controls li.edit-task a {
+	background-image: url(../i/icons/pencil.png);
+}
+
+.task-edit-controls li.delete-task a {
+	background-image: url(../i/icons/delete.png);
+}
+
+.task-edit-controls li.edit-task a span,
+.task-edit-controls li.delete-task a span {
+	font-size: 0;
+	text-indent: -9999em;
+}
