@@ -16,7 +16,7 @@
 
 @import url(custom.css);
 
-/*
+/**/
 @import url(../javascript/yui/assets/border_tabs.css);
 @import url(../javascript/yui/assets/calendar.css);
 @import url(../javascript/yui/assets/container.css);
@@ -37,7 +37,7 @@
 @import url(../javascript/yui/assets/skins/sam/treeview.css);
 @import url(../javascript/yui/assets/skins/sam/yuitest.css);
 @import url(../javascript/yui/assets/skins/vgr/container.css);
-*/
+/**/
 
 @import url(ie.css);
 

@@ -1,0 +1,3 @@
+#* ------ Enable JS debug ------------------------------------- *#
+	#set ($enableDebug = true )
+	#set ($launchDebugger = false )
