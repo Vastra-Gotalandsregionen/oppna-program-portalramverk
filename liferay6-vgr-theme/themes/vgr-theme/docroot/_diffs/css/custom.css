@@ -623,3 +623,9 @@ a:visited.link-button {
 	font-size: 0;
 	text-indent: -9999em;
 }
+
+/* AUI Dialog */
+.aui-dialog-bd fieldset,
+.aui-dialog-bd .aui-form fieldset {
+    margin: 5px 0;
+}
