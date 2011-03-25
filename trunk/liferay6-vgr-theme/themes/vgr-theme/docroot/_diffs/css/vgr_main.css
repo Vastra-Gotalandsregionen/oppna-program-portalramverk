@@ -1563,3 +1563,12 @@ menu.portlet-topper-toolbar {
 .ie #content-wrapper.slide * .fifty {
   width:49%;
 }
+
+
+
+
+/* Overrides EA */
+
+.lfr-actions.portlet-options .lfr-trigger strong a {
+	text-indent: -9999px;
+}

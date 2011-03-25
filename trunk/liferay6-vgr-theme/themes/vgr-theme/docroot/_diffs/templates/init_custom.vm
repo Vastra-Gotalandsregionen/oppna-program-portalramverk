@@ -1,3 +1,12 @@
 #* ------ Enable JS debug ------------------------------------- *#
-	#set ($enableDebug = true )
-	#set ($launchDebugger = false )
+	
+#set ($enableDebug = false )
+#set ($launchDebugger = false )
+
+#* ------ URLs ------------------------------------- *#
+
+#set ( $logo_url = $company_url )
+
+#if($is_signed_in)
+	#set ( $logo_url = "/group/vgregion/" )
+#end	
