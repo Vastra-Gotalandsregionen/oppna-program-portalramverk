@@ -1514,10 +1514,9 @@ div.ctrl-holder input {
 
 #content-wrapper.slide {
     clear: both;
-    overflow: hidden;
     width: 100%;
-    position: relative;
     min-height: 100px;
+    position: relative;
     text-align: left;
 }
 
