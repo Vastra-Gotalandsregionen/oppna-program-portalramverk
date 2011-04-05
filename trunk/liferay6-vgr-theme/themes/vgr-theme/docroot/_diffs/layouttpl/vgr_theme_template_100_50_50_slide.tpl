@@ -1,5 +1,5 @@
 <span id="slide-buttons">
-  <a id="hide" href="#">Dölj notifieringar</a>
+  <a id="hide" href="#">D&ouml;lj notifieringar</a>
   <a id="show" href="#">Visa notifieringar</a>
 </span>
 <div id="main-content">
@@ -18,7 +18,7 @@
         </div>
         <div id="column-3" class="fifty">
           <div class="lfr-column portlet-column portlet-column-last" style="display: block;">
-            $processor.processColumn("column-3", "portlet-column-content portlet-column-content-last")
+            $processor.processColumn("column-3", "portlet-column-content")
           </div>
         </div>
       </div>

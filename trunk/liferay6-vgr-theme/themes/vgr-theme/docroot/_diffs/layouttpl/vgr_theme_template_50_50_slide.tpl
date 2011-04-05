@@ -13,7 +13,7 @@
         </div>
         <div id="column-2" class="fifty">
           <div class="lfr-column portlet-column portlet-column-last" style="display: block;">
-            $processor.processColumn("column-2", "portlet-column-content portlet-column-content-last")
+            $processor.processColumn("column-2", "portlet-column-content")
           </div>
         </div>
       </div>
