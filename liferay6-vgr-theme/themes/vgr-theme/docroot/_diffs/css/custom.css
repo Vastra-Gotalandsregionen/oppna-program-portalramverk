@@ -85,6 +85,12 @@ body {
 }
 
 #banner #heading .logo {
+	background: none;
+	display: inline;
+	font-size: 26px;
+	height: auto;
+	text-indent: 0;
+	width: auto;
 }
 
 #banner .company-title {
@@ -101,7 +107,7 @@ body {
 
 #banner .company-title a.logo span {
 	color: #fff;
-	float: left;
+	float: none;
 	font-size: 26px;
 	text-indent: 0;
 	text-decoration: none;
