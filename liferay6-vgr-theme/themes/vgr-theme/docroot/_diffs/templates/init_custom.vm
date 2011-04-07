@@ -1,6 +1,6 @@
 #* ------ Enable JS debug ------------------------------------- *#
 	
-#set ($enableDebug = false )
+#set ($enableDebug = true )
 #set ($launchDebugger = false )
 
 #* ------ Phrases ------------------------------------- *#
