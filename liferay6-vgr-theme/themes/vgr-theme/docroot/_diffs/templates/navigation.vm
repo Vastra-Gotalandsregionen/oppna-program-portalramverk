@@ -3,7 +3,7 @@
 		<span>#language("navigation")</span>
 	</h1>
 
-	<ul class="clearfix">
+	<ul class="nav-main clearfix">
 		#foreach ($nav_item in $nav_items)
 			#if ($nav_item.isSelected())
 				<li class="selected">
@@ -11,21 +11,28 @@
 				<li>
 			#end
 				<a href="$nav_item.getURL()" $nav_item.getTarget()><span>$nav_item.icon() $nav_item.getName()</span></a>
-
-				#if ($nav_item.hasChildren())
-					<ul class="child-menu">
-						#foreach ($nav_child in $nav_item.getChildren())
-							#if ($nav_child.isSelected())
-								<li class="selected">
-							#else
-								<li>
-							#end
-								<a href="$nav_child.getURL()" $nav_child.getTarget()>$nav_child.getName()</a>
-							</li>
-						#end
-					</ul>
-				#end
 			</li>
 		#end
 	</ul>
+	
+    <ul class="nav-sub clearfix">
+        #foreach ($nav_item in $nav_items)
+            #if ($nav_item.hasChildren())
+                #if ($nav_item.isSelected())
+                    #foreach ($nav_child in $nav_item.getChildren())
+                        #if ($nav_child.isSelected())
+                            #set ($nav_child_class = "selected")
+                        #else
+                            #set ($nav_child_class = "")
+                        #end
+    
+                        <li class="$nav_child_class">
+                            <a href="$nav_child.getURL()" $nav_child.getTarget() class="$nav_child_class">$nav_child.getName()</a>
+                        </li>
+                    #end
+                #end
+            #end
+        #end
+    </ul>
+	
 </nav>
