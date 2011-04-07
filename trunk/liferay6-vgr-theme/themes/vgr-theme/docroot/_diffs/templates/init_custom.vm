@@ -3,6 +3,10 @@
 #set ($enableDebug = false )
 #set ($launchDebugger = false )
 
+#* ------ Phrases ------------------------------------- *#
+
+#set ($region_portal_name="Regionportalen")
+
 #* ------ URLs ------------------------------------- *#
 
 #set ( $logo_url = $company_url )

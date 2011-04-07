@@ -6,7 +6,7 @@
 
 <head>
 	<title>$the_title - $company_name</title>
-
+	
 	$theme.include($top_head_include)
 </head>
 
@@ -23,7 +23,7 @@
 		<hgroup id="heading">
 			<h1 class="company-title clearfix">
 				<a class="logo" href="$company_url" title="#language("go-to") $company_name">
-					<span>$company_name</span>
+					<span>$region_portal_name</span>
 				</a>
 			</h1>
 
