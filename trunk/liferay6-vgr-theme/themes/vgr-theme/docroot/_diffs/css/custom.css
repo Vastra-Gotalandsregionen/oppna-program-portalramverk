@@ -140,7 +140,7 @@ h1, h2, h3 {
 }
 
 h1 {
-	color: #cc071e;
+	color: #333;
 	font-size: 2.5em;
 	margin: 0.4em 0 0.4em 0;
 }
@@ -316,13 +316,13 @@ img.dec {
 	margin: 10px 0 0 0;
 }
 
-#navigation ul {
+#navigation ul.nav-main {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-#navigation ul li {
+#navigation ul.nav-main li {
 	background: transparent;
     display: block;
     float: left;
@@ -331,7 +331,7 @@ img.dec {
     padding: 0;
 }
 
-#navigation ul li a {
+#navigation ul.nav-main li a {
 	background: transparent url(../images/navigation/TopMenu_bg.gif) repeat-x 0 0;
 	border-radius: 0;
 	-moz-border-radius: 0;
@@ -344,16 +344,62 @@ img.dec {
     text-decoration: none;
 }
 
-#navigation ul li a:hover {
+vul.nav-main li a:hover {
 	background: #fff;
 	color: #000;
     text-decoration: none;
 }
 
-#navigation ul li.selected a,
-#navigation ul li.selected a:hover {
+#navigation ul.nav-main li.selected a,
+#navigation ul.nav-main li.selected a:hover {
 	background: #fff;
 	color: #000;
+	font-weight: bold;
+}
+
+/*------- Sub navigation -------*/
+
+#navigation ul.nav-sub {
+	background: #fff;
+    list-style: none;
+    margin: 0 -40px;
+    padding: 5px 40px;
+}
+
+#navigation ul.nav-sub li {
+	background: transparent;
+    display: block;
+    float: left;
+    list-style: none;
+    margin: 0 1px;
+    padding: 0;
+}
+
+#navigation ul.nav-sub li a {
+	background: transparent;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+    color: #222;
+    display: block;
+    float: left;
+    font-weight: normal;
+    margin: 0;
+    padding: 3px 6px;
+    text-decoration: none;
+}
+
+#navigation ul.nav-sub li a:hover,
+#navigation ul.nav-sub li.selected a {
+	background: #efefef;
+	border: 1px solid #c8c8c8;
+	border-bottom: none;
+	color: #000;
+	font-weight: bold;
+}
+
+#navigation ul.nav-sub li.selected a,
+#navigation ul.nav-sub li.selected a:hover {
 	font-weight: bold;
 }
 
