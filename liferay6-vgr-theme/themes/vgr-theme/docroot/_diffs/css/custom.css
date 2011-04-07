@@ -29,9 +29,6 @@ TODO
 --------------------------------------
 
 * Move booking portlet styling from sandbox to portlet category
-* Remove styling in booking portlet (form-style.css file and css file include)
-* Remove ie styling in booking portlet (form-style.css file and css file include)
-
 
 */
 
@@ -1705,31 +1702,7 @@ a:visited.link-button {
 	text-indent: -9999em;
 }
 
-/*------- Portlet -------*/
-
-
-/*------- Portlet -------*/
-
-
-/*------- Portlet -------*/
-
-
-/*------- Portlet -------*/
-
-
-/*----------------------------------------------------------------------
-=Articles
-----------------------------------------------------------------------*/
-
-/*------- All articles -------*/
-
-.journal-content-article {}
-
-/*----------------------------------------------------------------------
-=Sandbox
-----------------------------------------------------------------------*/
-
-/*------- Booking Portlet (resebokning) should be removed from /webapp/css/form-style.css in resebokning-module -------*/
+/*------- Booking Portlet (resebokning) -------*/
 
 .booking-wrap fieldset {
 	background: #F2EFE9;
@@ -1842,3 +1815,15 @@ a:visited.link-button {
 	color: grey;
 	font-size: 0.9em;
 }
+
+/*----------------------------------------------------------------------
+=Articles
+----------------------------------------------------------------------*/
+
+/*------- All articles -------*/
+
+.journal-content-article {}
+
+/*----------------------------------------------------------------------
+=Sandbox
+----------------------------------------------------------------------*/
