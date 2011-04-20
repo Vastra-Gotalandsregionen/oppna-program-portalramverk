@@ -1,10 +1,11 @@
-<span id="slide-buttons">
-  <a id="hide" href="#">D&ouml;lj notifieringar</a>
-  <a id="show" href="#">Visa notifieringar</a>
-</span>
+<div id="slideButtons">
+	<a id="hide" href="#">D&ouml;lj notifieringar</a>
+	<a id="show" href="#">Visa notifieringar</a>
+</div>
+
 <div id="main-content">
   <div id="content-wrapper" class="columns-4 slide">
-    <div id="layout-grid" class="lfr-grid portlet-layout">
+    <div id="layout-grid" class="lfr-grid portlet-layout clearfix">
       <div id="main-container">
         <div id="column-1" class="hundred">
           <div class="lfr-column portlet-column portlet-column-first" style="display: block;">

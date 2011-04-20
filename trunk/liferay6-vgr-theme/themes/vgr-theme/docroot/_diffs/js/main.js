@@ -6,8 +6,8 @@ AUI().ready(
 		
 	    var mainContainer = A.one('#main-container');
 	    var slideContainer = A.one('#slide-container');
-		var hideNode = A.one('#slide-buttons #hide');
-		var showNode = A.one('#slide-buttons #show');
+		var hideNode = A.one('#slideButtons #hide');
+		var showNode = A.one('#slideButtons #show');
 	    
 		var animEasing = A.Easing.easeOut;
 		var animDuration = 0.5;
@@ -109,8 +109,18 @@ AUI().ready(
 	
 			A.Cookie.set('hideSlide', String(hide));
 			
-		    hideNode.toggle();
-		    showNode.toggle();
+			if(hide) {
+				console.log('hide', hideNode);
+				console.log('hide', showNode);
+			    hideNode.hide();
+			    showNode.show();
+			}
+			else {
+				console.log('show', hideNode);
+				console.log('show', showNode);
+			    hideNode.show();
+			    showNode.hide();
+			}
 		}	
 	}
 );
