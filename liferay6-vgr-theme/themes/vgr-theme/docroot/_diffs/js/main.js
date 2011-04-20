@@ -110,14 +110,10 @@ AUI().ready(
 			A.Cookie.set('hideSlide', String(hide));
 			
 			if(hide) {
-				console.log('hide', hideNode);
-				console.log('hide', showNode);
 			    hideNode.hide();
 			    showNode.show();
 			}
 			else {
-				console.log('show', hideNode);
-				console.log('show', showNode);
 			    hideNode.show();
 			    showNode.hide();
 			}
