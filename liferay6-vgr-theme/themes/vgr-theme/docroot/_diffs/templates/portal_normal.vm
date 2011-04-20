@@ -8,6 +8,10 @@
 	<title>$the_title - $company_name</title>
 	
 	$theme.include($top_head_include)
+	
+    <!--[if lte IE 7]>
+    	#css ("$css_folder/ie7.css")
+    <![endif]-->
 </head>
 
 <body class="$css_class">

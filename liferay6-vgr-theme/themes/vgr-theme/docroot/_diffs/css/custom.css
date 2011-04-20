@@ -1729,31 +1729,27 @@ a:visited.link-button {
 /*------- Booking Portlet (resebokning) -------*/
 
 .booking-wrap fieldset {
-	background: #F2EFE9;
-	border: 1px solid #BFBAB0;
-	clear: both;
-	float: left;
-	margin: 0 0 1.5em 0;
-	padding: 0em;
-	width: 100%;
+	background: #f2efe9;
+	border: 1px solid #bfbab0;
+	display: block;
+	margin: 10px 0;
+	padding: 10px;
 }
 
 .booking-wrap legend {
-	color: #000000;
-	margin-left: 1em;
+	color: #000;
+	margin-left: 10px;
 	font-weight: bold;
 }
 
 .booking-wrap fieldset ol {
 	list-style-type: none;
-	padding: 1em 1em 0 1em;
+	margin: 0;
+	padding: 0;
 }
 
 .booking-wrap fieldset li {
-	clear: left;
-	float: left;
 	list-style-type: none;
-	width: 100%;
 }
 
 .booking-wrap fieldset.submit {
@@ -1766,8 +1762,8 @@ a:visited.link-button {
 
 .booking-wrap label {
 	float: left;
-	margin-right: 1em;
-	width: 14em;
+	margin-right: 10px;
+	width: 130px;
 }
 
 .booking-wrap span label {
@@ -1778,7 +1774,7 @@ a:visited.link-button {
 
 .booking-wrap li .radio-group {
 	display: block;
-	margin-bottom: 1em; 
+	margin-bottom: 10px; 
 }
 
 .booking-wrap fieldset .textarea,
@@ -1787,7 +1783,7 @@ a:visited.link-button {
 .booking-wrap fieldset .time,
 .booking-wrap fieldset .radio,
 .booking-wrap fieldset .select {
-	border: 1px solid #cccccc;
+	border: 1px solid #ccc;
 	padding: 4px 2px;  
 }
 
