@@ -469,6 +469,7 @@ vul.nav-main li a:hover {
     float: left;
 }
 
+/*
 #content-wrapper.slide * .fifty {
     width: 50%;
 }
@@ -476,9 +477,18 @@ vul.nav-main li a:hover {
 #content-wrapper.slide * .hundred {
     width: 100%;
 }
+*/
+
+.fifty {
+    width: 49.8%;
+}
+
+.hundred {
+    width: 100%;
+}
 
 #content-wrapper.slide {
-	clear: both;
+	/*clear: both;*/
 	min-height: 100px;
 	position: relative;
 	text-align: left;
@@ -486,20 +496,28 @@ vul.nav-main li a:hover {
 }
 
 #main-container {
+	float: left;
+	/*
 	left: 0;
+	*/
+	overflow: hidden;
 	width: 80%;
 }
 
 #slide-container {
-	padding: 15px 0; 
+	overflow: hidden;
+	padding: 15px 0;
+	/* 
 	position: absolute;
 	right: 0;
 	top: 0;
+	*/
+	float: right;
 	width: 20%;
 }
 
-#slide-buttons {
-	float: right;
+#slideButtons {
+	text-align: right;
 }
 
 #slide-buttons a {
