@@ -14,3 +14,11 @@
 #if($is_signed_in)
 	#set ( $logo_url = "/group/vgregion/" )
 #end	
+
+#* ------ Piwik ------------------------------------- *#
+
+#set ($piwikActive = $propsUtil.get("web.tracking.piwik.active") )
+#set ($piwikURL = "http://piwik.webbarkivet.vgregion.se/" )
+#set ($piwikURLSecure = "https://piwik.webbarkivet.vgregion.se/" )
+#set ($piwikURLNoScriptImg = "http://piwik.webbarkivet.vgregion.se/piwik.php?idsite=6" )
+#set ($piwikScriptName = "piwik.js" )
