@@ -479,8 +479,16 @@ vul.nav-main li a:hover {
 }
 */
 
+.thirty {
+    width: 29.8%;
+}
+
 .fifty {
     width: 49.8%;
+}
+
+.seventy {
+    width: 69.8%;
 }
 
 .hundred {
