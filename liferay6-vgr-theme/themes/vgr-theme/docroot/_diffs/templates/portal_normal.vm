@@ -12,6 +12,7 @@
     <!--[if lte IE 7]>
     	#css ("$css_folder/ie7.css")
     <![endif]-->
+	
 </head>
 
 <body class="$css_class">
@@ -93,8 +94,8 @@
 
 	$theme.include($bottom_include)
 	
-	#js ("$javascript_folder/slider.js")
-
+	###js ("$javascript_folder/slider.js")
+	
 	#if($enableDebug)		
 		#css ("$css_folder/console-core.css")
 		
