@@ -1844,6 +1844,59 @@ a:visited.link-button {
 	font-size: 0.9em;
 }
 
+/*------- BFR portlet -------*/
+
+.bfr-wrap {}
+
+.bfr-wrap .aui-tabview-list {
+	border: none;
+	border-bottom: 5px solid #2647a0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.bfr-wrap .aui-tab {
+	background: #d8d8d8;
+	border: 1px solid #a3a3a3;
+	border-width: 1px 1px 0 1px;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	color: #333;
+	margin: 0 0.2em 0 0;
+}
+
+.bfr-wrap .aui-tab-active {
+	background: #2647a0;
+	border-color: #243356;
+	color: #fff;
+}
+
+.bfr-wrap .aui-tab-active::after {
+	border: 0;
+	bottom: 0;
+	content: '';
+	display: block;
+	height: 0;
+	magin: 0;
+	width: 0;
+	z-index: 0;
+}
+
+.bfr-wrap .aui-tabview-content-wrap {
+	background: #edf5ff;
+	border: 1px solid #808080;
+	border-top-color: #243356;
+	padding: 10px;
+}
+
+.bfr-wrap .yui-dt tr th {
+	background: #eee;
+}
+
 /*----------------------------------------------------------------------
 =Articles
 ----------------------------------------------------------------------*/
