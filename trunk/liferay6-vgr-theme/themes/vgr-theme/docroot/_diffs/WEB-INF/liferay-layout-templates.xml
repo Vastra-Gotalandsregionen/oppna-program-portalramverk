@@ -29,6 +29,11 @@
         <wap-template-path>/layouttpl/vgr_theme_template_50_50_slide.wap.tpl</wap-template-path>
         <thumbnail-path>/layouttpl/vgr_theme_template_50_50_slide.png</thumbnail-path>
     </layout-template>
+    <layout-template id="vgr_theme_template_20_80_slide" name="VGR - 2 Columns (20/80) with slide">
+        <template-path>/layouttpl/vgr_theme_template_20_80_slide.tpl</template-path>
+        <wap-template-path>/layouttpl/vgr_theme_template_20_80_slide.wap.tpl</wap-template-path>
+        <thumbnail-path>/layouttpl/vgr_theme_template_20_80_slide.png</thumbnail-path>
+    </layout-template>
     <layout-template id="vgr_theme_template_30_70_slide" name="VGR - 2 Columns (30/70) with slide">
         <template-path>/layouttpl/vgr_theme_template_30_70_slide.tpl</template-path>
         <wap-template-path>/layouttpl/vgr_theme_template_30_70_slide.wap.tpl</wap-template-path>
