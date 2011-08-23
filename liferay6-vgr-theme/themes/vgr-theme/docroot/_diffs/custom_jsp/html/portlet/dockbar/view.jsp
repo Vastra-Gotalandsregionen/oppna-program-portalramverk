@@ -32,6 +32,14 @@ for (String portletId : PropsValues.DOCKBAR_ADD_PORTLETS) {
 		portlets.add(portlet);
 	}
 }
+
+List<String> userCommunities = new ArrayList<String>();
+for (Group communityName : user.getMyPlaces()) {
+    userCommunities.add(communityName.getName().toLowerCase());
+}
+
+Boolean vgregion = userCommunities.contains("vgregion");
+Boolean extern = userCommunities.contains("extern");
 %>
 
 <div class="dockbar" data-namespace="<portlet:namespace />" id="dockbar">
@@ -238,15 +246,31 @@ for (String portletId : PropsValues.DOCKBAR_ADD_PORTLETS) {
 				<div class="aui-menu my-places-menu aui-overlaycontext-hidden" id="<portlet:namespace />myPlacesContainer">
 					<div class="aui-menu-content">
                         <ul class="taglib-my-places">
-                            <li class="public-community first">
-                                <a href='<%=themeDisplay.getPortalURL() + "/group/vgregion/start"%>'>Start</a>
-                            </li>
-                            <li class="public-community">
-                                <a href='<%=themeDisplay.getPortalURL() + "/group/vgregion/tyck-till"%>'>Tyck till</a>
-                            </li>
-                            <li class="my-places">
-                                <a href='<%=themeDisplay.getPortalURL() + "/group/vgregion/om-regionportalen"%>'>Om Regionportalen</a>
-                            </li>
+                            <c:if test="<%= vgregion %>">
+                                <li class="public-community first">
+                                    <a href='<%=themeDisplay.getPortalURL() + "/group/vgregion/start"%>'>Start</a>
+                                </li>
+                                <li class="public-community">
+                                    <a href='<%=themeDisplay.getPortalURL() + "/group/vgregion/tyck-till"%>'>Tyck till</a>
+                                </li>
+                                <li class="my-places">
+                                    <a href='<%=themeDisplay.getPortalURL() + "/group/vgregion/om-regionportalen"%>'>Om Regionportalen</a>
+                                </li>
+                            </c:if>
+                            <c:if test="<%= extern %>">
+                   				<c:choose>
+    	                            <c:when test="<%= vgregion %>">
+                                        <li class="public-community">
+                                            <a href='<%=themeDisplay.getPortalURL() + "/group/extern/start"%>'>Extern</a>
+                                        </li>
+                                    </c:when>
+                                    <c:otherwise>
+                                        <li class="public-community first">
+                                            <a href='<%=themeDisplay.getPortalURL() + "/group/extern/start"%>'>Start</a>
+                                        </li>
+                                    </c:otherwise>
+                                </c:choose>
+                            </c:if>
                             <c:if test="<%= permissionChecker.isOmniadmin() %>">
                                 <li class="my-places">
                                     <a href='<%=themeDisplay.getPortalURL() + "/web/guest/home"%>'>Inloggning</a>
@@ -272,12 +296,32 @@ for (String portletId : PropsValues.DOCKBAR_ADD_PORTLETS) {
                         <aui:a cssClass="user-fullname" href="<%= themeDisplay.getURLMyAccount().toString() %>"><%= HtmlUtil.escape(user.getFullName()) %></aui:a>
                     </c:when>
                     <c:otherwise>
-                        <a cssClass="user-portrait" href="<%= themeDisplay.getPortalURL() %>/group/vgregion/start">
-                            <img alt="<%= HtmlUtil.escape(user.getFullName()) %>" src="<%= HtmlUtil.escape(themeDisplay.getPathImage() + "/user_" + (user.isFemale() ? "female" : "male") + "_portrait?img_id=" + user.getPortraitId() + "&t=" + ImageServletTokenUtil.getToken(user.getPortraitId())) %>" />
-                        </a>
-                        <a cssClass="user-fullname" href="<%= themeDisplay.getPortalURL() %>/group/vgregion/start">
-                            <%= HtmlUtil.escape(user.getFullName()) %>
-                        </a>
+                        <c:choose>
+                            <c:when test="<%= vgregion %>">
+                                <a cssClass="user-portrait" href="<%= themeDisplay.getPortalURL() %>/group/vgregion/start">
+                                    <img alt="<%= HtmlUtil.escape(user.getFullName()) %>" src="<%= HtmlUtil.escape(themeDisplay.getPathImage() + "/user_" + (user.isFemale() ? "female" : "male") + "_portrait?img_id=" + user.getPortraitId() + "&t=" + ImageServletTokenUtil.getToken(user.getPortraitId())) %>" />
+                                </a>
+                                <a cssClass="user-fullname" href="<%= themeDisplay.getPortalURL() %>/group/vgregion/start">
+                                    <%= HtmlUtil.escape(user.getFullName()) %>
+                                </a>
+                            </c:when>
+                            <c:when test="<%= (extern && (!vgregion)) %>">
+                                <a cssClass="user-portrait" href="<%= themeDisplay.getPortalURL() %>/group/extern/start">
+                                    <img alt="<%= HtmlUtil.escape(user.getFullName()) %>" src="<%= HtmlUtil.escape(themeDisplay.getPathImage() + "/user_" + (user.isFemale() ? "female" : "male") + "_portrait?img_id=" + user.getPortraitId() + "&t=" + ImageServletTokenUtil.getToken(user.getPortraitId())) %>" />
+                                </a>
+                                <a cssClass="user-fullname" href="<%= themeDisplay.getPortalURL() %>/group/extern/start">
+                                    <%= HtmlUtil.escape(user.getFullName()) %>
+                                </a>
+                            </c:when>
+                            <c:otherwise>
+                                <span cssClass="user-portrait">
+                                    <img alt="<%= HtmlUtil.escape(user.getFullName()) %>" src="<%= HtmlUtil.escape(themeDisplay.getPathImage() + "/user_" + (user.isFemale() ? "female" : "male") + "_portrait?img_id=" + user.getPortraitId() + "&t=" + ImageServletTokenUtil.getToken(user.getPortraitId())) %>" />
+                                </span>
+                                <span cssClass="user-fullname">
+                                    <%= HtmlUtil.escape(user.getFullName()) %>
+                                </span>
+                            </c:otherwise>
+                        </c:choose>
                     </c:otherwise>
                 </c:choose>
 
