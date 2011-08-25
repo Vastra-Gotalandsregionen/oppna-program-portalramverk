@@ -5,7 +5,12 @@
 
 #* ------ Phrases ------------------------------------- *#
 
-#set ($region_portal_name="Regionportalen")
+#set ( $test_company = "vgregion.se" )
+#if($company_name == $test_company)
+    #set ($region_portal_name="Regionportalen")
+#else
+    #set ($region_portal_name="")
+#end
 
 #* ------ URLs ------------------------------------- *#
 
