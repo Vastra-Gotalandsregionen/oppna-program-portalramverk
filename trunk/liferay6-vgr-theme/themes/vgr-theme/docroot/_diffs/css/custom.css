@@ -1856,9 +1856,13 @@ a:visited.link-button {
 
 .bfr-wrap {}
 
+.bfr-wrap h2 {
+    margin-top: 0px;
+}
+
 .bfr-wrap .aui-tabview-list {
 	border: none;
-	border-bottom: 5px solid #2647a0;
+	border-bottom: 5px solid #2c6fa7;
 	-moz-border-radius: 0;
 	-webkit-border-radius: 0;
 	border-radius: 0;
@@ -1878,12 +1882,12 @@ a:visited.link-button {
 }
 
 .bfr-wrap .aui-tab-active {
-	background: #2647a0;
+	background: #2c6fa7;
 	border-color: #243356;
 	color: #fff;
 }
 
-.bfr-wrap .aui-tab-active::after {
+.bfr-wrap .aui-tab-active:after {
 	border: 0;
 	bottom: 0;
 	content: '';
@@ -1898,12 +1902,38 @@ a:visited.link-button {
 	background: #edf5ff;
 	border: 1px solid #808080;
 	border-top-color: #243356;
-	padding: 10px;
 }
+
+.bfr-wrap .aui-tabview-content-item {
+    padding: 10px;
+}
+
+.bfr-wrap .aui-tabview-content-wrap .imageview {
+    padding: 0px;
+}
+
 
 .bfr-wrap .yui-dt tr th {
 	background: #eee;
 }
+
+.bfr-wrap .yui-dt-even td {
+    background-color: #fff;
+}
+.bfr-wrap .yui-dt-odd td {
+    background-color: #fafafa;
+}
+
+
+.bfr-wrap tbody td .yui-dt-liner:hover {
+    text-decoration: underline;
+}
+
+.bfr-wrap .aui-tabview-content-wrap .aui-tabview-content-item table td {
+    vertical-align: top; 
+}
+
+
 
 /*----------------------------------------------------------------------
 =Articles
