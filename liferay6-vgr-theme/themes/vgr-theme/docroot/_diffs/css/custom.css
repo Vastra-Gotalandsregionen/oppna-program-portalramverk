@@ -95,6 +95,7 @@ body {
 
 #banner .company-title {
 	margin: 0;
+	text-align: left;
 }
 
 #banner .company-title a.logo {

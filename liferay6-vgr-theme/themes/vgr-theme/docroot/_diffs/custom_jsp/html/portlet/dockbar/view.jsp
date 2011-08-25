@@ -235,7 +235,7 @@ Boolean extern = userCommunities.contains("extern");
 	</ul>
 
 	<ul class="aui-toolbar user-toolbar">
-		<c:if test="<%= user.hasMyPlaces() %>">
+		<c:if test="<%= user.hasMyPlaces() && (vgregion || extern) %>">
 			<li class="my-places has-submenu" id="<portlet:namespace />myPlaces">
 				<a class="menu-button" href="javascript:;">
 					<span>
