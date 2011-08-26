@@ -1515,8 +1515,8 @@ p.pager .next {
 	text-decoration: underline;
 }
 
-.aui-tabview .aui-tab-active a:link,
-.aui-tabview .aui-tab-active a:hover {
+.aui-tab-active a,
+.aui-tab-active a:hover {
 	color: #fff;
 	text-decoration: none;
 }
@@ -1645,7 +1645,82 @@ a:visited.link-button {
 	text-decoration: none;
 }
 
-/*------- Some Portlet -------*/
+/*------- Portlet Alerts -------*/
+
+.portlet-alerts .portlet-body .entry {
+    background-color: #fdd;
+    background-position: 6px center;
+    background-repeat: no-repeat;
+    background-image: url("../images/warning.png");
+    border: 1px solid #f00;
+    color: #000;
+    padding-left: 64px;
+}
+
+.portlet-alerts .portlet-body .read-entries .entry {
+    background-image: url("../images/warning-grey.png");
+}
+
+.portlet-alerts .entry-scope {
+    color: #000;
+}
+
+.portlet-alerts .portlet-body .entry .entry-title {
+    color: #000;
+}
+
+.portlet-alerts .portlet-body .entry a {
+    color: #000;
+}
+
+/*------- Portlet Navigation ------*/
+
+.portlet-navigation .portlet-body ul {
+    list-style-image: url("../images/arrows/04_right.png");
+    padding: 0px 0px 0px 10px;
+    margin: 0px;
+}
+
+
+.portlet-navigation .portlet-body li {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.portlet-navigation .portlet-body a, .portlet-navigation .portlet-body a:visited {
+    color: #003366;
+}
+
+/* remove reduntant h2 tag on navigation, title is instead set on portlet title */
+.portlet-navigation .portlet-body h2 {
+    display: none;
+}
+
+/* Article template which resembles navigation
+   This is for use with the article portlet using
+   a custom template that just adds the class
+   'navigation-article' in a surrounding div. This way
+   custom navigation can be built.
+*/ 
+.navigation-article ul {
+    list-style-image: url("../images/arrows/04_right.png");
+    padding: 0px 0px 0px 10px;
+    margin: 0px;
+}
+
+.navigation-article li {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.navigation-article p {
+    margin-bottom: 0px;
+}
+
+
+.navigation-article a {
+    color: #003366;
+}
 
 
 /*----------------------------------------------------------------------
