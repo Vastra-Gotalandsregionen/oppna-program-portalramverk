@@ -1723,6 +1723,45 @@ a:visited.link-button {
 }
 
 
+/* 
+ Custom class on standard navigation portlet that makes icons and
+ and a large front page styling possible.
+*/
+
+.icon-navigation .portlet-content ul {
+    list-style-type: none;
+    margin: 0px;    
+    padding: 10px;
+    overflow: hidden;
+}
+
+.icon-navigation .portlet-content li {
+    display: block;
+    float: left;
+    margin: 8px;
+}
+
+
+.icon-navigation .portlet-content li a {
+    background-image: url("../images/navigation/link-bg.png");
+    color: white;
+    display: block;
+    font-size: 18px;
+    height: 79px;
+    line-height: 79px;
+    width: 200px;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+}
+.icon-navigation .portlet-content li a:visited {
+    color: white;
+}
+
+.icon-navigation .portlet-content li a:hover {
+    background-image: url("../images/navigation/link-bg-light.png");
+}
+
 /*----------------------------------------------------------------------
 =Custom Portlets
 ----------------------------------------------------------------------*/
