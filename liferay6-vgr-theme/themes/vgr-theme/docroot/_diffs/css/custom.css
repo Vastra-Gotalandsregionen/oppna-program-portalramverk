@@ -1517,8 +1517,8 @@ p.pager .next {
 
 .aui-tab-active a,
 .aui-tab-active a:hover {
-	color: #fff;
-	text-decoration: none;
+	color: #fff !important;
+	text-decoration: none !important;
 }
 
 .aui-dialog-button {
