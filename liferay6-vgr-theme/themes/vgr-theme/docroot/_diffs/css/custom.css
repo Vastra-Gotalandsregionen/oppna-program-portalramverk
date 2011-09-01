@@ -1669,6 +1669,13 @@ a:visited.link-button {
     color: #000;
 }
 
+.portlet-alerts .portlet-body .entry .entry-title .edit-actions table {
+    /* for some reason IE gets fixed table layout below, this doesn't work here 
+       the edi actions swells out to 100% width */
+    table-layout: auto !important; 
+}
+
+
 .portlet-alerts .portlet-body .entry a {
     color: #000;
 }
