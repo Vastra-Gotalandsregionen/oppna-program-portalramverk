@@ -1774,6 +1774,8 @@ a:visited.link-button {
 ----------------------------------------------------------------------*/
 
 
+/* ---------------- ifeed portlet ------------------------- */
+
 .ifeed-portlet .ifeed-portlet-ldap-people .aui-combobox-content .aui-field-content {
     display: block;
 }
@@ -1789,17 +1791,18 @@ a:visited.link-button {
 }
 
 .ifeed-portlet-filter-result {
-    list-style-type: none;
     margin: 0px;
     padding: 4px;
+    cursor: pointer;
 }
 
 .ifeed-portlet-filter-result-odd {
     background-color: #fafafa;
 }
 
-..aui-autocomplete-list-item
-
+.aui-autocomplete-selected .ifeed-portlet-filter-result-odd {
+    background-color: #DFE8F6;
+}
 
 
 
