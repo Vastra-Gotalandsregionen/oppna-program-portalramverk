@@ -1680,6 +1680,44 @@ a:visited.link-button {
     color: #000;
 }
 
+/* custom classed portlet alerts 
+   Used for system information instead of alerts 
+   Add class 'portlet-alerts-info'
+   */
+.portlet-alerts-info .portlet-body .entry {
+    background-color: #005690;
+    color: white;
+    background-image: none;
+    border: none;
+    padding-left: 35px;
+}
+
+.portlet-alerts-info .entry-scope {
+	display: none;
+}
+
+.portlet-alerts-info .portlet-body .entry .entry-title,.portlet-alerts-info .portlet-body .entry .entry-title a {
+    color: white;
+}
+
+.portlet-alerts-info .entry-title {
+    font-size: 27px;
+    text-align: center;
+}
+
+.portlet-alerts-info .entry-content {
+    text-align: center;
+}
+
+.portlet-alerts-info .edit-actions a {
+    font-size: 9px;
+}
+
+.portlet-alerts-info .control-entry  {
+    display: none;
+}
+
+
 /*------- Portlet Navigation ------*/
 
 .portlet-navigation .portlet-body ul {
