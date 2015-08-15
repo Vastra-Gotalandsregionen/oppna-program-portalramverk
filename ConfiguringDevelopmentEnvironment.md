@@ -1,0 +1,45 @@
+# Contents #
+
+
+
+# Download the code #
+
+From...
+
+http://code.google.com/p/oppna-program-portalramverk/source/checkout
+
+# Import the project into Rational Application Developer #
+
+Import the portal theme as an existing project (not a portal project). The projects that are required are T3Ear and T3ThemeAndSkin
+
+http://oppna-program-portalramverk.googlecode.com/svn/wiki/bilder/1.JPG
+
+http://oppna-program-portalramverk.googlecode.com/svn/wiki/bilder/2.JPG
+
+
+You also need to edit the preferences for Rational to allow the publishing of projects with errors:
+
+http://oppna-program-portalramverk.googlecode.com/svn/wiki/bilder/3.JPG
+
+
+# Configure the project to run in the local environment #
+
+## Edit the build properties file ##
+
+Copy and paste the file build.properties.template file, rename it build.properties and edit the settings to reflect the test environment.
+
+http://oppna-program-portalramverk.googlecode.com/svn/wiki/bilder/4.JPG
+
+## Run configuration script from ant build file ##
+
+Add the ant view to your desktop if it isn't showing. Add the build.xml file from the project.
+
+http://oppna-program-portalramverk.googlecode.com/svn/wiki/bilder/5.JPG
+
+Run the config-theme routine from the ant view. You should get a "BUILD SUCCESSFUL" message in the console once the script has finished. You cna now run add the project to the server and run it. You will see that there is a portlet added to the server and that it doesn't work. This is normal; the portlet is not used to configure the theme, it is only there so that the project can be deployed to the server.
+
+http://oppna-program-portalramverk.googlecode.com/svn/wiki/bilder/6.JPG
+
+If the project has been deployed successfully, you will see a new entry at the top of the page, vgr.tematest. This is a test page added by the ant script to test changes to the theme. You can apply the theme to whatever page you like for testing purposes.
+
+http://oppna-program-portalramverk.googlecode.com/svn/wiki/bilder/7.JPG

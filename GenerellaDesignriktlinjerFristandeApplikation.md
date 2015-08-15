@@ -1,0 +1,56 @@
+# Generella designriktlinjer: Fristående applikation #
+
+För de applikationer som skall utformas som fristående från Portalen finns det inte lika mycket begränsningar som i övriga varianter. Eftersom en typisk användare brukar ett flertal olika system varje dag, med olika interaktionsmöjligheter etc, är det av stor vikt att applikationerna följer en viss typ av mönster.
+
+## Kvalifikationer ##
+Syftet med Portalen är att den skall leda till att användaren får bättre koll på jobbet. Detta betyder att de applikationer, funktioner eller liknande som bidrar i hög grad till ”bättre koll” skall placeras i Portalen. När det kommer till applikationer som istället skall utformas som en fristående applikation, handlar det om applikationer som inte är fullständigt nödvändiga för att användaren skall kunna få en överblick av sitt arbete och inte heller för att kunna utföra de mest relevanta uppgifterna. En applikation som utformas som en fristående applikation kan ändå vara kopplad till Portalen. Exempelvis kan information från den fristående applikationen presenteras i en modal dialog eller i en portlet direkt i Portalen.
+
+## Placering i Portalen ##
+Eftersom en fristående applikation inte är integrerad i Portalen finns det naturligtvis inte några riktlinjer gällande den exakta placeringen.
+Finns det behov att trycka ut information till användaren via Portalen kan information från applikationen presenteras i en portlet som finns i Portalens gränssnitt. Vill användaren agera på informationen som presenteras, såsom exempelvis att läsa mer detaljer, redigera det som står eller till och med skapa ny information via funktioner från applikationen, skall användaren kunna göra detta. Exakt hur det skall gå till beror på vad användaren vill göra, se nedanstående alternativ:
+  * Om användaren exempelvis vill läsa mer om en informationspost kan en modal dialog öppnas direkt i Portalen, utan att den fristående applikationen behöver öppnas.
+  * Om användaren vill agera på informationen, såsom exempelvis redigera det som står, öppnas den fristående applikationen upp som ger användaren möjlighet att göra detta.
+  * För de applikationer som inte faller under Portalen, skall användaren kunna öppna den fristående applikationen genom att klicka på en genväg. Den fristående applikationen öppnas då i en ny webbläsare.
+
+<br><img src='http://lh6.ggpht.com/_mHREyZKezxI/Sp-fWCTqt7I/AAAAAAAAAas/YH7WTvwJPso/s800/Picture%2085.jpg' />
+<br><i>Figur 17: Exempel då användaren tar sig till en annan webbsida</i>
+
+<h2>Storlek och utseende</h2>
+En fristående applikation skall utvecklas utifrån en skärmstorlek på 1024 x 768 pixlar (bredd x höjd).<br>
+<br>
+<br><img src='http://lh6.ggpht.com/_mHREyZKezxI/Sp-fWQx9_jI/AAAAAAAAAaw/To0aAGPms4w/s800/Picture%2086.jpg' />
+<br><i>Figur 18: Exempel utseende för fristående applikation</i>
+
+Ovanstående bild är exempel på hur en fristående applikation kan utformas.<br>
+I applikationens sidhuvud bör Västra Götalandsregionens logotyp finnas längst till vänster, följt av applikationens namn.<br>
+Kräver applikationen någon form av inloggning kan inloggningen med fördel placeras till höger i panelen för applikationen.<br>
+Behövs någon form av global sökfunktion placeras den längst ut till höger i panelen.<br>
+<br>
+<h2>Navigation</h2>
+Finns det behov av navigering bör flikar användas som den primära navigeringen, se avsnitt Flikar under <a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerByggstenar'>Byggstenar</a>. Vid behov kan även en sekundär navigering användas. Den sekundära navigeringen placeras under den primära navigeringen.<br>
+Istället för att ha ett flertal rullister, används en enda rullist till höger i webbläsaren för att skrolla på hela sidan samtidigt.<br>
+<br>
+<br>
+<br><br>
+<b>Innehållsförteckning</b> (återfinns längst ner på varje sida)<br>
+<ol><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriktlinjerAnvandargranssnitt'>Introduktion till interaktionsdesign för portalramverket</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerPortalramverket?ts=1251969346&updated=GenerellaDesignriktlinjerPortalramverket'>Generella designriktlinjer: Portalramverket</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerIntegreradApplikation?ts=1251969401&updated=GenerellaDesignriktlinjerIntegreradApplikation'>Generella designriktlinjer: Integrerad applikation</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerModalDialog?ts=1251969439&updated=GenerellaDesignriktlinjerModalDialog'>Generella designriktlinjer: Modal dialog</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerPortlet?ts=1251969476&updated=GenerellaDesignriktlinjerPortlet'>Generella designriktlinjer: Portlet</a>
+</li><li>Generella designriktlinjer: Fristående applikation<br>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBeteendeoFunktioner?ts=1251969604&updated=GenerellaDesignriktlinjerBeteendeoFunktioner'>Generella designriktlinjer: Beteenden och funktioner</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerByggstenar?ts=1251969727&updated=GenerellaDesignriktlinjerByggstenar'>Generella designriktlinjer: Byggstenar</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerVisuellAterkoppling?ts=1251969771&updated=GenerellaDesignriktlinjerVisuellAterkoppling'>Generella designriktlinjer: Visuell återkoppling</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerGrafiskForm?ts=1251969808&updated=GenerellaDesignriktlinjerGrafiskForm'>Generella designriktlinjer: Grafisk form</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/TillampadeDesignriktlinjerBattreKollPaJobbet?ts=1251969900&updated=TillampadeDesignriktlinjerBattreKollPaJobbet'>Tillämpade designriktlinjer, Bättre koll på jobbet</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignForvantadeEffekter'>Tillämpade designriktlinjer, Bättre koll på jobbet: Förväntade effekter och målgrupper</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignPrincipdesign'>Tillämpade designriktlinjer, Bättre koll på jobbet: Principdesign</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignInnehall'>Tillämpade designriktlinjer, Bättre koll på jobbet: Innehåll</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignBeteendeFunktioner'>Tillämpade designriktlinjer, Bättre koll på jobbet: Beteenden och funktioner</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesign'>Tillämpade designriktlinjer, Bättre koll på jobbet: Detaljdesign</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/AnnuInteUtrett?ts=1251892328&updated=AnnuInteUtrett'>Tillämpade designriktlinjer, Bättre koll på jobbet: Ännu inte utrett (ej uppdaterad)</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/Kunskapsstod'>Tillämpade designriktlinjer, Bättre koll på jobbet - Kunskapsstöd: Detaljdesign</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga1Informationsstyrning'>Bilaga 1: Informationsstyrning</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga2AttUtforma'>Bilaga 2: Att utforma</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga3ExempelProjektEvenemangskalendern'>Bilaga 3: Exempelprojekt evenemangskalendern</a>

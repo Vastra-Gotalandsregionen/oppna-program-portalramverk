@@ -1,0 +1,58 @@
+# Bättre koll på jobbet: Principdesign #
+Principdesignen beskriver systemets struktur. Den definierar också vilka delar i systemet som tar stort utrymme i gränssnittet och vilka delar som är mindre framträdande.
+
+## Utgångspunkt ##
+Portalen består av en samling av information som en användare kan tänkas behöva i sitt arbete. Informationen finns inte direkt lagrad i Portalen, utan den genereras från andra webbsidor och system.
+Det finns två olika karaktärer för de system som Portalen sträcker över. För det första finns de system som ligger direkt i Portalen, exempelvis e-postprogram, vilket ger användaren en möjlighet att både läsa information hämtat från systemet och möjlighet att agera i systemet.
+För det andra finns det system som Portalen endast kan visa information ifrån, såsom system för labbsvar, faktura hantering och diktat. Om användaren sedan vill agera på informationen eller läsa ytterligare information, måste hon klicka på en länk som öppnar systemet i ett nytt fönster.
+Hur användaren kan navigera sig bland de två typerna av system finns presenterade mer detaljerat under länkar i [avsnitt Beteenden och funktioner](http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignBeteendeFunktioner).
+
+## Navigering ##
+Följande figur beskriver hur Portalen är uppbyggd.
+
+
+![http://lh6.ggpht.com/_mHREyZKezxI/SpzqTq-Ll2I/AAAAAAAAABk/SO0pCzoxaNw/s640/Picture%201.png](http://lh6.ggpht.com/_mHREyZKezxI/SpzqTq-Ll2I/AAAAAAAAABk/SO0pCzoxaNw/s640/Picture%201.png)
+
+_Figur 1: Navigering i Portalen_
+
+## Areaindelning ##
+Den generella areaindelningen för Portalen är uppdelad i sju huvudsakliga områden. Dessa kan antingen vara fasta eller dynamiska. De fasta funktionerna består av de funktioner som syns och går att interagera med oberoende var användaren befinner sig i Portalen. Dock skall de fasta delarna inte finnas med då användaren öppnar upp ett system i ett nytt fönster från någon av Portalens genvägar. De dynamiska funktionerna ändras beroende på var användaren är i Portalen (se figur nedan).
+
+![http://lh6.ggpht.com/_mHREyZKezxI/Spzy-IvB3eI/AAAAAAAAABs/s8MuKDed36k/s720/Picture%202.png](http://lh6.ggpht.com/_mHREyZKezxI/Spzy-IvB3eI/AAAAAAAAABs/s8MuKDed36k/s720/Picture%202.png)
+
+_Figur 2: Generell areaindelning av Portalen_
+
+Den generella areaindelningen innehåller sex areor:
+  1. Systemnamn (Fasta)– Här visas bland annat Portalens logotyp/varumärke och vem som är inloggad.
+  1. Primär navigering (Fasta)– Den primära navigeringen utgörs av en uppsättning flikar, som kan variera beroende på vem som är inloggad. Denna navigering utgör huvudsakliga navigeringen i Portalen.
+  1. Sök (Fasta)– Här finns en sökfunktion som användaren kan använda för att söka efter information.
+  1. Länkar till genvägar och kontakter (Fasta) – Här finns de snabbgenvägar som användaren kan använda sig av för att snabbt öppna upp ett program eller en webbsida. Vilka genvägar som visas är beroende av vem som är inloggad samt vilka personliga inställningar användaren gjort. Vidare finns det även en snabblänk till användarens kontakter.
+  1. Mina uppgifter (Fasta) – Här finns information/påminnelser som användaren antingen har skapat åt sig själv eller sådana som användaren i och med sin yrkesroll och personliga inställningar får automatiskt skickat till sig. Användaren kan se om det finns några nya uppgifter och även ha möjligheten att skapa nya uppgifter. Vidare får användaren information om att det exempelvis finns två nya labbsvar. Men hon kan däremot inte se exakt vilka labbsvar det handlar om utan att klicka på länken som öppnar det aktuella systemet.
+  1. Samarbetsfunktioner (Fasta) – Till samarbetsfunktionen hör E-post, snabbmeddelanden och diskussionsgrupper, vilka användaren kan använda för att kommunicera med sina medarbetare. Användaren kan se om det finns några nya inlägg/meddelanden. För e-post och diskussionsgrupper kan användaren klicka sig till den del av Portalen där finns presenterade mer detaljerat.
+  1. Innehåll och sekundärnavigering (Dynamisk) – Här presenteras innehållet som finns under de olika flikarna. Hur och vilken typ av information som presenteras påverkas av vem som är inloggad.
+
+
+
+<br><br>
+<b>Innehållsförteckning</b> (återfinns längst ner på varje sida)<br>
+<ol><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriktlinjerAnvandargranssnitt'>Introduktion till interaktionsdesign för portalramverket</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerPortalramverket?ts=1251969346&updated=GenerellaDesignriktlinjerPortalramverket'>Generella designriktlinjer: Portalramverket</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerIntegreradApplikation?ts=1251969401&updated=GenerellaDesignriktlinjerIntegreradApplikation'>Generella designriktlinjer: Integrerad applikation</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerModalDialog?ts=1251969439&updated=GenerellaDesignriktlinjerModalDialog'>Generella designriktlinjer: Modal dialog</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerPortlet?ts=1251969476&updated=GenerellaDesignriktlinjerPortlet'>Generella designriktlinjer: Portlet</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerFristandeApplikation?ts=1251969550&updated=GenerellaDesignriktlinjerFristandeApplikation'>Generella designriktlinjer: Fristående applikation</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBeteendeoFunktioner?ts=1251969604&updated=GenerellaDesignriktlinjerBeteendeoFunktioner'>Generella designriktlinjer: Beteenden och funktioner</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerByggstenar?ts=1251969727&updated=GenerellaDesignriktlinjerByggstenar'>Generella designriktlinjer: Byggstenar</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerVisuellAterkoppling?ts=1251969771&updated=GenerellaDesignriktlinjerVisuellAterkoppling'>Generella designriktlinjer: Visuell återkoppling</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerGrafiskForm?ts=1251969808&updated=GenerellaDesignriktlinjerGrafiskForm'>Generella designriktlinjer: Grafisk form</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/TillampadeDesignriktlinjerBattreKollPaJobbet?ts=1251969900&updated=TillampadeDesignriktlinjerBattreKollPaJobbet'>Tillämpade designriktlinjer, Bättre koll på jobbet</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignForvantadeEffekter'>Tillämpade designriktlinjer, Bättre koll på jobbet: Förväntade effekter och målgrupper</a>
+</li><li>Tillämpade designriktlinjer, Bättre koll på jobbet: Principdesign<br>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignInnehall'>Tillämpade designriktlinjer, Bättre koll på jobbet: Innehåll</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignBeteendeFunktioner'>Tillämpade designriktlinjer, Bättre koll på jobbet: Beteenden och funktioner</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesign'>Tillämpade designriktlinjer, Bättre koll på jobbet: Detaljdesign</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/AnnuInteUtrett?ts=1251892328&updated=AnnuInteUtrett'>Tillämpade designriktlinjer, Bättre koll på jobbet: Ännu inte utrett (ej uppdaterad)</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/Kunskapsstod'>Tillämpade designriktlinjer, Bättre koll på jobbet - Kunskapsstöd: Detaljdesign</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga1Informationsstyrning'>Bilaga 1: Informationsstyrning</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga2AttUtforma'>Bilaga 2: Att utforma</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga3ExempelProjektEvenemangskalendern'>Bilaga 3: Exempelprojekt evenemangskalendern</a>

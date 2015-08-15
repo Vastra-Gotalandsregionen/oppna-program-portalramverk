@@ -1,0 +1,115 @@
+# Bättre koll på jobbet: Beteenden och funktioner #
+Följande kapitel beskriver de beteenden och funktioner som Portalen bygger på, vilket gäller för hela Portalen om inget annat anges.
+
+## Navigering ##
+### Hågkomst ###
+Portalen har hågkomst för var användaren var i Portalen och vad hon gjort tidigare. Portalen kan exempelvis erinra och presentera vilket e-postmeddelande som användaren senast hade uppe under fliken för e-post. När användaren sedan loggar in i Portalen igen eller klickar på fliken för e-post, antingen efter att hon loggat ut eller klickat på en annan del av Portalen, presenteras samma e-postmeddelande.
+Detta gäller för samtliga delar av Portalen. Notera att under Hitta/Sök kan Portalen även erinra användarens senast gjorda sökning och presentera den när användaren återkommer.
+Ett undantag är då användaren varit utloggad ut systemet mer än cirka fyra timmar, då användaren istället skall komma till startsidan.
+
+### Dialoger ###
+Det finns delar av Portalen som öppnas i en dialog, exempelvis att lägga till en kalenderhändelse eller redigera sina kontaktuppgifter. Då dialogen öppnas tonas Portalen ner i bakgrunden och blir låst för användaren. Användaren kan flytta på dialogen för att på så sätt komma åt information som är dold. När användaren sedan är klar och stänger ner fönstret sparas informationen, specifik portlet uppdateras och Portalen är inte längre låst för användaren.
+
+<br><img src='http://lh4.ggpht.com/_mHREyZKezxI/Spz7oVA69HI/AAAAAAAAAB8/pC3mfAThZSA/s720/Picture%206.png' />
+<br><i>Figur 6: Exempel på dialog</i>
+
+<h3>Länkar</h3>
+I Portalen fungerar länkar, exempelvis då en applikation skall öppnas upp, på två olika sätt:<br>
+<ul><li>De länkar som leder till en applikation eller informationsdel som finns i Portalen, exempelvis E-post eller ”Mina kontakter”, presenteras den del av Portalen där det specifika objektet finns. Exempelvis om användaren klickar på länken för E-post presenteras Mitt jobb/E-post i Portalen. Detta sker i det befintliga fönstret.</li></ul>
+
+<br><img src='http://lh3.ggpht.com/_mHREyZKezxI/Spz7o1R_YeI/AAAAAAAAACE/wOWEHdHzuHA/s800/Picture%207.png' />
+<br><i>Figur 7: Exempel då användaren tar sig till en annan del av Portalen</i>
+
+<ul><li>För de applikationer eller webbsidor som inte finns Portalen, exempelvis journalhanteringssystem, medicinsk webbsida eller rubriken för en sökträff som länkar till en extern artikel, öppnas länkarna i ett nytt fönster. I det nya fönstret öppnas bara den aktuella webbsidan/applikationen och det finns inte några fasta funktioner.</li></ul>
+
+<br><img src='http://lh5.ggpht.com/_mHREyZKezxI/Spz9a8ctXoI/AAAAAAAAACw/5eQFrVS06RY/s800/Picture%2016.png' />
+<br><i>Figur 8: Exempel då användaren tar sig till en annan webbsida</i>
+
+<h3>Minimera/maximera portlet</h3>
+Användaren kan maximera utrymmet för ”Verksamhetsnytt” så att objektet upptar hela innehållsdelen och på så sätt kunna få mer detaljerad information. När användaren sedan känner sig nöjd kan hon minimera informationsfältet, vilken då återgår till sin ursprungliga storlek.<br>
+<br>
+<br><img src='http://lh6.ggpht.com/_mHREyZKezxI/Spz7o0AuQxI/AAAAAAAAACI/0vzOEBn5fZM/s800/Picture%209.png' />
+<br><i>Figur 9: Utseende på ikonerna för att maximera och minimera en portlet</i>
+
+<ul><li>Utöka information<br>
+När användaren exempelvis har gjort en sökning eller är inne under Mitt jobb/Bevakningar kan hon utöka informationen om ett objekt eller sökträff. Detta genom att föra musen över ett specifikt objekt och sedan välja att vida mer (se figur nedan). Användaren kan sedan dölja informationen och så vidare.</li></ul>
+
+<br><img src='http://lh5.ggpht.com/_mHREyZKezxI/Spz7o2idFTI/AAAAAAAAACM/uJ1F2BV6yjA/s800/Picture%2010.png' />
+<br><i>Figur 10: Flöde för då användaren utökar information</i>
+
+<h2>Skroll</h2>
+Den enda skroll som finns i Portalen är den som är placerad till höger, vilken skall skrolla hela webbsidan.<br>
+I de fall då de färdigdefinierade utrymmena inte är tillräckliga för att presentera information skall utrymmet växa på höjden så att allt får plats, om inget annat nämns. Ett exempel på det är ”Administrativa dokument” under Mitt jobb/Dokument som skall klara av att visa samtliga administrativa dokument som användaren behöver ha.<br>
+<br>
+<h2>Sök</h2>
+Följande avsnitt presenterar de beteenden och funktioner som skall gälla för sök. Det finns två olika typer av sök, en generell och en funktionsspecifik sök. Den funktionsspecifika söken söker endast bland information som finns presenterad i den del av Portalen som den specifika sökfunktionen finns i. Den generella sökfunktionen söker på information som finns i Portalen samt interna och externa webbsidor.<br>
+<br>
+<br><img src='http://lh5.ggpht.com/_mHREyZKezxI/Spz7v7dd1yI/AAAAAAAAACQ/slTCxyAXONs/s800/Picture%2011.png' />
+<br><i>Figur 11: Generell sök</i>
+
+<br><img src='http://lh6.ggpht.com/_mHREyZKezxI/Spz7vxHePiI/AAAAAAAAACU/rXoHvTxvR-Y/s800/Picture%2012.png' />
+<br><i>Figur 12: Funktionsspecifik sök</i>
+
+<h3>Sökområden (generell sök)</h3>
+Det finns ett antal sökområden som användaren kan använda sig av för att smalna ner de sökträffar hon får efter en sökning. Hittills har antagits att ett och samma dokument kan finnas i mer än ett sökområde och att en källa kan finnas i flera sökområden.<br>
+Då användaren har gjort en sökning sorteras träffarna in i de olika områdena och presenteras i en hierarkisk struktur, i vilken användaren sedan kan navigera sig runt i. Presentationen av sökområdena finns alltid efter att användaren har gjort en sökning. Sökområdena är:<br>
+<ul><li>Dokument<br>
+</li><li>Person<br>
+</li><li>Webbsida<br>
+<ul><li>Interna<br>
+</li><li>Externa<br>
+</li></ul></li><li>Nyheter<br>
+<ul><li>Interna<br>
+</li><li>Externa<br>
+</li><li>Pressmeddelanden<br>
+</li></ul></li><li>Organisation<br>
+</li><li>Diskussionsgrupp</li></ul>
+
+<br><img src='http://lh6.ggpht.com/_mHREyZKezxI/Spz7wIRVTnI/AAAAAAAAACY/1Y0QS_iSXr4/Picture%2013.png' />
+<br><i>Figur 13: Presentation av sökområde</i>
+
+<h3>Tolkning av sökord</h3>
+Exakt hur sökorden tolkas är ännu inte helt klart, utan en mer korrekt beskrivning skall göras.<br>
+<br>
+<h3>Detaljerad sök (generell sök)</h3>
+Den detaljerade sökfunktionen innehåller ett antal statiska kategorier som användaren kan använda sig av för att snäva av sin sökning.  Vilka kategorierna är beror på vilket sökområde användaren har valt.<br>
+Det har inte tagits något beslut om vilka kategorier som skall finnas under de specifika sökområdena (TBD).<br>
+<br>
+<br><img src='http://lh3.ggpht.com/_mHREyZKezxI/Spz7wF8qDNI/AAAAAAAAACc/uVUvXDKH2Jk/s800/Picture%2014.png' />
+<br><i>Figur 14: Detaljerad sök</i>
+
+<h2>Tool-tip</h2>
+I Portalen finns det en tool-tip funktion där användaren, genom att föra musen över objektet, exempelvis kan bli informerad om vad objektet betyder och vad hon kan göra med det. Om, när och hur tool-tip funktionen implementeras är ännu inte beslutat.<br>
+<br>
+<h2>Spara genvägar</h2>
+Användaren kan spara ner genvägar, såsom webbsidor och system, på två olika sätt. Det ena är att göra det via Egna inställningar/Anpassa startsidan (se stycke 6.6.2.1). Det andra alternativet, vilket kräver en separat installation i webbläsaren, är att klicka på funktionen för att lägga till som genväg (se figur nedan). Då användaren klickat där skall länken till den aktuella webbsidan läggas till sist i listan för de genvägar som användaren har under Egna inställningar/Anpassa startsidan.<br>
+<br>
+<br><img src='http://lh5.ggpht.com/_mHREyZKezxI/Spz7wbb3UeI/AAAAAAAAACg/tN31vW9H_FE/Picture%2015.png' />
+<br><i>Figur 15: Funktion för att lägga till webbsida som genväg</i>
+
+
+
+
+<br><br>
+<b>Innehållsförteckning</b> (återfinns längst ner på varje sida)<br>
+<ol><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriktlinjerAnvandargranssnitt'>Introduktion till interaktionsdesign för portalramverket</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerPortalramverket?ts=1251969346&updated=GenerellaDesignriktlinjerPortalramverket'>Generella designriktlinjer: Portalramverket</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerIntegreradApplikation?ts=1251969401&updated=GenerellaDesignriktlinjerIntegreradApplikation'>Generella designriktlinjer: Integrerad applikation</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerModalDialog?ts=1251969439&updated=GenerellaDesignriktlinjerModalDialog'>Generella designriktlinjer: Modal dialog</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerPortlet?ts=1251969476&updated=GenerellaDesignriktlinjerPortlet'>Generella designriktlinjer: Portlet</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerFristandeApplikation?ts=1251969550&updated=GenerellaDesignriktlinjerFristandeApplikation'>Generella designriktlinjer: Fristående applikation</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBeteendeoFunktioner?ts=1251969604&updated=GenerellaDesignriktlinjerBeteendeoFunktioner'>Generella designriktlinjer: Beteenden och funktioner</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerByggstenar?ts=1251969727&updated=GenerellaDesignriktlinjerByggstenar'>Generella designriktlinjer: Byggstenar</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerVisuellAterkoppling?ts=1251969771&updated=GenerellaDesignriktlinjerVisuellAterkoppling'>Generella designriktlinjer: Visuell återkoppling</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerGrafiskForm?ts=1251969808&updated=GenerellaDesignriktlinjerGrafiskForm'>Generella designriktlinjer: Grafisk form</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/TillampadeDesignriktlinjerBattreKollPaJobbet?ts=1251969900&updated=TillampadeDesignriktlinjerBattreKollPaJobbet'>Tillämpade designriktlinjer, Bättre koll på jobbet</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignForvantadeEffekter'>Tillämpade designriktlinjer, Bättre koll på jobbet: Förväntade effekter och målgrupper</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignPrincipdesign'>Tillämpade designriktlinjer, Bättre koll på jobbet: Principdesign</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignInnehall'>Tillämpade designriktlinjer, Bättre koll på jobbet: Innehåll</a>
+</li><li>Tillämpade designriktlinjer, Bättre koll på jobbet: Beteenden och funktioner<br>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesign'>Tillämpade designriktlinjer, Bättre koll på jobbet: Detaljdesign</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/AnnuInteUtrett?ts=1251892328&updated=AnnuInteUtrett'>Tillämpade designriktlinjer, Bättre koll på jobbet: Ännu inte utrett (ej uppdaterad)</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/Kunskapsstod'>Tillämpade designriktlinjer, Bättre koll på jobbet - Kunskapsstöd: Detaljdesign</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga1Informationsstyrning'>Bilaga 1: Informationsstyrning</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga2AttUtforma'>Bilaga 2: Att utforma</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga3ExempelProjektEvenemangskalendern'>Bilaga 3: Exempelprojekt evenemangskalendern</a>

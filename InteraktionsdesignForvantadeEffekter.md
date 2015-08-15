@@ -1,0 +1,58 @@
+# Bättre koll på jobbet: Förväntade effekter #
+Syftet med Portalen är att den skall mynna ut i att användarna får bättre koll på jobbet än i dagsläget. Med koll menas att systemet presenterar den information som berör användaren utan att hon behöver söka aktivt efter den och att man vid de tillfällen som man söker efter specifik information också hittar den. Till jobbet hör både de specifika arbetsuppgifterna i den egna ansvarsrollen och i vidare mening jobbrelaterad information. En positiv bieffekt av att säkerställa bättre koll på jobbet antas vara en ökad patientsäkerhet och en effektivare arbetsprocess.
+
+
+
+# Målgrupper #
+Målgrupperna för Portalen är sjuksköterskor, läkare, läkarsekreterare, paramedicinskpersonal, administrativ personal och linjens chefer. Nedan följer de olika målgrupperna, i prioritetsordning, samt en kort beskrivning av dem.
+
+## Sjuksköterska ##
+En sjuksköterska tillhör en avdelning, till vilken hon skall tidsrapportera all arbetad tid. Sjuksköterskan har nästan uteslutande patientrelaterat arbete och en stor del av detta (ca 35 %) är administrativt arbete. Hon har inte tillgång till en egen dator, utan använder den/de datorer som finns på sjuksköterskeexpeditionen eller i anslutning till denna.
+En av grundstenarna hos en sjuksköterska är att hon vill vara säker på att patienten får adekvat vård, och har således liten tolerans mot saker som tar tid från det patientrelaterade arbetet
+## Läkare ##
+En läkare är anställd inom ett område eller inom en verksamhet, där han har en chef kallad ”Områdeschef” eller ”Verksamhetschef”. Läkaren har en specialitet som inbegriper många avdelningar. Läkare utför patientrelaterat arbete, varav en betydande del är administrativt.
+En läkare har ibland egen dator, ibland delar de datorerna som finns i läkarexpeditionen. I snitt är de ofta två läkare på en dator.
+Professionens kanaler är viktiga för läkaren. Att vara en del av den professionella gemenskapen, samt att synas där, är mycket viktigt och lojaliteten ligger hos ”branschkollegorna”.
+
+## Läkarsekreterare ##
+Som läkarsekreterare kan man antingen jobba på heltid för en läkare, eller jobba för flera läkare samtidigt.
+En läkarsekreterare stöttar läkare med patientrelaterat och annat administrativt arbete. Det finns läkarsekreterare som endast har patientrelaterade uppgifter samt de som inte har några patientrelaterade uppgifter över huvudtaget. De läkarsekreterare som tillhör denna målgrupp är de som har helt eller delvis patientrelaterat arbete. De som inte har något patientrelaterat arbete skall här snarare betraktas som administrativ personal.
+Läkarsekreteraren har en egen dator och arbetsplats. Hennes arbetsuppgifter initieras ofta av att någon, exempelvis en läkare, kommer in till dem och ber henne renskriva ett diktat eller fylla i hans ansökan om semesterledighet.
+
+## Paramedicinsk personal ##
+Paramedicinsk personal jobbar vanligtvis inte i fasta team, utan kommer in som ett komplement i redan befintliga vårdlag, där han utför specifika vårdinsatser och/eller utför vårdanalyser.
+Paramedicinsk personal har till stor del patientrelaterat arbete, varav cirka två timmar läggs på administrativt arbete varje dag, såsom exempelvis att föra journalanteckningar och planera vården/rehabiliteringen för en patient.
+
+## Administrativ personal ##
+En administrativ person hanterar administrativa uppgifter, såsom löner, transporter, inköp, ordna inför möten och så vidare. Som en administrativ person kan hon både jobba för en enda person, såsom en läkare eller en linjens chef, eller flera personer, såsom samtliga chefer eller läkare som jobbar på en avdelning. Hon har en egen arbetsplats med egen dator.
+Arbetsuppgifterna skiljer sig mycket mellan personer som jobbet med administrativa uppgifter, vilket gör det svårt att generalisera deras informationsbehov. Ett exempel är publicister vars informationsbehov till stor del finns utanför organisationen, då det är publicisterna som ser till att uppdatera intranätet och föra vidare relevant information in i organisationen. Ett annat exempel är personer som har en anställning som läkarsekreterare. Deras informationsbehov påverkas till stor del av vilken typ av läkare hon hjälper till att utföra administrativa uppgifter för.
+
+## Linjens chefer ##
+En person som jobbar som linjens chef ansvarar för styrning och ledning av arbetet. De finns på olika nivåer och kan till exempel vara områdeschef eller avdelningschef. Vidare kan en linjens chef ansvara för en avdelning med X-Y anställda och har eget kontor med en egen dator.
+
+
+
+
+<br><br>
+<b>Innehållsförteckning</b> (återfinns längst ner på varje sida)<br>
+<ol><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriktlinjerAnvandargranssnitt'>Introduktion till interaktionsdesign för portalramverket</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerPortalramverket?ts=1251969346&updated=GenerellaDesignriktlinjerPortalramverket'>Generella designriktlinjer: Portalramverket</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerIntegreradApplikation?ts=1251969401&updated=GenerellaDesignriktlinjerIntegreradApplikation'>Generella designriktlinjer: Integrerad applikation</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerModalDialog?ts=1251969439&updated=GenerellaDesignriktlinjerModalDialog'>Generella designriktlinjer: Modal dialog</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerPortlet?ts=1251969476&updated=GenerellaDesignriktlinjerPortlet'>Generella designriktlinjer: Portlet</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerFristandeApplikation?ts=1251969550&updated=GenerellaDesignriktlinjerFristandeApplikation'>Generella designriktlinjer: Fristående applikation</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBeteendeoFunktioner?ts=1251969604&updated=GenerellaDesignriktlinjerBeteendeoFunktioner'>Generella designriktlinjer: Beteenden och funktioner</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerByggstenar?ts=1251969727&updated=GenerellaDesignriktlinjerByggstenar'>Generella designriktlinjer: Byggstenar</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerVisuellAterkoppling?ts=1251969771&updated=GenerellaDesignriktlinjerVisuellAterkoppling'>Generella designriktlinjer: Visuell återkoppling</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerGrafiskForm?ts=1251969808&updated=GenerellaDesignriktlinjerGrafiskForm'>Generella designriktlinjer: Grafisk form</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/TillampadeDesignriktlinjerBattreKollPaJobbet?ts=1251969900&updated=TillampadeDesignriktlinjerBattreKollPaJobbet'>Tillämpade designriktlinjer, Bättre koll på jobbet</a>
+</li><li>Tillämpade designriktlinjer, Bättre koll på jobbet: Förväntade effekter och målgrupper<br>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignPrincipdesign'>Tillämpade designriktlinjer, Bättre koll på jobbet: Principdesign</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignInnehall'>Tillämpade designriktlinjer, Bättre koll på jobbet: Innehåll</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignBeteendeFunktioner'>Tillämpade designriktlinjer, Bättre koll på jobbet: Beteenden och funktioner</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesign'>Tillämpade designriktlinjer, Bättre koll på jobbet: Detaljdesign</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/AnnuInteUtrett?ts=1251892328&updated=AnnuInteUtrett'>Tillämpade designriktlinjer, Bättre koll på jobbet: Ännu inte utrett (ej uppdaterad)</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/Kunskapsstod'>Tillämpade designriktlinjer, Bättre koll på jobbet - Kunskapsstöd: Detaljdesign</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga1Informationsstyrning'>Bilaga 1: Informationsstyrning</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga2AttUtforma'>Bilaga 2: Att utforma</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga3ExempelProjektEvenemangskalendern'>Bilaga 3: Exempelprojekt evenemangskalendern</a>

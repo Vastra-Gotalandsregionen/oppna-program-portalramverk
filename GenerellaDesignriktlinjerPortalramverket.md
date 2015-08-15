@@ -1,0 +1,88 @@
+# Generella designriktlinjer: Portalramverket #
+
+## Portalen ##
+Portalen är den fungerande (körbara) tillämpningen av ramverket som byggts med syfte att skapa en ingång för den information och de funktioner som den enskilde behöver för att ha ”bättre koll på jobbet”.
+
+## Principdesign ##
+Principdesignen för portalen består huvudsakligen av fyra delar; innehåll navigering, systemnamn och kortvägar/notifikationen. De tre sistnämnda är sådana som är återkommande oberoende var användaren befinner sig i applikationen. Aktuellt innehåll är däremot känsligt för var användaren befinner sig för tillfället. Den primära navigeringen i Portalen sker via flikar.
+
+<br><img src='http://lh6.ggpht.com/_mHREyZKezxI/Sp-fSEziBYI/AAAAAAAAAZs/q1yXtYZGC68/s800/Picture%2069.jpg' />
+<br><i>Figur 1: Principdesign för Portalen</i>
+
+<h2>Struktur</h2>
+<br><img src='http://lh3.ggpht.com/_mHREyZKezxI/Sp-fSL5flgI/AAAAAAAAAZw/fhQ9t33Lq00/s800/Picture%2070.jpg' />
+<br><i>Figur 2: Flikar i Portalen</i>
+
+Portalen består av ett antal flikar, såsom ”Mitt jobb”, ”Hitta” och ”Egna inställningar”. För respektive flik finns det olika typer av innehåll. De olika flikarna och dess innehåll beskrivs i följande stycken.<br>
+<br>
+<h3>Startsida</h3>
+
+<br><img src='http://lh6.ggpht.com/_mHREyZKezxI/Sp-fSucMxzI/AAAAAAAAAZ0/CzF9c1sOahc/s800/Picture%2071.jpg' />
+<br><i>Figur 3: Portalens startsida</i>
+
+Under startsidan finns det inga fristående applikationer, utan den består av ett antal portlets innehållandes information riktad direkt till användaren. Startsidan kan ses som en anslagstavla som informerar användaren om vad som är nytt, vilka uppdateringar som har gjorts och så vidare. Användaren skall på ett ögonblick få helhetssyn både av sitt arbete och av sin roll som anställd. I viss utsträckning skall användaren även kunna agera på informationen.<br>
+<br>
+<h3>Mitt jobb</h3>
+
+<br><img src='http://lh5.ggpht.com/_mHREyZKezxI/Sp-fSzpa1lI/AAAAAAAAAZ4/UTSjctsj4q0/s800/Picture%2072.jpg' />
+<br><i>Figur 4: Mitt jobb</i>
+
+Under ”Mitt jobb” finns funktioner som har med det egen administrativa jobbet att göra som används i stort sett dagligen både i användarens yrkesroll och i användarens roll som anställd. Exempel är den egna kalendern, kontakter samt dokument.<br>
+<br>
+<h3>Användarberoende system</h3>
+
+<br><img src='http://lh3.ggpht.com/_mHREyZKezxI/Sp-fTFozaFI/AAAAAAAAAZ8/awgkO_GS6jU/s800/Picture%2073.jpg' />
+<br><i>Figur 5: Användarberoende system i Portalen</i>
+
+Vad som finns under användaroberoende system beror, som det låter, på vem användaren är. Här placeras de applikationer som användaren behöver i sin yrkesroll. Exempel är journalsystem väsentligt för en läkare och sjuksköterska, medan ett system som hanterar diktat är viktigt för en läkarsekreterare.<br>
+Notera att det som placeras här skall vara något som användaren brukar flera gånger per dag. Övriga applikationer borde hanteras som externa länkar.<br>
+<br>
+<h3>Hitta</h3>
+
+<br><img src='http://lh4.ggpht.com/_mHREyZKezxI/Sp-fTWwH_xI/AAAAAAAAAaA/WjQh9NCcozE/s800/Picture%2074.jpg' />
+<br><i>Figur 6: Under Hitta i Portalen</i>
+
+Under ”Hitta” finns sökfunktionen. Är det så att användaren behöver söka bland den information som finns i applikationen som skall utvecklas, kan detta föras in som ett sökområde. Ett sökområde är en grupp av information som användaren kan söka på samt även sortera sin träfflista utifrån (se sökområden under <a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBeteendeoFunktioner'>beteenden och funktioner</a>).<br>
+<br>
+<h3>Egna inställningar</h3>
+
+<br><img src='http://lh5.ggpht.com/_mHREyZKezxI/Sp-fTz7yL3I/AAAAAAAAAaE/b6GyynU3KZQ/s800/Picture%2075.jpg' />
+<br><i>Figur 7: Egna inställningar</i>
+
+Under ”Egna inställningar” finns de inställningar som användaren kan göra om sig själv, både gällande kontaktinformation och sin profil. Vidare kan användaren även anpassa startsidan efter hennes egna preferenser.<br>
+<br>
+<h2>Ramverket</h2>
+Ramverket erbjuder 4 byggstenar:<br>
+<ul><li>Integrerad applikation – en samling av informationer och funktioner som presenteras i helfönster. En integrerad applikation omfattar stöd för att hantera de tjänster och den information som efterfrågas inom ett avgränsat och specialiserat verksamhetsområde.<br>
+</li><li>Modal dialog  – ett ”tittfönster” mot en avgränsad mängd information som ger detaljer till något som presenterats översiktligt i ramverket.<br>
+</li><li>Portlet – den generella byggstenen som innefattar en samling av informationer och funktioner som kan grupperas logiskt. En samling av portlets bygger upp varje sida i ramverket. En samling av portlets bygger även upp en integrerad applikation.<br>
+</li><li>Fristående applikation – en fristående applikation med förmåga att visa sig i ett webbfönster.</li></ul>
+
+För de funktioner som är så pass omfattande att de inte går att utforma till en modal dialog eller en portlet skall antingen utformas som en integrerad eller fristående applikation. I de fall då applikationen är nödvändig för att användaren skall få en överblick av sitt arbete samt att kunna utföra de mest relevanta uppgifterna borde integreras direkt i Portalen. Exempel på detta är e-postprogram och användarens egen kalender. Läs mer om hur applikationer i Portalen utformas i <a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerIntegreradApplikation'>avsnitt Integrerad applikation</a>. I de fall då applikationen inte är nödvändig för att användaren skall få en överblick av sitt arbete eller för att kunna utföra de mest relevanta uppgifterna skall snarare utformas som en fristående applikation. Läs mer om hur fristående applikationer utformas i <a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerFristandeApplikation'>avsnitt Fristående applikation</a>.<br>
+Det finns två olika typer av modala dialoger. För det första finns det modala dialoger för att lägga till eller redigera information som ”bor” i Portalen. Den andra typen av modal dialog är då mer detaljerad information presenteras om något som finns i ett externt system. Ett exempel på detta är listan med ”Mina uppgifter” där ett antal poster presenteras. Posterna kan härstamma från fristående applikationer och vill användaren läsa mer om en sådan post öppnas den detaljerade informationen i en modal dialog. Läs mer om hur modala dialoger utformas i <a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerModalDialog'>avsnitt Modal dialog</a>.<br>
+En portlet används för att visa information från applikationer, både fristående samt de applikationer som finns integrerade direkt i Portalen. Användaren kan klicka på en post i en portlet öppna en modal dialog med informationen. Om behov finns, kan användaren även öppna den fristående applikationen från en portlet. Läs mer om hur portlet utformas i <a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerPortlet'>avsnitt Portlet</a>.<br>
+<br>
+<br>
+<br><br>
+<b>Innehållsförteckning</b> (återfinns längst ner på varje sida)<br>
+<ol><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriktlinjerAnvandargranssnitt'>Introduktion till interaktionsdesign för portalramverket</a>
+</li><li>Generella designriktlinjer: Portalramverket<br>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerIntegreradApplikation?ts=1251969401&updated=GenerellaDesignriktlinjerIntegreradApplikation'>Generella designriktlinjer: Integrerad applikation</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerModalDialog?ts=1251969439&updated=GenerellaDesignriktlinjerModalDialog'>Generella designriktlinjer: Modal dialog</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerPortlet?ts=1251969476&updated=GenerellaDesignriktlinjerPortlet'>Generella designriktlinjer: Portlet</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerFristandeApplikation?ts=1251969550&updated=GenerellaDesignriktlinjerFristandeApplikation'>Generella designriktlinjer: Fristående applikation</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBeteendeoFunktioner?ts=1251969604&updated=GenerellaDesignriktlinjerBeteendeoFunktioner'>Generella designriktlinjer: Beteenden och funktioner</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerByggstenar?ts=1251969727&updated=GenerellaDesignriktlinjerByggstenar'>Generella designriktlinjer: Byggstenar</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerVisuellAterkoppling?ts=1251969771&updated=GenerellaDesignriktlinjerVisuellAterkoppling'>Generella designriktlinjer: Visuell återkoppling</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerGrafiskForm?ts=1251969808&updated=GenerellaDesignriktlinjerGrafiskForm'>Generella designriktlinjer: Grafisk form</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/TillampadeDesignriktlinjerBattreKollPaJobbet?ts=1251969900&updated=TillampadeDesignriktlinjerBattreKollPaJobbet'>Tillämpade designriktlinjer, Bättre koll på jobbet</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignForvantadeEffekter'>Tillämpade designriktlinjer, Bättre koll på jobbet: Förväntade effekter och målgrupper</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignPrincipdesign'>Tillämpade designriktlinjer, Bättre koll på jobbet: Principdesign</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignInnehall'>Tillämpade designriktlinjer, Bättre koll på jobbet: Innehåll</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignBeteendeFunktioner'>Tillämpade designriktlinjer, Bättre koll på jobbet: Beteenden och funktioner</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesign'>Tillämpade designriktlinjer, Bättre koll på jobbet: Detaljdesign</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/AnnuInteUtrett?ts=1251892328&updated=AnnuInteUtrett'>Tillämpade designriktlinjer, Bättre koll på jobbet: Ännu inte utrett (ej uppdaterad)</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/Kunskapsstod'>Tillämpade designriktlinjer, Bättre koll på jobbet - Kunskapsstöd: Detaljdesign</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga1Informationsstyrning'>Bilaga 1: Informationsstyrning</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga2AttUtforma'>Bilaga 2: Att utforma</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga3ExempelProjektEvenemangskalendern'>Bilaga 3: Exempelprojekt evenemangskalendern</a>

@@ -1,0 +1,65 @@
+# Introduktion till interaktionsdesign för portalramverket #
+
+Dessa sidor beskriver designriktlinjer för användargränssnitt av portalramverket. Sidorna har delats upp i _generella designriktlinjer_ och _tillämpade designriktlinjer_. De generella designriktlinjerna beskriver allmänna riktlinjer för design av olika delar inom portalramverket. De tillämpade designriktlinjerna beskriver designriktlinjer för intranätet i portalramverket och kan användas som mer detaljerad referens.
+
+Samtliga sidor beskriver interaktionen mellan användaren och systemet, alltså:
+  * Presentation – med avseende på gruppering, storlek och placering, men inte med avseende på grafisk formgivning.
+  * Beteende – hur responderar användargränssnittet på användarens aktioner och i viss mån vilka regler styr gränssnittets beteende.
+  * Information – vilka informationsmängder visas till användaren. Dock framgår inte från vilket system denna information hämtas.
+
+**De generella designriktlinjerna** är skrivna för såväl verksamhetsansvariga som fått en idé om en (ny eller utökad) tjänst och för en person med kunskap om verksamhetsfrågeställning och teknik som vill utforma en specifik lösning. Det senare brukar kallas att göra en interaktionsdesign.
+De generella designriktlinjerna skall alltså beskriva Ramverket, men för att lyckas med det används Portalens uppbyggnad, information och funktioner.
+Tanken är att dokumentet ska hjälpa denna person att snabbt förstå hur idén om den nya tjänsten ska utformas så att den passar in i Portalramverkets struktur och så att de komponenter som ramverket erbjuder används på det mest effektiva sättet.
+Det mönster som ramverkets utseende, funktioner och innehåll följer är optimerat för att minimera antalet handgrepp som användaren behöver göra för att hitta information eller utföra en funktion. Mönstret syftar alltså till att skapa överblick och att göra det enkelt att komma åt den information och funktioner som användaren behöver i sitt dagliga arbete.  Att följa mönstret blir alltså viktigt för att:
+  * Göra det så enkelt som möjligt för användarna och i realiteten också skapa möjligheter att få ”bättre koll på jobbet”
+  * Göra underhållet av portalens tjänster så smidigt som möjligt
+Notera att dokumentet beskriver ett ramverk som skall fyllas på med funktioner och applikationer, som skall definieras från verksamhetsbehov. Ett exempel på en sådan funktion är Evenemangskalendern.
+Notera även att användningen av dessa riktlinjer omöjligtvis kan garantera att nya applikationer ger god användningskvalité. För att ta fram med god design krävs också en god kännedom om användarna, deras situation, sammanhanget och den nytta som skall skapas.
+
+
+**De specifika designriktlinjerna** beskiver designriktlinjer för intranätet i portalen. I en förlängning skall de specifika designriktlinjerna kompletteras med riktlinjer för nya applikationer och tjänster. Det material som legat till grund för de specifika designriktlinjerna utgörs främst av:
+  * Användningstest utfört på SÄS Borås och KS, där ett tidigare lösningsförslag utvärderades för att se om det motsvarar förväntningar och nytta för verksamheten och användaren.
+  * 20 stycken intervjuer på arbetsplatsen, hos bland annat sjuksköterskor, läkare och läkarsekreterare anställda på SU, där befintligt arbetssätt och befintliga systemstöd har studeras.
+  * Workshop med verksamhetsansvariga för att ta ett formellt beslut om syfte och mätpunkter.
+
+
+## Bakgrund ##
+IT-strategiska avdelningen för Västra Götalandsregionen (VGR) drev projektet ”Portalramverk” under perioden maj 2006 tom december 2007. Portalramverket avser att förverkliga de idéer som beskrivs av den nationella strategin för IT i vården och i de nationella/gemensamma ansatser som gjorts för att beskriva bastjänster, informationsstrukturer, regler för datahantering etc.
+Syftet är att bygga en plattform för:
+  * effektivare hantering av intern information och funktioner för personlig administration(”intranät”),
+  * information och funktioner för specifika ansvarsområden (exempelvis Regional patientöversikt, Inköpsportalen). Detta kallas senare för ”integrerad applikation”.
+  * och för att ge översikt från, och åtkomst till de befintliga applikationer som den anställde behöver.
+Det som levereras från projektet är två delar:
+  * ”Portalen” som är en fungerande uppsättning av information och funktioner som bygger på ramverket. Portalen byggs i nuläget med främsta avsikt att kunna påvisa hur ramverket skall användas. På sikt kan man tänka sig att Portalen blir den enda applikation man som anställd behöver för att ha åtkomst till lejonparten av all information och all funktionalitet man behöver i arbetet.
+  * ”Ramverket” som är de förutsättningar för att utöka ”Portalen” med nya funktioner.
+Tanken är att ramverket ska bli det verktyg som samlar den information och de funktioner som den enskilde anställde behöver för att ha ”bättre koll på jobbet”. Ramverkets konstruktion syftar till att minimera antalet onödiga handgrepp (logga in, klicka runt och söka) för att få (för arbetet) relevant information, samt att säkerställa att användaren lyckas i de tillfällen hon aktivt söker efter något.
+
+
+## Ursprungliga dokument: ##
+[Portalramverkets användargränssnitt - riktlinjer för design v0.7](http://oppna-program-portalramverk.googlecode.com/files/Portalramverket%20-Riktlinjer%20f%C3%B6r%20design%200.7.pdf) Det dokument som motsvarar de generella designriktlinjerna<br>
+<a href='http://oppna-program-portalramverk.googlecode.com/files/Interaktionsdesign%20V2%20Portalramverket%200.6.doc'>Bättre koll på jobbet - interaktionsdesign v2</a> Det dokument som motsvarar de specifika designriktlinjerna. Visar på utformning av Portalen (Bättre koll på jobbet). <br>
+<a href='http://oppna-program-portalramverk.googlecode.com/files/Bättre%20koll%20på%20jobbet%20-%20Kunskapsstöd%20-%20interaktionsdesign.pdf'>Bättre koll på jobbet - Kunskapsstöd - Interaktionsdesign</a> Det dokument som motsvarar de specifika designriktlinjerna. Utökning av Portalens (Bättre koll på jobbet) funktionalitet med ett kunskapsstöd till vårdaktörerna. <br><br>
+
+<br><br>
+<b>Innehållsförteckning</b> (återfinns längst ner på varje sida)<br>
+<ol><li>Introduktion till interaktionsdesign för portalramverket<br>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerPortalramverket?ts=1251969346&updated=GenerellaDesignriktlinjerPortalramverket'>Generella designriktlinjer: Portalramverket</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerIntegreradApplikation?ts=1251969401&updated=GenerellaDesignriktlinjerIntegreradApplikation'>Generella designriktlinjer: Integrerad applikation</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerModalDialog?ts=1251969439&updated=GenerellaDesignriktlinjerModalDialog'>Generella designriktlinjer: Modal dialog</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerPortlet?ts=1251969476&updated=GenerellaDesignriktlinjerPortlet'>Generella designriktlinjer: Portlet</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerFristandeApplikation?ts=1251969550&updated=GenerellaDesignriktlinjerFristandeApplikation'>Generella designriktlinjer: Fristående applikation</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBeteendeoFunktioner?ts=1251969604&updated=GenerellaDesignriktlinjerBeteendeoFunktioner'>Generella designriktlinjer: Beteenden och funktioner</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerByggstenar?ts=1251969727&updated=GenerellaDesignriktlinjerByggstenar'>Generella designriktlinjer: Byggstenar</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerVisuellAterkoppling?ts=1251969771&updated=GenerellaDesignriktlinjerVisuellAterkoppling'>Generella designriktlinjer: Visuell återkoppling</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerGrafiskForm?ts=1251969808&updated=GenerellaDesignriktlinjerGrafiskForm'>Generella designriktlinjer: Grafisk form</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/TillampadeDesignriktlinjerBattreKollPaJobbet?ts=1251969900&updated=TillampadeDesignriktlinjerBattreKollPaJobbet'>Tillämpade designriktlinjer, Bättre koll på jobbet</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignForvantadeEffekter'>Tillämpade designriktlinjer, Bättre koll på jobbet: Förväntade effekter och målgrupper</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignPrincipdesign'>Tillämpade designriktlinjer, Bättre koll på jobbet: Principdesign</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignInnehall'>Tillämpade designriktlinjer, Bättre koll på jobbet: Innehåll</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignBeteendeFunktioner'>Tillämpade designriktlinjer, Bättre koll på jobbet: Beteenden och funktioner</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesign'>Tillämpade designriktlinjer, Bättre koll på jobbet: Detaljdesign</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/AnnuInteUtrett?ts=1251892328&updated=AnnuInteUtrett'>Tillämpade designriktlinjer, Bättre koll på jobbet: Ännu inte utrett (ej uppdaterad)</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/Kunskapsstod'>Tillämpade designriktlinjer, Bättre koll på jobbet - Kunskapsstöd: Detaljdesign</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga1Informationsstyrning'>Bilaga 1: Informationsstyrning</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga2AttUtforma'>Bilaga 2: Att utforma</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga3ExempelProjektEvenemangskalendern'>Bilaga 3: Exempelprojekt evenemangskalendern</a>

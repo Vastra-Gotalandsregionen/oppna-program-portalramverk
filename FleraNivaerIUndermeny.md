@@ -1,0 +1,53 @@
+# Flera nivåer i undermeny #
+
+Stöd finns nu för flera nivåer i undermenyn.
+
+Det enda man behöver göra för att lägga till fler nivåer är att skapa ett ul-element med klassen `nav-sub` för varje nivå. En konsekvens av detta är att den första nivån, som tidigare hade `id="nav-sub"`, nu i stället ska ha `class="nav-sub"`.
+
+I samband med denna justering av menyn ändrades också den visuellt dolda stödtexten "Navigering" till "Huvudnavigering" på samtliga sidor. Dessutom finns nu en sådan stödtext för varje undermeny. Syftet med texten är att göra det tydligt för den som använder skärmläsare eller navigerar utan CSS hur de olika alternativen i navigeringen hänger ihop.
+
+## Kodexempel ##
+
+Filen `profil_annie/mitt_jobb/index-undermenyer.html` innehåller följande exempel på undermeny i flera nivåer:
+
+```
+<div id="nav" class="clearfix">
+    <p class="structural"><strong>Huvudnavigering</strong></p>
+    <ul id="nav-main">
+        <li id="tab-start"><a href="../index.html" accesskey="1">Start</a></li>
+        <li id="tab-mitt-jobb" class="sel"><a href="../mitt_jobb/index.html" class="sel">Mitt jobb</a></li>
+        <li id="tab-system-x"><a href="../vard/patientoversikt.html">Vård</a></li>
+        <li id="tab-system-y"><a href="inactive">System Y</a></li>
+        <li id="tab-hitta"><a href="../hitta/index.html">Hitta</a></li>
+        <li id="tab-installningar"><a href="../installningar/index.html">Egna inställningar</a></li>
+    </ul>
+    <p class="structural"><strong>Navigering för Mitt jobb</strong></p>
+    <ul class="nav-sub">
+        <li class="sel"><a href="index.html" class="sel">Nytt</a></li>
+        <li><a href="dokument.html">Dokument</a></li>
+        <li><a href="bevakningar.html">Bevakningar</a></li>
+        <li><a href="inactive">Diskussionsgrupper</a></li>
+        <li><a href="kalender.html">Kalender</a></li>
+        <li><a href="uppgifter.html">Uppgifter</a></li>
+        <li><a href="epost.html">E-post</a></li>
+        <li><a href="kontakter.html">Kontakter</a></li>
+    </ul>
+    <p class="structural"><strong>Navigering för Mitt jobb - Nytt</strong></p>
+    <ul class="nav-sub">
+        <li><a href="kalender.html">Kalender</a></li>
+        <li><a href="index.html">Nytt</a></li>
+        <li><a href="dokument.html">Dokument</a></li>
+        <li class="sel"><a href="bevakningar.html" class="sel">Bevakningar</a></li>
+        <li><a href="inactive">Diskussionsgrupper</a></li>
+    </ul>
+    <p class="structural"><strong>Navigering för Mitt jobb - Nytt - Bevakningar</strong></p>
+    <ul class="nav-sub">
+        <li><a href="kalender.html">Kalender</a></li>
+        <li class="sel"><a href="bevakningar.html" class="sel">Bevakningar</a></li>
+        <li><a href="inactive">Diskussionsgrupper</a></li>
+        <li><a href="index.html">Nytt</a></li>
+        <li><a href="dokument.html">Dokument</a></li>
+        <li><a href="inactive">Diskussionsgrupper</a></li>
+    </ul>
+</div>
+```

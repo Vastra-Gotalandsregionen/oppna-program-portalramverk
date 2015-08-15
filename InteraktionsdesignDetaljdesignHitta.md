@@ -1,0 +1,81 @@
+# Bättre koll på jobbet, detaljdesign: Hitta #
+
+Under fliken ”Hitta” finns den generella sökfunktionen samt en möjlighet att navigera i en organisation. Sökfunktionen innehåller ett antal sakområden som användaren kan använda sig av för att sortera ut den typ av information som hon vill söka efter.
+## Sök ##
+Användaren skall kunna göra fritextsökningar efter information både på interna webbsidor och externa webbsidor. Sökningen kan både utgå från samtliga typer av dokument/källor, men användaren kan även välja att söka på ett av de fördefinierade sökområdena, såsom exempelvis personer, nyheter eller diskussionsgrupper.
+
+<br><img src='http://lh3.ggpht.com/_mHREyZKezxI/Sp47r3wJJLI/AAAAAAAAAG4/aaAuDdqaZXs/s800/Picture%2050.png' />
+<br><i>Figur 47: Startsidan för sök</i>
+
+När användaren fyllt i sökorden och klickat på ”SÖK” får hon upp en sida med de fyra första träffarna från varje sökområde. Användaren skall sedan kunna klicka på ett sökträff direkt och få upp den, eller så skall hon välja att se träffarna från ett av sökområdena genom att klicka på sökområdet antingen i träfflistan eller i spalten till vänster.<br>
+<br>
+<br><img src='http://lh3.ggpht.com/_mHREyZKezxI/Sp47r3hJ6HI/AAAAAAAAAG8/VdGONxT2dV4/s800/Picture%2051.png' />
+<br><i>Figur 48: Utseende då användaren har gjort en sökning, men inte valt sökområde</i>
+
+<h3>Detaljerat sök</h3>
+Användaren skall även kunna göra en detaljerad sökning, om hon exempelvis vill hitta ett dokument från en viss avdelning eller skriven av en viss författare. Detta gör hon genom att filtrera med hjälp av fördefinierade kategorier och alternativ. Det finns olika kategorier för olika sökområden, se avsnitt Spara genvägar under <a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignBeteendeFunktioner'>avsnitt Beteenden och funktioner</a>. Användaren kan klicka fram och klicka bort alternativen som hon vill och sökresultatet skall ändras dynamiskt utefter användarens val.<br>
+<br>
+<br><img src='http://lh6.ggpht.com/_mHREyZKezxI/Sp47r620eVI/AAAAAAAAAHA/ixirIpzfHMM/s800/Picture%2052.png' />
+<br><i>Figur 49: Detaljerad sök</i>
+
+<h3>Dokument sök</h3>
+Då användaren gjort en sökning efter ett dokument kan det se ut enligt följande:<br>
+<br>
+<br><img src='http://lh4.ggpht.com/_mHREyZKezxI/Sp47sPQ1ZsI/AAAAAAAAAHE/kpjg_AAQgJs/s800/Picture%2053.png' />
+<br><i>Figur 50: Exempel utseende då användaren valt att visa dokumentträffarna</i>
+
+I ovanstående figur kan användaren välja att ”Visa detaljer” om träffen, då ser det ut enligt följande:<br>
+<br>
+<br><img src='http://lh3.ggpht.com/_mHREyZKezxI/Sp47sAzMiaI/AAAAAAAAAHI/4sy5TRG6gMY/s800/Picture%2054.png' />
+<br><i>Figur 51: Utseende då användaren valt att visa detaljer om en källa</i><br>
+Användaren kan även välja att visa mer detaljer om författaren, då ser det ut enligt följande:<br>
+<br>
+<br><img src='http://lh3.ggpht.com/_mHREyZKezxI/Sp47y8dBaNI/AAAAAAAAAHM/UW2igXbpK1M/s800/Picture%2055.png' />
+<br><i>Figur 52: Utseende då användaren valt att visa mer information om författaren</i>
+
+<h3>Personsök</h3>
+Då användaren gjort en sökning efter en person kan det se ut enligt följande:<br>
+<br>
+<br><img src='http://lh5.ggpht.com/_mHREyZKezxI/Sp47yzgfZ-I/AAAAAAAAAHQ/v6fGrSS9DPg/s800/Picture%2056.png' />
+<br><i>Figur 53: Utseende på träfflista då träffarna är personer</i>
+
+Då användaren väljer att ”Visa detaljer” om en specifik person ser det ut enligt följande:<br>
+<br>
+<br><img src='http://lh5.ggpht.com/_mHREyZKezxI/Sp47zHJip0I/AAAAAAAAAHU/r3C5tvntEu4/s800/Picture%2057.png' />
+<br><i>Figur 54: Utseende då användaren valt att visa detaljer om en person</i>
+
+<h2>Navigera organisation</h2>
+Under ”Navigera organisation” skall användaren kunna klicka runt inom VGR organisationen och få upp styrande dokument, nyheter och annan organisationsspecifik information som används på den valda delen av VGR. Det är dock inte utrett huruvida det finns något behov av denna typ av funktion, då användaren kan tänkas aktivt söka efter något och då skulle den detaljerade sökningen fungera bättre för användaren.<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<b>Innehållsförteckning</b>
+<ol><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/DesignriktlinjerAnvandargranssnitt'>Introduktion till interaktionsdesign för portalramverket</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerPortalramverket?ts=1251969346&updated=GenerellaDesignriktlinjerPortalramverket'>Generella designriktlinjer: Portalramverket</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerIntegreradApplikation?ts=1251969401&updated=GenerellaDesignriktlinjerIntegreradApplikation'>Generella designriktlinjer: Integrerad applikation</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerModalDialog?ts=1251969439&updated=GenerellaDesignriktlinjerModalDialog'>Generella designriktlinjer: Modal dialog</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerPortlet?ts=1251969476&updated=GenerellaDesignriktlinjerPortlet'>Generella designriktlinjer: Portlet</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerFristandeApplikation?ts=1251969550&updated=GenerellaDesignriktlinjerFristandeApplikation'>Generella designriktlinjer: Fristående applikation</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBeteendeoFunktioner?ts=1251969604&updated=GenerellaDesignriktlinjerBeteendeoFunktioner'>Generella designriktlinjer: Beteenden och funktioner</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerByggstenar?ts=1251969727&updated=GenerellaDesignriktlinjerByggstenar'>Generella designriktlinjer: Byggstenar</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerVisuellAterkoppling?ts=1251969771&updated=GenerellaDesignriktlinjerVisuellAterkoppling'>Generella designriktlinjer: Visuell återkoppling</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerGrafiskForm?ts=1251969808&updated=GenerellaDesignriktlinjerGrafiskForm'>Generella designriktlinjer: Grafisk form</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/TillampadeDesignriktlinjerBattreKollPaJobbet?ts=1251969900&updated=TillampadeDesignriktlinjerBattreKollPaJobbet'>Tillämpade designriktlinjer, Bättre koll på jobbet</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignForvantadeEffekter'>Tillämpade designriktlinjer, Bättre koll på jobbet: Förväntade effekter och målgrupper</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignPrincipdesign'>Tillämpade designriktlinjer, Bättre koll på jobbet: Principdesign</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignInnehall'>Tillämpade designriktlinjer, Bättre koll på jobbet: Innehåll</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignBeteendeFunktioner'>Tillämpade designriktlinjer, Bättre koll på jobbet: Beteenden och funktioner</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesign'>Tillämpade designriktlinjer, Bättre koll på jobbet: Detaljdesign</a>
+<ol><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesignFastaFunktioner'>Fasta funktioner</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesignStart'>Start</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesignMittJobb'>Mitt jobb</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignSystemXSystemY?ts=1251805029&updated=InteraktionsdesignSystemXSystemY'>System X, system Y</a>
+</li><li>Hitta<br>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/InteraktionsdesignDetaljdesignEgnaInstallningar'>Egna inställningar</a>
+</li></ol></li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/AnnuInteUtrett?ts=1251892328&updated=AnnuInteUtrett'>Tillämpade designriktlinjer, Bättre koll på jobbet: Ännu inte utrett</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/Kunskapsstod'>Tillämpade designriktlinjer, Bättre koll på jobbet - Kunskapsstöd: Detaljdesign</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga1Informationsstyrning'>Bilaga 1: Informationsstyrning</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga2AttUtforma'>Bilaga 2: Att utforma</a>
+</li><li><a href='http://code.google.com/p/oppna-program-portalramverk/wiki/GenerellaDesignriktlinjerBilaga3ExempelProjektEvenemangskalendern'>Bilaga 3: Exempelprojekt evenemangskalendern</a>
